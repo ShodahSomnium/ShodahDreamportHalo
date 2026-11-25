@@ -1,0 +1,2 @@
+using System;
+static class Program { static int Main(string[] a) { if (a.Length > 0 && a[0] == "fly") return Fly.Run(a); if (a.Length > 0 && a[0] == "raw") return Raw.Run(a); if (a.Length > 0 && a[0] == "ground") return Ground.Run(a); if (a.Length > 0 && a[0] == "stats") return Stats.Run(a); if (a.Length > 0 && a[0] == "why") return Why.Run(a); if (a.Length > 0 && a[0] == "trace") return FlyTrace.Run(a); return Carrier.Run(a); } }

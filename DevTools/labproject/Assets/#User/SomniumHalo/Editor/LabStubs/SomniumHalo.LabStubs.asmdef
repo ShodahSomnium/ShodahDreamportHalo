@@ -1,0 +1,16 @@
+{
+    "name": "SomniumHalo.LabStubs",
+    "rootNamespace": "SomniumSpace.Worlds.SomniumHalo.LabStubs",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_EDITOR"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

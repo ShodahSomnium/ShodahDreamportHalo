@@ -1,0 +1,71 @@
+waiting for a free lab slot...
+lab 'audio' in slot A (D:\Dreamport\Halo\Halo Dreamport)
+unity exit 0 (slot A)
+[SomniumHalo] Access: editor: the whitelist (5 name(s)) is not applied
+[SomniumHalo] Halo Dreamport Halo Dreamport - iteration 1 (2026-10-18): First build: the ring hub, whitelist, tablet app, multiplayer maps, weapons, vehicles and HUD read from the player's own Halo install
+[SomniumHalo] Shaders carried: SomniumHalo/Env, SomniumHalo/Model, SomniumHalo/Transparent, SomniumHalo/Glass, SomniumHalo/Fx
+[SomniumHalo] Isolation: up (whitelisted: other whitelisted players): players not on the whitelist (a visitor) are hidden (after 0.5 s, shown after 0 s is on the whitelist (a Dreamport player); first decision at once; renderers forceRenderingOff, tag alpha, colliders, voices volume 0, other sounds muted); warm-up scan of 0 scene(s) 2.44 ms, 0 avatar/item root(s)
+[SomniumHalo] Editor: no EventSystem in the scene - added one with a StandaloneInputModule.
+[SomniumHalo] Lobby: ready (Slayer on bloodgulch, score 25, time none, respawn +0 s, weapons 0, vehicles 0).
+[SomniumHalo] Shader 'Universal Render Pipeline/Unlit': Shader.Find
+[SomniumHalo] Shader 'Universal Render Pipeline/Lit': Shader.Find
+[SomniumHalo] Tablet: searching for the Somnium tablet (the "HALO" app goes on its home screen; the hub panel stays the menu too).
+[SomniumHalo] Front: the ring hub and its menu are up (whitelisted player).
+[SomniumHalo] Lobby: net link set (LobbyLink)
+[SomniumHalo] Net: started (Fusion session); alone or offline everything stays local
+[SomniumHalo] Boot: install C:\Program Files (x86)\Microsoft Games\Halo, 19 multiplayer maps (24 ms)
+[SomniumHalo] Hub: hub menu placed on the floor 2.92 m in front of the camera (60 degrees), 2.09 m tall (shown).
+[SomniumHalo] Tags: on - the Somnium name tags of the other Somnium players in this world are hidden while the Dreamport runs, given back when you leave (the Bridge's ISomniumPlayerInfo.SetPlayerTagDisableState - unproven, first used here; fallback ready: the tag's CanvasGroup alpha; re-applied every 1 s; visitors are left to the isolation)
+LAB: booted: Halo found: C:\Program Files (x86)\Microsoft Games\Halo  -  19 multiplayer maps
+LAB: ok   map bloodgulch in the install
+LAB: map bloodgulch 2408 tags; output 48000 Hz, dsp 16.27
+[SomniumHalo] Audio: started - output 48000 Hz, Stereo, dsp buffer 256 x 4
+[SomniumHalo] Audio: announcer - 44 multiplayer sounds in bloodgulch's globals
+[SomniumHalo] Audio: preloading 457 sound clips of bloodgulch
+[SomniumHalo] Fonts: Halo's large_ui small_ui fonts built; 71 texts switched to them.
+[SomniumHalo] Front art: ui.map read in 482 ms: 57 pictures, fonts large_ui 224 glyphs (2048x1024), small_ui 224, sounds cursor forward back , music title1
+[SomniumHalo] Front: the hub's lobby was built in 48 ms (19 maps, ui.map read).
+[SomniumHalo] Audio: music sound\music\title1\title1 (fade in 2 s)
+[SomniumHalo] Front: menu music started (sound\music\title1\title1).
+[SomniumHalo] Hub: the menu sky (sky\sky_ui\sky_ui) built: 4 parts, a 7.0 km dome round the head.
+[SomniumHalo] Hub: the ring scene faces 0 degrees (behind the menu).
+[SomniumHalo] Hub: the ring (scenery\halo\halo) built x40: radius about 2.33 km, centre (219, 1890, 1500) m from the eye, turning 0.25 degrees/s.
+[SomniumHalo] Audio: preloaded bloodgulch - 457 clips, 491 s of sound, 52 MB PCM, 0 failed, decode 652 ms worker, 0.7 s wall
+LAB: preload 0.7 s: 457 clips (52 MB), 457 decoded, 0 failed, 1 voices, 1 loops, 0 sources (0 free), 0 dropped, queue 0/0, decode 652 ms
+LAB: ok   sound\sfx\weapons\pistol\fire: 1.356 s 1 ch 22050 Hz peak 1.000 rms 0.1685
+LAB: ok   sound\sfx\weapons\assault rifle\fire: 0.713 s 1 ch 22050 Hz peak 1.000 rms 0.1732
+LAB: ok   sound\sfx\weapons\frag grenade\expl: 1.417 s 1 ch 22050 Hz peak 1.000 rms 0.4230
+LAB: ok   sound\sfx\weapons\rocket launcher\fire: 2.157 s 1 ch 22050 Hz peak 1.000 rms 0.1185
+LAB: ok   sound\sfx\vehicles\warthog_7_engine: 1.485 s 1 ch 22050 Hz peak 0.667 rms 0.1816
+LAB: ok   sound\sfx\impulse\footsteps\cyborg\dirt\walk: 0.627 s 1 ch 22050 Hz peak 0.098 rms 0.0155
+LAB: ok   sound\dialog\multiplayer1\double_kill: 1.331 s 2 ch 22050 Hz peak 1.000 rms 0.0991
+LAB: ok   sound\sfx\ambience\multiplayer\countryday2: 6.187 s 2 ch 44100 Hz peak 0.062 rms 0.0119
+LAB: ok   sound\sfx\ui\shield_charge: 4.079 s 1 ch 22050 Hz peak 0.491 rms 0.1634
+LAB: one-shots: voices 1 -> 6; 457 clips (52 MB), 457 decoded, 0 failed, 6 voices, 1 loops, 5 sources (0 free), 0 dropped, queue 0/0, decode 652 ms
+LAB: after 1.5 s: voices 1 (one-shots of ~0.3 s should be done)
+LAB: ok   warthog engine loop handle
+LAB: engine scale 0: sound\sfx\vehicles\warthog_7_engine alive scale 0 pitch 1 | track 0: sound\sfx\vehicles\warthog_7_engine__2__0 range 'porsche_idle' src pitch 0.909 vol 0.6 playing @600 joins 1 gap frames 0 | track 1: sound\sfx\vehicles\warthog_engine5__2__1 range 'idle' src pitch 0.909 vol 0.3 playing @49231 joins 0 gap frames 0
+LAB: engine scale 0.5: sound\sfx\vehicles\warthog_7_engine alive scale 0.5 pitch 1 | track 0: sound\sfx\vehicles\warthog_7_engine__0__0 range 'porsche_med' src pitch 0.857 vol 0.6 playing @28425 joins 1 gap frames 0 | track 1: sound\sfx\vehicles\warthog_engine5__1__1 range 'low' src pitch 1.087 vol 0.3 playing @36046 joins 0 gap frames 0
+LAB: engine scale 1: sound\sfx\vehicles\warthog_7_engine alive scale 1 pitch 1 | track 0: sound\sfx\vehicles\warthog_7_engine__3__0 range 'porsche_hi' src pitch 1 vol 0.6 playing @33045 joins 1 gap frames 0 | track 1: sound\sfx\vehicles\warthog_engine5__3__0 range 'high' src pitch 0.87 vol 0.24 playing @28735 joins 0 gap frames 0
+LAB: ok   engine loop stopped (sound\sfx\vehicles\warthog_7_engine stopped scale 1 pitch 1 | track 0: done | track 1: done)
+LAB: ok   announce double kill
+LAB: ok   announce killing spree (queued)
+LAB: announcer: 460 clips (57 MB), 461 decoded, 0 failed, 2 voices, 1 loops, 6 sources (4 free), 0 dropped, queue 0/0, decode 808 ms
+[SomniumHalo] Audio: ui.map read (29 sounds, 1 ms)
+LAB: music after 3.0 s: sound\music\title1\title1 alive scale 1 pitch 1 | track 0: sound\music\title1\in__0__2p range 'default' src pitch 1 vol 1 playing @105263 joins 2 gap frames 0; 460 clips (57 MB), 462 decoded, 0 failed, 1 voices, 1 loops, 6 sources (5 free), 0 dropped, queue 0/0, decode 852 ms
+[SomniumHalo] Tablet: not linked after 20 s - no transform with a TabletControl component, and none named 'Tablet.XR(...' or 'Tablet.NonXR(...', in MasterScene (NOT loaded) or 1 other loaded scene(s); 'Simulator' objects (remote tablets) and the world's 'Halo ...' subtrees skipped; still searching every 0.5 s; 41 searches, slowest 6.4 ms. The menu is the room's panel.
+LAB: music after 14.0 s: sound\music\title1\title1 alive scale 1 pitch 1 | track 0: sound\music\title1\in__0__4p range 'default' src pitch 1 vol 1 playing @124326 joins 4 gap frames 0; 460 clips (56 MB), 464 decoded, 0 failed, 1 voices, 1 loops, 6 sources (5 free), 0 dropped, queue 0/0, decode 901 ms
+LAB: ok   music pieces stream gaplessly (joins > 0, no gap frames)
+LAB: ok   ui.map cursor sound
+LAB: ok   music stopped
+[SomniumHalo] Audio: ambience bloodgulch - background sound\sfx\ambience\multiplayer\bloodgultch (1 in the palette, 30 clusters), 2 sound scenery loops
+LAB: ambience: sound\sfx\ambience\multiplayer\bloodgultch, 2 scenery loops; 458 clips (52 MB), 465 decoded, 0 failed, 3 voices, 3 loops, 6 sources (3 free), 0 dropped, queue 0/0, decode 901 ms
+LAB: ok   background sound loop running
+[SomniumHalo] Audio: released 457 clips of bloodgulch
+LAB: released: 1 clips (0 MB), 465 decoded, 0 failed, 0 voices, 0 loops, 6 sources (6 free), 0 dropped, queue 0/0, decode 901 ms
+LAB: ok   clips measured sane: 9/9
+LAB: done (passed)
+[SomniumHalo] Lobby: net link cleared - the lobby runs local
+[SomniumHalo] Net: stopped
+[SomniumHalo] Isolation: shutdown: restored 0 hidden player(s); isolation (whitelisted: other whitelisted players): 0 tracked, 0 hidden, 0 sweeps (last 0.00 ms, max 0.00 ms), slowest hide 0.00 ms, slowest frame 0.83 ms, no voice pass yet
+[SomniumHalo] Tags: off (leaving the world) - 0 player tag(s) given back; tags not hidden (Bridge SetPlayerTagDisableState): 0 player(s) now, 0 ever, 0 Bridge call(s)

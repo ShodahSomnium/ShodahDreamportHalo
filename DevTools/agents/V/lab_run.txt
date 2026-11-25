@@ -1,0 +1,75 @@
+waiting for a free lab slot...
+lab copy ready
+lab 'vehicles-sfx' in slot B (D:\Dreamport\Halo\Halo Dreamport\DevTools\labproject)
+unity exit 0 (slot B)
+404:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+842:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[SomniumHalo] Access: editor: the whitelist (5 name(s)) is not applied
+[SomniumHalo] Halo Dreamport Halo Dreamport - iteration 8 (2026-10-20): Campaign co-op: AI-flown dropships, banshees and ghosts, seated troops and their exits, and enemy voices reach every player
+[SomniumHalo] Shaders carried: SomniumHalo/Env, SomniumHalo/Model, SomniumHalo/Transparent, SomniumHalo/Glass, SomniumHalo/Fx, SomniumHalo/Sprite
+[SomniumHalo] Isolation: up (whitelisted: other whitelisted players): players not on the whitelist (a visitor) are hidden (after 0.5 s, shown after 0 s is on the whitelist (a Dreamport player); first decision at once; renderers forceRenderingOff, tag alpha, colliders, voices volume 0, other sounds muted); warm-up scan of 0 scene(s) 2.21 ms, 0 avatar/item root(s)
+[SomniumHalo] Editor: no EventSystem in the scene - added one with a StandaloneInputModule.
+[SomniumHalo] Lobby: ready (Slayer on bloodgulch, score 50, time none, respawn +0 s, weapons 0, vehicles 0).
+[SomniumHalo] Shader 'Universal Render Pipeline/Unlit': Shader.Find
+[SomniumHalo] Shader 'Universal Render Pipeline/Lit': Shader.Find
+[SomniumHalo] Tablet: searching for the Somnium tablet (the "HALO" app goes on its home screen; the hub panel stays the menu too).
+[SomniumHalo] Front: the ring hub and its menu are up (whitelisted player).
+[SomniumHalo] Lobby: net link set (LobbyLink)
+[SomniumHalo] Net: started (Fusion session); alone or offline everything stays local
+[SomniumHalo] Boot: install C:\Program Files (x86)\Microsoft Games\Halo, 19 multiplayer maps (25 ms)
+[SomniumHalo] Hub: hub menu placed on the floor 3.24 m in front of the camera (60 degrees), 2.32 m tall (shown).
+[SomniumHalo] Tags: on - the Somnium name tags of the other Somnium players in this world are hidden while the Dreamport runs, given back when you leave (the Bridge's ISomniumPlayerInfo.SetPlayerTagDisableState - unproven, first used here; fallback ready: the tag's CanvasGroup alpha; re-applied every 1 s; visitors are left to the isolation)
+LAB: booted: Halo found: C:\Program Files (x86)\Microsoft Games\Halo  -  19 multiplayer maps
+LAB: ok   the map
+[SomniumHalo] Audio: started - output 48000 Hz, Stereo, dsp buffer 256 x 4
+[SomniumHalo] Audio: announcer - 44 multiplayer sounds in bloodgulch's globals
+[SomniumHalo] Audio: preloading 457 sound clips of bloodgulch
+[SomniumHalo] Shader 'SomniumHalo/Model': carried
+[SomniumHalo] Shader 'SomniumHalo/Transparent': carried
+[SomniumHalo] Shader 'SomniumHalo/Glass': carried
+[SomniumHalo] Vehicles: net not up - this client owns every vehicle.
+[SomniumHalo] Fonts: Halo's large_ui small_ui fonts built; 73 texts switched to them.
+[SomniumHalo] Front art: ui.map read in 446 ms: 80 pictures, fonts large_ui 224 glyphs (2048x1024), small_ui 224, sounds cursor forward back , music title1
+[SomniumHalo] Front: the hub's lobby was built in 41 ms (19 maps, ui.map read).
+[SomniumHalo] Audio: music sound\music\title1\title1 (fade in 2 s)
+[SomniumHalo] Front: menu music started (sound\music\title1\title1).
+[SomniumHalo] Hub: the menu sky (sky\sky_ui\sky_ui) built: 4 parts, a 7.0 km dome round the head.
+[SomniumHalo] Hub: the ring scene faces 0 degrees (behind the menu).
+[SomniumHalo] Vehicles: no cyborg animations loaded yet - seated avatars are not posed until they are.
+[SomniumHalo] Hub: the ring (scenery\halo\halo) built x40: radius about 2.33 km, centre (219, 1890, 1500) m from the eye, turning 0.25 degrees/s.
+[SomniumHalo] Audio: preloaded bloodgulch - 457 clips, 487 s of sound, 56 MB PCM, 0 failed, decode 701 ms worker, 0.7 s wall
+[SomniumHalo] Vehicles: Halo Vehicle 1000 mp_warthog is driven by another player (placed from the net).
+[SomniumHalo] Vehicles: Halo Vehicle 1001 ghost_mp is driven by another player (placed from the net).
+[SomniumHalo] Vehicles: Halo Vehicle 1002 scorpion_mp is driven by another player (placed from the net).
+[SomniumHalo] Vehicles: Halo Vehicle 1003 banshee_mp is driven by another player (placed from the net).
+[SomniumHalo] Vehicles: Halo Vehicle 1004 rwarthog is driven by another player (placed from the net).
+[SomniumHalo] Vehicles: Halo Vehicle 1000 mp_warthog powered up: 1 looping sound(s), 3 light(s), 0 contrail(s).
+[SomniumHalo] Vehicles: Halo Vehicle 1001 ghost_mp powered up: 1 looping sound(s), 0 light(s), 0 contrail(s).
+[SomniumHalo] Vehicles: Halo Vehicle 1002 scorpion_mp powered up: 1 looping sound(s), 1 light(s), 0 contrail(s).
+[SomniumHalo] Vehicles: Halo Vehicle 1003 banshee_mp powered up: 2 looping sound(s), 3 light(s), 1 contrail(s).
+[SomniumHalo] Vehicles: Halo Vehicle 1004 rwarthog powered up: 1 looping sound(s), 3 light(s), 0 contrail(s).
+[SomniumHalo] Shader 'SomniumHalo/Fx': carried
+LAB:   Halo Vehicle 1000 mp_warthog: engine loops 1, scale 0.29 at 7.4 m/s (measured)
+LAB: ok   Halo Vehicle 1000 mp_warthog: its engine loop runs and follows a kinematic (follower) motion
+LAB:   Halo Vehicle 1001 ghost_mp: engine loops 1, scale 0.36 at 7.4 m/s (measured)
+LAB: ok   Halo Vehicle 1001 ghost_mp: its engine loop runs and follows a kinematic (follower) motion
+LAB:   Halo Vehicle 1002 scorpion_mp: engine loops 1, scale 0.58 at 7.4 m/s (measured)
+LAB: ok   Halo Vehicle 1002 scorpion_mp: its engine loop runs and follows a kinematic (follower) motion
+LAB:   Halo Vehicle 1003 banshee_mp: engine loops 2, scale 0.37 at 7.4 m/s (measured)
+LAB: ok   Halo Vehicle 1003 banshee_mp: its engine loop runs and follows a kinematic (follower) motion
+LAB:   Halo Vehicle 1004 rwarthog: engine loops 1, scale 0.29 at 7.4 m/s (measured)
+LAB: ok   Halo Vehicle 1004 rwarthog: its engine loop runs and follows a kinematic (follower) motion
+[SomniumHalo] Vehicles: seated in Halo Vehicle 1000 mp_warthog seat 0 'W-driver' (driver, sitting, monitor, third person; no Bridge body (editor)).
+LAB: ok   into the warthog
+[SomniumHalo] Vehicles: monitor vehicle camera on (Halo chase track camera\warthog_driver_loose); the client's camera rig is held off.
+[SomniumHalo] Audio: 1 one-shot(s) dropped (voice budget: 72 one-shots, per-sound limits)
+LAB:   warthog hard turn: max slip 9.0 m/s, impacts silent 0, foot vehicles\vehicle.foot; 8 tire-slip sounds, scale 0.80
+LAB: ok   the warthog's tires skid in a hard turn (HaloImpacts TireSlip)
+LAB:   crash: vehicle sounds +1, impacts +1 (crash sound sound\sfx\impulse\impacts\jeep_hit_solid)
+LAB: ok   the warthog's crash sound plays when it hits the wall
+[SomniumHalo] Vehicles: got out of Halo Vehicle 1000 mp_warthog (lab) at (-1.8, 0.1, 86.3).
+LAB: done (passed)
+[SomniumHalo] Lobby: net link cleared - the lobby runs local
+[SomniumHalo] Net: stopped
+[SomniumHalo] Isolation: shutdown: restored 0 hidden player(s); isolation (whitelisted: other whitelisted players): 0 tracked, 0 hidden, 0 sweeps (last 0.00 ms, max 0.00 ms), slowest hide 0.00 ms, slowest frame 0.83 ms, no voice pass yet
+[SomniumHalo] Tags: off (leaving the world) - 0 player tag(s) given back; tags not hidden (Bridge SetPlayerTagDisableState): 0 player(s) now, 0 ever, 0 Bridge call(s)

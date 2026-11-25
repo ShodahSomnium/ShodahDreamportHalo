@@ -1,0 +1,48 @@
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Audio\HaloAudioSystem.cs(86,39): error CS0103: The name 'OnWorldBuilt' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Audio\HaloAudioSystem.cs(98,39): error CS0103: The name 'OnWorldBuilt' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Combat\HaloGun.cs(224,44): error CS0117: 'HaloCombat' does not contain a definition for 'ItemParent'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Combat\HaloProjectiles.cs(104,40): error CS0117: 'HaloCombat' does not contain a definition for 'Catalog'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Combat\HaloProjectiles.cs(104,69): error CS0117: 'HaloCombat' does not contain a definition for 'Catalog'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Combat\HaloVitals.cs(70,34): error CS0117: 'HaloCombat' does not contain a definition for 'Catalog'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Combat\HaloVitals.cs(94,93): error CS0117: 'HaloCombat' does not contain a definition for 'ShieldsDown'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Combat\HaloVitals.cs(114,34): error CS0117: 'HaloCombat' does not contain a definition for 'Catalog'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Combat\HaloVitals.cs(125,24): error CS0117: 'HaloCombat' does not contain a definition for 'OnLocalDeath'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Combat\HaloVitals.cs(138,82): error CS0117: 'HaloCombat' does not contain a definition for 'ShieldsRecharging'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Combat\HaloProjectiles.cs(227,32): error CS0117: 'HaloCombat' does not contain a definition for 'IsOwnCollider'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Combat\HaloVitals.cs(173,38): error CS0117: 'HaloCombat' does not contain a definition for 'Catalog'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Front\HaloLoading.cs(26,17): error CS0103: The name 'HaloFront' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Front\HaloLobby.cs(68,29): error CS0103: The name 'JsonUtility' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Front\HaloLobby.cs(78,55): error CS0103: The name 'JsonUtility' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Audio\HaloAudioSystem.cs(317,13): error CS0103: The name 'StopAmbience' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Combat\HaloProjectiles.cs(287,89): error CS0117: 'HaloCombat' does not contain a definition for 'GrenadeBounced'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Combat\HaloProjectiles.cs(355,34): error CS0117: 'HaloCombat' does not contain a definition for 'Catalog'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Combat\HaloProjectiles.cs(412,34): error CS0117: 'HaloCombat' does not contain a definition for 'Catalog'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Combat\HaloProjectiles.cs(442,45): error CS0117: 'HaloCombat' does not contain a definition for 'LocalChest'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Front\HaloLobbyPage.cs(272,13): error CS0103: The name 'HaloFront' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Hud\HaloHud.cs(44,38): error CS1061: 'HaloHudView' does not contain a definition for 'OnDamaged' and no accessible extension method 'OnDamaged' accepting a first argument of type 'HaloHudView' could be found (are you missing a using directive or an assembly reference?)
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Audio\HaloAudioSystem.cs(627,13): error CS0103: The name 'TickAmbience' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Net\HaloNetHitbox.cs(23,25): error CS0117: 'HaloNetGame' does not contain a definition for 'PublishHit'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Net\HaloNetGame.Lobby.cs(293,13): error CS0103: The name 'ClearViews' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\World\HaloWorld.cs(154,46): error CS0246: The type or namespace name 'HaloWorldDriver' could not be found (are you missing a using directive or an assembly reference?)
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\World\HaloWorld.cs(208,21): error CS0103: The name 'HaloObjectLight' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\World\HaloWorld.cs(256,13): error CS0103: The name 'HaloObjectLight' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Hud\HaloHudView.Weapon.cs(107,49): error CS0165: Use of unassigned local variable 'weap'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Hud\HaloHudView.Weapon.cs(114,17): error CS0165: Use of unassigned local variable 'held'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Net\HaloNetGame.cs(121,17): error CS0103: The name 'ClearViews' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Net\HaloNetGame.cs(132,23): error CS0117: 'HaloLocal' does not contain a definition for 'NetOnline'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Net\HaloNetGame.cs(146,27): error CS0117: 'HaloLocal' does not contain a definition for 'NetOnline'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Net\HaloNetGame.cs(147,27): error CS0117: 'HaloLocal' does not contain a definition for 'NetMaster'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Net\HaloNetGame.cs(149,17): error CS0103: The name 'Consume' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Net\HaloNetGame.cs(171,17): error CS0103: The name 'LateViews' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Hud\HaloHudView.cs(76,13): error CS0103: The name 'BuildWorld' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Hud\HaloHudView.cs(99,13): error CS0103: The name 'TeardownWorld' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Hud\HaloHudView.cs(122,13): error CS0103: The name 'OnModeChanged' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Hud\HaloHudView.cs(135,13): error CS0103: The name 'OnModeChanged' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Hud\HaloHudView.cs(185,17): error CS0103: The name 'TickWorld' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Hud\HaloHudView.cs(410,52): error CS0103: The name 'ClearDamage' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Net\HaloNetGame.cs(91,51): warning CS0067: The event 'HaloNetGame.PlayerJoined' is never used
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Combat\HaloVitals.cs(23,33): warning CS0169: The field 'HaloVitals._lastHitKill' is never used
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Vehicles\HaloVehicleDirector.cs(16,22): warning CS0169: The field 'HaloVehicleDirector._wasXr' is never used
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Net\HaloNetGame.cs(91,65): warning CS0067: The event 'HaloNetGame.PlayerLeft' is never used
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Net\HaloNetGame.Lobby.cs(22,29): warning CS0414: The field 'HaloNetGame._countingDown' is assigned but its value is never used
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Hud\HaloHudView.Weapon.cs(292,33): warning CS0414: The field 'HaloHudView._aimHit' is assigned but its value is never used

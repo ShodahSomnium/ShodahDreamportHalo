@@ -1,0 +1,125 @@
+lab copy ready
+lab 'ai' in slot B (D:\Dreamport\Halo\Halo Dreamport\DevTools\labproject)
+unity exit 0 (slot B)
+479:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+917:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[SomniumHalo] Access: editor: the whitelist (5 name(s)) is not applied
+[SomniumHalo] Halo Dreamport Halo Dreamport - iteration 6 (2026-10-19): Campaign sound effects: one-shots were dropped because ambient loops filled the voice cap (only music was heard)
+[SomniumHalo] Shaders carried: SomniumHalo/Env, SomniumHalo/Model, SomniumHalo/Transparent, SomniumHalo/Glass, SomniumHalo/Fx, SomniumHalo/Sprite
+[SomniumHalo] Isolation: up (whitelisted: other whitelisted players): players not on the whitelist (a visitor) are hidden (after 0.5 s, shown after 0 s is on the whitelist (a Dreamport player); first decision at once; renderers forceRenderingOff, tag alpha, colliders, voices volume 0, other sounds muted); warm-up scan of 0 scene(s) 4.02 ms, 0 avatar/item root(s)
+[SomniumHalo] Editor: no EventSystem in the scene - added one with a StandaloneInputModule.
+[SomniumHalo] Lobby: ready (Slayer on bloodgulch, score 50, time none, respawn +0 s, weapons 0, vehicles 0).
+[SomniumHalo] Shader 'Universal Render Pipeline/Unlit': Shader.Find
+[SomniumHalo] Shader 'Universal Render Pipeline/Lit': Shader.Find
+[SomniumHalo] Tablet: searching for the Somnium tablet (the "HALO" app goes on its home screen; the hub panel stays the menu too).
+[SomniumHalo] Front: the ring hub and its menu are up (whitelisted player).
+[SomniumHalo] Lobby: net link set (LobbyLink)
+[SomniumHalo] Net: started (Fusion session); alone or offline everything stays local
+[SomniumHalo] Boot: install C:\Program Files (x86)\Microsoft Games\Halo, 19 multiplayer maps (51 ms)
+[SomniumHalo] Hub: hub menu placed on the floor 3.24 m in front of the camera (60 degrees), 2.32 m tall (shown).
+[SomniumHalo] Tags: on - the Somnium name tags of the other Somnium players in this world are hidden while the Dreamport runs, given back when you leave (the Bridge's ISomniumPlayerInfo.SetPlayerTagDisableState - unproven, first used here; fallback ready: the tag's CanvasGroup alpha; re-applied every 1 s; visitors are left to the isolation)
+LAB: booted: Halo found: C:\Program Files (x86)\Microsoft Games\Halo  -  19 multiplayer maps
+LAB: ok   map a10 in the install
+LAB: ok   encounter containment_1_anti
+LAB: ai: a10 encounter containment_1_anti (bsp 0, 2 squads, 12 firing positions)
+[SomniumHalo] Fx: a10 effects ready: 489 tags (effe/part/pctl/cont/ligh/deca) in 24 ms
+LAB: starting locations: 4, densest cluster 2 around (-144.2, 0.0, -86.7)
+[SomniumHalo] Fonts: Halo's large_ui small_ui fonts built; 73 texts switched to them.
+[SomniumHalo] Front art: ui.map read in 649 ms: 80 pictures, fonts large_ui 224 glyphs (2048x1024), small_ui 224, sounds cursor forward back , music title1
+[SomniumHalo] Front: the hub's lobby was built in 66 ms (19 maps, ui.map read).
+[SomniumHalo] Audio: started - output 48000 Hz, Stereo, dsp buffer 256 x 4
+[SomniumHalo] Audio: music sound\music\title1\title1 (fade in 2 s)
+[SomniumHalo] Front: menu music started (sound\music\title1\title1).
+[SomniumHalo] Shader 'SomniumHalo/Fx': carried
+[SomniumHalo] Shader 'SomniumHalo/Env': carried
+[SomniumHalo] Shader 'SomniumHalo/Transparent': carried
+[SomniumHalo] World: Somnium climbable surfaces available - Halo's ladders get one
+[SomniumHalo] World: ladders - 'collision 5 climbable invisible' (and every other climbable Halo surface) is a Somnium climbable surface
+[SomniumHalo] Shader 'SomniumHalo/Sprite': carried
+[SomniumHalo] World: levels\a10\a10a decals: 51/65 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] World: BSP 0 levels\a10\a10a built: 19 surface meshes (40946 triangles, 181 sections, lightmap atlas 1024x1024), collision 6 pieces / 41986 triangles (cooked on a worker), 507 lens flares, 65 decals, 0 weather systems; worker 396 ms, render 163 ms, collision 33 ms; bounds (-194, -4, -93)..(-101, 12, 25)
+[SomniumHalo] World: planar fog levels\a10\fog\smoke flags 0 density 0.50 depth 15.2 m dist 18.3 m plane (0.00, 0.00, 1.00) -71.2
+[SomniumHalo] World: sky sky\space\space (model), fog out 0.00 0-0 m, in 1.00, indoor, sun (-0.15, -0.50, 0.85) RGBA(0.591, 0.591, 0.586, 1.000)
+[SomniumHalo] World: BSP -1 -> 0 (levels\a10\a10a) active in 32 ms
+[SomniumHalo] World: a10 ready: BSP 0/9 levels\a10\a10a, 0 objects (0 devices); worker 396 ms, BSP 336 ms, objects 0 ms, total 1037 ms
+LAB: ok   bsp 0 built in 1.0 s
+LAB: stand-in spot sees 2 of 2 starting locations
+LAB: stand-in player at (-129.4, 0.0, -82.3), 15 m from the encounter's centre (-144.2, 0.0, -86.7)
+[SomniumHalo] AI: a10: 39 encounters, 144 squads, 296 starting locations, 2381 firing positions, 124 command lists, 20 conversations, actor palette 18/18, difficulty Normal (globals table) read in 7 ms
+[SomniumHalo] Campaign: checkpoint part 'ai' registered (1 parts)
+[SomniumHalo] Shader 'SomniumHalo/Model': carried
+[SomniumHalo] Combat: vitality (multiplayer unit characters\cyborg\cyborg.bipd) from characters\cyborg\cyborg: body 75, shield 75, shields recharge 6 s after damage, full in 4 s
+[SomniumHalo] Combat: a10: 0 weapons in the globals' list, grenades 4/4 (spawn with 2/0), unit characters\cyborg\cyborg.bipd
+[SomniumHalo] Weapon anim: weapons\plasma rifle\plasma rifle: 5 animations on its parts: overheating='first-person overheating' overheated='first-person overheated' overheat-exit='first-person o-h-exit' misfire='first-person misfire-1'
+[SomniumHalo] Characters: first characters\elite\elite minor\elite minor plasma rifle ranged: model characters\elite\elite, 135 animations, weapon weapons\plasma rifle\plasma rifle (pr), body 100 shield 100, team Covenant, hit boxes 19, permutations arms=base00 head=base00 legs=base00 torso=base00
+[SomniumHalo] AI: first actor elite minor plasma rifle ranged (Elite) at (-144.2, 0.0, -88.2)
+[SomniumHalo] AI: containment_1_anti/forward_elite#1 Idle -> Search
+[SomniumHalo] AI: containment_1_anti/forward_elite#2 Idle -> Search
+[SomniumHalo] AI: containment_1_anti/rear_elite#3 Idle -> Search
+[SomniumHalo] AI: containment_1_anti/rear_elite#4 Idle -> Search
+[SomniumHalo] AI: ai_place containment_1_anti: 4 actors (Normal): 4 x elite minor plasma rifle ranged
+LAB: ok   ai_place containment_1_anti: 4 living actors
+LAB:   actor containment_1_anti/forward_elite#1 elite minor plasma rifle ranged (Elite) team Covenant state Search/Searching at (-144.2, 0.0, -88.2) weapon plasma rifle
+LAB:   actor containment_1_anti/forward_elite#2 elite minor plasma rifle ranged (Elite) team Covenant state Search/Searching at (-144.2, 0.0, -85.2) weapon plasma rifle
+LAB:   actor containment_1_anti/rear_elite#3 elite minor plasma rifle ranged (Elite) team Covenant state Search/Searching at (-132.4, 0.0, -20.6) weapon plasma rifle
+LAB:   actor containment_1_anti/rear_elite#4 elite minor plasma rifle ranged (Elite) team Covenant state Search/Searching at (-128.8, 0.0, -19.9) weapon plasma rifle
+[SomniumHalo] AI: navigation bsp 0: 2568 walkable surfaces (sbsp pathfinding bytes), 2250 shared edges, 278 step links, 649 islands, built in 23 ms
+[SomniumHalo] AI: first vocalization: containment_1_anti/forward_elite#2 says sightednewenemy
+[SomniumHalo] AI: first target: containment_1_anti/forward_elite#2 -> stand-in player (sight)
+[SomniumHalo] AI: containment_1_anti/forward_elite#2 Search -> Combat (target stand-in player)
+[SomniumHalo] AI: containment_1_anti/forward_elite#1 Search -> Combat (target stand-in player)
+[SomniumHalo] AI: containment_1_anti/rear_elite#4 Search -> Combat (target stand-in player)
+[SomniumHalo] AI: containment_1_anti/rear_elite#3 Search -> Combat (target stand-in player)
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/ai\ai_a10_0_behind.png average 0.06,0.07,0.06
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/ai\ai_a10_0_above.png average 0.05,0.06,0.04
+[SomniumHalo] AI: first burst by a Elite (plasma rifle) at stand-in player
+[SomniumHalo] Combat: ready (monitor)
+[SomniumHalo] Combat: first projectile weapons\plasma rifle\bolt at 152 m/s (gravity x0, range 0 m)
+[SomniumHalo] World: levels\a10\a10b decals: 119/158 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] World: BSP 1 levels\a10\a10b built: 22 surface meshes (54908 triangles, 243 sections, lightmap atlas 1024x1024), collision 7 pieces / 55706 triangles (cooked on a worker), 792 lens flares, 158 decals, 0 weather systems; worker 410 ms, render 80 ms, collision 842 ms; bounds (-124, -10, -78)..(144, 122, 78)
+LAB: stand-in player: first hit 13.8 by weapons\plasma rifle\plasma rifle
+[SomniumHalo] Audio: 1 one-shot(s) dropped - 72 playing
+[SomniumHalo] World: levels\a10\a10c decals: 40/46 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] World: BSP 2 levels\a10\a10c built: 21 surface meshes (40642 triangles, 240 sections, lightmap atlas 1024x1024), collision 6 pieces / 40994 triangles (cooked on a worker), 740 lens flares, 46 decals, 0 weather systems; worker 164 ms, render 56 ms, collision 32 ms; bounds (-184, -1, 20)..(-65, 5, 138)
+LAB: t=2.0 s: living 4 covenant, bursts 3, grenades 0, melee 0, evades 0, panics 0, deaths 0, paths 4, player hit 7x (92), tick avg 1.32 ms max 68.97 ms
+LAB:    containment_1_anti/forward_elite#1 Elite Combat -> stand-in player (seen) at (-143.6, 0.0, -87.6) body 1.00 shield 1.00
+LAB:    containment_1_anti/forward_elite#2 Elite Combat -> stand-in player (seen) at (-142.4, 0.0, -84.9) body 1.00 shield 1.00 FIRING
+LAB:    containment_1_anti/rear_elite#3 Elite Combat -> stand-in player (seen) at (-130.4, 0.0, -21.0) body 1.00 shield 1.00
+LAB:    containment_1_anti/rear_elite#4 Elite Combat -> stand-in player (seen) at (-132.7, 0.0, -21.0) body 1.00 shield 1.00
+[SomniumHalo] World: levels\a10\a10d decals: 74/91 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] World: BSP 3 levels\a10\a10d built: 21 surface meshes (36544 triangles, 244 sections, lightmap atlas 1024x1024), collision 6 pieces / 36924 triangles (cooked on a worker), 562 lens flares, 91 decals, 0 weather systems; worker 172 ms, render 42 ms, collision 21 ms; bounds (-253, -1, 36)..(-140, 5, 139)
+[SomniumHalo] Audio: step remote run on metal thin -> (no sound in the tag)
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/ai\ai_a10_1_behind.png average 0.09,0.12,0.11
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/ai\ai_a10_1_above.png average 0.06,0.07,0.06
+[SomniumHalo] World: levels\a10\a10e decals: 37/71 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] World: BSP 4 levels\a10\a10e built: 19 surface meshes (52128 triangles, 276 sections, lightmap atlas 1024x1024), collision 6 pieces / 53830 triangles (cooked on a worker), 688 lens flares, 71 decals, 0 weather systems; worker 181 ms, render 73 ms, collision 43 ms; bounds (-295, -10, 42)..(-158, 23, 167)
+[SomniumHalo] Audio: 500 one-shot(s) dropped - 72 playing
+[SomniumHalo] World: levels\a10\a10f decals: 20/23 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] World: BSP 5 levels\a10\a10f built: 30 surface meshes (56668 triangles, 284 sections, lightmap atlas 1024x1024), collision 6 pieces / 57396 triangles (cooked on a worker), 631 lens flares, 23 decals, 0 weather systems; worker 170 ms, render 64 ms, collision 48 ms; bounds (-210, -4, -89)..(-139, 12, 95)
+[SomniumHalo] Audio: step remote run on metal thick -> (no sound in the tag)
+[SomniumHalo] World: levels\a10\a10g decals: 17/19 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] World: BSP 6 levels\a10\a10g built: 18 surface meshes (57532 triangles, 317 sections, lightmap atlas 2048x1024), collision 6 pieces / 58058 triangles (cooked on a worker), 725 lens flares, 19 decals, 0 weather systems; worker 167 ms, render 39 ms, collision 44 ms; bounds (-218, -10, -207)..(-103, 23, -47)
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/ai\ai_a10_2_behind.png average 0.08,0.10,0.09
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/ai\ai_a10_2_above.png average 0.06,0.07,0.05
+[SomniumHalo] World: BSP 7 levels\a10\a10_space built: 22 surface meshes (8190 triangles, 55 sections, lightmap atlas 2048x1024), collision 6 pieces / 8044 triangles (cooked on a worker), 34 lens flares, 0 decals, 0 weather systems; worker 90 ms, render 87 ms, collision 150 ms; bounds (1348, -207, -585)..(1700, 207, 637)
+[SomniumHalo] Audio: 1000 one-shot(s) dropped - 72 playing
+[SomniumHalo] World: levels\a10\x10hangar decals: 0/59 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] World: BSP 8 levels\a10\x10hangar built: 10 surface meshes (17216 triangles, 26 sections, lightmap atlas 1024x1024), collision 4 pieces / 17246 triangles (cooked on a worker), 2598 lens flares, 59 decals, 0 weather systems; worker 75 ms, render 34 ms, collision 14 ms; bounds (-179, -12, -161)..(177, 103, 166)
+[SomniumHalo] World: all 9 BSPs of a10 built in the background (3944 ms)
+[SomniumHalo] AI: containment_1_anti/rear_elite#3 Combat -> Hide (target stand-in player)
+LAB: t=7.0 s: living 4 covenant, bursts 12, grenades 0, melee 0, evades 0, panics 0, deaths 0, paths 11, player hit 31x (399), tick avg 0.45 ms max 68.97 ms
+LAB:    containment_1_anti/forward_elite#1 Elite Combat -> stand-in player (seen) at (-142.0, 0.0, -90.0) body 1.00 shield 1.00
+LAB:    containment_1_anti/forward_elite#2 Elite Combat -> stand-in player (seen) at (-142.4, 0.0, -84.9) body 1.00 shield 1.00
+LAB:    containment_1_anti/rear_elite#3 Elite Hide -> stand-in player (seen) at (-128.6, 0.0, -59.3) going to (-134.6, 0.0, -23.4) body 1.00 shield 0.49 FIRING
+LAB:    containment_1_anti/rear_elite#4 Elite Combat -> stand-in player (seen) at (-128.5, 0.0, -58.7) going to (-130.4, 0.0, -64.0) body 1.00 shield 1.00 FIRING
+[SomniumHalo] Audio: 1500 one-shot(s) dropped - 72 playing
+[SomniumHalo] AI: containment_1_anti/rear_elite#4 Combat -> Hide (target stand-in player)
+[SomniumHalo] Audio: 2000 one-shot(s) dropped - 72 playing
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/ai\ai_a10_3_behind.png average 0.07,0.08,0.07
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/ai\ai_a10_3_above.png average 0.05,0.06,0.05
+[SomniumHalo] Audio: 2500 one-shot(s) dropped - 72 playing
+[SomniumHalo] Audio: step remote walk on metal thin -> (no sound in the tag)
+LAB: t=12.0 s: living 4 covenant, bursts 21, grenades 0, melee 0, evades 0, panics 0, deaths 0, paths 15, player hit 58x (752), tick avg 0.29 ms max 68.97 ms
+LAB:    containment_1_anti/forward_elite#1 Elite Combat -> stand-in player (seen) at (-142.0, 0.0, -90.0) body 1.00 shield 1.00 FIRING
+LAB:    containment_1_anti/forward_elite#2 Elite Combat -> stand-in player (seen) at (-142.4, 0.0, -84.9) body 1.00 shield 1.00
+LAB:    containment_1_anti/rear_elite#3 Elite Hide -> stand-in player (seen) at (-134.5, 0.0, -24.1) going to (-134.6, 0.0, -23.4) body 1.00 shield 0.49

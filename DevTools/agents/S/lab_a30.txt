@@ -1,0 +1,126 @@
+waiting for a free lab slot...
+lab copy ready
+lab 'script' in slot B (D:\Dreamport\Halo\Halo Dreamport\DevTools\labproject)
+unity exit 0 (slot B)
+481:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+919:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[SomniumHalo] Access: editor: the whitelist (5 name(s)) is not applied
+[SomniumHalo] Halo Dreamport Halo Dreamport - iteration 3 (2026-10-19): After the second client test: tablet held off around vehicles, head shown in the VR third-person seat, warthog gun fires on either trigger, Scorpion driver seat first, Ghost and Banshee fire forward, reload sounds per hand action, footsteps, ladders climbable
+[SomniumHalo] Shaders carried: SomniumHalo/Env, SomniumHalo/Model, SomniumHalo/Transparent, SomniumHalo/Glass, SomniumHalo/Fx, SomniumHalo/Sprite
+[SomniumHalo] Isolation: up (whitelisted: other whitelisted players): players not on the whitelist (a visitor) are hidden (after 0.5 s, shown after 0 s is on the whitelist (a Dreamport player); first decision at once; renderers forceRenderingOff, tag alpha, colliders, voices volume 0, other sounds muted); warm-up scan of 0 scene(s) 3.53 ms, 0 avatar/item root(s)
+[SomniumHalo] Editor: no EventSystem in the scene - added one with a StandaloneInputModule.
+[SomniumHalo] Lobby: ready (Slayer on bloodgulch, score 50, time none, respawn +0 s, weapons 0, vehicles 0).
+[SomniumHalo] Shader 'Universal Render Pipeline/Unlit': Shader.Find
+[SomniumHalo] Shader 'Universal Render Pipeline/Lit': Shader.Find
+[SomniumHalo] Tablet: searching for the Somnium tablet (the "HALO" app goes on its home screen; the hub panel stays the menu too).
+[SomniumHalo] Front: the ring hub and its menu are up (whitelisted player).
+[SomniumHalo] Lobby: net link set (LobbyLink)
+[SomniumHalo] Net: started (Fusion session); alone or offline everything stays local
+[SomniumHalo] Boot: install C:\Program Files (x86)\Microsoft Games\Halo, 19 multiplayer maps (39 ms)
+[SomniumHalo] Hub: hub menu placed on the floor 3.24 m in front of the camera (60 degrees), 2.32 m tall (shown).
+[SomniumHalo] Tags: on - the Somnium name tags of the other Somnium players in this world are hidden while the Dreamport runs, given back when you leave (the Bridge's ISomniumPlayerInfo.SetPlayerTagDisableState - unproven, first used here; fallback ready: the tag's CanvasGroup alpha; re-applied every 1 s; visitors are left to the isolation)
+LAB: booted: Halo found: C:\Program Files (x86)\Microsoft Games\Halo  -  19 multiplayer maps
+[SomniumHalo] Campaign: starting a30 (Halo) on Normal (C:\Program Files (x86)\Microsoft Games\Halo\MAPS\a30.map)
+[SomniumHalo] Session: Hub -> Loading
+[SomniumHalo] Loading: Halo (campaign, Normal)
+[SomniumHalo] Fonts: Halo's large_ui small_ui fonts built; 80 texts switched to them.
+[SomniumHalo] Front art: ui.map read in 535 ms: 80 pictures, fonts large_ui 224 glyphs (2048x1024), small_ui 224, sounds cursor forward back , music title1
+[SomniumHalo] Front: the hub's lobby was built in 42 ms (19 maps, ui.map read).
+[SomniumHalo] Hub: the menu sky (sky\sky_ui\sky_ui) built: 4 parts, a 7.0 km dome round the head.
+[SomniumHalo] Hub: the ring scene faces 0 degrees (behind the menu).
+[SomniumHalo] Campaign: opened a30 in 160 ms: 3582 tags, 2 BSPs (start 0), 963 placements (61 names), 2 device groups, 74 trigger volumes (2 BSP switches), 2 starting profiles, 2 starting locations
+[SomniumHalo] Net: playing a match of my own (no game of the master on this map)
+[SomniumHalo] Audio: started - output 48000 Hz, Stereo, dsp buffer 256 x 4
+[SomniumHalo] Audio: announcer - 0 multiplayer sounds in a30's globals
+[SomniumHalo] Audio: preloading 822 sound clips of a30
+[SomniumHalo] Fx: a30 effects ready: 494 tags (effe/part/pctl/cont/ligh/deca) in 23 ms
+[SomniumHalo] Hub: the ring (scenery\halo\halo) built x40: radius about 2.33 km, centre (219, 1890, 1500) m from the eye, turning 0.25 degrees/s.
+[SomniumHalo] Shader 'SomniumHalo/Fx': carried
+[SomniumHalo] Shader 'SomniumHalo/Env': carried
+[SomniumHalo] Shader 'SomniumHalo/Glass': carried
+[SomniumHalo] Shader 'SomniumHalo/Transparent': carried
+[SomniumHalo] Shader 'SomniumHalo/Sprite': carried
+[SomniumHalo] World: levels\a30\a30_a decals: 16/33 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] World: BSP 0 levels\a30\a30_a built: 33 surface meshes (29572 triangles, 161 sections, lightmap atlas 2048x1024), collision 8 pieces / 28158 triangles (cooked on a worker), 2 lens flares, 33 decals, 0 weather systems; worker 418 ms, render 170 ms, collision 18 ms; bounds (-1171, -224, -403)..(335, 406, 356)
+[SomniumHalo] World: planar fog levels\a30\valley flags 0 density 0.40 depth 36.6 m dist 36.6 m plane (-0.71, 0.00, 0.71) 128.7
+[SomniumHalo] World: sky sky\sky_a30\skydusk0\skydusk0 (model), fog out 0.50 0-488 m, in 0.80, outdoor, sun (-0.67, 0.44, -0.60) RGBA(0.479, 0.473, 0.451, 1.000)
+[SomniumHalo] World: BSP -1 -> 0 (levels\a30\a30_a) active in 18 ms
+[SomniumHalo] World: a30 ready: BSP 0/2 levels\a30\a30_a, 0 objects (0 devices); worker 418 ms, BSP 271 ms, objects 0 ms, total 710 ms
+[SomniumHalo] Campaign: world ready (BSP 0), bounds (-1171, -224, -403) .. (335, 406, 356) (1.4 s)
+[SomniumHalo] Audio: ambience a30 - background sound\sfx\ambience\a30\hallway (14 in the palette, 38 clusters), 124 sound scenery loops
+[SomniumHalo] Campaign: devices: 2 device groups: first_beam_emitter_power_group=0, bridge_control_position=0
+[SomniumHalo] Shader 'SomniumHalo/Model': carried
+[SomniumHalo] Audio: preloaded a30 - 822 clips, 798 s of sound, 96 MB PCM, 0 failed, decode 1016 ms worker, 1.2 s wall
+[SomniumHalo] World: levels\a30\a30_b decals: 32/83 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] World: BSP 1 levels\a30\a30_b built: 34 surface meshes (31748 triangles, 117 sections, lightmap atlas 2048x1024), collision 7 pieces / 30702 triangles (cooked on a worker), 2 lens flares, 83 decals, 0 weather systems; worker 308 ms, render 100 ms, collision 28 ms; bounds (-1856, -240, 1)..(-927, 376, 744)
+[SomniumHalo] World: all 2 BSPs of a30 built in the background (522 ms)
+[SomniumHalo] Combat: vitality from characters\cyborg\cyborg: body 75, shield 75, shields recharge 6 s after damage, full in 4 s
+[SomniumHalo] Combat: a30: 0 weapons in the globals' list, grenades 4/4 (spawn with 2/0), unit characters\cyborg\cyborg.bipd
+[SomniumHalo] Weapon anim: weapons\assault rifle\assault rifle: 2 animations on its parts: reload-empty='first-person reload-full' reload-full='first-person reload-full'
+[SomniumHalo] Campaign: checkpoint part 'characters' registered (1 parts)
+[SomniumHalo] Characters: first characters\marine_armored\marine_armored: model characters\marine_armored\marine_armored, 176 animations, weapon weapons\assault rifle\assault rifle (ar), body 50 shield 50, team Human, hit boxes 16, permutations arms=__base head=head_rob_helmet-13 legs=__base torso=__base
+[SomniumHalo] Combat: reload points for Assault Rifle: well (-0.054,0,-0.019) (the bottom of the first-person 'frame magazine') = (0.000, -0.058, -0.164) m, pull 'frame ophandle' at (0.012,0.008,0.059) = (-0.025, 0.181, 0.038) m, travel 9.1 cm, support (0.016, 0.026, 0.271) m
+[SomniumHalo] Combat: reload sounds for Assault Rifle: mag out = ar_reload 0.39+0.55 s [reload-full @0.44 s, fractions, 'frame ophandle' motion], mag in = ar_reload 1.48+0.34 s [reload-full @1.60 s], pull = ar_reload 1.82+0.30 s [reload-full @2.02 s], release = ar_reload 2.22+0.45 s [reload-full @2.27 s]
+[SomniumHalo] Campaign: devices: holo control (toggle switch, position 1 s, power 0 s) - no 'device position' animation
+[SomniumHalo] Campaign: BSP 0: placed 435 objects (5 bipeds, 8 weapons, 32 equipment, 334 scenery, 2 machines, 1 controls, 53 sound scenery) in 1147 ms; 25 wait for a script (not placed automatically), 0 not on Normal; live 435 (4 named)
+[SomniumHalo] Combat: ready (monitor)
+[SomniumHalo] Combat: placed 0 weapons and 0 equipment items (0 not for Slayer / weapon set 0)
+[SomniumHalo] Combat: carrying Assault Rifle (BackRight, 60/180)
+[SomniumHalo] Combat: reload points for Pistol: well (-0.004,0,-0.04) (the bottom of 'frame magazine') = (0.000, -0.122, -0.013) m, pull 'frame slide' at (-0.029,0,0.043) = (0.000, 0.130, -0.089) m, travel 5.5 cm, support (0.011, -0.013, 0.052) m
+[SomniumHalo] Weapon anim: weapons\pistol\pistol: 5 animations on its parts: fire='fire-1' reload-empty='first-person reload-empty' reload-full='first-person reload-full' ready='first-person ready'
+[SomniumHalo] Combat: reload sounds for Pistol: mag out = pistol_reload 0.68+0.36 s [reload-empty @0.73 s, 'frame magazine' motion, 'frame slide' motion], mag in = pistol_reload 1.05+0.55 s [reload-empty @1.17 s], pull = pistol_reload 1.15+0.30 s [reload-empty @1.35 s], release = pistol_reload 1.55+0.45 s [reload-empty @1.60 s]
+[SomniumHalo] Combat: carrying Pistol (HipRight, 12/48)
+[SomniumHalo] Combat: spawned with Assault Rifle + Pistol, 2 frag / 0 plasma, shields 75 body 75 (monitor)
+[SomniumHalo] Combat: carrying Assault Rifle (BackRight, 60/180)
+[SomniumHalo] Combat: carrying Pistol (HipRight, 12/48)
+[SomniumHalo] Campaign: starting profile 'player0_starting_profile': assault rifle 60/120 pistol 12/64, 0 frag / 0 plasma
+[SomniumHalo] Campaign: the player starts at (96.5, 179.0, -315.3) facing -5 (editor: CharacterController 'PlayerController' moved)
+[SomniumHalo] Campaign: checkpoint part 'script' registered (2 parts)
+[SomniumHalo] Script: a30 - 139 scripts (110 threads), 108 globals, 19001 nodes read in 30 ms; 148 functions used: 18 VM forms, 118 bound (3 no-op by design), 12 unimplemented: deactivate_team_nav_point_flag(16) player_enable_input(9) activate_team_nav_point_flag(7) game_speed(6) damage_object(4) show_hud(4) activate_team_nav_point_object(4) deactivate_team_nav_point_object(4) unit_has_weapon_readied(2) unit_solo_player_integrated_night_vision_is_active(2) enable_hud_help_flash(2) hud_show_motion_sensor(2)
+[SomniumHalo] Campaign: scripts running (139 scripts, 108 globals)
+[SomniumHalo] Loading: done - fading into the match.
+[SomniumHalo] HUD: tags of a30: hud globals ui\hud\default, unit hud ui\hud\cyborg (biped characters\cyborg\cyborg), grenade huds 2, font ui\large_ui, multiplayer scale 0.75, motion sensor range 20 wu, 191 multiplayer strings, 13 hud messages
+[SomniumHalo] HUD: monitor screen overlay
+[SomniumHalo] HUD: started on a30 (monitor overlay)
+[SomniumHalo] Desk: started (monitor; view first person, V switches)
+[SomniumHalo] Session: Loading -> Playing
+[SomniumHalo] Hub: hidden.
+[SomniumHalo] Campaign: checkpoint 1 (mission start) at 0.0 s game time, BSP 0: 435 placements (40 movable), 3 devices, player at (96.5, 179.0, -315.3) with assault rifle 60/120 + pistol 12/64, 0/0 grenades, 2 module parts
+[SomniumHalo] Campaign: playing a30 (Halo) on Normal - loaded in 2.7 s, 435 objects placed (4 named), 3 devices
+LAB: ok   a30: playing
+LAB: ok   a30: scripts running
+LAB: a30: 148 functions used: 18 VM forms, 118 bound (3 no-op by design), 12 unimplemented: deactivate_team_nav_point_flag(16) player_enable_input(9) activate_team_nav_point_flag(7) game_speed(6) damage_object(4) show_hud(4) activate_team_nav_point_object(4) deactivate_team_nav_point_object(4) unit_has_weapon_readied(2) unit_solo_player_integrated_night_vision_is_active(2) enable_hud_help_flash(2) hud_show_motion_sensor(2)
+[SomniumHalo] HUD: weapon HUD weapons\assault rifle\assault rifle (3 levels, 11 elements, magazine 60)
+[SomniumHalo] Script: unimplemented unit_solo_player_integrated_night_vision_is_active (2 uses in a30)
+[SomniumHalo] Script: unimplemented unit_has_weapon_readied (2 uses in a30)
+[SomniumHalo] Script: unimplemented hud_show_motion_sensor (2 uses in a30)
+[SomniumHalo] Cinematic: skip point (a fresh press of Space / Enter / E or A / X / a trigger skips)
+[SomniumHalo] Campaign: checkpoint 2 (game_save_totally_unsafe) at 0.0 s game time, BSP 0: 435 placements (0 movable), 3 devices, player at (96.5, 179.0, -315.3) with assault rifle 60/120 + pistol 12/64, 0/0 grenades, 2 module parts
+[SomniumHalo] Cinematic: cinematic_start (player input held, HUD hidden) - monitor picture
+[SomniumHalo] Cinematic: a30: 25 camera points, 59 cutscene flags, 2 titles, 63 recorded animations (0 unreadable), first title "Flawless Cowboy"
+[SomniumHalo] AI: a30: 22 encounters, 179 squads, 390 starting locations, 4645 firing positions, 3 command lists, 59 conversations, actor palette 10/10, difficulty Normal (globals table) read in 14 ms
+[SomniumHalo] Campaign: checkpoint part 'ai' registered (3 parts)
+[SomniumHalo] AI: navigation bsp 0: 7463 walkable surfaces (sbsp pathfinding bytes), 9527 shared edges, 91 step links, 384 islands, built in 62 ms
+[SomniumHalo] Audio: footsteps from characters\marine_armored\marine_armored -> globals\cyborg (6 step kinds, 84 sounds)
+[SomniumHalo] Combat: right hand draws Assault Rifle from BackRight
+[SomniumHalo] Desk: monitor camera held in first person (V switches first / third person)
+[SomniumHalo] Cinematic: presenting on the monitor overlay
+[SomniumHalo] Cinematic: cutscene picture 640x480
+[SomniumHalo] Cinematic: title font ui\large_ui (line 21 px)
+[SomniumHalo] Desk: cyborg 'characters\cyborg\cyborg_unarmed' of a30: 19 nodes, 254 animations (0 compressed), 24 seats, stand classes 6, hand markers True/True
+[SomniumHalo] Desk body: first person: the weapon framed low right (rear-top at (0.55, -0.45) of the half screen), drawn at x0.60 so the hands reach it
+[SomniumHalo] Desk body: no avatar to hold the weapon: first person frames it in the view without arms
+[SomniumHalo] Cinematic: title "arrival" = "Flawless Cowboy" (in 30 / up 120 / out 30 ticks)
+[SomniumHalo] Characters: first characters\pilot\pilot: model characters\pilot\pilot, 6 animations, weapon none, body 0 shield 0, team None, hit boxes 0, permutations __unnamed=__base
+[SomniumHalo] Characters: characters\pilot\pilot: animation 'idle' of cinematics\animations\pilot\x30\x30 cannot be played (compressed)
+[SomniumHalo] Cinematic: recording_play intro_pod_fly (328 ticks, 161 events) on Halo Vehicle 1000 lifepod_entry - driven by a kinematic vehicle path (ours)
+[SomniumHalo] Vehicles: net not up - this client owns every vehicle.
+LAB: a30 @283 ticks: threads 110: started 18, finished 0, sleeping 18, dormant/asleep forever 92; objective '' help '' cinematic True
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/script\a30-script-0.png average 0.05,0.04,0.06
+[SomniumHalo] Characters: first characters\cyborg\cyborg_unarmed: model characters\cyborg\cyborg, 254 animations, weapon none, body 75 shield 75, team Player, hit boxes 16, permutations cyborg=__base
+[SomniumHalo] Characters: characters\pilot\pilot: animation 'heads_up' of cinematics\animations\pilot\x30\x30 cannot be played (compressed)
+[SomniumHalo] Vehicles: Halo Vehicle 1000 lifepod_entry powered up: 1 looping sound(s), 0 light(s), 0 contrail(s).
+[SomniumHalo] Tablet: not linked after 20 s - no transform with a TabletControl component, and none named 'Tablet.XR(...' or 'Tablet.NonXR(...', in MasterScene (NOT loaded) or 1 other loaded scene(s); 'Simulator' objects (remote tablets) and the world's 'Halo ...' subtrees skipped; still searching every 0.5 s; 39 searches, slowest 5.6 ms. The menu is the room's panel.
+LAB: a30 @584 ticks: threads 110: started 18, finished 0, sleeping 18, dormant/asleep forever 92; objective '' help '' cinematic True
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/script\a30-script-1.png average 0.05,0.04,0.06
+[SomniumHalo] Cinematic: unimplemented cinematic_screen_effect_set_convolution (blur) - the picture stays sharp

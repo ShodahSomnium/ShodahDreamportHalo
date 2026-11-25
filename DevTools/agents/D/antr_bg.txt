@@ -1,0 +1,532 @@
+scenery\plants\plant_broadleaf_short\plant_broadleaf_short
+characters\cyborg\cyborg
+weapons\assault rifle\fp\fp
+weapons\pistol\pistol
+weapons\pistol\fp\fp
+vehicles\warthog\warthog
+vehicles\scorpion\scorpion
+vehicles\ghost\ghost
+vehicles\banshee\banshee
+weapons\shotgun\shotgun
+weapons\shotgun\fp\fp
+weapons\plasma rifle\fp\fp
+weapons\rocket launcher\fp\fp
+weapons\sniper rifle\sniper rifle
+weapons\sniper rifle\fp\fp
+weapons\flamethrower\fp\fp
+weapons\plasma_cannon\fp\fp
+weapons\plasma pistol\fp\fp
+weapons\needler\fp\fp
+weapons\ball\fp\fp
+weapons\flag\fp\fp
+vehicles\c gun turret\c gun turret
+bipd characters\cyborg_mp\cyborg_mp
+bipd characters\cyborg\cyborg
+== characters\cyborg\cyborg flags 0 units 24 weapons 1 nodes 19 anims 254
+  node 0 bip01 pelvis parent 0 flags 1
+  node 1 bip01 l thigh parent 0 flags 1
+  node 2 bip01 r thigh parent 0 flags 1
+  node 3 bip01 spine parent 0 flags 4
+  node 4 bip01 l calf parent 1 flags 2
+  node 5 bip01 r calf parent 2 flags 2
+  node 6 bip01 spine1 parent 3 flags 4
+  node 7 bip01 l clavicle parent 6 flags 1
+  node 8 bip01 l foot parent 4 flags 1
+  node 9 bip01 neck parent 6 flags 4
+  node 10 bip01 r clavicle parent 6 flags 1
+  node 11 bip01 r foot parent 5 flags 1
+  node 12 bip01 head parent 9 flags 1
+  node 13 bip01 l upperarm parent 7 flags 1
+  node 14 bip01 r upperarm parent 10 flags 1
+  node 15 bip01 l forearm parent 13 flags 2
+  node 16 bip01 r forearm parent 14 flags 2
+  node 17 bip01 l hand parent 15 flags 1
+  node 18 bip01 r hand parent 16 flags 1
+  anim 0 'B-driver enter' type 0 frames 30 fsize 168 finfo 0 nodes 19 loop 0 flags 0 next -1 default 288 frame 5040 finfoSize 0 comp@0 rot 001FFF7F00000000 tr 00000009 sc 00000000
+  anim 1 'B-driver exit' type 0 frames 30 fsize 156 finfo 0 nodes 19 loop 0 flags 0 next -1 default 300 frame 4680 finfoSize 0 comp@0 rot 0007FDFF00000000 tr 00000001 sc 00000000
+  anim 2 'B-driver unarmed idle' type 0 frames 30 fsize 72 finfo 1 nodes 19 loop 0 flags 0 next -1 default 384 frame 2160 finfoSize 240 comp@0 rot 001FF44000000000 tr 00000000 sc 00000000
+  anim 3 'CT-driver exit' type 0 frames 250 fsize 164 finfo 0 nodes 19 loop 0 flags 0 next -1 default 292 frame 41000 finfoSize 0 comp@0 rot 0007FFFF00000000 tr 00000001 sc 00000000
+  anim 4 'CT-driver unarmed idle' type 0 frames 30 fsize 0 finfo 1 nodes 19 loop 1 flags 0 next -1 default 456 frame 0 finfoSize 240 comp@0 rot 0000000000000000 tr 00000000 sc 00000000
+  anim 5 'G-driver acc-front-back' type 1 frames 3 fsize 156 finfo 0 nodes 19 loop 0 flags 0 next -1 default 300 frame 468 finfoSize 0 comp@0 rot 0007FDFF00000000 tr 00000001 sc 00000000
+  anim 6 'G-driver acc-left-right' type 1 frames 3 fsize 144 finfo 0 nodes 19 loop 0 flags 0 next -1 default 312 frame 432 finfoSize 0 comp@0 rot 0007FDFF00000000 tr 00000000 sc 00000000
+  anim 7 'G-driver acc-up-down' type 1 frames 3 fsize 132 finfo 0 nodes 19 loop 0 flags 0 next -1 default 324 frame 396 finfoSize 0 comp@0 rot 0007F97E00000000 tr 00000001 sc 00000000
+  anim 8 'G-driver enter' type 0 frames 35 fsize 148 finfo 0 nodes 19 loop 0 flags 0 next -1 default 308 frame 5180 finfoSize 0 comp@0 rot 0007FD7F00000000 tr 00000001 sc 00000000
+  anim 9 'G-driver exit' type 0 frames 24 fsize 148 finfo 0 nodes 19 loop 0 flags 0 next -1 default 308 frame 3552 finfoSize 0 comp@0 rot 0007FD7F00000000 tr 00000001 sc 00000000
+  anim 10 'G-driver unarmed idle' type 0 frames 50 fsize 40 finfo 1 nodes 19 loop 0 flags 0 next -1 default 416 frame 2000 finfoSize 400 comp@0 rot 0000744000000000 tr 00000000 sc 00000000
+  anim 11 'GT-gunner acc-front-back' type 1 frames 3 fsize 156 finfo 0 nodes 19 loop 0 flags 0 next -1 default 300 frame 468 finfoSize 0 comp@0 rot 0007FDFF00000000 tr 00000001 sc 00000000
+  anim 12 'GT-gunner acc-left-right' type 1 frames 3 fsize 132 finfo 0 nodes 19 loop 0 flags 0 next -1 default 324 frame 396 finfoSize 0 comp@0 rot 0007F97E00000000 tr 00000001 sc 00000000
+  anim 13 'GT-gunner acc-up-down' type 1 frames 3 fsize 132 finfo 0 nodes 19 loop 0 flags 0 next -1 default 324 frame 396 finfoSize 0 comp@0 rot 0007F97E00000000 tr 00000001 sc 00000000
+  anim 14 'GT-gunner enter' type 0 frames 40 fsize 148 finfo 0 nodes 19 loop 0 flags 0 next -1 default 308 frame 5920 finfoSize 0 comp@0 rot 0007FD7F00000000 tr 00000001 sc 00000000
+  anim 15 'GT-gunner exit' type 0 frames 37 fsize 140 finfo 0 nodes 19 loop 0 flags 0 next -1 default 316 frame 5180 finfoSize 0 comp@0 rot 0007F97F00000000 tr 00000001 sc 00000000
+  anim 16 'GT-gunner fixed idle' type 0 frames 40 fsize 112 finfo 1 nodes 19 loop 0 flags 0 next -1 default 344 frame 4480 finfoSize 320 comp@0 rot 0007F97600000000 tr 00000000 sc 00000000
+  anim 17 'GT-gunner unarmed idle' type 0 frames 40 fsize 112 finfo 1 nodes 19 loop 0 flags 0 next -1 default 344 frame 4480 finfoSize 320 comp@0 rot 0007F97600000000 tr 00000000 sc 00000000
+  anim 18 'P-riderLF enter' type 0 frames 34 fsize 140 finfo 0 nodes 19 loop 0 flags 0 next -1 default 316 frame 4760 finfoSize 0 comp@0 rot 0007F97F00000000 tr 00000001 sc 00000000
+  anim 19 'P-riderLF exit' type 0 frames 34 fsize 148 finfo 0 nodes 19 loop 0 flags 0 next -1 default 308 frame 5032 finfoSize 0 comp@0 rot 0007FD7F00000000 tr 00000001 sc 00000000
+  anim 20 'P-riderLF rifle idle' type 0 frames 40 fsize 88 finfo 1 nodes 19 loop 0 flags 0 next -1 default 368 frame 3520 finfoSize 320 comp@0 rot 00007D7600000000 tr 00000000 sc 00000000
+  anim 21 'P-riderRF enter' type 0 frames 34 fsize 140 finfo 0 nodes 19 loop 0 flags 0 next -1 default 316 frame 4760 finfoSize 0 comp@0 rot 0007F97F00000000 tr 00000001 sc 00000000
+  anim 22 'P-riderRF exit' type 0 frames 34 fsize 148 finfo 0 nodes 19 loop 0 flags 0 next -1 default 308 frame 5032 finfoSize 0 comp@0 rot 0007FD7F00000000 tr 00000001 sc 00000000
+  anim 23 'W-driver acc-front-back' type 1 frames 3 fsize 100 finfo 0 nodes 19 loop 0 flags 0 next -1 default 356 frame 300 finfoSize 0 comp@0 rot 0000797E00000000 tr 00000001 sc 00000000
+  anim 24 'W-driver acc-left-right' type 1 frames 3 fsize 132 finfo 0 nodes 19 loop 0 flags 0 next -1 default 324 frame 396 finfoSize 0 comp@0 rot 0002FD7F00000000 tr 00000001 sc 00000000
+  anim 25 'W-driver acc-up-down' type 1 frames 3 fsize 124 finfo 0 nodes 19 loop 0 flags 0 next -1 default 332 frame 372 finfoSize 0 comp@0 rot 0002FD7E00000000 tr 00000001 sc 00000000
+  anim 26 'W-driver enter' type 0 frames 50 fsize 156 finfo 0 nodes 19 loop 0 flags 0 next -1 default 300 frame 7800 finfoSize 0 comp@0 rot 0007FF7F00000000 tr 00000001 sc 00000000
+  anim 27 'W-driver exit' type 0 frames 26 fsize 156 finfo 0 nodes 19 loop 0 flags 0 next -1 default 300 frame 4056 finfoSize 0 comp@0 rot 0007FF7F00000000 tr 00000001 sc 00000000
+  anim 28 'W-driver unarmed aim-still' type 1 frames 9 fsize 80 finfo 0 nodes 19 loop 0 flags 0 next -1 default 376 frame 720 finfoSize 0 comp@0 rot 0007F44800000000 tr 00000000 sc 00000000
+  anim 29 'W-driver unarmed idle' type 0 frames 50 fsize 80 finfo 1 nodes 19 loop 0 flags 0 next -1 default 376 frame 4000 finfoSize 400 comp@0 rot 0007F44800000000 tr 00000000 sc 00000000
+  anim 30 'W-gunner acc-front-back' type 1 frames 3 fsize 140 finfo 0 nodes 19 loop 0 flags 0 next -1 default 316 frame 420 finfoSize 0 comp@0 rot 0007F97F00000000 tr 00000001 sc 00000000
+  anim 31 'W-gunner acc-left-right' type 1 frames 3 fsize 148 finfo 0 nodes 19 loop 0 flags 0 next -1 default 308 frame 444 finfoSize 0 comp@0 rot 0007FD7F00000000 tr 00000001 sc 00000000
+  anim 32 'W-gunner acc-up-down' type 1 frames 3 fsize 140 finfo 0 nodes 19 loop 0 flags 0 next -1 default 316 frame 420 finfoSize 0 comp@0 rot 0007F97F00000000 tr 00000001 sc 00000000
+  anim 33 'W-gunner enter' type 0 frames 46 fsize 148 finfo 0 nodes 19 loop 0 flags 0 next -1 default 308 frame 6808 finfoSize 0 comp@0 rot 0007FD7F00000000 tr 00000001 sc 00000000
+  anim 34 'W-gunner exit' type 0 frames 24 fsize 148 finfo 0 nodes 19 loop 0 flags 0 next -1 default 308 frame 3552 finfoSize 0 comp@0 rot 0007FD7F00000000 tr 00000001 sc 00000000
+  anim 35 'W-gunner fixed aim-still' type 1 frames 16 fsize 156 finfo 0 nodes 19 loop 0 flags 0 next -1 default 300 frame 2496 finfoSize 0 comp@0 rot 0007FDFF00000000 tr 00000001 sc 00000000
+  anim 36 'W-gunner fixed idle' type 0 frames 50 fsize 48 finfo 1 nodes 19 loop 0 flags 0 next -1 default 408 frame 2400 finfoSize 400 comp@0 rot 0000744800000000 tr 00000000 sc 00000000
+  anim 37 'W-passenger acc-front-back' type 1 frames 3 fsize 132 finfo 0 nodes 19 loop 0 flags 0 next -1 default 324 frame 396 finfoSize 0 comp@0 rot 0007F97E00000000 tr 00000001 sc 00000000
+  anim 38 'W-passenger acc-left-right' type 1 frames 3 fsize 148 finfo 0 nodes 19 loop 0 flags 0 next -1 default 308 frame 444 finfoSize 0 comp@0 rot 0007FD7F00000000 tr 00000001 sc 00000000
+  anim 39 'W-passenger acc-up-down' type 1 frames 3 fsize 140 finfo 0 nodes 19 loop 0 flags 0 next -1 default 316 frame 420 finfoSize 0 comp@0 rot 0007FD7E00000000 tr 00000001 sc 00000000
+  anim 40 'W-passenger enter' type 0 frames 28 fsize 140 finfo 0 nodes 19 loop 0 flags 0 next -1 default 316 frame 3920 finfoSize 0 comp@0 rot 0003FDF700000000 tr 00000001 sc 00000000
+  anim 41 'W-passenger exit' type 0 frames 30 fsize 160 finfo 0 nodes 19 loop 0 flags 0 next -1 default 296 frame 4800 finfoSize 0 comp@0 rot 0007FD7F00000000 tr 00000009 sc 00000000
+  anim 42 'W-passenger missile aim-still' type 1 frames 9 fsize 80 finfo 0 nodes 19 loop 0 flags 0 next -1 default 376 frame 720 finfoSize 0 comp@0 rot 0007F44800000000 tr 00000000 sc 00000000
+  anim 43 'W-passenger missile idle' type 0 frames 30 fsize 40 finfo 1 nodes 19 loop 0 flags 0 next -1 default 416 frame 1200 finfoSize 240 comp@0 rot 0000744000000000 tr 00000000 sc 00000000
+  anim 44 'W-passenger pistol aim-still' type 1 frames 9 fsize 148 finfo 0 nodes 19 loop 0 flags 0 next -1 default 308 frame 1332 finfoSize 0 comp@0 rot 0007FD7F00000000 tr 00000001 sc 00000000
+  anim 45 'W-passenger pistol idle' type 0 frames 40 fsize 104 finfo 1 nodes 19 loop 0 flags 0 next -1 default 352 frame 4160 finfoSize 320 comp@0 rot 0002FD7600000000 tr 00000000 sc 00000000
+  anim 46 'W-passenger rifle aim-still' type 1 frames 9 fsize 136 finfo 0 nodes 19 loop 0 flags 0 next -1 default 320 frame 1224 finfoSize 0 comp@0 rot 0007FD7F00000000 tr 00000000 sc 00000000
+  anim 47 'W-passenger rifle idle' type 0 frames 1 fsize 0 finfo 1 nodes 19 loop 0 flags 0 next -1 default 456 frame 0 finfoSize 8 comp@0 rot 0000000000000000 tr 00000000 sc 00000000
+  anim 48 'alert rifle aim-move' type 1 frames 9 fsize 88 finfo 0 nodes 19 loop 0 flags 0 next -1 default 368 frame 792 finfoSize 0 comp@0 rot 0007F4C800000000 tr 00000000 sc 00000000
+  anim 49 'alert rifle move-front' type 0 frames 36 fsize 160 finfo 1 nodes 19 loop 0 flags 0 next -1 default 296 frame 5760 finfoSize 288 comp@0 rot 0007FD7F00000000 tr 00000009 sc 00000000
+  anim 50 'alert unarmed aim-still' type 1 frames 9 fsize 156 finfo 0 nodes 19 loop 0 flags 0 next -1 default 300 frame 1404 finfoSize 0 comp@0 rot 0007FDFF00000000 tr 00000001 sc 00000000
+  anim 51 'alert unarmed idle%1' type 0 frames 55 fsize 112 finfo 1 nodes 19 loop 0 flags 0 next 52 default 344 frame 6160 finfoSize 440 comp@0 rot 0007F97600000000 tr 00000000 sc 00000000
+  anim 52 'alert unarmed idle%2' type 0 frames 100 fsize 128 finfo 1 nodes 19 loop 0 flags 0 next 53 default 328 frame 12800 finfoSize 800 comp@0 rot 0007FDF600000000 tr 00000000 sc 00000000
+  anim 53 'alert unarmed idle%3' type 0 frames 90 fsize 96 finfo 1 nodes 19 loop 0 flags 0 next -1 default 360 frame 8640 finfoSize 720 comp@0 rot 0002F96E00000000 tr 00000000 sc 00000000
+  anim 54 'alert unarmed move-front' type 0 frames 33 fsize 136 finfo 1 nodes 19 loop 0 flags 0 next -1 default 320 frame 4488 finfoSize 264 comp@0 rot 0001F97F00000000 tr 00000009 sc 00000000
+  anim 55 'alert unarmed turn-left' type 0 frames 20 fsize 124 finfo 2 nodes 19 loop 0 flags 0 next -1 default 332 frame 2480 finfoSize 240 comp@0 rot 0005F97E00000000 tr 00000001 sc 00000000
+  anim 56 'alert unarmed turn-right' type 0 frames 20 fsize 124 finfo 2 nodes 19 loop 0 flags 0 next -1 default 332 frame 2480 finfoSize 240 comp@0 rot 0005F97E00000000 tr 00000001 sc 00000000
+  anim 57 'crouch missile aim-move' type 1 frames 15 fsize 108 finfo 0 nodes 19 loop 0 flags 0 next -1 default 348 frame 1620 finfoSize 0 comp@0 rot 0007F4C900000000 tr 00000001 sc 00000000
+  anim 58 'crouch missile aim-still' type 1 frames 15 fsize 156 finfo 0 nodes 19 loop 0 flags 0 next -1 default 300 frame 2340 finfoSize 0 comp@0 rot 0007FDFF00000000 tr 00000001 sc 00000000
+  anim 59 'crouch missile idle' type 0 frames 30 fsize 96 finfo 1 nodes 19 loop 0 flags 0 next -1 default 360 frame 2880 finfoSize 240 comp@0 rot 00007D7E00000000 tr 00000000 sc 00000000
+  anim 60 'crouch missile move-back' type 0 frames 30 fsize 124 finfo 1 nodes 19 loop 0 flags 0 next -1 default 332 frame 3720 finfoSize 240 comp@0 rot 0002FD7E00000000 tr 00000001 sc 00000000
+  anim 61 'crouch missile move-front' type 0 frames 30 fsize 124 finfo 1 nodes 19 loop 0 flags 0 next -1 default 332 frame 3720 finfoSize 240 comp@0 rot 0002FD7E00000000 tr 00000001 sc 00000000
+  anim 62 'crouch missile move-left' type 0 frames 30 fsize 124 finfo 1 nodes 19 loop 0 flags 0 next -1 default 332 frame 3720 finfoSize 240 comp@0 rot 0002FD7E00000000 tr 00000001 sc 00000000
+  anim 63 'crouch missile move-right' type 0 frames 30 fsize 124 finfo 1 nodes 19 loop 0 flags 0 next -1 default 332 frame 3720 finfoSize 240 comp@0 rot 0002FD7E00000000 tr 00000001 sc 00000000
+  anim 64 'crouch missile turn-left' type 0 frames 7 fsize 56 finfo 2 nodes 19 loop 0 flags 0 next -1 default 400 frame 392 finfoSize 84 comp@0 rot 00000D3600000000 tr 00000000 sc 00000000
+  anim 65 'crouch missile turn-right' type 0 frames 7 fsize 56 finfo 2 nodes 19 loop 0 flags 0 next -1 default 400 frame 392 finfoSize 84 comp@0 rot 00000D3600000000 tr 00000000 sc 00000000
+  anim 66 'crouch pistol aim-still' type 1 frames 9 fsize 152 finfo 0 nodes 19 loop 0 flags 0 next -1 default 304 frame 1368 finfoSize 0 comp@0 rot 0007F97F00000000 tr 00000009 sc 00000000
+  anim 67 'crouch pistol idle' type 0 frames 31 fsize 104 finfo 1 nodes 19 loop 0 flags 0 next -1 default 352 frame 3224 finfoSize 248 comp@0 rot 0002F97E00000000 tr 00000000 sc 00000000
+  anim 68 'crouch pistol move-back' type 0 frames 30 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 3480 finfoSize 240 comp@0 rot 0002F97E00000000 tr 00000001 sc 00000000
+  anim 69 'crouch pistol move-front' type 0 frames 30 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 3480 finfoSize 240 comp@0 rot 0002F97E00000000 tr 00000001 sc 00000000
+  anim 70 'crouch pistol move-left' type 0 frames 30 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 3480 finfoSize 240 comp@0 rot 0002F97E00000000 tr 00000001 sc 00000000
+  anim 71 'crouch pistol move-right' type 0 frames 30 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 3480 finfoSize 240 comp@0 rot 0002F97E00000000 tr 00000001 sc 00000000
+  anim 72 'crouch pistol turn-left' type 0 frames 7 fsize 48 finfo 2 nodes 19 loop 0 flags 0 next -1 default 408 frame 336 finfoSize 84 comp@0 rot 0000093600000000 tr 00000000 sc 00000000
+  anim 73 'crouch pistol turn-right' type 0 frames 7 fsize 48 finfo 2 nodes 19 loop 0 flags 0 next -1 default 408 frame 336 finfoSize 84 comp@0 rot 0000093600000000 tr 00000000 sc 00000000
+  anim 74 'crouch rifle aim-move' type 1 frames 9 fsize 84 finfo 0 nodes 19 loop 0 flags 0 next -1 default 372 frame 756 finfoSize 0 comp@0 rot 0007F04800000000 tr 00000001 sc 00000000
+  anim 75 'crouch rifle aim-still' type 1 frames 9 fsize 128 finfo 0 nodes 19 loop 0 flags 0 next -1 default 328 frame 1152 finfoSize 0 comp@0 rot 0007F97F00000000 tr 00000000 sc 00000000
+  anim 76 'crouch rifle airborne' type 0 frames 40 fsize 124 finfo 1 nodes 19 loop 20 flags 0 next -1 default 332 frame 4960 finfoSize 320 comp@0 rot 0003F97E00000000 tr 00000001 sc 00000000
+  anim 77 'crouch rifle idle' type 0 frames 60 fsize 88 finfo 1 nodes 19 loop 0 flags 0 next -1 default 368 frame 5280 finfoSize 480 comp@0 rot 0000797E00000000 tr 00000000 sc 00000000
+  anim 78 'crouch rifle land-hard' type 0 frames 59 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 6844 finfoSize 472 comp@0 rot 0002F97E00000000 tr 00000001 sc 00000000
+  anim 79 'crouch rifle land-soft' type 0 frames 29 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 3364 finfoSize 232 comp@0 rot 0002F97E00000000 tr 00000001 sc 00000000
+  anim 80 'crouch rifle move-back' type 0 frames 30 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 3480 finfoSize 240 comp@0 rot 0002F97E00000000 tr 00000001 sc 00000000
+  anim 81 'crouch rifle move-front' type 0 frames 30 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 3480 finfoSize 240 comp@0 rot 0002F97E00000000 tr 00000001 sc 00000000
+  anim 82 'crouch rifle move-left' type 0 frames 30 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 3480 finfoSize 240 comp@0 rot 0002F97E00000000 tr 00000001 sc 00000000
+  anim 83 'crouch rifle move-right' type 0 frames 30 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 3480 finfoSize 240 comp@0 rot 0002F97E00000000 tr 00000001 sc 00000000
+  anim 84 'crouch rifle turn-left' type 0 frames 7 fsize 48 finfo 2 nodes 19 loop 0 flags 0 next -1 default 408 frame 336 finfoSize 84 comp@0 rot 0000093600000000 tr 00000000 sc 00000000
+  anim 85 'crouch rifle turn-right' type 0 frames 7 fsize 48 finfo 2 nodes 19 loop 0 flags 0 next -1 default 408 frame 336 finfoSize 84 comp@0 rot 0000093600000000 tr 00000000 sc 00000000
+  anim 86 'crouch unarmed idle' type 0 frames 40 fsize 80 finfo 1 nodes 19 loop 0 flags 0 next -1 default 376 frame 3200 finfoSize 320 comp@0 rot 0000797600000000 tr 00000000 sc 00000000
+  anim 87 'crouch unarmed move-back' type 0 frames 30 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 3480 finfoSize 240 comp@0 rot 0001F97E00000000 tr 00000001 sc 00000000
+  anim 88 'crouch unarmed move-front' type 0 frames 30 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 3480 finfoSize 240 comp@0 rot 0001F97E00000000 tr 00000001 sc 00000000
+  anim 89 'crouch unarmed move-left' type 0 frames 30 fsize 132 finfo 1 nodes 19 loop 0 flags 0 next -1 default 324 frame 3960 finfoSize 240 comp@0 rot 0005FD7E00000000 tr 00000001 sc 00000000
+  anim 90 'crouch unarmed move-right' type 0 frames 30 fsize 132 finfo 1 nodes 19 loop 0 flags 0 next -1 default 324 frame 3960 finfoSize 240 comp@0 rot 0005FD7E00000000 tr 00000001 sc 00000000
+  anim 91 'crouch unarmed turn-left' type 0 frames 7 fsize 48 finfo 2 nodes 19 loop 0 flags 0 next -1 default 408 frame 336 finfoSize 84 comp@0 rot 0000093600000000 tr 00000000 sc 00000000
+  anim 92 'crouch unarmed turn-right' type 0 frames 7 fsize 48 finfo 2 nodes 19 loop 0 flags 0 next -1 default 408 frame 336 finfoSize 84 comp@0 rot 0000093600000000 tr 00000000 sc 00000000
+  anim 93 'h-kill back gut' type 0 frames 40 fsize 156 finfo 1 nodes 19 loop 0 flags 0 next -1 default 300 frame 6240 finfoSize 320 comp@0 rot 0007FDFF00000000 tr 00000001 sc 00000000
+  anim 94 'h-kill front gut' type 0 frames 46 fsize 156 finfo 1 nodes 19 loop 0 flags 0 next -1 default 300 frame 7176 finfoSize 368 comp@0 rot 0007FDFF00000000 tr 00000001 sc 00000000
+  anim 95 'h-kill front head' type 0 frames 60 fsize 156 finfo 1 nodes 19 loop 0 flags 0 next -1 default 300 frame 9360 finfoSize 480 comp@0 rot 0007FDFF00000000 tr 00000001 sc 00000000
+  anim 96 'h-kill left gut' type 0 frames 41 fsize 156 finfo 1 nodes 19 loop 0 flags 0 next -1 default 300 frame 6396 finfoSize 328 comp@0 rot 0007FDFF00000000 tr 00000001 sc 00000000
+  anim 97 'h-kill left head' type 0 frames 44 fsize 156 finfo 1 nodes 19 loop 0 flags 0 next -1 default 300 frame 6864 finfoSize 352 comp@0 rot 0007FDFF00000000 tr 00000001 sc 00000000
+  anim 98 'h-kill right gut' type 0 frames 41 fsize 156 finfo 1 nodes 19 loop 0 flags 0 next -1 default 300 frame 6396 finfoSize 328 comp@0 rot 0007FDFF00000000 tr 00000001 sc 00000000
+  anim 99 'h-kill right head' type 0 frames 44 fsize 156 finfo 1 nodes 19 loop 0 flags 0 next -1 default 300 frame 6864 finfoSize 352 comp@0 rot 0007FDFF00000000 tr 00000001 sc 00000000
+  anim 100 's-kill back gut' type 0 frames 43 fsize 164 finfo 1 nodes 19 loop 0 flags 0 next -1 default 292 frame 7052 finfoSize 344 comp@0 rot 0007FFFF00000000 tr 00000001 sc 00000000
+  anim 101 's-kill front chest' type 0 frames 44 fsize 164 finfo 1 nodes 19 loop 0 flags 0 next -1 default 292 frame 7216 finfoSize 352 comp@0 rot 0007FFFF00000000 tr 00000001 sc 00000000
+  anim 102 's-kill front gut' type 0 frames 69 fsize 164 finfo 1 nodes 19 loop 0 flags 0 next -1 default 292 frame 11316 finfoSize 552 comp@0 rot 0007FFFF00000000 tr 00000001 sc 00000000
+  anim 103 's-kill left gut' type 0 frames 30 fsize 148 finfo 1 nodes 19 loop 0 flags 0 next -1 default 308 frame 4440 finfoSize 240 comp@0 rot 0007FD7F00000000 tr 00000001 sc 00000000
+  anim 104 's-kill right gut' type 0 frames 30 fsize 148 finfo 1 nodes 19 loop 0 flags 0 next -1 default 308 frame 4440 finfoSize 240 comp@0 rot 0007FD7F00000000 tr 00000001 sc 00000000
+  anim 105 's-ping front gut%0' type 1 frames 9 fsize 140 finfo 0 nodes 19 loop 0 flags 0 next 106 default 316 frame 1260 finfoSize 0 comp@0 rot 0007FD7E00000000 tr 00000001 sc 00000000
+  anim 106 's-ping front gut%1' type 1 frames 9 fsize 140 finfo 0 nodes 19 loop 0 flags 0 next 107 default 316 frame 1260 finfoSize 0 comp@0 rot 0007FD7E00000000 tr 00000001 sc 00000000
+  anim 107 's-ping front gut%2' type 1 frames 9 fsize 140 finfo 0 nodes 19 loop 0 flags 0 next -1 default 316 frame 1260 finfoSize 0 comp@0 rot 0007FD7E00000000 tr 00000001 sc 00000000
+  anim 108 'scorpion-driver enter' type 0 frames 65 fsize 156 finfo 0 nodes 19 loop 0 flags 0 next -1 default 300 frame 10140 finfoSize 0 comp@0 rot 0007FDFF00000000 tr 00000001 sc 00000000
+  anim 109 'scorpion-driver exit' type 0 frames 55 fsize 156 finfo 0 nodes 19 loop 0 flags 0 next -1 default 300 frame 8580 finfoSize 0 comp@0 rot 0007FDFF00000000 tr 00000001 sc 00000000
+  anim 110 'scorpion-driver unarmed idle' type 0 frames 5 fsize 0 finfo 1 nodes 19 loop 0 flags 0 next -1 default 456 frame 0 finfoSize 40 comp@0 rot 0000000000000000 tr 00000000 sc 00000000
+  anim 111 'scorpionLF acc-front-back' type 1 frames 3 fsize 116 finfo 0 nodes 19 loop 0 flags 0 next -1 default 340 frame 348 finfoSize 0 comp@0 rot 0002F97E00000000 tr 00000001 sc 00000000
+  anim 112 'scorpionLF acc-left-right' type 1 frames 3 fsize 132 finfo 0 nodes 19 loop 0 flags 0 next -1 default 324 frame 396 finfoSize 0 comp@0 rot 0007F97E00000000 tr 00000001 sc 00000000
+  anim 113 'scorpionLF acc-up-down' type 1 frames 3 fsize 132 finfo 0 nodes 19 loop 0 flags 0 next -1 default 324 frame 396 finfoSize 0 comp@0 rot 0007F97E00000000 tr 00000001 sc 00000000
+  anim 114 'scorpionLF enter' type 0 frames 30 fsize 140 finfo 0 nodes 19 loop 0 flags 0 next -1 default 316 frame 4200 finfoSize 0 comp@0 rot 0007F97F00000000 tr 00000001 sc 00000000
+  anim 115 'scorpionLF exit' type 0 frames 22 fsize 140 finfo 0 nodes 19 loop 0 flags 0 next -1 default 316 frame 3080 finfoSize 0 comp@0 rot 0007F97F00000000 tr 00000001 sc 00000000
+  anim 116 'scorpionLF rifle aim-still' type 1 frames 9 fsize 80 finfo 0 nodes 19 loop 0 flags 0 next -1 default 376 frame 720 finfoSize 0 comp@0 rot 0007F44800000000 tr 00000000 sc 00000000
+  anim 117 'scorpionLF rifle idle' type 0 frames 30 fsize 32 finfo 1 nodes 19 loop 0 flags 0 next -1 default 424 frame 960 finfoSize 240 comp@0 rot 0000704000000000 tr 00000000 sc 00000000
+  anim 118 'stand airborne-dead' type 0 frames 37 fsize 136 finfo 1 nodes 19 loop 0 flags 0 next -1 default 320 frame 5032 finfoSize 296 comp@0 rot 0007FDFE00000000 tr 00000000 sc 00000000
+  anim 119 'stand landing-dead' type 0 frames 42 fsize 156 finfo 1 nodes 19 loop 0 flags 0 next -1 default 300 frame 6552 finfoSize 336 comp@0 rot 0007FDFF00000000 tr 00000001 sc 00000000
+  anim 120 'stand look' type 1 frames 9 fsize 8 finfo 0 nodes 19 loop 0 flags 0 next -1 default 448 frame 72 finfoSize 0 comp@0 rot 0000100000000000 tr 00000000 sc 00000000
+  anim 121 'stand missile aim-move' type 1 frames 15 fsize 100 finfo 0 nodes 19 loop 0 flags 0 next -1 default 356 frame 1500 finfoSize 0 comp@0 rot 0007F4C800000000 tr 00000001 sc 00000000
+  anim 122 'stand missile aim-still' type 1 frames 15 fsize 144 finfo 0 nodes 19 loop 0 flags 0 next -1 default 312 frame 2160 finfoSize 0 comp@0 rot 0007FDFF00000000 tr 00000000 sc 00000000
+  anim 123 'stand missile airborne' type 0 frames 80 fsize 148 finfo 1 nodes 19 loop 40 flags 0 next -1 default 308 frame 11840 finfoSize 640 comp@0 rot 0007FD7F00000000 tr 00000008 sc 00000000
+  anim 124 'stand missile fire-1' type 0 frames 16 fsize 120 finfo 1 nodes 19 loop 0 flags 0 next -1 default 336 frame 1920 finfoSize 128 comp@0 rot 0003FD7E00000000 tr 00000000 sc 00000000
+  anim 125 'stand missile idle' type 0 frames 50 fsize 64 finfo 1 nodes 19 loop 0 flags 0 next -1 default 392 frame 3200 finfoSize 400 comp@0 rot 0002F44800000000 tr 00000000 sc 00000000
+  anim 126 'stand missile land-hard' type 0 frames 40 fsize 140 finfo 1 nodes 19 loop 30 flags 0 next -1 default 316 frame 5600 finfoSize 320 comp@0 rot 0007FD7E00000000 tr 00000001 sc 00000000
+  anim 127 'stand missile land-soft' type 0 frames 30 fsize 132 finfo 1 nodes 19 loop 0 flags 0 next -1 default 324 frame 3960 finfoSize 240 comp@0 rot 0007FD7600000000 tr 00000001 sc 00000000
+  anim 128 'stand missile move-back' type 0 frames 20 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 2320 finfoSize 160 comp@0 rot 0002FD7600000000 tr 00000001 sc 00000000
+  anim 129 'stand missile move-front' type 0 frames 20 fsize 144 finfo 1 nodes 19 loop 0 flags 0 next -1 default 312 frame 2880 finfoSize 160 comp@0 rot 0002FD7F00000000 tr 00000009 sc 00000000
+  anim 130 'stand missile move-left' type 0 frames 20 fsize 124 finfo 1 nodes 19 loop 0 flags 0 next -1 default 332 frame 2480 finfoSize 160 comp@0 rot 0002FD7E00000000 tr 00000001 sc 00000000
+  anim 131 'stand missile move-right' type 0 frames 20 fsize 124 finfo 1 nodes 19 loop 0 flags 0 next -1 default 332 frame 2480 finfoSize 160 comp@0 rot 0002FD7E00000000 tr 00000001 sc 00000000
+  anim 132 'stand missile reload' type 0 frames 114 fsize 128 finfo 1 nodes 19 loop 0 flags 0 next -1 default 328 frame 14592 finfoSize 912 comp@0 rot 0007FD7E00000000 tr 00000000 sc 00000000
+  anim 133 'stand missile rl fire-1' type 1 frames 25 fsize 80 finfo 0 nodes 19 loop 0 flags 0 next -1 default 376 frame 2000 finfoSize 0 comp@0 rot 0007F44800000000 tr 00000000 sc 00000000
+  anim 134 'stand missile rl melee' type 2 frames 52 fsize 88 finfo 0 nodes 19 loop 0 flags 0 next -1 default 368 frame 4576 finfoSize 0 comp@0 rot 0007F4C800000000 tr 00000000 sc 00000000
+  anim 135 'stand missile rl reload-1' type 2 frames 125 fsize 80 finfo 0 nodes 19 loop 0 flags 0 next -1 default 376 frame 10000 finfoSize 0 comp@0 rot 0007F44800000000 tr 00000000 sc 00000000
+  anim 136 'stand missile stunned-front' type 0 frames 19 fsize 156 finfo 1 nodes 19 loop 0 flags 0 next -1 default 300 frame 2964 finfoSize 152 comp@0 rot 0007FDFF00000000 tr 00000001 sc 00000000
+  anim 137 'stand missile turn-left' type 0 frames 7 fsize 56 finfo 2 nodes 19 loop 0 flags 0 next -1 default 400 frame 392 finfoSize 84 comp@0 rot 00000D3600000000 tr 00000000 sc 00000000
+  anim 138 'stand missile turn-right' type 0 frames 7 fsize 56 finfo 2 nodes 19 loop 0 flags 0 next -1 default 400 frame 392 finfoSize 84 comp@0 rot 00000D3600000000 tr 00000000 sc 00000000
+  anim 139 'stand pistol aim-move' type 1 frames 9 fsize 132 finfo 0 nodes 19 loop 0 flags 0 next -1 default 324 frame 1188 finfoSize 0 comp@0 rot 0007F97E00000000 tr 00000001 sc 00000000
+  anim 140 'stand pistol aim-still' type 1 frames 9 fsize 140 finfo 0 nodes 19 loop 0 flags 0 next -1 default 316 frame 1260 finfoSize 0 comp@0 rot 0007F97F00000000 tr 00000001 sc 00000000
+  anim 141 'stand pistol airborne' type 0 frames 80 fsize 148 finfo 1 nodes 19 loop 40 flags 0 next -1 default 308 frame 11840 finfoSize 640 comp@0 rot 0007FD7F00000000 tr 00000008 sc 00000000
+  anim 142 'stand pistol b melee' type 2 frames 28 fsize 80 finfo 0 nodes 19 loop 0 flags 0 next -1 default 376 frame 2240 finfoSize 0 comp@0 rot 0007F44800000000 tr 00000000 sc 00000000
+  anim 143 'stand pistol hp fire-1' type 1 frames 9 fsize 132 finfo 0 nodes 19 loop 0 flags 0 next -1 default 324 frame 1188 finfoSize 0 comp@0 rot 0007F97E00000000 tr 00000001 sc 00000000
+  anim 144 'stand pistol hp melee' type 2 frames 46 fsize 80 finfo 0 nodes 19 loop 0 flags 0 next -1 default 376 frame 3680 finfoSize 0 comp@0 rot 0007F44800000000 tr 00000000 sc 00000000
+  anim 145 'stand pistol hp reload-1' type 2 frames 64 fsize 72 finfo 0 nodes 19 loop 0 flags 0 next -1 default 384 frame 4608 finfoSize 0 comp@0 rot 0007F04800000000 tr 00000000 sc 00000000
+  anim 146 'stand pistol idle' type 0 frames 49 fsize 104 finfo 1 nodes 19 loop 0 flags 0 next -1 default 352 frame 5096 finfoSize 392 comp@0 rot 0002F97E00000000 tr 00000000 sc 00000000
+  anim 147 'stand pistol land-hard' type 0 frames 40 fsize 140 finfo 1 nodes 19 loop 30 flags 0 next -1 default 316 frame 5600 finfoSize 320 comp@0 rot 0007FD7E00000000 tr 00000001 sc 00000000
+  anim 148 'stand pistol land-soft' type 0 frames 29 fsize 124 finfo 1 nodes 19 loop 30 flags 0 next -1 default 332 frame 3596 finfoSize 232 comp@0 rot 0007FD3600000000 tr 00000001 sc 00000000
+  anim 149 'stand pistol move-back' type 0 frames 20 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 2320 finfoSize 160 comp@0 rot 0002F97E00000000 tr 00000001 sc 00000000
+  anim 150 'stand pistol move-front' type 0 frames 20 fsize 160 finfo 1 nodes 19 loop 0 flags 0 next -1 default 296 frame 3200 finfoSize 160 comp@0 rot 0007FD7F00000000 tr 00000009 sc 00000000
+  anim 151 'stand pistol move-left' type 0 frames 20 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 2320 finfoSize 160 comp@0 rot 0002F97E00000000 tr 00000001 sc 00000000
+  anim 152 'stand pistol move-right' type 0 frames 20 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 2320 finfoSize 160 comp@0 rot 0002F97E00000000 tr 00000001 sc 00000000
+  anim 153 'stand pistol ne melee' type 2 frames 46 fsize 80 finfo 0 nodes 19 loop 0 flags 0 next -1 default 376 frame 3680 finfoSize 0 comp@0 rot 0007F44800000000 tr 00000000 sc 00000000
+  anim 154 'stand pistol ne reload-1' type 2 frames 64 fsize 72 finfo 0 nodes 19 loop 0 flags 0 next -1 default 384 frame 4608 finfoSize 0 comp@0 rot 0007F04800000000 tr 00000000 sc 00000000
+  anim 155 'stand pistol pp melee' type 2 frames 40 fsize 72 finfo 0 nodes 19 loop 0 flags 0 next -1 default 384 frame 2880 finfoSize 0 comp@0 rot 0007F04800000000 tr 00000000 sc 00000000
+  anim 156 'stand pistol stunned-front' type 0 frames 40 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 4640 finfoSize 320 comp@0 rot 0002F97E00000000 tr 00000001 sc 00000000
+  anim 157 'stand pistol turn-left' type 0 frames 7 fsize 48 finfo 2 nodes 19 loop 0 flags 0 next -1 default 408 frame 336 finfoSize 84 comp@0 rot 0000093600000000 tr 00000000 sc 00000000
+  anim 158 'stand pistol turn-right' type 0 frames 7 fsize 48 finfo 2 nodes 19 loop 0 flags 0 next -1 default 408 frame 336 finfoSize 84 comp@0 rot 0000093600000000 tr 00000000 sc 00000000
+  anim 159 'stand push' type 1 frames 8 fsize 112 finfo 0 nodes 19 loop 0 flags 0 next -1 default 344 frame 896 finfoSize 0 comp@0 rot 0007FD4E00000000 tr 00000000 sc 00000000
+  anim 160 'stand rifle aim-move' type 1 frames 9 fsize 140 finfo 0 nodes 19 loop 0 flags 0 next -1 default 316 frame 1260 finfoSize 0 comp@0 rot 0007FD7E00000000 tr 00000001 sc 00000000
+  anim 161 'stand rifle aim-still' type 1 frames 9 fsize 144 finfo 0 nodes 19 loop 0 flags 0 next -1 default 312 frame 1296 finfoSize 0 comp@0 rot 0007FDFF00000000 tr 00000000 sc 00000000
+  anim 162 'stand rifle airborne' type 0 frames 79 fsize 148 finfo 1 nodes 19 loop 40 flags 0 next -1 default 308 frame 11692 finfoSize 632 comp@0 rot 0007FD7F00000000 tr 00000008 sc 00000000
+  anim 163 'stand rifle ar fire-1' type 1 frames 4 fsize 140 finfo 0 nodes 19 loop 0 flags 0 next -1 default 316 frame 560 finfoSize 0 comp@0 rot 0007FD7E00000000 tr 00000001 sc 00000000
+  anim 164 'stand rifle ar fire-2' type 1 frames 15 fsize 80 finfo 0 nodes 19 loop 0 flags 0 next -1 default 376 frame 1200 finfoSize 0 comp@0 rot 0007F44800000000 tr 00000000 sc 00000000
+  anim 165 'stand rifle ar melee' type 2 frames 36 fsize 80 finfo 0 nodes 19 loop 0 flags 0 next -1 default 376 frame 2880 finfoSize 0 comp@0 rot 0007F44800000000 tr 00000000 sc 00000000
+  anim 166 'stand rifle ar reload-1' type 2 frames 87 fsize 80 finfo 0 nodes 19 loop 0 flags 0 next -1 default 376 frame 6960 finfoSize 0 comp@0 rot 0007F44800000000 tr 00000000 sc 00000000
+  anim 167 'stand rifle f melee' type 2 frames 32 fsize 80 finfo 0 nodes 19 loop 0 flags 0 next -1 default 376 frame 2560 finfoSize 0 comp@0 rot 0007F44800000000 tr 00000000 sc 00000000
+  anim 168 'stand rifle idle' type 0 frames 59 fsize 112 finfo 1 nodes 19 loop 0 flags 0 next -1 default 344 frame 6608 finfoSize 472 comp@0 rot 0002FD7E00000000 tr 00000000 sc 00000000
+  anim 169 'stand rifle land-hard' type 0 frames 39 fsize 140 finfo 1 nodes 19 loop 30 flags 0 next -1 default 316 frame 5460 finfoSize 312 comp@0 rot 0007FD7E00000000 tr 00000001 sc 00000000
+  anim 170 'stand rifle land-soft' type 0 frames 29 fsize 132 finfo 1 nodes 19 loop 0 flags 0 next -1 default 324 frame 3828 finfoSize 232 comp@0 rot 0007FD3700000000 tr 00000001 sc 00000000
+  anim 171 'stand rifle melee' type 2 frames 28 fsize 156 finfo 0 nodes 19 loop 0 flags 0 next -1 default 300 frame 4368 finfoSize 0 comp@0 rot 0007FF7F00000000 tr 00000001 sc 00000000
+  anim 172 'stand rifle move-back' type 0 frames 20 fsize 140 finfo 1 nodes 19 loop 0 flags 0 next -1 default 316 frame 2800 finfoSize 160 comp@0 rot 0007FD7E00000000 tr 00000001 sc 00000000
+  anim 173 'stand rifle move-front' type 0 frames 20 fsize 160 finfo 1 nodes 19 loop 0 flags 0 next -1 default 296 frame 3200 finfoSize 160 comp@0 rot 0007FD7F00000000 tr 00000009 sc 00000000
+  anim 174 'stand rifle move-left' type 0 frames 20 fsize 140 finfo 1 nodes 19 loop 0 flags 0 next -1 default 316 frame 2800 finfoSize 160 comp@0 rot 0007FD7E00000000 tr 00000001 sc 00000000
+  anim 175 'stand rifle move-right' type 0 frames 20 fsize 124 finfo 1 nodes 19 loop 0 flags 0 next -1 default 332 frame 2480 finfoSize 160 comp@0 rot 0002FD7E00000000 tr 00000001 sc 00000000
+  anim 176 'stand rifle pr melee' type 2 frames 40 fsize 80 finfo 0 nodes 19 loop 0 flags 0 next -1 default 376 frame 3200 finfoSize 0 comp@0 rot 0007F44800000000 tr 00000000 sc 00000000
+  anim 177 'stand rifle ready' type 2 frames 15 fsize 140 finfo 0 nodes 19 loop 0 flags 0 next -1 default 316 frame 2100 finfoSize 0 comp@0 rot 0007FD7E00000000 tr 00000001 sc 00000000
+  anim 178 'stand rifle sg chamber-1' type 1 frames 12 fsize 80 finfo 0 nodes 19 loop 0 flags 0 next -1 default 376 frame 960 finfoSize 0 comp@0 rot 0007F44800000000 tr 00000000 sc 00000000
+  anim 179 'stand rifle sg fire-1' type 1 frames 13 fsize 80 finfo 0 nodes 19 loop 0 flags 0 next -1 default 376 frame 1040 finfoSize 0 comp@0 rot 0007F44800000000 tr 00000000 sc 00000000
+  anim 180 'stand rifle sg melee' type 2 frames 38 fsize 80 finfo 0 nodes 19 loop 0 flags 0 next -1 default 376 frame 3040 finfoSize 0 comp@0 rot 0007F44800000000 tr 00000000 sc 00000000
+  anim 181 'stand rifle sg reload-1' type 2 frames 11 fsize 96 finfo 0 nodes 19 loop 0 flags 0 next -1 default 360 frame 1056 finfoSize 0 comp@0 rot 0007FD4800000000 tr 00000000 sc 00000000
+  anim 182 'stand rifle sr melee' type 2 frames 35 fsize 80 finfo 0 nodes 19 loop 0 flags 0 next -1 default 376 frame 2800 finfoSize 0 comp@0 rot 0007F44800000000 tr 00000000 sc 00000000
+  anim 183 'stand rifle sr reload-1' type 2 frames 64 fsize 72 finfo 0 nodes 19 loop 0 flags 0 next -1 default 384 frame 4608 finfoSize 0 comp@0 rot 0007F44000000000 tr 00000000 sc 00000000
+  anim 184 'stand rifle stunned-back' type 0 frames 26 fsize 156 finfo 1 nodes 19 loop 0 flags 0 next -1 default 300 frame 4056 finfoSize 208 comp@0 rot 0007FDFF00000000 tr 00000001 sc 00000000
+  anim 185 'stand rifle stunned-front' type 0 frames 19 fsize 156 finfo 1 nodes 19 loop 0 flags 0 next -1 default 300 frame 2964 finfoSize 152 comp@0 rot 0007FDFF00000000 tr 00000001 sc 00000000
+  anim 186 'stand rifle stunned-left' type 0 frames 19 fsize 156 finfo 1 nodes 19 loop 0 flags 0 next -1 default 300 frame 2964 finfoSize 152 comp@0 rot 0007FDFF00000000 tr 00000001 sc 00000000
+  anim 187 'stand rifle stunned-right' type 0 frames 19 fsize 156 finfo 1 nodes 19 loop 0 flags 0 next -1 default 300 frame 2964 finfoSize 152 comp@0 rot 0007FDFF00000000 tr 00000001 sc 00000000
+  anim 188 'stand rifle throw-grenade' type 0 frames 38 fsize 88 finfo 1 nodes 19 loop 0 flags 0 next -1 default 368 frame 3344 finfoSize 304 comp@0 rot 0007F4C800000000 tr 00000000 sc 00000000
+  anim 189 'stand rifle turn-left' type 0 frames 7 fsize 56 finfo 2 nodes 19 loop 0 flags 0 next -1 default 400 frame 392 finfoSize 84 comp@0 rot 00000D3600000000 tr 00000000 sc 00000000
+  anim 190 'stand rifle turn-right' type 0 frames 7 fsize 56 finfo 2 nodes 19 loop 0 flags 0 next -1 default 400 frame 392 finfoSize 84 comp@0 rot 00000D3600000000 tr 00000000 sc 00000000
+  anim 191 'stand unarmed airborne' type 0 frames 79 fsize 148 finfo 1 nodes 19 loop 39 flags 0 next -1 default 308 frame 11692 finfoSize 632 comp@0 rot 0007FD7F00000000 tr 00000008 sc 00000000
+  anim 192 'stand unarmed move-back' type 0 frames 20 fsize 168 finfo 1 nodes 19 loop 0 flags 0 next -1 default 288 frame 3360 finfoSize 160 comp@0 rot 0007FDFF00000000 tr 00000009 sc 00000000
+  anim 193 'stand unarmed move-front' type 0 frames 20 fsize 168 finfo 1 nodes 19 loop 0 flags 0 next -1 default 288 frame 3360 finfoSize 160 comp@0 rot 0007FDFF00000000 tr 00000009 sc 00000000
+  anim 194 'stand unarmed move-left' type 0 frames 20 fsize 140 finfo 1 nodes 19 loop 0 flags 0 next -1 default 316 frame 2800 finfoSize 160 comp@0 rot 0007FD7E00000000 tr 00000001 sc 00000000
+  anim 195 'stand unarmed move-right' type 0 frames 20 fsize 140 finfo 1 nodes 19 loop 0 flags 0 next -1 default 316 frame 2800 finfoSize 160 comp@0 rot 0007FD7E00000000 tr 00000001 sc 00000000
+  anim 196 'zW-passenger cannon aim-still' type 1 frames 9 fsize 136 finfo 0 nodes 19 loop 0 flags 0 next -1 default 320 frame 1224 finfoSize 0 comp@0 rot 0007FD7F00000000 tr 00000000 sc 00000000
+  anim 197 'zW-passenger cannon idle' type 0 frames 1 fsize 0 finfo 1 nodes 19 loop 0 flags 0 next -1 default 456 frame 0 finfoSize 8 comp@0 rot 0000000000000000 tr 00000000 sc 00000000
+  anim 198 'zW-passenger flame aim-still' type 1 frames 9 fsize 156 finfo 0 nodes 19 loop 0 flags 0 next -1 default 300 frame 1404 finfoSize 0 comp@0 rot 0007FF7F00000000 tr 00000001 sc 00000000
+  anim 199 'zW-passenger flame idle' type 0 frames 1 fsize 0 finfo 1 nodes 19 loop 0 flags 0 next -1 default 456 frame 0 finfoSize 8 comp@0 rot 0000000000000000 tr 00000000 sc 00000000
+  anim 200 'zcrouch cannon aim-move' type 1 frames 9 fsize 84 finfo 0 nodes 19 loop 0 flags 0 next -1 default 372 frame 756 finfoSize 0 comp@0 rot 0007F04800000000 tr 00000001 sc 00000000
+  anim 201 'zcrouch cannon aim-still' type 1 frames 9 fsize 128 finfo 0 nodes 19 loop 0 flags 0 next -1 default 328 frame 1152 finfoSize 0 comp@0 rot 0007F97F00000000 tr 00000000 sc 00000000
+  anim 202 'zcrouch cannon airborne' type 0 frames 39 fsize 104 finfo 1 nodes 19 loop 0 flags 0 next -1 default 352 frame 4056 finfoSize 312 comp@0 rot 0002F97E00000000 tr 00000000 sc 00000000
+  anim 203 'zcrouch cannon idle' type 0 frames 60 fsize 60 finfo 1 nodes 19 loop 0 flags 0 next -1 default 396 frame 3600 finfoSize 480 comp@0 rot 0000093600000000 tr 00000001 sc 00000000
+  anim 204 'zcrouch cannon land-hard' type 0 frames 59 fsize 132 finfo 1 nodes 19 loop 0 flags 0 next -1 default 324 frame 7788 finfoSize 472 comp@0 rot 0007F97E00000000 tr 00000001 sc 00000000
+  anim 205 'zcrouch cannon land-soft' type 0 frames 29 fsize 132 finfo 1 nodes 19 loop 0 flags 0 next -1 default 324 frame 3828 finfoSize 232 comp@0 rot 0007F97E00000000 tr 00000001 sc 00000000
+  anim 206 'zcrouch cannon move-back' type 0 frames 30 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 3480 finfoSize 240 comp@0 rot 0002F97E00000000 tr 00000001 sc 00000000
+  anim 207 'zcrouch cannon move-front' type 0 frames 30 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 3480 finfoSize 240 comp@0 rot 0002F97E00000000 tr 00000001 sc 00000000
+  anim 208 'zcrouch cannon move-left' type 0 frames 30 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 3480 finfoSize 240 comp@0 rot 0002F97E00000000 tr 00000001 sc 00000000
+  anim 209 'zcrouch cannon move-right' type 0 frames 30 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 3480 finfoSize 240 comp@0 rot 0002F97E00000000 tr 00000001 sc 00000000
+  anim 210 'zcrouch cannon turn-left' type 0 frames 14 fsize 48 finfo 2 nodes 19 loop 0 flags 0 next -1 default 408 frame 672 finfoSize 168 comp@0 rot 0000093600000000 tr 00000000 sc 00000000
+  anim 211 'zcrouch cannon turn-right' type 0 frames 14 fsize 48 finfo 2 nodes 19 loop 0 flags 0 next -1 default 408 frame 672 finfoSize 168 comp@0 rot 0000093600000000 tr 00000000 sc 00000000
+  anim 212 'zcrouch flame aim-move' type 1 frames 9 fsize 92 finfo 0 nodes 19 loop 0 flags 0 next -1 default 364 frame 828 finfoSize 0 comp@0 rot 0007F44800000000 tr 00000001 sc 00000000
+  anim 213 'zcrouch flame aim-still' type 1 frames 9 fsize 144 finfo 0 nodes 19 loop 0 flags 0 next -1 default 312 frame 1296 finfoSize 0 comp@0 rot 0007FF7F00000000 tr 00000000 sc 00000000
+  anim 214 'zcrouch flame airborne' type 1 frames 39 fsize 104 finfo 0 nodes 19 loop 0 flags 0 next -1 default 352 frame 4056 finfoSize 0 comp@0 rot 0002F97E00000000 tr 00000000 sc 00000000
+  anim 215 'zcrouch flame idle' type 0 frames 60 fsize 60 finfo 1 nodes 19 loop 0 flags 0 next -1 default 396 frame 3600 finfoSize 480 comp@0 rot 0000093600000000 tr 00000001 sc 00000000
+  anim 216 'zcrouch flame land-hard' type 0 frames 59 fsize 140 finfo 1 nodes 19 loop 0 flags 0 next -1 default 316 frame 8260 finfoSize 472 comp@0 rot 0007FD7E00000000 tr 00000001 sc 00000000
+  anim 217 'zcrouch flame land-soft' type 0 frames 29 fsize 100 finfo 1 nodes 19 loop 0 flags 0 next -1 default 356 frame 2900 finfoSize 232 comp@0 rot 0000797E00000000 tr 00000001 sc 00000000
+  anim 218 'zcrouch flame move-back' type 0 frames 30 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 3480 finfoSize 240 comp@0 rot 0002F97E00000000 tr 00000001 sc 00000000
+  anim 219 'zcrouch flame move-front' type 0 frames 29 fsize 140 finfo 1 nodes 19 loop 0 flags 0 next -1 default 316 frame 4060 finfoSize 232 comp@0 rot 0007FD7E00000000 tr 00000001 sc 00000000
+  anim 220 'zcrouch flame move-left' type 0 frames 30 fsize 100 finfo 1 nodes 19 loop 0 flags 0 next -1 default 356 frame 3000 finfoSize 240 comp@0 rot 0000797E00000000 tr 00000001 sc 00000000
+  anim 221 'zcrouch flame move-right' type 0 frames 30 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 3480 finfoSize 240 comp@0 rot 0002F97E00000000 tr 00000001 sc 00000000
+  anim 222 'zcrouch flame turn-left' type 0 frames 14 fsize 56 finfo 2 nodes 19 loop 0 flags 0 next -1 default 400 frame 784 finfoSize 168 comp@0 rot 00000D3600000000 tr 00000000 sc 00000000
+  anim 223 'zcrouch flame turn-right' type 0 frames 14 fsize 56 finfo 2 nodes 19 loop 0 flags 0 next -1 default 400 frame 784 finfoSize 168 comp@0 rot 00000D3600000000 tr 00000000 sc 00000000
+  anim 224 'zscorpionLF flame aim-still' type 1 frames 9 fsize 116 finfo 0 nodes 19 loop 0 flags 0 next -1 default 340 frame 1044 finfoSize 0 comp@0 rot 0005F93700000000 tr 00000001 sc 00000000
+  anim 225 'zscorpionLF flame idle' type 0 frames 30 fsize 32 finfo 1 nodes 19 loop 0 flags 0 next -1 default 424 frame 960 finfoSize 240 comp@0 rot 0000704000000000 tr 00000000 sc 00000000
+  anim 226 'zstand cannon aim-move' type 1 frames 9 fsize 144 finfo 0 nodes 19 loop 0 flags 0 next -1 default 312 frame 1296 finfoSize 0 comp@0 rot 0007F6CF00000000 tr 00000009 sc 00000000
+  anim 227 'zstand cannon aim-still' type 1 frames 9 fsize 164 finfo 0 nodes 19 loop 0 flags 0 next -1 default 292 frame 1476 finfoSize 0 comp@0 rot 0007FFFF00000000 tr 00000001 sc 00000000
+  anim 228 'zstand cannon airborne' type 0 frames 80 fsize 132 finfo 1 nodes 19 loop 0 flags 0 next -1 default 324 frame 10560 finfoSize 640 comp@0 rot 0003FD3F00000000 tr 00000008 sc 00000000
+  anim 229 'zstand cannon idle' type 0 frames 60 fsize 60 finfo 1 nodes 19 loop 0 flags 0 next -1 default 396 frame 3600 finfoSize 480 comp@0 rot 0000093600000000 tr 00000001 sc 00000000
+  anim 230 'zstand cannon land-hard' type 0 frames 60 fsize 140 finfo 1 nodes 19 loop 0 flags 0 next -1 default 316 frame 8400 finfoSize 480 comp@0 rot 0007F97F00000000 tr 00000001 sc 00000000
+  anim 231 'zstand cannon land-soft' type 0 frames 30 fsize 124 finfo 1 nodes 19 loop 0 flags 0 next -1 default 332 frame 3720 finfoSize 240 comp@0 rot 0003FD3700000000 tr 00000001 sc 00000000
+  anim 232 'zstand cannon melee' type 2 frames 28 fsize 156 finfo 0 nodes 19 loop 0 flags 0 next -1 default 300 frame 4368 finfoSize 0 comp@0 rot 0007FF7F00000000 tr 00000001 sc 00000000
+  anim 233 'zstand cannon move-back' type 0 frames 21 fsize 108 finfo 1 nodes 19 loop 0 flags 0 next -1 default 348 frame 2268 finfoSize 168 comp@0 rot 0007E93600000000 tr 00000001 sc 00000000
+  anim 234 'zstand cannon move-front' type 0 frames 21 fsize 136 finfo 1 nodes 19 loop 0 flags 0 next -1 default 320 frame 2856 finfoSize 168 comp@0 rot 0003ED3F00000000 tr 00000009 sc 00000000
+  anim 235 'zstand cannon move-left' type 0 frames 21 fsize 100 finfo 1 nodes 19 loop 0 flags 0 next -1 default 356 frame 2100 finfoSize 168 comp@0 rot 0003E93600000000 tr 00000001 sc 00000000
+  anim 236 'zstand cannon move-right' type 0 frames 21 fsize 100 finfo 1 nodes 19 loop 0 flags 0 next -1 default 356 frame 2100 finfoSize 168 comp@0 rot 0003E93600000000 tr 00000001 sc 00000000
+  anim 237 'zstand cannon throw-grenade' type 0 frames 42 fsize 80 finfo 1 nodes 19 loop 0 flags 0 next -1 default 376 frame 3360 finfoSize 336 comp@0 rot 0007F0C800000000 tr 00000000 sc 00000000
+  anim 238 'zstand cannon turn-left' type 0 frames 7 fsize 56 finfo 2 nodes 19 loop 0 flags 0 next -1 default 400 frame 392 finfoSize 84 comp@0 rot 00000D3600000000 tr 00000000 sc 00000000
+  anim 239 'zstand cannon turn-right' type 0 frames 7 fsize 56 finfo 2 nodes 19 loop 0 flags 0 next -1 default 400 frame 392 finfoSize 84 comp@0 rot 00000D3600000000 tr 00000000 sc 00000000
+  anim 240 'zstand flame aim-move' type 1 frames 9 fsize 148 finfo 0 nodes 19 loop 0 flags 0 next -1 default 308 frame 1332 finfoSize 0 comp@0 rot 0007FBFE00000000 tr 00000001 sc 00000000
+  anim 241 'zstand flame aim-still' type 1 frames 9 fsize 148 finfo 0 nodes 19 loop 0 flags 0 next -1 default 308 frame 1332 finfoSize 0 comp@0 rot 0007FD7F00000000 tr 00000001 sc 00000000
+  anim 242 'zstand flame airborne' type 0 frames 39 fsize 104 finfo 1 nodes 19 loop 0 flags 0 next -1 default 352 frame 4056 finfoSize 312 comp@0 rot 0002F97E00000000 tr 00000000 sc 00000000
+  anim 243 'zstand flame idle' type 0 frames 58 fsize 60 finfo 1 nodes 19 loop 0 flags 0 next -1 default 396 frame 3480 finfoSize 464 comp@0 rot 0000093600000000 tr 00000001 sc 00000000
+  anim 244 'zstand flame land-hard' type 0 frames 39 fsize 108 finfo 1 nodes 19 loop 0 flags 0 next -1 default 348 frame 4212 finfoSize 312 comp@0 rot 0007E93600000000 tr 00000001 sc 00000000
+  anim 245 'zstand flame land-soft' type 0 frames 29 fsize 108 finfo 1 nodes 19 loop 0 flags 0 next -1 default 348 frame 3132 finfoSize 232 comp@0 rot 0006AD3700000000 tr 00000001 sc 00000000
+  anim 246 'zstand flame melee' type 2 frames 29 fsize 148 finfo 0 nodes 19 loop 0 flags 0 next -1 default 308 frame 4292 finfoSize 0 comp@0 rot 0007FD7F00000000 tr 00000001 sc 00000000
+  anim 247 'zstand flame move-back' type 0 frames 20 fsize 140 finfo 1 nodes 19 loop 0 flags 0 next -1 default 316 frame 2800 finfoSize 160 comp@0 rot 0007F9FE00000000 tr 00000001 sc 00000000
+  anim 248 'zstand flame move-front' type 0 frames 20 fsize 176 finfo 1 nodes 19 loop 0 flags 0 next -1 default 280 frame 3520 finfoSize 160 comp@0 rot 0007FFFF00000000 tr 00000009 sc 00000000
+  anim 249 'zstand flame move-left' type 0 frames 20 fsize 116 finfo 1 nodes 19 loop 0 flags 0 next -1 default 340 frame 2320 finfoSize 160 comp@0 rot 0002F97E00000000 tr 00000001 sc 00000000
+  anim 250 'zstand flame move-right' type 0 frames 20 fsize 140 finfo 1 nodes 19 loop 0 flags 0 next -1 default 316 frame 2800 finfoSize 160 comp@0 rot 0007F9FE00000000 tr 00000001 sc 00000000
+  anim 251 'zstand flame throw-grenade' type 0 frames 38 fsize 80 finfo 1 nodes 19 loop 0 flags 0 next -1 default 376 frame 3040 finfoSize 304 comp@0 rot 0007F0C800000000 tr 00000000 sc 00000000
+  anim 252 'zstand flame turn-left' type 0 frames 7 fsize 56 finfo 2 nodes 19 loop 0 flags 0 next -1 default 400 frame 392 finfoSize 84 comp@0 rot 00000D3600000000 tr 00000000 sc 00000000
+  anim 253 'zstand flame turn-right' type 0 frames 7 fsize 56 finfo 2 nodes 19 loop 0 flags 0 next -1 default 400 frame 392 finfoSize 84 comp@0 rot 00000D3600000000 tr 00000000 sc 00000000
+compressed 0 of 254
+ unit 'W-driver' anims 12 ik 2 weapons 1 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 23 24 25 -1 -1 26 27 120 -1 -1
+   weapon 'unarmed' grip '' hand '' types 1 ik 0: 29 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 28 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type '':
+ unit 'W-gunner' anims 12 ik 4 weapons 1 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 30 31 32 -1 -1 33 34 120 -1 -1
+   weapon 'fixed' grip 'left hand gun grip' hand 'right hand gun grip' types 1 ik 2: 36 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 35 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type '':
+ unit 'W-passenger' anims 12 ik 0 weapons 5 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 37 38 39 -1 -1 40 41 120 -1 -1
+   weapon 'rifle' grip '' hand 'right hand' types 5 ik 1: 47 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 46 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'ar': 166 -1 -1 -1 163 -1 -1 -1 -1 -1
+     type 'sg': 181 -1 -1 -1 179
+     type 'sr': 183 -1 -1 -1 163
+     type 'pr': -1 -1 -1 -1 163
+     type 'f':
+   weapon 'pistol' grip '' hand 'right hand' types 4 ik 1: 45 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 44 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'hp': 145 -1 -1 -1 143
+     type 'pp': -1 -1 -1 -1 143
+     type 'ne': 154 -1 -1 -1 143
+     type 'b': -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+   weapon 'missile' grip '' hand 'right hand' types 1 ik 1: 43 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 42 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'rl': 135 -1 -1 -1 133
+   weapon 'plasmacannon' grip '' hand 'right hand' types 1 ik 1: 197 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 196 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'pc':
+   weapon 'flamethrower' grip '' hand 'right hand' types 1 ik 1: 199 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 198 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'ft':
+ unit 'crouch' anims 12 ik 0 weapons 6 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 -1 -1 -1 -1 -1 -1 -1 120 -1 -1
+   weapon 'rifle' grip '' hand 'right hand' types 5 ik 1: 77 -1 84 85 -1 -1 -1 -1 81 80 82 83 -1 -1 -1 -1 76 79 78 -1 188 -1 -1 -1 -1 75 74 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'ar': 166 -1 -1 -1 163 -1 -1 -1 165
+     type 'sg': -1 -1 -1 -1 -1 -1 -1 -1 182
+     type 'sr': 183 -1 -1 -1 -1 -1 -1 -1 182
+     type 'pr': -1 -1 -1 -1 163 -1 -1 -1 182
+     type 'f': -1 -1 -1 -1 -1 -1 -1 -1 167
+   weapon 'pistol' grip '' hand 'right hand' types 4 ik 1: 67 -1 72 73 -1 -1 -1 -1 69 68 70 71 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 66 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'hp': 145 -1 -1 -1 143 -1 -1 -1 144
+     type 'pp': -1 -1 -1 -1 143 -1 -1 -1 144
+     type 'ne': 154 -1 -1 -1 -1 -1 -1 -1 144
+     type 'b': -1 -1 -1 -1 -1 -1 -1 -1 144
+   weapon 'missile' grip '' hand 'right hand' types 1 ik 1: 59 -1 64 65 -1 -1 -1 -1 61 60 62 63 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 58 57 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'rl': 135 -1 -1 -1 133 -1 -1 -1 134
+   weapon 'plasmacannon' grip '' hand 'right hand' types 1 ik 1: 203 -1 210 211 -1 -1 -1 -1 207 206 208 209 -1 -1 -1 -1 228 231 230 -1 237 -1 -1 -1 -1 201 200 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'pc': -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+   weapon 'flamethrower' grip '' hand 'right hand' types 1 ik 1: 215 -1 222 223 -1 -1 -1 -1 219 218 220 221 -1 -1 -1 -1 242 245 244 -1 251 -1 -1 -1 -1 213 212 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'ft': 183 -1 -1 -1 -1 -1 -1 -1 -1 -1
+   weapon 'unarmed' grip '' hand '' types 1 ik 0: 86 -1 91 92 -1 -1 -1 -1 88 87 89 90 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type '':
+ unit 'stand' anims 12 ik 0 weapons 6 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 -1 -1 -1 159 -1 -1 -1 120 -1 -1
+   weapon 'rifle' grip '' hand 'right hand' types 7 ik 1: 168 -1 189 190 -1 -1 -1 -1 173 172 174 175 -1 -1 -1 -1 162 170 169 -1 188 -1 -1 177 -1 161 160 -1 -1 -1 -1 -1 -1 -1 -1 185 184 186 187 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'ar': 166 -1 -1 -1 163 164 -1 -1 165
+     type 'sg': 181 -1 178 -1 179 -1 -1 -1 180
+     type 'sr': 183 -1 -1 -1 -1 -1 -1 -1 182
+     type 'pr': -1 -1 -1 -1 163 -1 -1 -1 176
+     type 'pb': -1 -1 -1 -1 -1
+     type 'ne': -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'f': -1 -1 -1 -1 -1 -1 -1 -1 167
+   weapon 'pistol' grip '' hand 'right hand' types 4 ik 1: 146 -1 157 158 -1 -1 -1 -1 150 149 151 152 -1 -1 -1 -1 141 148 147 -1 188 -1 -1 -1 -1 140 139 -1 -1 -1 -1 -1 -1 -1 -1 185 184 186 187 249 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'hp': 145 -1 -1 -1 143 -1 -1 -1 144
+     type 'pp': -1 -1 -1 -1 143 -1 -1 -1 155
+     type 'ne': 154 -1 -1 -1 -1 -1 -1 -1 153
+     type 'b': -1 -1 -1 -1 -1 -1 -1 -1 142
+   weapon 'missile' grip '' hand 'right hand' types 1 ik 1: 125 -1 137 138 -1 -1 -1 -1 129 128 130 131 -1 -1 -1 -1 123 127 126 -1 188 -1 -1 -1 -1 122 121 -1 -1 -1 -1 -1 -1 -1 -1 136 136 136 136 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'rl': 135 -1 -1 -1 133 -1 -1 -1 134
+   weapon 'plasmacannon' grip '' hand 'right hand' types 1 ik 1: 229 -1 238 239 -1 -1 -1 -1 234 233 235 236 -1 -1 -1 -1 228 231 230 -1 237 -1 -1 -1 -1 227 226 -1 -1 -1 -1 -1 -1 -1 -1 185 184 186 187 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'pc': -1 -1 -1 -1 -1 -1 -1 -1 232
+   weapon 'flamethrower' grip '' hand 'right hand' types 1 ik 1: 243 -1 252 253 -1 -1 -1 -1 248 247 249 250 -1 -1 -1 -1 242 245 244 -1 251 -1 -1 -1 -1 241 240 -1 -1 -1 -1 -1 -1 -1 -1 185 184 186 187 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'ft': 183 -1 -1 -1 -1 -1 -1 -1 246 -1
+   weapon 'unarmed' grip '' hand '' types 1 ik 0: 51 -1 55 56 -1 -1 -1 -1 193 192 194 195 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 50 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type '':
+ unit 'G-driver' anims 12 ik 2 weapons 1 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 5 6 7 -1 -1 8 9 120 -1 -1
+   weapon 'unarmed' grip '' hand '' types 1 ik 0: 10 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type '':
+ unit 'B-driver' anims 12 ik 0 weapons 1 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 -1 -1 -1 -1 -1 0 1 120 -1 -1
+   weapon 'unarmed' grip '' hand '' types 1 ik 0: 2 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type '':
+ unit 'S-driver' anims 12 ik 2 weapons 1 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 -1 -1 -1 -1 -1 -1 -1 120 -1 -1
+   weapon 'unarmed' grip '' hand '' types 1 ik 0: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type '':
+ unit 'S-gunner' anims 12 ik 4 weapons 1 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 -1 -1 -1 -1 -1 -1 -1 120 -1 -1
+   weapon 'fixed' grip 'left hand gun grip' hand 'right hand gun grip' types 1 ik 2: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type '':
+ unit 'S-rider' anims 12 ik 0 weapons 1 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 -1 -1 -1 -1 -1 -1 -1 120 -1 -1
+   weapon 'rifle' grip '' hand 'right hand' types 4 ik 1: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'ar':
+     type 'hp':
+     type 'sg':
+     type 'sr':
+ unit 'R-driver' anims 12 ik 2 weapons 1 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 -1 -1 -1 -1 -1 -1 -1 120 -1 -1
+   weapon 'unarmed' grip '' hand '' types 1 ik 0: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type '':
+ unit 'P-driver' anims 12 ik 0 weapons 1 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 -1 -1 -1 -1 -1 -1 -1 120 -1 -1
+   weapon 'unarmed' grip '' hand '' types 1 ik 0: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type '':
+ unit 'alert' anims 15 ik 0 weapons 2 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 -1 -1 -1 -1 -1 -1 -1 120 -1 -1 -1 -1 -1
+   weapon 'rifle' grip '' hand 'right hand' types 2 ik 1: 168 -1 189 190 -1 -1 -1 -1 49 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 161 48 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'ar':
+     type 'sg':
+   weapon 'unarmed' grip '' hand '' types 1 ik 0: 51 -1 55 56 -1 -1 -1 -1 54 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 50 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type '':
+ unit 'scorpion-driver' anims 12 ik 0 weapons 1 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 -1 -1 -1 -1 -1 108 109 120 -1 -1
+   weapon 'unarmed' grip '' hand '' types 1 ik 0: 110 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type '':
+ unit 'driver lifepod' anims 12 ik 2 weapons 1 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 -1 -1 -1 -1 -1 -1 -1 120 -1 -1
+   weapon 'unarmed' grip '' hand '' types 1 ik 0: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type '':
+ unit 'W-rider' anims 12 ik 0 weapons 1 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 -1 -1 -1 -1 -1 -1 -1 120 -1 -1
+   weapon 'rifle' grip '' hand '' types 1 ik 0: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type '':
+ unit 'P-riderLF' anims 12 ik 0 weapons 1 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 -1 -1 -1 -1 -1 18 19 120 -1 -1
+   weapon 'rifle' grip '' hand 'right hand' types 8 ik 1: 20 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'ar':
+     type 'hp':
+     type 'sr':
+     type 'sg':
+     type 'pr':
+     type 'rl':
+     type 'pp':
+     type 'ne':
+ unit 'GT-gunner' anims 12 ik 0 weapons 2 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 11 12 13 -1 -1 14 15 120 -1 -1
+   weapon 'unarmed' grip '' hand '' types 1 ik 0: 17 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type '':
+   weapon 'fixed' grip '' hand '' types 1 ik 0: 16 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type '':
+ unit 'CT-driver' anims 12 ik 0 weapons 1 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 -1 -1 -1 -1 -1 -1 3 120 -1 -1
+   weapon 'unarmed' grip '' hand '' types 1 ik 0: 4 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type '':
+ unit 'P-riderRF' anims 12 ik 0 weapons 3 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 -1 -1 -1 -1 -1 21 22 120 -1 -1
+   weapon 'rifle' grip '' hand '' types 8 ik 0: 20 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'hp':
+     type 'ar':
+     type 'rl':
+     type 'ne':
+     type 'pp':
+     type 'pr':
+     type 'sr':
+     type 'sg':
+   weapon 'plasmacannon' grip '' hand 'right hand' types 1 ik 0: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 242 245 244 -1 251 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 246 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'pc':
+   weapon 'flamethrower' grip '' hand 'ft' types 1 ik 0: -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 242 245 244 -1 251 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 246 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'ft':
+ unit 'scorpionLF' anims 12 ik 1 weapons 5 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 111 112 113 -1 -1 114 115 120 -1 -1
+   weapon 'rifle' grip '' hand 'right hand' types 6 ik 0: 117 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 116 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'ar': -1 -1 -1 -1 163
+     type 'pr': -1 -1 -1 -1 163
+     type 'ne': -1 -1 -1 -1 163
+     type 'sg': -1 -1 -1 -1 179
+     type 'sr': -1 -1 -1 -1 179
+     type 'f':
+   weapon 'pistol' grip '' hand 'right hand' types 3 ik 0: 117 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 116 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'hp': -1 -1 -1 -1 143
+     type 'pp': -1 -1 -1 -1 143
+     type 'b':
+   weapon 'missile' grip '' hand 'right hand' types 1 ik 0: 117 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 116 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'rl': -1 -1 -1 -1 179
+   weapon 'flamethrower' grip '' hand 'right hand' types 1 ik 0: 225 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 251 -1 -1 -1 -1 224 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'ft': -1 -1 -1 -1 -1
+   weapon 'plasmacannon' grip '' hand 'right hand' types 1 ik 0: 117 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 237 -1 -1 -1 -1 116 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'pc':
+ unit 'scorpionLB' anims 12 ik 1 weapons 5 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 111 112 113 -1 -1 114 115 120 -1 -1
+   weapon 'rifle' grip '' hand 'right hand' types 6 ik 0: 117 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 116 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'ar': -1 -1 -1 -1 163
+     type 'pr': -1 -1 -1 -1 163
+     type 'ne': -1 -1 -1 -1 163
+     type 'sg': -1 -1 -1 -1 179
+     type 'sr': -1 -1 -1 -1 179
+     type 'f':
+   weapon 'pistol' grip '' hand 'right hand' types 3 ik 0: 117 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 116 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'hp': -1 -1 -1 -1 143
+     type 'pp': -1 -1 -1 -1 143
+     type 'b':
+   weapon 'missile' grip '' hand 'right hand' types 1 ik 0: 117 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 116 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'rl': -1 -1 -1 -1 179
+   weapon 'flamethrower' grip '' hand 'right hand' types 1 ik 0: 225 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 251 -1 -1 -1 -1 224 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'ft': -1 -1 -1 -1 -1
+   weapon 'plasmacannon' grip '' hand 'right hand' types 1 ik 0: 117 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 237 -1 -1 -1 -1 116 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'pc':
+ unit 'scorpionRB' anims 12 ik 1 weapons 5 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 111 112 113 -1 -1 114 115 120 -1 -1
+   weapon 'rifle' grip '' hand 'right hand' types 6 ik 0: 117 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 116 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'ar': -1 -1 -1 -1 163
+     type 'pr': -1 -1 -1 -1 163
+     type 'ne': -1 -1 -1 -1 163
+     type 'sg': -1 -1 -1 -1 179
+     type 'sr': -1 -1 -1 -1 179
+     type 'f':
+   weapon 'pistol' grip '' hand 'right hand' types 3 ik 0: 117 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 116 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'hp': -1 -1 -1 -1 143
+     type 'pp': -1 -1 -1 -1 143
+     type 'b':
+   weapon 'missile' grip '' hand 'right hand' types 1 ik 0: 117 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 116 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'rl': -1 -1 -1 -1 179
+   weapon 'flamethrower' grip '' hand 'right hand' types 1 ik 0: 225 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 251 -1 -1 -1 -1 224 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'ft': -1 -1 -1 -1 -1
+   weapon 'plasmacannon' grip '' hand 'right hand' types 1 ik 0: 117 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 237 -1 -1 -1 -1 116 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'pc':
+ unit 'scorpionRF' anims 12 ik 1 weapons 5 yaw 1.2217305/1.2217305 1/1 pitch 0.7853982/0.7853982 1/1
+    unit anims: 118 119 111 112 113 -1 -1 114 115 120 -1 -1
+   weapon 'rifle' grip '' hand 'right hand' types 6 ik 0: 117 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 116 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'ar': -1 -1 -1 -1 163
+     type 'pr': -1 -1 -1 -1 163
+     type 'ne': -1 -1 -1 -1 163
+     type 'sg': -1 -1 -1 -1 179
+     type 'sr': -1 -1 -1 -1 179
+     type 'f':
+   weapon 'pistol' grip '' hand 'right hand' types 3 ik 0: 117 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 116 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'hp': -1 -1 -1 -1 143
+     type 'pp': -1 -1 -1 -1 143
+     type 'b':
+   weapon 'missile' grip '' hand 'right hand' types 1 ik 0: 117 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 188 -1 -1 -1 -1 116 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'rl': -1 -1 -1 -1 179
+   weapon 'flamethrower' grip '' hand 'right hand' types 1 ik 0: 225 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 251 -1 -1 -1 -1 224 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'ft': -1 -1 -1 -1 -1
+   weapon 'plasmacannon' grip '' hand 'right hand' types 1 ik 0: 117 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 191 127 126 -1 237 -1 -1 -1 -1 116 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+     type 'pc':

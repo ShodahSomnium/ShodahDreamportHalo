@@ -1,0 +1,293 @@
+ui\hud\bitmaps\combined\hud_unit_backgrounds type 0 usage 1 images 13 seqs 0: first 0 n 1 sprites [] | 1: first 1 n 1 sprites [] | 2: first 2 n 1 sprites [] | 3: first 3 n 1 sprites [] | 4: first 4 n 1 sprites [] | 5: first 5 n 1 sprites [] | 6: first 6 n 1 sprites [] | 7: first 7 n 1 sprites [] | 8: first 8 n 1 sprites [] | 9: first 9 n 1 sprites [] | 10: first 10 n 1 sprites [] | 11: first 11 n 1 sprites [] | 12: first 12 n 1 sprites []
+   img 0 256x64 A8R8G8B8 type 0 reg 128,27
+   img 1 128x32 A8R8G8B8 type 0 reg 64,19
+   img 2 256x32 A8R8G8B8 type 0 reg 128,19
+   img 3 256x32 A8R8G8B8 type 0 reg 128,17
+   img 4 256x16 A8R8G8B8 type 0 reg 128,13
+   img 5 128x8 A8R8G8B8 type 0 reg 64,10
+   img 6 128x128 A8R8G8B8 type 0 reg 64,64
+   img 7 64x64 A8R8G8B8 type 0 reg 32,37
+   img 8 256x64 A8R8G8B8 type 0 reg 128,34
+   img 9 256x64 A8R8G8B8 type 0 reg 128,32
+   img 10 256x64 A8R8G8B8 type 0 reg 128,33
+   img 11 128x32 A8R8G8B8 type 0 reg 64,19
+   img 12 256x64 A8R8G8B8 type 0 reg 128,52
+ui\hud\bitmaps\combined\hud_unit_meters type 3 usage 1 images 1 seqs 0: first 0 n 0 sprites [b0 0,0.258-0.512,0.387 reg 0.256,0.055] | 1: first 0 n 0 sprites [b0 0.504,0-0.742,0.061 reg 0.119,0.039] | 2: first 0 n 0 sprites [b0 0,0.387-0.504,0.484 reg 0.252,0.047] | 3: first 0 n 0 sprites [b0 0.742,0-0.914,0.027 reg 0.086,0.021] | 4: first 0 n 0 sprites [b0 0,0.484-0.504,0.52 reg 0.252,0.016] | 5: first 0 n 0 sprites [b0 0.504,0.129-0.758,0.148 reg 0.127,0.021] | 6: first 0 n 0 sprites [b0 0,0.129-0.504,0.258 reg 0.252,0.066] | 7:import #7 first 0 n 0 sprites [b0 0,0-0.504,0.129 reg 0.252,0.066]
+   img 0 512x512 DXT5 type 0 reg 0,0
+ui\hud\bitmaps\combined\hud_weapon_backgrounds type 0 usage 1 images 5 seqs 0: first 0 n 1 sprites [] | 1: first 1 n 1 sprites [] | 2: first 2 n 1 sprites [] | 3: first 3 n 1 sprites [] | 4: first 4 n 1 sprites []
+   img 0 128x32 A8R8G8B8 type 0 reg 64,19
+   img 1 128x32 A8R8G8B8 type 0 reg 64,19
+   img 2 128x32 A8R8G8B8 type 0 reg 64,19
+   img 3 128x128 A8R8G8B8 type 0 reg 64,64
+   img 4 64x64 A8R8G8B8 type 0 reg 32,37
+ui\hud\bitmaps\combined\hud_reticle_warnings type 3 usage 1 images 1 seqs 0: first 0 n 0 sprites [b0 0,0.211-0.383,0.422 reg 0.188,0.094] | 1: first 0 n 0 sprites [b0 0.328,0.617-0.672,0.734 reg 0.172,0.063] | 2: first 0 n 0 sprites [b0 0,0.422-0.328,0.617 reg 0.164,0.117] | 3: first 0 n 0 sprites [b0 0.602,0.211-0.82,0.406 reg 0.109,0.117] | 4: first 0 n 0 sprites [b0 0.383,0.211-0.602,0.406 reg 0.109,0.109] | 5: first 0 n 0 sprites [b0 0.328,0.422-0.797,0.609 reg 0.234,0.07] | 6:import #6 first 0 n 0 sprites [b0 0.438,0-0.828,0.211 reg 0.195,0.117] | 7:import #7 first 0 n 0 sprites [b0 0,0.617-0.328,0.805 reg 0.164,0.102] | 8:import #8 first 0 n 0 sprites [b0 0.828,0-0.914,0.055 reg 0.039,0.016] | 9:import #9 first 0 n 0 sprites [b0 0.703,0.805-0.938,0.852 reg 0.117,0.016 b0 0.469,0.805-0.703,0.852 reg 0.117,0.016 b0 0.672,0.617-0.906,0.664 reg 0.117,0.016 b0 0,0.805-0.234,0.852 reg 0.117,0.016 b0 0.234,0.805-0.469,0.852 reg 0.117,0.016] | 10:import #10 first 0 n 0 sprites [b0 0,0-0.438,0.211 reg 0.219,0.086]
+   img 0 128x128 A8R8G8B8 type 0 reg 0,0
+ui\hud\bitmaps\combined\hud_ammo_outlines type 0 usage 1 images 4 seqs 0: first 0 n 1 sprites [] | 1: first 1 n 1 sprites [] | 2: first 2 n 1 sprites [] | 3: first 3 n 1 sprites []
+   img 0 128x32 DXT3 type 0 reg 64,19
+   img 1 128x8 DXT3 type 0 reg 64,10
+   img 2 128x32 DXT3 type 0 reg 64,19
+   img 3 128x32 DXT3 type 0 reg 64,19
+ui\hud\bitmaps\combined\hud_ammo_type_icons type 0 usage 1 images 5 seqs 0: first 0 n 1 sprites [] | 1: first 1 n 1 sprites [] | 2: first 2 n 1 sprites [] | 3: first 3 n 1 sprites [] | 4: first 4 n 1 sprites []
+   img 0 32x16 A8R8G8B8 type 0 reg 16,10
+   img 1 64x16 A8R8G8B8 type 0 reg 32,10
+   img 2 32x16 A8R8G8B8 type 0 reg 16,10
+   img 3 32x16 A8R8G8B8 type 0 reg 16,10
+   img 4 32x16 A8R8G8B8 type 0 reg 16,10
+ui\hud\bitmaps\combined\hud_ammo_alphas type 3 usage 1 images 1 seqs 0: first 0 n 0 sprites [b0 0,0.236-0.408,0.297 reg 0.203,0.035] | 1: first 0 n 0 sprites [b0 0,0-0.443,0.104 reg 0.221,0.053] | 2: first 0 n 0 sprites [b0 0.506,0.104-0.93,0.172 reg 0.211,0.039] | 3: first 0 n 0 sprites [b0 0.408,0.236-0.816,0.285 reg 0.203,0.025] | 4: first 0 n 0 sprites [b0 0.42,0.172-0.852,0.236 reg 0.215,0.029] | 5: first 0 n 0 sprites [b0 0,0.172-0.42,0.236 reg 0.209,0.033] | 6: first 0 n 0 sprites [b0 0.443,0-0.859,0.084 reg 0.207,0.043] | 7: first 0 n 0 sprites [b0 0,0.104-0.506,0.172 reg 0.252,0.029] | 8:import #8 first 0 n 0 sprites [b0 0,0.297-0.506,0.334 reg 0.252,0.016]
+   img 0 512x512 A8R8G8B8 type 0 reg 0,0
+ui\hud\bitmaps\combined\hud_ammo_meters type 3 usage 1 images 1 seqs 0: first 0 n 0 sprites [b0 0,0.236-0.408,0.297 reg 0.203,0.035] | 1: first 0 n 0 sprites [b0 0,0-0.443,0.104 reg 0.221,0.053] | 2: first 0 n 0 sprites [b0 0.506,0.104-0.93,0.172 reg 0.211,0.039] | 3: first 0 n 0 sprites [b0 0.408,0.236-0.816,0.285 reg 0.203,0.025] | 4: first 0 n 0 sprites [b0 0.42,0.172-0.852,0.236 reg 0.215,0.029] | 5: first 0 n 0 sprites [b0 0,0.172-0.42,0.236 reg 0.209,0.033] | 6: first 0 n 0 sprites [b0 0.443,0-0.859,0.084 reg 0.207,0.043] | 7: first 0 n 0 sprites [b0 0,0.104-0.506,0.172 reg 0.252,0.029] | 8:import #8 first 0 n 0 sprites [b0 0,0.297-0.506,0.334 reg 0.252,0.016]
+   img 0 512x512 A8R8G8B8 type 0 reg 0,0
+ui\hud\bitmaps\combined\hud_reticles type 3 usage 1 images 14 seqs 0: first 0 n 0 sprites [b0 0,0-0.516,0.516 reg 0.258,0.258] | 1: first 0 n 0 sprites [b1 0,0-1,1 reg 0.5,0.5] | 2: first 0 n 0 sprites [b2 0,0-1,1 reg 0.5,0.5] | 3: first 0 n 0 sprites [b3 0,0-1,1 reg 0.5,0.5] | 4: first 0 n 0 sprites [b4 0,0-1,1 reg 0.5,0.5] | 5: first 0 n 0 sprites [b5 0,0-1,1 reg 0.5,0.5] | 6: first 0 n 0 sprites [b6 0,0-1,1 reg 0.5,0.5] | 7: first 0 n 0 sprites [b0 0.734,0-0.953,0.219 reg 0.109,0.109] | 8: first 0 n 0 sprites [b0 0.516,0-0.734,0.219 reg 0.109,0.109] | 9: first 0 n 0 sprites [b7 0,0-1,1 reg 0.5,0.5] | 10: first 0 n 0 sprites [b8 0,0-1,1 reg 0.5,0.5] | 11: first 0 n 0 sprites [b9 0,0-1,1 reg 0.5,0.516] | 12:import #12 first 0 n 0 sprites [b10 0,0-1,1 reg 0.5,0.5] | 13:import #13 first 0 n 0 sprites [b11 0,0-1,1 reg 0.5,0.516] | 14:import #14 first 0 n 0 sprites [b0 0,0.516-0.141,0.594 reg 0.07,0.047] | 15:import #15 first 0 n 0 sprites [b12 0,0-1,1 reg 0.5,0.516] | 16:import #16 first 0 n 0 sprites [b13 0,0-1,1 reg 0.5,0.516]
+   img 0 128x128 A8R8G8B8 type 0 reg 0,0
+   img 1 64x64 A8R8G8B8 type 0 reg 0,0
+   img 2 64x64 A8R8G8B8 type 0 reg 0,0
+   img 3 64x64 A8R8G8B8 type 0 reg 0,0
+   img 4 64x64 A8R8G8B8 type 0 reg 0,0
+   img 5 64x64 A8R8G8B8 type 0 reg 0,0
+   img 6 64x64 A8R8G8B8 type 0 reg 0,0
+   img 7 64x64 A8R8G8B8 type 0 reg 0,0
+   img 8 64x64 A8R8G8B8 type 0 reg 0,0
+   img 9 64x64 A8R8G8B8 type 0 reg 0,0
+   img 10 64x64 A8R8G8B8 type 0 reg 0,0
+   img 11 64x64 A8R8G8B8 type 0 reg 0,0
+   img 12 64x64 A8R8G8B8 type 0 reg 0,0
+   img 13 64x64 A8R8G8B8 type 0 reg 0,0
+ui\hud\bitmaps\sniper\hud_reticles_scope type 3 usage 1 images 1 seqs 0: first 0 n 0 sprites [b0 0.797,0-0.984,0.188 reg 0.094,0.125] | 1: first 0 n 0 sprites [b0 0,0-0.391,0.281 reg 0.188,0.938 b0 0.391,0-0.797,0.281 reg 0.203,0.938]
+   img 0 64x64 A8R8G8B8 type 0 reg 0,0
+ui\hud\bitmaps\pistol\pistol_scope_mask type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 256x256 A8R8G8B8 type 0 reg 128,128
+ui\hud\bitmaps\pistol\pistol_scope_mask split type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 256x256 A8R8G8B8 type 0 reg 128,128
+ui\hud\bitmaps\sniper\sniper_scope_crosshairs2 type 0 usage 1 images 5 seqs 0: first 0 n 1 sprites [] | 1: first 1 n 1 sprites [] | 2: first 2 n 1 sprites [] | 3:import #3 first 3 n 1 sprites [] | 4:import #4 first 4 n 1 sprites []
+   img 0 64x256 A8R8G8B8 type 0 reg 32,128
+   img 1 64x256 A8R8G8B8 type 0 reg 32,128
+   img 2 128x8 A8R8G8B8 type 0 reg 64,5
+   img 3 128x8 A8R8G8B8 type 0 reg 64,6
+   img 4 8x128 A8R8G8B8 type 0 reg 4,66
+ui\hud\bitmaps\sniper\sniper_scope_crosshairs_sm type 0 usage 1 images 5 seqs 0: first 0 n 1 sprites [] | 1: first 1 n 1 sprites [] | 2: first 2 n 1 sprites [] | 3:import #3 first 3 n 1 sprites [] | 4:import #4 first 4 n 1 sprites []
+   img 0 32x128 A8R8G8B8 type 0 reg 16,66
+   img 1 32x128 A8R8G8B8 type 0 reg 16,68
+   img 2 128x4 A8R8G8B8 type 0 reg 64,3
+   img 3 128x4 A8R8G8B8 type 0 reg 64,3
+   img 4 4x64 A8R8G8B8 type 0 reg 2,30
+ui\hud\bitmaps\sniper\caption type 3 usage 1 images 1 seqs 0: first 0 n 0 sprites [b0 0,0-1,0.25 reg 0.5,0.133]
+   img 0 128x128 A8R8G8B8 type 0 reg 0,0
+ui\hud\bitmaps\sniper\sniper_scope_mask2 type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 512x256 A8R8G8B8 type 0 reg 256,128
+ui\hud\bitmaps\sniper\sniper_scope_mask_sm type 0 usage 1 images 1 seqs 0:import #0 first 0 n 1 sprites []
+   img 0 256x256 A8R8G8B8 type 0 reg 128,128
+ui\hud\bitmaps\combined\hud_msg_icons type 3 usage 1 images 5 seqs 0: first 0 n 0 sprites [b0 0.375,0.563-0.563,0.789 reg 0.094,0.117] | 1: first 0 n 0 sprites [b0 0,0.563-0.188,0.797 reg 0.094,0.117] | 2: first 0 n 0 sprites [b0 0.781,0.313-0.969,0.547 reg 0.094,0.117] | 3: first 0 n 0 sprites [b0 0.188,0.563-0.375,0.789 reg 0.094,0.117] | 4: first 0 n 0 sprites [b0 0,0.797-0.953,1 reg 0.477,0.125] | 5: first 0 n 0 sprites [b0 0,0.313-0.781,0.563 reg 0.391,0.141] | 6: first 0 n 0 sprites [b0 0.57,0-0.945,0.305 reg 0.188,0.18] | 7: first 0 n 0 sprites [b1 0,0-0.742,0.328 reg 0.367,0.219] | 8:import #8 first 0 n 0 sprites [b1 0,0.641-0.641,0.898 reg 0.32,0.109] | 9:import #9 first 0 n 0 sprites [b0 0.273,0-0.57,0.313 reg 0.148,0.156] | 10:import #10 first 0 n 0 sprites [b2 0,0-0.484,0.438 reg 0.242,0.242] | 11:import #11 first 0 n 0 sprites [b1 0.273,0.328-0.789,0.633 reg 0.258,0.172] | 12:import #12 first 0 n 0 sprites [b2 0,0.719-0.953,0.922 reg 0.477,0.047] | 13:import #13 first 0 n 0 sprites [b0 0.711,0.563-0.859,0.734 reg 0.07,0.078] | 14:import #14 first 0 n 0 sprites [b0 0.563,0.563-0.711,0.734 reg 0.07,0.07] | 15:import #15 first 0 n 0 sprites [b0 0,0-0.273,0.313 reg 0.133,0.148] | 16:import #16 first 0 n 0 sprites [b1 0,0.328-0.273,0.641 reg 0.133,0.156] | 17:import #17 first 0 n 0 sprites [b1 0.742,0-0.984,0.219 reg 0.117,0.102] | 18:import #18 first 0 n 0 sprites [b1 0.641,0.641-0.906,0.859 reg 0.133,0.117] | 19:import #19 first 0 n 0 sprites [b2 0.484,0-0.758,0.281 reg 0.133,0.141 b2 0,0.438-0.273,0.719 reg 0.133,0.141 b2 0.273,0.438-0.547,0.719 reg 0.133,0.141] | 20:import #20 first 0 n 0 sprites [b3 0,0.414-0.273,0.695 reg 0.133,0.125 b3 0.688,0-0.961,0.281 reg 0.133,0.125 b3 0.414,0-0.688,0.281 reg 0.133,0.125] | 21:import #21 first 0 n 0 sprites [b2 0.547,0.438-0.914,0.711 reg 0.18,0.133] | 22:import #22 first 0 n 0 sprites [b3 0.273,0.414-0.641,0.688 reg 0.18,0.141] | 23:import #23 first 0 n 0 sprites [b3 0,0-0.414,0.414 reg 0.203,0.211] | 24:import #24 first 0 n 0 sprites [b4 0,0-0.617,0.359 reg 0.305,0.18]
+   img 0 128x128 A8R8G8B8 type 0 reg 0,0
+   img 1 128x128 A8R8G8B8 type 0 reg 0,0
+   img 2 128x128 A8R8G8B8 type 0 reg 0,0
+   img 3 128x128 A8R8G8B8 type 0 reg 0,0
+   img 4 128x128 A8R8G8B8 type 0 reg 0,0
+ui\hud\bitmaps\combined\hud_waypoints type 3 usage 1 images 1 seqs 0: first 0 n 0 sprites [b0 0,0.531-0.266,0.797 reg 0.133,0.133] | 1: first 0 n 0 sprites [b0 0,0-0.266,0.266 reg 0.133,0.141] | 2: first 0 n 0 sprites [b0 0.266,0-0.531,0.266 reg 0.133,0.133] | 3: first 0 n 0 sprites [b0 0.531,0-0.797,0.266 reg 0.133,0.133] | 4:import #4 first 0 n 0 sprites [b0 0,0.266-0.266,0.531 reg 0.133,0.141] | 5:import #5 first 0 n 0 sprites [b0 0.266,0.266-0.531,0.531 reg 0.133,0.141] | 6:import #6 first 0 n 0 sprites [b0 0.531,0.266-0.797,0.531 reg 0.133,0.328]
+   img 0 128x128 A8R8G8B8 type 0 reg 0,0
+ui\hud\bitmaps\combined\hud_damage_arrows type 3 usage 1 images 1 seqs 0: first 0 n 0 sprites [b0 0,0-0.902,0.156 reg 0.449,0.109] | 1:import #1 first 0 n 0 sprites [b0 0,0.156-0.645,0.27 reg 0.32,0.09]
+   img 0 256x256 A8R8G8B8 type 0 reg 0,0
+ui\shell\bitmaps\postgame_carnage_report type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 1024x512 DXT5 type 0 reg 512,256
+ui\hud\bitmaps\hud_sweeper type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 64x64 DXT3 type 0 reg 32,32
+ui\hud\bitmaps\hud_sweeper_mask type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 64x64 DXT3 type 0 reg 32,32
+ui\hud\bitmaps\hud_multiplayer type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 64x32 DXT3 type 0 reg 32,16
+ui\hud\bitmaps\combined\hud_counter_numbers type 3 usage 1 images 1 seqs 0: first 0 n 0 sprites [b0 0,0.188-0.141,0.281 reg 0.07,0.133 b0 0,0-0.141,0.094 reg 0.07,0.133 b0 0.141,0-0.281,0.094 reg 0.07,0.133 b0 0.281,0-0.422,0.094 reg 0.07,0.133 b0 0.266,0.094-0.414,0.188 reg 0.07,0.133 b0 0.555,0.094-0.695,0.188 reg 0.07,0.133 b0 0.836,0.094-0.977,0.188 reg 0.07,0.133 b0 0.141,0.188-0.281,0.281 reg 0.07,0.133 b0 0.844,0-0.984,0.094 reg 0.07,0.133 b0 0.422,0-0.563,0.094 reg 0.07,0.133 b0 0.563,0-0.703,0.094 reg 0.07,0.133 b0 0.414,0.094-0.555,0.188 reg 0.07,0.133 b0 0.703,0-0.844,0.094 reg 0.07,0.133 b0 0.695,0.094-0.836,0.188 reg 0.07,0.133 b0 0,0.094-0.266,0.188 reg 0.133,0.133]
+   img 0 128x128 A8R8G8B8 type 0 reg 0,0
+ui\hud\bitmaps\hud_sensor_blip type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 32x32 DXT3 type 0 reg 16,16
+ui\hud\bitmaps\hud_sensor_blip_custom type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 32x32 DXT1 type 0 reg 16,16
+ui\hud\bitmaps\hud_msg_icons_sm type 3 usage 1 images 2 seqs 0: first 0 n 0 sprites [b0 0.531,0.164-0.656,0.32 reg 0.063,0.117] | 1: first 0 n 0 sprites [b0 0.805,0-0.93,0.156 reg 0.063,0.117] | 2: first 0 n 0 sprites [b0 0.555,0-0.68,0.156 reg 0.063,0.117] | 3: first 0 n 0 sprites [b0 0.68,0-0.805,0.156 reg 0.063,0.094] | 4: first 0 n 0 sprites [b0 0.539,0.32-0.57,0.352 reg 0.016,0.016] | 5: first 0 n 0 sprites [b0 0.859,0.164-0.891,0.195 reg 0.016,0.016] | 6: first 0 n 0 sprites [b0 0.961,0-0.992,0.031 reg 0.016,0.016] | 7: first 0 n 0 sprites [b0 0.602,0.32-0.633,0.352 reg 0.016,0.016] | 8:import #8 first 0 n 0 sprites [b0 0.57,0.32-0.602,0.352 reg 0.016,0.023] | 9:import #9 first 0 n 0 sprites [b0 0.93,0-0.961,0.031 reg 0.016,0.023] | 10:import #10 first 0 n 0 sprites [b0 0.891,0.164-0.922,0.195 reg 0.016,0.016] | 11:import #11 first 0 n 0 sprites [b0 0.633,0.32-0.664,0.352 reg 0.016,0.016] | 12:import #12 first 0 n 0 sprites [b0 0.508,0.32-0.539,0.352 reg 0.016,0.023] | 13:import #13 first 0 n 0 sprites [b0 0.656,0.164-0.758,0.281 reg 0.047,0.063] | 14:import #14 first 0 n 0 sprites [b0 0.758,0.164-0.859,0.281 reg 0.047,0.07] | 15:import #15 first 0 n 0 sprites [b0 0,0.633-0.508,0.789 reg 0.25,0.07] | 16:import #16 first 0 n 0 sprites [b0 0,0-0.555,0.164 reg 0.273,0.086] | 17:import #17 first 0 n 0 sprites [b0 0.922,0.164-0.953,0.195 reg 0.016,0.016] | 18:import #18 first 0 n 0 sprites [b0 0.953,0.164-0.984,0.195 reg 0.016,0.016] | 19:import #19 first 0 n 0 sprites [b0 0,0.477-0.508,0.633 reg 0.25,0.078 b0 0,0.32-0.508,0.477 reg 0.25,0.078 b0 0,0.789-0.508,0.945 reg 0.25,0.078] | 20:import #20 first 0 n 0 sprites [b1 0,0.469-0.555,0.625 reg 0.273,0.094 b1 0,0-0.555,0.156 reg 0.273,0.094 b1 0,0.156-0.555,0.313 reg 0.273,0.094] | 21:import #21 first 0 n 0 sprites [b0 0,0.164-0.531,0.32 reg 0.266,0.078] | 22:import #22 first 0 n 0 sprites [b1 0,0.313-0.586,0.469 reg 0.289,0.086]
+   img 0 128x128 A8R8G8B8 type 0 reg 0,0
+   img 1 128x128 A8R8G8B8 type 0 reg 0,0
+ui\hud\bitmaps\hud_health_base type 4 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 128x32 A4R4G4B4 type 0 reg 64,16
+ui\shell\bitmaps\white type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 4x4 DXT1 type 0 reg 2,6
+ui\shell\bitmaps\cursor type 0 usage 1 images 1 seqs 0:import #0 first 0 n 1 sprites []
+   img 0 32x32 A8R8G8B8 type 0 reg 16,17
+ui\shell\bitmaps\background type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 1024x512 DXT1 type 0 reg 512,257
+ui\shell\bitmaps\trouble_brewing type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 64x64 DXT3 type 0 reg 32,33
+ui\shell\bitmaps\semi_transparent_grey type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 4x4 DXT3 type 0 reg 2,6
+ui\shell\bitmaps\pausebox5_left type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 16x256 A8R8G8B8 type 0 reg 8,137
+ui\shell\bitmaps\pausebox5_center type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 4x256 A8R8G8B8 type 0 reg 2,137
+ui\shell\bitmaps\pausebox5_right type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 16x256 A8R8G8B8 type 0 reg 8,137
+ui\shell\bitmaps\menu_bkds type 0 usage 1 images 2 seqs 0: first 0 n 2 sprites []
+   img 0 256x32 DXT3 type 0 reg 128,17
+   img 1 256x32 DXT3 type 0 reg 128,17
+ui\shell\bitmaps\alert_bkd type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 256x256 A8R8G8B8 type 0 reg 128,133
+ui\shell\bitmaps\text_button_background type 0 usage 1 images 2 seqs 0: first 0 n 2 sprites []
+   img 0 128x32 A4R4G4B4 type 0 reg 64,17
+   img 1 128x32 A4R4G4B4 type 0 reg 64,17
+ui\shell\bitmaps\gradient type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 4x512 A8R8G8B8 type 0 reg 2,257
+ui\shell\bitmaps\sel_list_desc_bkd type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 256x512 DXT3 type 0 reg 128,257
+ui\shell\main_menu\multiplayer_type_select\server_settings\header_server_settings type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 512x64 DXT3 type 0 reg 256,33
+ui\shell\bitmaps\option_bkds type 0 usage 1 images 2 seqs 0: first 0 n 2 sprites []
+   img 0 512x32 A4R4G4B4 type 0 reg 256,17
+   img 1 512x32 A4R4G4B4 type 0 reg 256,17
+ui\shell\bitmaps\arrow_sm_left type 0 usage 1 images 4 seqs 0: first 0 n 4 sprites []
+   img 0 16x16 DXT3 type 0 reg 8,9
+   img 1 16x16 DXT3 type 0 reg 8,9
+   img 2 16x16 DXT3 type 0 reg 8,9
+   img 3 16x16 DXT3 type 0 reg 8,9
+ui\shell\bitmaps\arrow_sm_right type 0 usage 1 images 4 seqs 0: first 0 n 4 sprites []
+   img 0 16x16 DXT3 type 0 reg 8,9
+   img 1 16x16 DXT3 type 0 reg 8,9
+   img 2 16x16 DXT3 type 0 reg 8,9
+   img 3 16x16 DXT3 type 0 reg 8,9
+ui\shell\bitmaps\spinner_list_3_wide_item_background type 0 usage 1 images 2 seqs 0: first 0 n 2 sprites []
+   img 0 256x512 DXT3 type 0 reg 128,258
+   img 1 256x512 DXT3 type 0 reg 128,256
+ui\shell\bitmaps\game_type_grafix type 0 usage 1 images 6 seqs 0: first 0 n 6 sprites []
+   img 0 256x128 A8R8G8B8 type 0 reg 128,62
+   img 1 256x128 A8R8G8B8 type 0 reg 128,62
+   img 2 256x128 A8R8G8B8 type 0 reg 128,62
+   img 3 256x128 A8R8G8B8 type 0 reg 128,62
+   img 4 256x128 A8R8G8B8 type 0 reg 128,62
+   img 5 256x128 A8R8G8B8 type 0 reg 128,66
+ui\shell\bitmaps\locked_gametype type 0 usage 1 images 2 seqs 0: first 0 n 2 sprites []
+   img 0 16x16 DXT3 type 0 reg 8,9
+   img 1 16x16 DXT1 type 0 reg 8,9
+ui\shell\bitmaps\option_bkds_sm type 0 usage 1 images 2 seqs 0: first 0 n 2 sprites []
+   img 0 256x32 A4R4G4B4 type 0 reg 128,17
+   img 1 256x32 A4R4G4B4 type 0 reg 128,17
+ui\shell\bitmaps\sel_list_item_bkd type 0 usage 1 images 3 seqs 0: first 0 n 3 sprites []
+   img 0 256x32 DXT1 type 0 reg 128,17
+   img 1 512x32 DXT3 type 0 reg 256,17
+   img 2 512x32 DXT3 type 0 reg 256,17
+ui\shell\bitmaps\arrow_sm_up type 0 usage 1 images 2 seqs 0: first 0 n 2 sprites []
+   img 0 16x16 DXT3 type 0 reg 8,9
+   img 1 16x16 DXT3 type 0 reg 8,9
+ui\shell\bitmaps\arrow_sm_down type 0 usage 1 images 2 seqs 0: first 0 n 2 sprites []
+   img 0 16x16 DXT3 type 0 reg 8,9
+   img 1 16x16 DXT3 type 0 reg 8,9
+ui\shell\main_menu\gametype_select\header_select_gametype type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 512x64 DXT3 type 0 reg 256,33
+ui\shell\bitmaps\mp_map_grafix type 0 usage 1 images 21 seqs 0: first 0 n 21 sprites []
+   img 0 256x128 DXT1 type 0 reg 128,90
+   img 1 256x128 DXT1 type 0 reg 128,90
+   img 2 256x128 DXT1 type 0 reg 128,90
+   img 3 256x128 DXT1 type 0 reg 128,90
+   img 4 256x128 DXT1 type 0 reg 128,90
+   img 5 256x128 DXT1 type 0 reg 128,90
+   img 6 256x128 DXT1 type 0 reg 128,90
+   img 7 256x128 DXT1 type 0 reg 128,90
+   img 8 256x128 DXT1 type 0 reg 128,90
+   img 9 256x128 DXT1 type 0 reg 128,90
+   img 10 256x128 DXT1 type 0 reg 128,90
+   img 11 256x128 DXT1 type 0 reg 128,90
+   img 12 256x128 DXT1 type 0 reg 128,90
+   img 13 256x128 DXT1 type 0 reg 128,90
+   img 14 256x128 DXT1 type 0 reg 128,90
+   img 15 256x128 DXT1 type 0 reg 128,90
+   img 16 256x128 DXT1 type 0 reg 128,90
+   img 17 256x128 DXT1 type 0 reg 128,90
+   img 18 256x128 DXT1 type 0 reg 128,90
+   img 19 256x128 DXT1 type 0 reg 128,90
+   img 20 256x128 DXT1 type 0 reg 128,90
+ui\shell\bitmaps\sel_list_item_bkd_top type 0 usage 1 images 3 seqs 0: first 0 n 3 sprites []
+   img 0 256x32 DXT1 type 0 reg 128,17
+   img 1 512x32 DXT3 type 0 reg 256,17
+   img 2 512x32 DXT3 type 0 reg 256,17
+ui\shell\main_menu\multiplayer_type_select\mp_map_select\header_select_map type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 512x64 DXT3 type 0 reg 256,33
+ui\shell\main_menu\settings_select\player_setup\player_profile_edit\header_edit_profile_settings type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 512x64 DXT3 type 0 reg 256,33
+ui\shell\bitmaps\list_field type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 512x512 DXT3 type 0 reg 256,257
+ui\shell\main_menu\settings_select\player_setup\player_profile_edit\profile_options type 0 usage 1 images 9 seqs 0: first 0 n 9 sprites []
+   img 0 512x256 DXT3 type 0 reg 256,129
+   img 1 512x256 DXT3 type 0 reg 256,129
+   img 2 512x256 DXT3 type 0 reg 256,129
+   img 3 512x256 DXT3 type 0 reg 256,129
+   img 4 512x256 DXT3 type 0 reg 256,129
+   img 5 512x256 DXT3 type 0 reg 256,129
+   img 6 512x256 DXT3 type 0 reg 256,129
+   img 7 512x256 DXT3 type 0 reg 256,129
+   img 8 512x256 DXT3 type 0 reg 256,129
+ui\shell\bitmaps\list_item_bkd_top type 0 usage 1 images 2 seqs 0: first 0 n 2 sprites []
+   img 0 256x32 DXT1 type 0 reg 128,17
+   img 1 256x32 DXT3 type 0 reg 128,17
+ui\shell\main_menu\settings_select\player_setup\player_profile_edit\name_edit\header_profile_name type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 512x64 DXT3 type 0 reg 256,31
+ui\shell\bitmaps\list_item_bkd type 0 usage 1 images 2 seqs 0: first 0 n 2 sprites []
+   img 0 256x32 DXT1 type 0 reg 128,17
+   img 1 256x32 DXT3 type 0 reg 128,17
+ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\header_profile_controls_settings type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 512x64 DXT3 type 0 reg 256,33
+ui\shell\bitmaps\controller_border type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 1024x512 DXT3 type 0 reg 512,264
+ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controller_edit\header_profile_controller_setting type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 512x64 DXT3 type 0 reg 256,33
+ui\shell\bitmaps\device_border type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 1024x512 DXT3 type 0 reg 512,264
+ui\shell\main_menu\settings_select\player_setup\player_profile_edit\mouse_settings\header_profile_mouse_settings type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 512x64 DXT3 type 0 reg 256,33
+ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\header_profile_audio_settings type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 512x64 DXT3 type 0 reg 256,33
+ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\header_profile_video_settings type 0 usage 1 images 1 seqs 0:import #0 first 0 n 1 sprites []
+   img 0 512x64 DXT3 type 0 reg 256,33
+ui\shell\main_menu\settings_select\player_setup\player_profile_edit\network_setup\header_profile_network_settings type 0 usage 1 images 1 seqs 0:import #0 first 0 n 1 sprites []
+   img 0 512x64 DXT3 type 0 reg 256,33
+ui\shell\main_menu\settings_select\player_setup\player_profile_edit\color_edit\player_color_marine_large type 0 usage 1 images 19 seqs 0: first 0 n 19 sprites []
+   img 0 256x512 DXT3 type 0 reg 128,259
+   img 1 256x512 DXT3 type 0 reg 128,259
+   img 2 256x512 DXT3 type 0 reg 128,259
+   img 3 256x512 DXT3 type 0 reg 128,259
+   img 4 256x512 DXT3 type 0 reg 128,259
+   img 5 256x512 DXT3 type 0 reg 128,259
+   img 6 256x512 DXT3 type 0 reg 128,259
+   img 7 256x512 DXT3 type 0 reg 128,259
+   img 8 256x512 DXT3 type 0 reg 128,259
+   img 9 256x512 DXT3 type 0 reg 128,259
+   img 10 256x512 DXT3 type 0 reg 128,259
+   img 11 256x512 DXT3 type 0 reg 128,259
+   img 12 256x512 DXT3 type 0 reg 128,259
+   img 13 256x512 DXT3 type 0 reg 128,259
+   img 14 256x512 DXT3 type 0 reg 128,259
+   img 15 256x512 DXT3 type 0 reg 128,259
+   img 16 256x512 DXT3 type 0 reg 128,259
+   img 17 256x512 DXT3 type 0 reg 128,259
+   img 18 256x512 DXT3 type 0 reg 128,259
+ui\shell\main_menu\difficulty_select\difficulty_options type 0 usage 1 images 4 seqs 0: first 0 n 4 sprites []
+   img 0 256x256 DXT5 type 0 reg 128,129
+   img 1 256x256 DXT5 type 0 reg 128,129
+   img 2 256x256 DXT5 type 0 reg 128,129
+   img 3 256x256 DXT5 type 0 reg 128,129
+ui\shell\main_menu\difficulty_select\header_choose_difficulty type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 512x64 DXT3 type 0 reg 256,33
+ui\shell\main_menu\settings_select\player_setup\player_profile_edit\color_edit\header_profile_color type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 512x64 DXT3 type 0 reg 256,33
+ui\shell\bitmaps\b_butn_sm type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 32x32 A8R8G8B8 type 0 reg 16,17
+ui\shell\bitmaps\a_butn_sm type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 32x32 A8R8G8B8 type 0 reg 16,17
+ui\shell\bitmaps\black type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 4x4 DXT1 type 0 reg 2,6
+ui\shell\bitmaps\xdemos_wait type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 1024x512 DXT1 type 0 reg 512,256
+ui\shell\bitmaps\team_background type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 128x64 A8R8G8B8 type 0 reg 64,32
+ui\shell\bitmaps\team_icon_ctf type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 64x64 A8R8G8B8 type 0 reg 32,32
+ui\shell\bitmaps\team_icon_king type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 64x64 A8R8G8B8 type 0 reg 32,32
+ui\shell\bitmaps\team_icon_oddball type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 64x64 A8R8G8B8 type 0 reg 32,32
+ui\shell\bitmaps\team_icon_race type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 64x64 A8R8G8B8 type 0 reg 32,32
+ui\shell\bitmaps\team_icon_slayer type 0 usage 1 images 1 seqs 0: first 0 n 1 sprites []
+   img 0 64x64 A8R8G8B8 type 0 reg 32,32

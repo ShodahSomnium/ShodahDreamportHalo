@@ -1,0 +1,125 @@
+lab copy ready
+lab 'ai' in slot B (D:\Dreamport\Halo\Halo Dreamport\DevTools\labproject)
+unity exit 0 (slot B)
+504:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+942:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[SomniumHalo] Access: editor: the whitelist (5 name(s)) is not applied
+[SomniumHalo] Halo Dreamport Halo Dreamport - iteration 4 (2026-10-19): The campaign (first build): all 10 missions from the hub / tablet, their own scripts, AI, characters, cutscenes (VR cinema screen), devices, checkpoints, campaign HUD and music; co-op plumbing
+[SomniumHalo] Shaders carried: SomniumHalo/Env, SomniumHalo/Model, SomniumHalo/Transparent, SomniumHalo/Glass, SomniumHalo/Fx, SomniumHalo/Sprite
+[SomniumHalo] Isolation: up (whitelisted: other whitelisted players): players not on the whitelist (a visitor) are hidden (after 0.5 s, shown after 0 s is on the whitelist (a Dreamport player); first decision at once; renderers forceRenderingOff, tag alpha, colliders, voices volume 0, other sounds muted); warm-up scan of 0 scene(s) 2.20 ms, 0 avatar/item root(s)
+[SomniumHalo] Editor: no EventSystem in the scene - added one with a StandaloneInputModule.
+[SomniumHalo] Lobby: ready (Slayer on bloodgulch, score 50, time none, respawn +0 s, weapons 0, vehicles 0).
+[SomniumHalo] Shader 'Universal Render Pipeline/Unlit': Shader.Find
+[SomniumHalo] Shader 'Universal Render Pipeline/Lit': Shader.Find
+[SomniumHalo] Tablet: searching for the Somnium tablet (the "HALO" app goes on its home screen; the hub panel stays the menu too).
+[SomniumHalo] Front: the ring hub and its menu are up (whitelisted player).
+[SomniumHalo] Lobby: net link set (LobbyLink)
+[SomniumHalo] Net: started (Fusion session); alone or offline everything stays local
+[SomniumHalo] Boot: install C:\Program Files (x86)\Microsoft Games\Halo, 19 multiplayer maps (22 ms)
+[SomniumHalo] Hub: hub menu placed on the floor 3.24 m in front of the camera (60 degrees), 2.32 m tall (shown).
+[SomniumHalo] Tags: on - the Somnium name tags of the other Somnium players in this world are hidden while the Dreamport runs, given back when you leave (the Bridge's ISomniumPlayerInfo.SetPlayerTagDisableState - unproven, first used here; fallback ready: the tag's CanvasGroup alpha; re-applied every 1 s; visitors are left to the isolation)
+LAB: booted: Halo found: C:\Program Files (x86)\Microsoft Games\Halo  -  19 multiplayer maps
+LAB: ok   map a30 in the install
+LAB: ok   encounter lz_search
+LAB: ai: a30 encounter lz_search (bsp 0, 8 squads, 481 firing positions)
+[SomniumHalo] Fx: a30 effects ready: 494 tags (effe/part/pctl/cont/ligh/deca) in 20 ms
+LAB: starting locations: 29, densest cluster 16 around (-74.2, 254.7, -321.5)
+[SomniumHalo] Fonts: Halo's large_ui small_ui fonts built; 73 texts switched to them.
+[SomniumHalo] Front art: ui.map read in 426 ms: 80 pictures, fonts large_ui 224 glyphs (2048x1024), small_ui 224, sounds cursor forward back , music title1
+[SomniumHalo] Front: the hub's lobby was built in 33 ms (19 maps, ui.map read).
+[SomniumHalo] Audio: started - output 48000 Hz, Stereo, dsp buffer 256 x 4
+[SomniumHalo] Audio: music sound\music\title1\title1 (fade in 2 s)
+[SomniumHalo] Front: menu music started (sound\music\title1\title1).
+[SomniumHalo] Shader 'SomniumHalo/Fx': carried
+[SomniumHalo] Shader 'SomniumHalo/Env': carried
+[SomniumHalo] Shader 'SomniumHalo/Glass': carried
+[SomniumHalo] Shader 'SomniumHalo/Transparent': carried
+[SomniumHalo] Shader 'SomniumHalo/Sprite': carried
+[SomniumHalo] World: levels\a30\a30_a decals: 16/33 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] World: BSP 0 levels\a30\a30_a built: 35 surface meshes (29572 triangles, 161 sections, lightmap atlas 2048x1024), collision 10 pieces / 28158 triangles (cooked on a worker), 2 lens flares, 33 decals, 0 weather systems; worker 255 ms, render 92 ms, collision 13 ms; bounds (-1171, -224, -403)..(335, 406, 356)
+[SomniumHalo] World: planar fog levels\a30\valley flags 0 density 0.40 depth 36.6 m dist 36.6 m plane (-0.71, 0.00, 0.71) 128.7
+[SomniumHalo] World: sky sky\sky_a30\skydusk0\skydusk0 (model), fog out 0.50 0-488 m, in 0.80, outdoor, sun (-0.67, 0.44, -0.60) RGBA(0.479, 0.473, 0.451, 1.000)
+[SomniumHalo] World: BSP -1 -> 0 (levels\a30\a30_a) active in 11 ms
+[SomniumHalo] World: a30 ready: BSP 0/2 levels\a30\a30_a, 0 objects (0 devices); worker 255 ms, BSP 141 ms, objects 0 ms, total 431 ms
+LAB: ok   bsp 0 built in 0.4 s
+LAB: stand-in spot sees -1 of 16 starting locations
+LAB: stand-in player at (-56.2, 254.7, -321.5), 18 m from the encounter's centre (-74.2, 254.7, -321.5)
+[SomniumHalo] AI: a30: 22 encounters, 179 squads, 390 starting locations, 4645 firing positions, 3 command lists, 59 conversations, actor palette 10/10, difficulty Normal (globals table) read in 3 ms
+[SomniumHalo] Campaign: checkpoint part 'ai' registered (1 parts)
+[SomniumHalo] Shader 'SomniumHalo/Model': carried
+[SomniumHalo] Combat: vitality (multiplayer unit characters\cyborg\cyborg.bipd) from characters\cyborg\cyborg: body 75, shield 75, shields recharge 6 s after damage, full in 4 s
+[SomniumHalo] Combat: a30: 0 weapons in the globals' list, grenades 4/4 (spawn with 2/0), unit characters\cyborg\cyborg.bipd
+[SomniumHalo] Weapon anim: weapons\plasma pistol\plasma pistol: 7 animations on its parts: fire-2='first-person fire-2' overheating='first-person overheating' overheated='first-person overheating-again' overheat-exit='first-person o-h-exit' misfire='first-person misfire-1' posing='first-person posing'
+[SomniumHalo] Characters: first characters\grunt\grunt minor plasma pistol: model characters\grunt\grunt, 89 animations, weapon weapons\plasma pistol\plasma pistol (pp), body 30 shield 0, team Covenant, hit boxes 12, permutations perm arms and legs=base00 perm head and back=base00
+[SomniumHalo] AI: first actor grunt minor plasma pistol (Grunt) at (-81.7, 251.4, -334.4)
+[SomniumHalo] AI: lz_search/grunt#1 Idle -> Search
+[SomniumHalo] AI: lz_search/grunt#2 Idle -> Search
+[SomniumHalo] Characters: first characters\grunt\grunt minor needler: model characters\grunt\grunt, 89 animations, weapon weapons\needler\needler (ne), body 45 shield 0, team Covenant, hit boxes 12, permutations perm arms and legs=base00 perm head and back=base00
+[SomniumHalo] AI: lz_search/grunt#3 Idle -> Search
+[SomniumHalo] AI: lz_search/grunt#4 Idle -> Search
+[SomniumHalo] AI: lz_search/far_grunt#5 Idle -> Search
+[SomniumHalo] AI: lz_search/far_grunt#6 Idle -> Search
+[SomniumHalo] Characters: first characters\jackal\jackal major plasma pistol: model characters\jackal\jackal, 73 animations, weapon weapons\plasma pistol\plasma pistol (pp), body 75 shield 250, team Covenant, hit boxes 21, permutations arms=base00 head=armored_head legs=base00 shield=base00 torso=base00
+[SomniumHalo] AI: lz_search/pass_jackal#7 Idle -> Search
+[SomniumHalo] AI: lz_search/pass_jackal#8 Idle -> Search
+[SomniumHalo] AI: lz_search/pass_jackal#9 Idle -> Search
+[SomniumHalo] Characters: first characters\jackal\jackal minor plasma pistol: model characters\jackal\jackal, 73 animations, weapon weapons\plasma pistol\plasma pistol (pp), body 50 shield 200, team Covenant, hit boxes 21, permutations arms=base00 head=armored_head legs=base00 shield=base00 torso=base00
+[SomniumHalo] AI: lz_search/last_jackal#10 Idle -> Search
+[SomniumHalo] AI: lz_search/last_jackal#11 Idle -> Search
+[SomniumHalo] Weapon anim: weapons\plasma rifle\plasma rifle: 5 animations on its parts: overheating='first-person overheating' overheated='first-person overheated' overheat-exit='first-person o-h-exit' misfire='first-person misfire-1'
+[SomniumHalo] Characters: first characters\elite\elite minor\elite minor plasma rifle: model characters\elite\elite, 135 animations, weapon weapons\plasma rifle\plasma rifle (pr), body 100 shield 100, team Covenant, hit boxes 19, permutations arms=base00 head=base00 legs=base00 torso=base00
+[SomniumHalo] AI: lz_search/pass_elite#12 Idle -> Search
+[SomniumHalo] AI: lz_search/pass_grunt#13 Idle -> Search
+[SomniumHalo] AI: lz_search/pass_grunt#14 Idle -> Search
+[SomniumHalo] AI: lz_search/pass_grunt#15 Idle -> Search
+[SomniumHalo] Characters: first characters\grunt\grunt major plasma pistol: model characters\grunt\grunt, 89 animations, weapon weapons\plasma pistol\plasma pistol (pp), body 60 shield 0, team Covenant, hit boxes 12, permutations perm arms and legs=base00 perm head and back=base00
+[SomniumHalo] AI: lz_search/pass_grunt#16 Idle -> Search
+[SomniumHalo] AI: ai_place lz_search: 17 actors (Normal): 6 x grunt minor plasma pistol, 3 x grunt minor needler, 3 x jackal major plasma pistol, 2 x jackal minor plasma pistol, 2 x elite minor plasma rifle, 1 x grunt major plasma pistol
+LAB: ok   ai_place lz_search: 17 living actors
+[SomniumHalo] Weapon anim: weapons\assault rifle\assault rifle: 2 animations on its parts: reload-empty='first-person reload-full' reload-full='first-person reload-full'
+[SomniumHalo] Characters: first characters\marine\marine assault rifle: model characters\marine\marine, 176 animations, weapon weapons\assault rifle\assault rifle (ar), body 12 shield 24, team Human, hit boxes 16, permutations arms=arms_full_sleeve-19 head=__base legs=__base torso=__base
+[SomniumHalo] AI: ai_place first_marine/left_back: 2 actors (Normal): 2 x marine assault rifle
+LAB: ok   allies first_marine/left_back: 2 next to the player, following
+LAB:   actor lz_search/grunt#1 grunt minor plasma pistol (Grunt) team Covenant state Search/Searching at (-81.7, 251.4, -334.4) weapon plasma pistol
+LAB:   actor lz_search/grunt#2 grunt minor plasma pistol (Grunt) team Covenant state Search/Searching at (-83.2, 253.2, -327.4) weapon plasma pistol
+LAB:   actor lz_search/grunt#3 grunt minor needler (Grunt) team Covenant state Search/Searching at (-68.5, 254.5, -322.9) weapon needler
+LAB:   actor lz_search/grunt#4 grunt minor plasma pistol (Grunt) team Covenant state Search/Searching at (-82.0, 252.2, -331.1) weapon plasma pistol
+LAB:   actor lz_search/far_grunt#5 grunt minor needler (Grunt) team Covenant state Search/Searching at (-68.5, 255.7, -317.8) weapon needler
+LAB:   actor lz_search/far_grunt#6 grunt minor needler (Grunt) team Covenant state Search/Searching at (-65.0, 255.8, -317.5) weapon needler
+LAB:   actor lz_search/pass_jackal#7 jackal major plasma pistol (Jackal) team Covenant state Search/Searching at (-11.8, 179.6, -281.9) weapon plasma pistol
+LAB:   actor lz_search/pass_jackal#8 jackal major plasma pistol (Jackal) team Covenant state Search/Searching at (-10.0, 179.1, -269.9) weapon plasma pistol
+LAB:   actor lz_search/pass_jackal#9 jackal major plasma pistol (Jackal) team Covenant state Search/Searching at (-14.6, 179.8, -278.4) weapon plasma pistol
+LAB:   actor lz_search/last_jackal#10 jackal minor plasma pistol (Jackal) team Covenant state Search/Searching at (113.3, 221.4, 30.0) weapon plasma pistol
+LAB:   actor lz_search/last_jackal#11 jackal minor plasma pistol (Jackal) team Covenant state Search/Searching at (115.6, 220.9, 30.2) weapon plasma pistol
+LAB:   actor lz_search/pass_elite#12 elite minor plasma rifle (Elite) team Covenant state Search/Searching at (88.9, 224.6, -0.9) weapon plasma rifle
+LAB:   actor lz_search/pass_grunt#13 grunt minor plasma pistol (Grunt) team Covenant state Search/Searching at (81.7, 222.3, -11.8) weapon plasma pistol
+LAB:   actor lz_search/pass_grunt#14 grunt minor plasma pistol (Grunt) team Covenant state Search/Searching at (88.1, 223.2, -6.1) weapon plasma pistol
+LAB:   actor lz_search/pass_grunt#15 grunt minor plasma pistol (Grunt) team Covenant state Search/Searching at (94.8, 223.7, -0.7) weapon plasma pistol
+LAB:   actor lz_search/pass_grunt#16 grunt major plasma pistol (Grunt) team Covenant state Search/Searching at (85.9, 226.9, 5.8) weapon plasma pistol
+LAB:   actor lz_search/elite#17 elite minor plasma rifle (Elite) team Covenant state Idle/GuardingAtGuardPosition at (-72.9, 256.5, -313.6) weapon plasma rifle
+LAB:   actor first_marine/left_back#18 marine assault rifle (Marine) team Human state Idle/GuardingAtGuardPosition at (-56.2, 255.5, -319.0) weapon assault rifle
+LAB:   actor first_marine/left_back#19 marine assault rifle (Marine) team Human state Idle/GuardingAtGuardPosition at (-54.0, 254.7, -322.7) weapon assault rifle
+[SomniumHalo] AI: navigation bsp 0: 7463 walkable surfaces (sbsp pathfinding bytes), 9527 shared edges, 91 step links, 384 islands, built in 30 ms
+[SomniumHalo] AI: first target: lz_search/grunt#2 -> stand-in player (sight)
+[SomniumHalo] AI: lz_search/grunt#2 Search -> Combat (target stand-in player)
+[SomniumHalo] AI: lz_search/far_grunt#5 Search -> Flee
+[SomniumHalo] AI: lz_search/elite#17 Idle -> Combat (target stand-in player)
+[SomniumHalo] AI: lz_search/grunt#1 Search -> Combat (target stand-in player)
+[SomniumHalo] AI: lz_search/grunt#4 Search -> Combat (target stand-in player)
+[SomniumHalo] AI: lz_search/grunt#3 Search -> Flee
+[SomniumHalo] AI: lz_search/far_grunt#6 Search -> Flee
+[SomniumHalo] World: levels\a30\a30_b decals: 32/83 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] World: BSP 1 levels\a30\a30_b built: 34 surface meshes (31748 triangles, 117 sections, lightmap atlas 2048x1024), collision 7 pieces / 30702 triangles (cooked on a worker), 2 lens flares, 83 decals, 0 weather systems; worker 203 ms, render 91 ms, collision 13 ms; bounds (-1856, -240, 1)..(-927, 376, 744)
+[SomniumHalo] World: all 2 BSPs of a30 built in the background (367 ms)
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/ai\ai_a30_0_behind.png average 0.35,0.37,0.37
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/ai\ai_a30_0_above.png average 0.35,0.37,0.36
+[SomniumHalo] AI: first burst by a Grunt (plasma pistol) at stand-in player
+[SomniumHalo] Audio: step remote run on dirt -> (no sound in the tag)
+[SomniumHalo] Combat: ready (monitor)
+[SomniumHalo] Combat: first projectile weapons\plasma pistol\bolt at 76 m/s (gravity x0.1, range 183 m)
+[SomniumHalo] AI: first_marine/left_back#18 Idle -> Search (target Unit grunt minor plasma pistol)
+[SomniumHalo] AI: first_marine/left_back#19 Idle -> Search (target Unit grunt minor plasma pistol)
+[SomniumHalo] AI: first_marine/left_back#18 Search -> Combat (target Unit grunt minor plasma pistol)
+[SomniumHalo] AI: first burst by a Elite (plasma rifle) at stand-in player
+[SomniumHalo] AI: first_marine/left_back#19 Search -> Combat (target Unit grunt minor plasma pistol)
+[SomniumHalo] AI: first burst by a Marine (assault rifle) at Unit grunt minor plasma pistol

@@ -1,0 +1,121 @@
+lab copy ready
+lab 'steps' in slot B (D:\Dreamport\Halo\Halo Dreamport\DevTools\labproject)
+unity exit 0 (slot B)
+469:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+907:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[SomniumHalo] Access: editor: the whitelist (5 name(s)) is not applied
+[SomniumHalo] Halo Dreamport Halo Dreamport - iteration 2 (2026-10-19): After the first client test: teleporter hum no longer everywhere, no death on leaving a vehicle, reloads from the real magazine well and pull handle, pistol slide, cupped two-handed pistol, holster hover vibration, easier back grab, grenade materials, Halo weapon animations, short-lived bullet visuals, avatars seated with Halo seat animations
+[SomniumHalo] Shaders carried: SomniumHalo/Env, SomniumHalo/Model, SomniumHalo/Transparent, SomniumHalo/Glass, SomniumHalo/Fx
+[SomniumHalo] Isolation: up (whitelisted: other whitelisted players): players not on the whitelist (a visitor) are hidden (after 0.5 s, shown after 0 s is on the whitelist (a Dreamport player); first decision at once; renderers forceRenderingOff, tag alpha, colliders, voices volume 0, other sounds muted); warm-up scan of 0 scene(s) 2.12 ms, 0 avatar/item root(s)
+[SomniumHalo] Editor: no EventSystem in the scene - added one with a StandaloneInputModule.
+[SomniumHalo] Lobby: ready (Team Slayer on bloodgulch, score 50, time none, respawn +0 s, weapons 0, vehicles 0).
+[SomniumHalo] Shader 'Universal Render Pipeline/Unlit': Shader.Find
+[SomniumHalo] Shader 'Universal Render Pipeline/Lit': Shader.Find
+[SomniumHalo] Tablet: searching for the Somnium tablet (the "HALO" app goes on its home screen; the hub panel stays the menu too).
+[SomniumHalo] Front: the ring hub and its menu are up (whitelisted player).
+[SomniumHalo] Lobby: net link set (LobbyLink)
+[SomniumHalo] Net: started (Fusion session); alone or offline everything stays local
+[SomniumHalo] Boot: install C:\Program Files (x86)\Microsoft Games\Halo, 19 multiplayer maps (24 ms)
+[SomniumHalo] Hub: hub menu placed on the floor 3.24 m in front of the camera (60 degrees), 2.32 m tall (shown).
+[SomniumHalo] Tags: on - the Somnium name tags of the other Somnium players in this world are hidden while the Dreamport runs, given back when you leave (the Bridge's ISomniumPlayerInfo.SetPlayerTagDisableState - unproven, first used here; fallback ready: the tag's CanvasGroup alpha; re-applied every 1 s; visitors are left to the isolation)
+LAB: booted: Halo found: C:\Program Files (x86)\Microsoft Games\Halo  -  19 multiplayer maps
+[SomniumHalo] Match: starting Slayer on chillout, score 25, time none, respawn +0 s, weapons 0, vehicles 0 (C:\Program Files (x86)\Microsoft Games\Halo\MAPS\chillout.map)
+[SomniumHalo] Session: Hub -> Loading
+[SomniumHalo] Loading: Chill Out (Slayer)
+[SomniumHalo] Fonts: Halo's large_ui small_ui fonts built; 78 texts switched to them.
+[SomniumHalo] Front art: ui.map read in 486 ms: 57 pictures, fonts large_ui 224 glyphs (2048x1024), small_ui 224, sounds cursor forward back , music title1
+[SomniumHalo] Front: the hub's lobby was built in 20 ms (19 maps, ui.map read).
+[SomniumHalo] Hub: the menu sky (sky\sky_ui\sky_ui) built: 4 parts, a 7.0 km dome round the head.
+[SomniumHalo] Hub: the ring scene faces 0 degrees (behind the menu).
+[SomniumHalo] Match: opened chillout in 108 ms: 2301 tags, 58 starting locations, 49 netgame flags, 34 netgame equipment, 0 vehicles
+[SomniumHalo] Match: globals multiplayer information: flag weapons\flag\flag, ball weapons\ball\ball, 44 announcer / game sounds
+[SomniumHalo] Net: playing a match of my own (no game of the master on this map)
+[SomniumHalo] Audio: started - output 48000 Hz, Stereo, dsp buffer 256 x 4
+[SomniumHalo] Audio: announcer - 44 multiplayer sounds in chillout's globals
+[SomniumHalo] Audio: preloading 457 sound clips of chillout
+[SomniumHalo] Fx: chillout effects ready: 550 tags (effe/part/pctl/cont/ligh/deca) in 24 ms
+[SomniumHalo] Hub: the ring (scenery\halo\halo) built x40: radius about 2.33 km, centre (219, 1890, 1500) m from the eye, turning 0.25 degrees/s.
+[SomniumHalo] Shader 'SomniumHalo/Fx': carried
+[SomniumHalo] Shader 'SomniumHalo/Env': carried
+[SomniumHalo] Shader 'SomniumHalo/Glass': carried
+[SomniumHalo] Shader 'SomniumHalo/Transparent': carried
+[SomniumHalo] World: planar fog levels\test\chillout\chillout flags 0 density 0.60 depth 1.5 m dist 6.1 m plane (0.00, 1.00, 0.00) 1.0
+[SomniumHalo] World: sky levels\test\chillout\chillout sky, fog out 1.00 15-274 m, in 0.20, indoor, sun (0.17, 0.97, 0.20) RGBA(0.770, 0.760, 0.677, 1.000)
+[SomniumHalo] World: chillout built: 22 surface meshes (3108 triangles, 163 sections, lightmap atlas 512x512), collision 2 pieces / 2802 triangles, 8 objects; worker 127 ms, render 71 ms, collision 2 ms, objects 39 ms, total 240 ms; bounds (-31, 0, -25)..(39, 20, 40)
+[SomniumHalo] Match: world ready, bounds (-31, 0, -25) .. (39, 20, 40) (0.6 s)
+[SomniumHalo] Audio: ambience chillout - background sound\sfx\ambience\multiplayer\chillout (1 in the palette, 10 clusters), 0 sound scenery loops
+[SomniumHalo] Vehicles: placed 0 of 0 scenario vehicles for Slayer (vehicle set 0): none.
+[SomniumHalo] Desk: cyborg 'characters\cyborg_mp\cyborg_mp' of chillout: 19 nodes, 254 animations (0 compressed), 24 seats, stand classes 6, hand markers True/True
+[SomniumHalo] Vehicles: net not up - this client owns every vehicle.
+[SomniumHalo] Match: objectives: red flag blue flag ball 4 hills, 12 race checkpoints, 3 teleporter entrances / 3 exits
+[SomniumHalo] Combat: ready (monitor)
+[SomniumHalo] Combat: vitality from characters\cyborg\cyborg: body 75, shield 75, shields recharge 6 s after damage, full in 4 s
+[SomniumHalo] Combat: chillout: 16 weapons in the globals' list, grenades 4/4 (spawn with 2/0), unit characters\cyborg_mp\cyborg_mp.bipd
+[SomniumHalo] Shader 'SomniumHalo/Model': carried
+[SomniumHalo] Combat: reload points for Plasma Rifle: well none, pull none, support (0.016, -0.185, 0.140) m
+[SomniumHalo] Weapon anim: weapons\plasma rifle\plasma rifle: 5 animations on its parts: overheating='first-person overheating' overheated='first-person overheated' overheat-exit='first-person o-h-exit' misfire='first-person misfire-1'
+[SomniumHalo] Combat: reload sounds for Plasma Rifle: mag out = none, mag in = none, pull = none, release = none, vent = plasrifle_overheat (whole) [overheating] / plasrifle_oh_exit (whole) [o-h-exit]
+[SomniumHalo] Combat: reload points for Shotgun: well (0.045,0,-0.007) (under the receiver at the first-person 'frame bullet') = (0.000, -0.020, 0.137) m, pull 'frame pump' at (0.137,0,0.026) = (0.000, 0.080, 0.419) m, travel 9.1 cm, support (0.023, 0.057, 0.315) m
+[SomniumHalo] Weapon anim: weapons\shotgun\shotgun: 4 animations on its parts: fire='first-person fire-1' chamber='chamber-1' reload-empty='reload-2' reload-full='reload-2' reload-exit='first-person exit-empty'
+[SomniumHalo] Combat: reload sounds for Shotgun: mag out = none, mag in = none, pull = shotgun_reload4 (whole) [exit-empty], release = none, shells = shotgun_reload1_1 (whole) [enter] / shotgun_reload2_1 (whole) [reload-empty], pump = shotgun_reload4 (whole) [exit-empty]
+[SomniumHalo] Combat: reload points for Needler: well (-0.02,0,0.104) (16 first-person needle nodes (top)) = (0.000, 0.318, -0.062) m, pull none, support (-0.091, -0.064, 0.020) m
+[SomniumHalo] Combat: reload sounds for Needler: mag out = needle_reload 0.30+0.55 s [reload-full @0.35 s, fractions], mag in = needle_reload 1.16+0.39 s [reload-full @1.28 s], pull = needle_reload 1.55+0.30 s [reload-full @1.75 s], release = needle_reload 1.86+0.45 s [reload-full @1.91 s]
+[SomniumHalo] Combat: reload points for Assault Rifle: well (-0.054,0,-0.019) (the bottom of the first-person 'frame magazine') = (0.000, -0.058, -0.164) m, pull 'frame ophandle' at (0.012,0.008,0.059) = (-0.025, 0.181, 0.038) m, travel 9.1 cm, support (0.016, 0.026, 0.271) m
+[SomniumHalo] Weapon anim: weapons\assault rifle\assault rifle: 2 animations on its parts: reload-empty='first-person reload-full' reload-full='first-person reload-full'
+[SomniumHalo] Combat: reload sounds for Assault Rifle: mag out = ar_reload 0.39+0.55 s [reload-full @0.44 s, fractions, 'frame ophandle' motion], mag in = ar_reload 1.48+0.34 s [reload-full @1.60 s], pull = ar_reload 1.82+0.30 s [reload-full @2.02 s], release = ar_reload 2.22+0.45 s [reload-full @2.27 s]
+[SomniumHalo] Combat: reload points for Sniper Rifle: well (0.063,0,-0.019) (the bottom of 'frame magazine') = (0.000, -0.059, 0.193) m, pull 'frame ophandle' at (0.035,0.013,0.042) = (-0.040, 0.129, 0.105) m, travel 9.1 cm, support (0.020, 0.043, 0.348) m
+[SomniumHalo] Weapon anim: weapons\sniper rifle\sniper rifle: 4 animations on its parts: fire='fire-1' reload-empty='first-person reload-empty' reload-full='first-person reload-full'
+[SomniumHalo] Combat: reload sounds for Sniper Rifle: mag out = sniper_reload_empty 0.85+0.40 s [reload-empty @0.90 s, 'frame magazine' motion, 'frame ophandle' motion], mag in = sniper_reload_empty 1.25+0.55 s [reload-empty @1.37 s], pull = sniper_reload_empty 2.27+0.28 s [reload-empty @2.47 s], release = sniper_reload_empty 2.55+0.45 s [reload-empty @2.60 s]
+[SomniumHalo] Combat: reload points for Pistol: well (-0.004,0,-0.04) (the bottom of 'frame magazine') = (0.000, -0.122, -0.013) m, pull 'frame slide' at (-0.029,0,0.043) = (0.000, 0.130, -0.089) m, travel 5.5 cm, support (0.011, -0.013, 0.052) m
+[SomniumHalo] Weapon anim: weapons\pistol\pistol: 5 animations on its parts: fire='fire-1' reload-empty='first-person reload-empty' reload-full='first-person reload-full' ready='first-person ready'
+[SomniumHalo] Combat: reload sounds for Pistol: mag out = pistol_reload 0.68+0.36 s [reload-empty @0.73 s, 'frame magazine' motion, 'frame slide' motion], mag in = pistol_reload 1.05+0.55 s [reload-empty @1.17 s], pull = pistol_reload 1.15+0.30 s [reload-empty @1.35 s], release = pistol_reload 1.55+0.45 s [reload-empty @1.60 s]
+[SomniumHalo] Combat: reload points for Rocket Launcher: well (-0.282,0,0.062) (the back of 'frame tubes') = (0.000, 0.190, -0.860) m, pull none, support (-0.044, -0.015, 0.270) m
+[SomniumHalo] Weapon anim: weapons\rocket launcher\rocket launcher: 5 animations on its parts: fire='first-person fire-1' reload-empty='first-person reload-empty' reload-full='first-person reload-full' ready='first-person ready' posing='first-person posing'
+[SomniumHalo] Combat: reload sounds for Rocket Launcher: mag out = rocket_reload_e 0.58+0.55 s [reload-empty @0.63 s, fractions], mag in = rocket_reload_e 2.17+0.55 s [reload-empty @2.29 s], pull = rocket_reload_e 2.93+0.30 s [reload-empty @3.13 s], release = rocket_reload_e 3.37+0.45 s [reload-empty @3.42 s]
+[SomniumHalo] Combat: reload points for Flamethrower: well (0.094,0,-0.059) (under the model (no magazine node)) = (-0.003, -0.225, 0.288) m, pull none, support (0.004, 0.453, 0.132) m
+[SomniumHalo] Combat: reload sounds for Flamethrower: mag out = flamethrower_reload 0.47+0.55 s [reload-empty @0.52 s, fractions], mag in = flamethrower_reload 1.79+0.55 s [reload-empty @1.91 s], pull = flamethrower_reload 2.40+0.30 s [reload-empty @2.60 s], release = flamethrower_reload 2.79+0.45 s [reload-empty @2.84 s], vent = plasrifle_overheat (whole) [overheating] / none
+[SomniumHalo] Combat: placed 11 weapons and 22 equipment items (1 not for Slayer / weapon set 0)
+[SomniumHalo] Combat: carrying Assault Rifle (BackRight, 60/180)
+[SomniumHalo] Combat: carrying Pistol (HipRight, 12/48)
+[SomniumHalo] Combat: spawned with Assault Rifle + Pistol, 2 frag / 0 plasma, shields 75 body 75 (monitor)
+[SomniumHalo] Match: spawned at (18.2, 10.8, 24.3) facing 269 (editor: CharacterController 'PlayerController' moved, start 39 of 25 for Slayer at (5.974,7.982,3.536) weight 0.34)
+[SomniumHalo] Loading: done - fading into the match.
+[SomniumHalo] HUD: tags of chillout: hud globals ui\hud\default, unit hud ui\hud\cyborg (biped characters\cyborg_mp\cyborg_mp), grenade huds 2, font ui\large_ui, multiplayer scale 0.75, motion sensor range 20 wu, 191 multiplayer strings, 13 hud messages
+[SomniumHalo] HUD: monitor screen overlay
+[SomniumHalo] HUD: started on chillout (monitor overlay)
+[SomniumHalo] Desk: started (monitor; view first person, V switches)
+[SomniumHalo] Session: Loading -> Playing
+[SomniumHalo] Hub: hidden.
+[SomniumHalo] Match: playing Slayer on Chill Out - loaded in 0.9 s, team No team, start UTC 1792406019
+LAB: ok   playing chillout
+[SomniumHalo] HUD: weapon HUD weapons\assault rifle\assault rifle (3 levels, 11 elements, magazine 60)
+[SomniumHalo] Audio: footsteps from characters\cyborg_mp\cyborg_mp -> globals\cyborg (6 step kinds, 84 sounds)
+[SomniumHalo] Combat: right hand draws Assault Rifle from BackRight
+[SomniumHalo] Desk: monitor camera held in first person (V switches first / third person)
+[SomniumHalo] Desk body: first person: the weapon framed low right (rear-top at (0.55, -0.45) of the half screen), drawn at x0.60 so the hands reach it
+[SomniumHalo] Desk body: no avatar to hold the weapon: first person frames it in the view without arms
+[SomniumHalo] Audio: preloaded chillout - 457 clips, 499 s of sound, 54 MB PCM, 0 failed, decode 623 ms worker, 0.7 s wall
+LAB: alive True, vehicle False; 457 clips (54 MB), 457 decoded, 0 failed, 5 voices, 4 loops, 7 sources (2 free), 0 dropped, queue 0/0, decode 623 ms
+LAB: floor materials (grid hits): metal thick x306  
+[SomniumHalo] Audio: step own run on metal thick -> sound\sfx\impulse\footsteps\cyborg\cleancement\run
+[SomniumHalo] Audio: step own walk on metal thick -> sound\sfx\impulse\footsteps\cyborg\cleancement\walk
+LAB: walked on metal thick: 9 steps played; run -> sound\sfx\impulse\footsteps\cyborg\cleancement\run, walk -> sound\sfx\impulse\footsteps\cyborg\cleancement\walk; 9 steps played, 0 silent (no sound for the material), 0 jumps, 0 landings; own: 9 steps, speed 1.6 m/s, stride 0.78 m
+LAB: ok   own steps played: 9
+[SomniumHalo] Audio: step own land on metal thick -> sound\sfx\impulse\footsteps\cyborg\cleancement\jump
+LAB: ok   landing after a 3 m drop (10 steps played, 0 silent (no sound for the material), 0 jumps, 1 landings; own: 9 steps, speed 0.0 m/s, stride 0.75 m)
+[SomniumHalo] Audio: step remote run on stone -> sound\sfx\impulse\footsteps\cyborg\grtcement\run
+LAB: ok   remote walker: 5 steps at 6.5 m/s, stride 2.18 m
+LAB: run table: dirt=dirt\run  sand=gravel\run  stone=grtcement\run  snow=snow\run  wood=wood\run  metal hollow=grating\run  metal thin=grating\run  metal thick=cleancement\run  glass=marble\run  jackal energy shield=marble\run  water=water\run  leaves=grass\run  ice=marble\run  
+LAB: steps: 15 steps played, 0 silent (no sound for the material), 0 jumps, 1 landings; own: 9 steps, speed 0.0 m/s, stride 0.75 m
+[SomniumHalo] Loading: leaving the match - black until the hub is back.
+[SomniumHalo] Match: leaving (left)
+[SomniumHalo] Audio: released 457 clips of chillout
+[SomniumHalo] HUD: stopped
+[SomniumHalo] Match: back to the hub (editor: CharacterController 'PlayerController' moved)
+[SomniumHalo] Session: Playing -> Hub
+[SomniumHalo] Hub: shown.
+LAB: done (passed)
+[SomniumHalo] Lobby: net link cleared - the lobby runs local
+[SomniumHalo] Net: stopped
+[SomniumHalo] Isolation: shutdown: restored 0 hidden player(s); isolation (whitelisted: other whitelisted players): 0 tracked, 0 hidden, 0 sweeps (last 0.00 ms, max 0.00 ms), slowest hide 0.00 ms, slowest frame 1.01 ms, no voice pass yet
+[SomniumHalo] Tags: off (leaving the world) - 0 player tag(s) given back; tags not hidden (Bridge SetPlayerTagDisableState): 0 player(s) now, 0 ever, 0 Bridge call(s)

@@ -1,0 +1,295 @@
+=== actv characters\floodcombat elite\floodcombat elite unarmed
+  flags: moveswitch stay w friends
+  unit floodcombat elite weapon - major - flags 08 move 0 crouch 0.7 fire dist 0wu rof 1 err 0 burst 0..0s every 0..0s first 0..0.2 range 0.75..1.5 dmg x0 lead 0.5 track 0.75 grenade plasma 1-1 chance 0 stim 0 traj 0 v 0 ranges 0..0 melee 4/6 drop loaded 0..0 ammo 0-0 body 100 shield 0
+  movement 0 crouch 0.7 crouchTime 6..8 runTime 2..4 desired 0.75..1.5 meleeR 4 abort 6 berserkFire 0.75..2.75 berserkMelee 14/18 maxFire 0 special 0/0/0 superBall 0 bomb 0 vision 0 deathWild 0/0 surprise 0/0 dropLoaded 0..0 equipment -
+  actr characters\floodcombat elite\floodcombat elite type CombatForm
+    flags: can see in darkness, shoot at target s last location, crouch when not in combat, must crouch to shoot, standing must move forward, crouching must move forward, defensive crouch while charging, berserking uses panicked movement, always charge in attacking mode
+    more: pathfinding ignores danger
+    CombatForm flags 0111C251/10 vision 40wu cone 50/70 periph 120 6wu hear 40 percept c0.6/g1.4/n2 cover dive 0 grenade-dive 0 panic friend 0 leader(Elite) 0 dmg 0 cower 0..0 retreat 10..15 friendsKilled 2 shields hide 0 attack 0 pursue 0 crouch 5 evade a999/d999 melee delay 2 charge 3 leap 2..4.5 p0.6 berserk dmg 0.55 prox 0 pos guard 0..0 combat 0..0 search 0..0
+    meleeLeap range 2..4.5 vel 0.15 chance 0.6 ballistic 0.75 fudge 0.75 charge 3 berserk amt 0.1 thr 0.55 prox 0 suicide 0 bgren 0
+    crouchType 5 attCrouch 0 defCrouch 0 minStand 0 minCrouch 0 evade a999 d999 seekCover 0 delay 0 diveCover 0 diveGren 0 pathR 0 stalk 0/0
+    danger unreach 4 veh 0 player 3 time 1..2 friendsKilled 2 retreating 2 panicDmg 0 surprise 0 hideShield 0 hide 0..0 pos coord 3 normal 8 oldAvoid 0 friendAvoid 0 hear 40 vision 40 percept 0.6
+  --- unit characters\floodcombat elite\floodcombat elite
+    unit flags: unused, resists pings, not instantly killed by melee, runs around flaming
+    biped flags: uses limp body physics
+    team 4 ping soft 0/0.1 hard 0.13/0.4 hardDeath 0.26 feign thr 0.3 time 2.5 chance 0.4 repeat 0.25 evadeDist 0.8 diveDist 1 stunnedMove 0
+    spawned actor - count 0..0 vel 0 aiVehR 0 dangerR 0 melee characters\floodcombat elite\melee.jpt! grenade 0x0
+    maxV 0 side 0 acc 0 dec 0 jump 0.16 height 0.7/0.8 radius 0.2 creation - model characters\floodcombat elite\floodcombat elite.mod2 anim characters\floodcombat elite\floodcombat elite.antr
+    landing soft 1 hard 3..6 death 0 maxSlope 60.00442
+    weapons: 
+    coll characters\floodcombat elite\floodcombat elite: flags 7 body 80 damagedThr 0 damaged - depleted - destroyedThr 0 destroyed - shield 0 areaThr 0 area effects\blood aoe flood.effe localized weapons\assault rifle\effects\impact floodcombat elite.effe
+      region head flags 200 thr 0.1 destroyed effects\flood bit skin explode.effe
+      region left arm flags 20 thr 0.13 destroyed effects\flood bit limb explode.effe
+      region legs flags 80 thr 0.13 destroyed effects\flood bit limb explode.effe
+      region right arm flags 140 thr 0.13 destroyed effects\flood bit skin explode.effe
+      region torso flags 0 thr 0 destroyed effects\flood bit limb explode.effe
+=== actv characters\floodcombat elite\floodcombat elite pistol
+  flags: moveswitch stay w friends
+  unit floodcombat elite weapon pistol major - flags 08 move 2 crouch 0.7 fire dist 15wu rof 4 err 3 burst 1.6..2.4s every 0.7..1.3s first 0..0.3 range 1..5 dmg x0.4 lead 0.5 track 0.5 grenade plasma 1-1 chance 0 stim 0 traj 0 v 0 ranges 0..0 melee 1.75/2.5 drop loaded 0.3..0.9 ammo 50-100 body 120 shield 0
+  movement 2 crouch 0.7 crouchTime 6..8 runTime 2..4 desired 1..5 meleeR 1.75 abort 2.5 berserkFire 0.75..2.75 berserkMelee 14/18 maxFire 15 special 0/0/0 superBall 0 bomb 0 vision 0 deathWild 0.25/1 surprise 0/0 dropLoaded 0.3..0.9 equipment -
+  actr characters\floodcombat elite\floodcombat elite type CombatForm
+    flags: can see in darkness, shoot at target s last location, crouch when not in combat, must crouch to shoot, standing must move forward, crouching must move forward, defensive crouch while charging, berserking uses panicked movement, always charge in attacking mode
+    more: pathfinding ignores danger
+    CombatForm flags 0111C251/10 vision 40wu cone 50/70 periph 120 6wu hear 40 percept c0.6/g1.4/n2 cover dive 0 grenade-dive 0 panic friend 0 leader(Elite) 0 dmg 0 cower 0..0 retreat 10..15 friendsKilled 2 shields hide 0 attack 0 pursue 0 crouch 5 evade a999/d999 melee delay 2 charge 3 leap 2..4.5 p0.6 berserk dmg 0.55 prox 0 pos guard 0..0 combat 0..0 search 0..0
+    meleeLeap range 2..4.5 vel 0.15 chance 0.6 ballistic 0.75 fudge 0.75 charge 3 berserk amt 0.1 thr 0.55 prox 0 suicide 0 bgren 0
+    crouchType 5 attCrouch 0 defCrouch 0 minStand 0 minCrouch 0 evade a999 d999 seekCover 0 delay 0 diveCover 0 diveGren 0 pathR 0 stalk 0/0
+    danger unreach 4 veh 0 player 3 time 1..2 friendsKilled 2 retreating 2 panicDmg 0 surprise 0 hideShield 0 hide 0..0 pos coord 3 normal 8 oldAvoid 0 friendAvoid 0 hear 40 vision 40 percept 0.6
+  unit characters\floodcombat elite\floodcombat elite (above)
+=== actv characters\floodcombat elite\floodcombat elite flame thrower
+  flags: 
+  unit floodcombat elite weapon flamethrower major - flags 00 move 0 crouch 0.7 fire dist 5wu rof 0 err 0 burst 4..5s every 2..3s first 0..0.3 range 1..2.5 dmg x0.4 lead 0.5 track 0.75 grenade plasma 1-1 chance 0 stim 0 traj 0 v 0 ranges 0..0 melee 1.5/3 drop loaded 0.75..0.95 ammo 125-175 body 100 shield 0
+  movement 0 crouch 0.7 crouchTime 4..8 runTime 2..4 desired 1..2.5 meleeR 1.5 abort 3 berserkFire 0.75..2.75 berserkMelee 3/5 maxFire 5 special 0/0/0 superBall 0 bomb 0 vision 0 deathWild 0/1 surprise 0/0 dropLoaded 0.75..0.95 equipment -
+  actr characters\floodcombat elite\floodcombat elite type CombatForm
+    flags: can see in darkness, shoot at target s last location, crouch when not in combat, must crouch to shoot, standing must move forward, crouching must move forward, defensive crouch while charging, berserking uses panicked movement, always charge in attacking mode
+    more: pathfinding ignores danger
+    CombatForm flags 0111C251/10 vision 40wu cone 50/70 periph 120 6wu hear 40 percept c0.6/g1.4/n2 cover dive 0 grenade-dive 0 panic friend 0 leader(Elite) 0 dmg 0 cower 0..0 retreat 10..15 friendsKilled 2 shields hide 0 attack 0 pursue 0 crouch 5 evade a999/d999 melee delay 2 charge 3 leap 2..4.5 p0.6 berserk dmg 0.55 prox 0 pos guard 0..0 combat 0..0 search 0..0
+    meleeLeap range 2..4.5 vel 0.15 chance 0.6 ballistic 0.75 fudge 0.75 charge 3 berserk amt 0.1 thr 0.55 prox 0 suicide 0 bgren 0
+    crouchType 5 attCrouch 0 defCrouch 0 minStand 0 minCrouch 0 evade a999 d999 seekCover 0 delay 0 diveCover 0 diveGren 0 pathR 0 stalk 0/0
+    danger unreach 4 veh 0 player 3 time 1..2 friendsKilled 2 retreating 2 panicDmg 0 surprise 0 hideShield 0 hide 0..0 pos coord 3 normal 8 oldAvoid 0 friendAvoid 0 hear 40 vision 40 percept 0.6
+  unit characters\floodcombat elite\floodcombat elite (above)
+=== actv characters\floodcombat elite\floodcombat elite needler
+  flags: moveswitch stay w friends
+  unit floodcombat elite weapon needler major - flags 08 move 2 crouch 0.7 fire dist 15wu rof 6 err 0 burst 0.8..1.2s every 0.7..1.3s first 0..0.3 range 1..5 dmg x0.4 lead 0.5 track 0.5 grenade plasma 1-1 chance 0 stim 0 traj 0 v 0 ranges 0..0 melee 1.75/2.5 drop loaded 0.3..0.9 ammo 40-60 body 120 shield 0
+  movement 2 crouch 0.7 crouchTime 6..8 runTime 2..4 desired 1..5 meleeR 1.75 abort 2.5 berserkFire 0.75..2.75 berserkMelee 14/18 maxFire 15 special 0/0/0 superBall 0 bomb 0 vision 0 deathWild 0.25/1 surprise 0/0 dropLoaded 0.3..0.9 equipment -
+  actr characters\floodcombat elite\floodcombat elite type CombatForm
+    flags: can see in darkness, shoot at target s last location, crouch when not in combat, must crouch to shoot, standing must move forward, crouching must move forward, defensive crouch while charging, berserking uses panicked movement, always charge in attacking mode
+    more: pathfinding ignores danger
+    CombatForm flags 0111C251/10 vision 40wu cone 50/70 periph 120 6wu hear 40 percept c0.6/g1.4/n2 cover dive 0 grenade-dive 0 panic friend 0 leader(Elite) 0 dmg 0 cower 0..0 retreat 10..15 friendsKilled 2 shields hide 0 attack 0 pursue 0 crouch 5 evade a999/d999 melee delay 2 charge 3 leap 2..4.5 p0.6 berserk dmg 0.55 prox 0 pos guard 0..0 combat 0..0 search 0..0
+    meleeLeap range 2..4.5 vel 0.15 chance 0.6 ballistic 0.75 fudge 0.75 charge 3 berserk amt 0.1 thr 0.55 prox 0 suicide 0 bgren 0
+    crouchType 5 attCrouch 0 defCrouch 0 minStand 0 minCrouch 0 evade a999 d999 seekCover 0 delay 0 diveCover 0 diveGren 0 pathR 0 stalk 0/0
+    danger unreach 4 veh 0 player 3 time 1..2 friendsKilled 2 retreating 2 panicDmg 0 surprise 0 hideShield 0 hide 0..0 pos coord 3 normal 8 oldAvoid 0 friendAvoid 0 hear 40 vision 40 percept 0.6
+  unit characters\floodcombat elite\floodcombat elite (above)
+=== actv characters\floodcombat elite\floodcombat elite assault rifle
+  flags: moveswitch stay w friends
+  unit floodcombat elite weapon assault rifle major - flags 08 move 2 crouch 0.7 fire dist 12wu rof 6 err 3 burst 1.6..2.4s every 0.7..1.3s first 0..0.3 range 1..5 dmg x0.4 lead 0.5 track 0.5 grenade plasma 1-1 chance 0 stim 0 traj 0 v 0 ranges 0..0 melee 1.75/2.5 drop loaded 0.3..0.9 ammo 300-500 body 120 shield 0
+  movement 2 crouch 0.7 crouchTime 6..8 runTime 2..4 desired 1..5 meleeR 1.75 abort 2.5 berserkFire 0.75..2.75 berserkMelee 14/18 maxFire 12 special 0/0/0 superBall 0 bomb 0 vision 0 deathWild 0.25/1 surprise 0/0 dropLoaded 0.3..0.9 equipment -
+  actr characters\floodcombat elite\floodcombat elite type CombatForm
+    flags: can see in darkness, shoot at target s last location, crouch when not in combat, must crouch to shoot, standing must move forward, crouching must move forward, defensive crouch while charging, berserking uses panicked movement, always charge in attacking mode
+    more: pathfinding ignores danger
+    CombatForm flags 0111C251/10 vision 40wu cone 50/70 periph 120 6wu hear 40 percept c0.6/g1.4/n2 cover dive 0 grenade-dive 0 panic friend 0 leader(Elite) 0 dmg 0 cower 0..0 retreat 10..15 friendsKilled 2 shields hide 0 attack 0 pursue 0 crouch 5 evade a999/d999 melee delay 2 charge 3 leap 2..4.5 p0.6 berserk dmg 0.55 prox 0 pos guard 0..0 combat 0..0 search 0..0
+    meleeLeap range 2..4.5 vel 0.15 chance 0.6 ballistic 0.75 fudge 0.75 charge 3 berserk amt 0.1 thr 0.55 prox 0 suicide 0 bgren 0
+    crouchType 5 attCrouch 0 defCrouch 0 minStand 0 minCrouch 0 evade a999 d999 seekCover 0 delay 0 diveCover 0 diveGren 0 pathR 0 stalk 0/0
+    danger unreach 4 veh 0 player 3 time 1..2 friendsKilled 2 retreating 2 panicDmg 0 surprise 0 hideShield 0 hide 0..0 pos coord 3 normal 8 oldAvoid 0 friendAvoid 0 hear 40 vision 40 percept 0.6
+  unit characters\floodcombat elite\floodcombat elite (above)
+=== actv characters\floodcombat elite\floodcombat elite shotgun
+  flags: moveswitch stay w friends
+  unit floodcombat elite weapon shotgun major - flags 08 move 2 crouch 0.7 fire dist 7wu rof 1 err 4 burst 0.1..0.1s every 2..2.4s first 0..0.2 range 1..3 dmg x0.15 lead 0.5 track 0.5 grenade plasma 1-1 chance 0 stim 0 traj 0 v 0 ranges 0..0 melee 1.75/2.5 drop loaded 0..0 ammo 10-18 body 120 shield 0
+  movement 2 crouch 0.7 crouchTime 4..8 runTime 2..4 desired 1..3 meleeR 1.75 abort 2.5 berserkFire 0.75..2.75 berserkMelee 14/18 maxFire 7 special 0/0/0 superBall 0 bomb 0 vision 0 deathWild 0/0 surprise 0/0 dropLoaded 0..0 equipment -
+  actr characters\floodcombat elite\floodcombat elite type CombatForm
+    flags: can see in darkness, shoot at target s last location, crouch when not in combat, must crouch to shoot, standing must move forward, crouching must move forward, defensive crouch while charging, berserking uses panicked movement, always charge in attacking mode
+    more: pathfinding ignores danger
+    CombatForm flags 0111C251/10 vision 40wu cone 50/70 periph 120 6wu hear 40 percept c0.6/g1.4/n2 cover dive 0 grenade-dive 0 panic friend 0 leader(Elite) 0 dmg 0 cower 0..0 retreat 10..15 friendsKilled 2 shields hide 0 attack 0 pursue 0 crouch 5 evade a999/d999 melee delay 2 charge 3 leap 2..4.5 p0.6 berserk dmg 0.55 prox 0 pos guard 0..0 combat 0..0 search 0..0
+    meleeLeap range 2..4.5 vel 0.15 chance 0.6 ballistic 0.75 fudge 0.75 charge 3 berserk amt 0.1 thr 0.55 prox 0 suicide 0 bgren 0
+    crouchType 5 attCrouch 0 defCrouch 0 minStand 0 minCrouch 0 evade a999 d999 seekCover 0 delay 0 diveCover 0 diveGren 0 pathR 0 stalk 0/0
+    danger unreach 4 veh 0 player 3 time 1..2 friendsKilled 2 retreating 2 panicDmg 0 surprise 0 hideShield 0 hide 0..0 pos coord 3 normal 8 oldAvoid 0 friendAvoid 0 hear 40 vision 40 percept 0.6
+  unit characters\floodcombat elite\floodcombat elite (above)
+=== actv characters\floodcombat elite\floodcombat elite plasma rifle
+  flags: moveswitch stay w friends
+  unit floodcombat elite weapon plasma rifle major - flags 08 move 2 crouch 0.7 fire dist 15wu rof 3 err 4 burst 1.6..2.4s every 0.7..1.3s first 0..0.6 range 2..6 dmg x0.4 lead 0.5 track 0.5 grenade plasma 1-1 chance 0 stim 0 traj 0 v 0 ranges 0..0 melee 1.75/2.5 drop loaded 0.7..0.9 ammo 0-0 body 120 shield 0
+  movement 2 crouch 0.7 crouchTime 6..8 runTime 2..4 desired 2..6 meleeR 1.75 abort 2.5 berserkFire 0.75..2.75 berserkMelee 14/18 maxFire 15 special 0/0/0 superBall 0 bomb 0 vision 0 deathWild 0.25/1 surprise 0/0 dropLoaded 0.7..0.9 equipment -
+  actr characters\floodcombat elite\floodcombat elite type CombatForm
+    flags: can see in darkness, shoot at target s last location, crouch when not in combat, must crouch to shoot, standing must move forward, crouching must move forward, defensive crouch while charging, berserking uses panicked movement, always charge in attacking mode
+    more: pathfinding ignores danger
+    CombatForm flags 0111C251/10 vision 40wu cone 50/70 periph 120 6wu hear 40 percept c0.6/g1.4/n2 cover dive 0 grenade-dive 0 panic friend 0 leader(Elite) 0 dmg 0 cower 0..0 retreat 10..15 friendsKilled 2 shields hide 0 attack 0 pursue 0 crouch 5 evade a999/d999 melee delay 2 charge 3 leap 2..4.5 p0.6 berserk dmg 0.55 prox 0 pos guard 0..0 combat 0..0 search 0..0
+    meleeLeap range 2..4.5 vel 0.15 chance 0.6 ballistic 0.75 fudge 0.75 charge 3 berserk amt 0.1 thr 0.55 prox 0 suicide 0 bgren 0
+    crouchType 5 attCrouch 0 defCrouch 0 minStand 0 minCrouch 0 evade a999 d999 seekCover 0 delay 0 diveCover 0 diveGren 0 pathR 0 stalk 0/0
+    danger unreach 4 veh 0 player 3 time 1..2 friendsKilled 2 retreating 2 panicDmg 0 surprise 0 hideShield 0 hide 0..0 pos coord 3 normal 8 oldAvoid 0 friendAvoid 0 hear 40 vision 40 percept 0.6
+  unit characters\floodcombat elite\floodcombat elite (above)
+=== actv characters\floodcombat elite\floodcombat elite rocket launcher
+  flags: moveswitch stay w friends
+  unit floodcombat elite weapon rocket launcher major - flags 08 move 1 crouch 0.7 fire dist 18wu rof 0.25 err 3 burst 0.1..0.1s every 3..4s first 0..0.75 range 5..9 dmg x0.4 lead 0.3 track 1 grenade plasma 1-1 chance 0 stim 0 traj 0 v 0 ranges 0..0 melee 1.5/3 drop loaded 0..0 ammo 2-2 body 150 shield 0
+  movement 1 crouch 0.7 crouchTime 4..8 runTime 2..4 desired 5..9 meleeR 1.5 abort 3 berserkFire 0.75..2.75 berserkMelee 3/5 maxFire 18 special 0/0/0 superBall 0 bomb 0 vision 0 deathWild 0/0 surprise 0/0 dropLoaded 0..0 equipment -
+  actr characters\floodcombat elite\floodcombat elite type CombatForm
+    flags: can see in darkness, shoot at target s last location, crouch when not in combat, must crouch to shoot, standing must move forward, crouching must move forward, defensive crouch while charging, berserking uses panicked movement, always charge in attacking mode
+    more: pathfinding ignores danger
+    CombatForm flags 0111C251/10 vision 40wu cone 50/70 periph 120 6wu hear 40 percept c0.6/g1.4/n2 cover dive 0 grenade-dive 0 panic friend 0 leader(Elite) 0 dmg 0 cower 0..0 retreat 10..15 friendsKilled 2 shields hide 0 attack 0 pursue 0 crouch 5 evade a999/d999 melee delay 2 charge 3 leap 2..4.5 p0.6 berserk dmg 0.55 prox 0 pos guard 0..0 combat 0..0 search 0..0
+    meleeLeap range 2..4.5 vel 0.15 chance 0.6 ballistic 0.75 fudge 0.75 charge 3 berserk amt 0.1 thr 0.55 prox 0 suicide 0 bgren 0
+    crouchType 5 attCrouch 0 defCrouch 0 minStand 0 minCrouch 0 evade a999 d999 seekCover 0 delay 0 diveCover 0 diveGren 0 pathR 0 stalk 0/0
+    danger unreach 4 veh 0 player 3 time 1..2 friendsKilled 2 retreating 2 panicDmg 0 surprise 0 hideShield 0 hide 0..0 pos coord 3 normal 8 oldAvoid 0 friendAvoid 0 hear 40 vision 40 percept 0.6
+  unit characters\floodcombat elite\floodcombat elite (above)
+=== actv characters\floodcombat elite\floodcombat elite plasma pistol
+  flags: moveswitch stay w friends
+  unit floodcombat elite weapon plasma pistol major - flags 08 move 2 crouch 0.7 fire dist 11wu rof 4 err 3 burst 1.6..2.4s every 0.7..1.3s first 0..0.3 range 1..5 dmg x0.4 lead 0.5 track 0.5 grenade plasma 1-1 chance 0 stim 0 traj 0 v 0 ranges 0..0 melee 1.75/2.5 drop loaded 0.7..0.9 ammo 0-0 body 120 shield 0
+  movement 2 crouch 0.7 crouchTime 6..8 runTime 2..4 desired 1..5 meleeR 1.75 abort 2.5 berserkFire 0.75..2.75 berserkMelee 14/18 maxFire 11 special 0/0/0 superBall 0 bomb 0 vision 0 deathWild 0.25/1 surprise 0/0 dropLoaded 0.7..0.9 equipment -
+  actr characters\floodcombat elite\floodcombat elite type CombatForm
+    flags: can see in darkness, shoot at target s last location, crouch when not in combat, must crouch to shoot, standing must move forward, crouching must move forward, defensive crouch while charging, berserking uses panicked movement, always charge in attacking mode
+    more: pathfinding ignores danger
+    CombatForm flags 0111C251/10 vision 40wu cone 50/70 periph 120 6wu hear 40 percept c0.6/g1.4/n2 cover dive 0 grenade-dive 0 panic friend 0 leader(Elite) 0 dmg 0 cower 0..0 retreat 10..15 friendsKilled 2 shields hide 0 attack 0 pursue 0 crouch 5 evade a999/d999 melee delay 2 charge 3 leap 2..4.5 p0.6 berserk dmg 0.55 prox 0 pos guard 0..0 combat 0..0 search 0..0
+    meleeLeap range 2..4.5 vel 0.15 chance 0.6 ballistic 0.75 fudge 0.75 charge 3 berserk amt 0.1 thr 0.55 prox 0 suicide 0 bgren 0
+    crouchType 5 attCrouch 0 defCrouch 0 minStand 0 minCrouch 0 evade a999 d999 seekCover 0 delay 0 diveCover 0 diveGren 0 pathR 0 stalk 0/0
+    danger unreach 4 veh 0 player 3 time 1..2 friendsKilled 2 retreating 2 panicDmg 0 surprise 0 hideShield 0 hide 0..0 pos coord 3 normal 8 oldAvoid 0 friendAvoid 0 hear 40 vision 40 percept 0.6
+  unit characters\floodcombat elite\floodcombat elite (above)
+=== actv characters\floodcarrier\floodcarrier
+  flags: 
+  unit floodcarrier weapon - major - flags 00 move 0 crouch 0 fire dist 0wu rof 0 err 0 burst 0..0s every 0..0s first 0..0 range 1.5..3.5 dmg x0 lead 0 track 0 grenade frag 0-0 chance 0 stim 0 traj 0 v 0 ranges 0..0 melee 2.5/6 drop loaded 0..0 ammo 0-0 body 50 shield 0
+  movement 0 crouch 0 crouchTime 0..0 runTime 0..0 desired 1.5..3.5 meleeR 2.5 abort 6 berserkFire 0..0 berserkMelee 4.5/6 maxFire 0 special 0/0/0 superBall 0 bomb 0 vision 0 deathWild 0/0 surprise 0/0 dropLoaded 0..0 equipment -
+  actr characters\floodcarrier\floodcarrier type CarrierForm
+    flags: can see in darkness, always charge at enemies, standing must move forward, crouching must move forward, use stalking behavior, always berserk in attacking mode, suicidal melee attack
+    more: pathfinding ignores danger
+    CarrierForm flags 080AC801/10 vision 40wu cone 50/70 periph 120 6wu hear 40 percept c0.9/g1.8/n3 cover dive 0 grenade-dive 0 panic friend 0 leader(Elite) 0 dmg 0 cower 0..0 retreat 20..25 friendsKilled 0 shields hide 0 attack 0 pursue 0 crouch 0 evade a999/d999 melee delay 0 charge 3 leap 0..0 p0 berserk dmg 0 prox 2 pos guard 0..0 combat 0..0 search 0.5..0.5
+    meleeLeap range 0..0 vel 0 chance 0 ballistic 0 fudge 0.1 charge 3 berserk amt 0 thr 0 prox 2 suicide 3.7 bgren 0
+    crouchType 0 attCrouch 0 defCrouch 0 minStand 0 minCrouch 0 evade a999 d999 seekCover 0 delay 0 diveCover 0 diveGren 0 pathR 0 stalk 0.25/7.5
+    danger unreach 4 veh 0 player 0 time 0.5..1 friendsKilled 0 retreating 0 panicDmg 0 surprise 0 hideShield 0 hide 6..7 pos coord 3 normal 8 oldAvoid 0 friendAvoid 0 hear 40 vision 40 percept 0.9
+  --- unit characters\floodcarrier\floodcarrier
+    unit flags: destroyed after dying, melee attack is fatal, not instantly killed by melee, runs around flaming
+    biped flags: uses limp body physics
+    team 4 ping soft 0/0.3 hard 0/0.3 hardDeath 0 feign thr 0 time 0 chance 0 repeat 0 evadeDist 0.8 diveDist 1 stunnedMove 0
+    spawned actor characters\flood_infection\flood_infection.actv count 3..6 vel 3 aiVehR 0 dangerR 2 melee characters\floodcombat elite\melee.jpt! grenade 0x0
+    maxV 0 side 0 acc 0 dec 0 jump 0.07 height 0.7/0.5 radius 0.2 creation - model characters\floodcarrier\floodcarrier.mod2 anim characters\floodcarrier\floodcarrier.antr
+    landing soft 1 hard 3..6 death 0 maxSlope 60.00442
+    weapons: 
+    coll characters\floodcarrier\floodcarrier: flags 0 body 40 damagedThr 0 damaged - depleted - destroyedThr 0 destroyed characters\floodcarrier\effects\body destroyed.effe shield 0 areaThr 0 area effects\blood aoe flood.effe localized weapons\assault rifle\effects\impact floodcarrier.effe
+      region __unnamed flags 0 thr 0 destroyed -
+=== actv characters\flood_infection\flood_infection
+  flags: 
+  unit flood_infection weapon - major - flags 00 move 0 crouch 0 fire dist 0wu rof 0 err 0 burst 0..0s every 0..0s first 0..0 range 0.25..4 dmg x0 lead 0 track 0 grenade frag 0-0 chance 0 stim 0 traj 0 v 0 ranges 0..0 melee 2.8/4 drop loaded 0..0 ammo 0-0 body 0 shield 0
+  movement 0 crouch 0 crouchTime 0..0 runTime 0..0 desired 0.25..4 meleeR 2.8 abort 4 berserkFire 0..0 berserkMelee 1.5/4 maxFire 0 special 0/0/0 superBall 0 bomb 0 vision 0 deathWild 0/0 surprise 0/0 dropLoaded 0..0 equipment -
+  actr characters\flood_infection\flood_infection type InfectionForm
+    flags: can see in darkness, shoot at target s last location, always charge at enemies, standing must move forward, crouching must move forward, swarm
+    more: pathfinding ignores danger
+    InfectionForm flags 0400C811/10 vision 12wu cone 50/70 periph 120 6wu hear 20 percept c0.6/g1.4/n2 cover dive 0 grenade-dive 0 panic friend 0 leader(None) 0 dmg 0 cower 0..0 retreat 0..0 friendsKilled 0 shields hide 0 attack 0 pursue 0 crouch 0 evade a999/d999 melee delay 3 charge 3 leap 1..3.5 p0.7 berserk dmg 0 prox 0 pos guard 0..0 combat 0..0 search 0..0
+    meleeLeap range 1..3.5 vel 0.08 chance 0.7 ballistic 0 fudge 1 charge 3 berserk amt 0 thr 0 prox 0 suicide 0 bgren 0
+    crouchType 0 attCrouch 0 defCrouch 0 minStand 0 minCrouch 0 evade a999 d999 seekCover 0 delay 0 diveCover 0 diveGren 0 pathR 0 stalk 0/0
+    danger unreach 0 veh 0 player 0 time 0..0 friendsKilled 0 retreating 0 panicDmg 0 surprise 0 hideShield 0 hide 0..0 pos coord 0 normal 0 oldAvoid 0 friendAvoid 0 hear 20 vision 12 percept 0.6
+  --- unit characters\flood_infection\flood_infection
+    unit flags: destroyed after dying, unused, resists pings, has no aiming, simple creature, impact melee attaches to unit, impact melee dies on shields, cannot open doors automatically, runs around flaming, inconsequential
+    biped flags: turns without animating, physics pill centered at origin, spherical, passes through other bipeds, can climb any surface, immune to falling damage, rotate while airborne, has no dying airborne
+    team 4 ping soft 0/0.1 hard 0.8/0.4 hardDeath 0 feign thr 0 time 0 chance 0 repeat 0 evadeDist 0.8 diveDist 1 stunnedMove 0
+    spawned actor - count 0..0 vel 0 aiVehR 0 dangerR 0 melee characters\flood_infection\melee.jpt! grenade 0x0
+    maxV 0 side 0 acc 0 dec 0 jump 0.05 height 0/0 radius 0.12 creation - model characters\flood_infection\flood_infection.mod2 anim characters\flood_infection\flood_infection.antr
+    landing soft 0.5 hard 1.5..4 death 0 maxSlope 45.003315
+    weapons: 
+    coll characters\flood_infection\flood_infection: flags 7 body 80 damagedThr 0 damaged - depleted characters\flood_infection\body depleted.effe destroyedThr 0 destroyed characters\flood_infection\body destroyed.effe shield 0 areaThr 0 area - localized -
+      region __unnamed flags 0 thr 0 destroyed -
+=== actv characters\floodcombat_human\floodcombat_human unarmed
+  flags: moveswitch stay w friends
+  unit floodcombat_human weapon - major - flags 08 move 0 crouch 0.7 fire dist 0wu rof 1 err 0 burst 0..0s every 0..0s first 0..0.2 range 0.75..1.5 dmg x0 lead 0.5 track 0.75 grenade frag 1-1 chance 0 stim 0 traj 0 v 0 ranges 0..0 melee 4/6 drop loaded 0..0 ammo 0-0 body 100 shield 0
+  movement 0 crouch 0.7 crouchTime 4..8 runTime 2..4 desired 0.75..1.5 meleeR 4 abort 6 berserkFire 0.75..2.75 berserkMelee 6/8 maxFire 0 special 0/0/0 superBall 0 bomb 0 vision 0 deathWild 0/0 surprise 0/0 dropLoaded 0..0 equipment -
+  actr characters\floodcombat_human\floodcombat_human type CombatForm
+    flags: can see in darkness, shoot at target s last location, crouch when not in combat, must crouch to shoot, standing must move forward, crouching must move forward, defensive crouch while charging, berserking uses panicked movement, always charge in attacking mode
+    more: pathfinding ignores danger
+    CombatForm flags 0111C251/10 vision 40wu cone 50/70 periph 120 6wu hear 40 percept c0.6/g1.4/n2 cover dive 0 grenade-dive 0 panic friend 0 leader(Elite) 0 dmg 0 cower 0..0 retreat 10..15 friendsKilled 2 shields hide 0 attack 0 pursue 0 crouch 5 evade a999/d999 melee delay 2 charge 3 leap 2.5..5 p0.8 berserk dmg 0.55 prox 0 pos guard 0..0 combat 0..0 search 0..0
+    meleeLeap range 2.5..5 vel 0.18 chance 0.8 ballistic 0.75 fudge 0.75 charge 3 berserk amt 0.1 thr 0.55 prox 0 suicide 0 bgren 0
+    crouchType 5 attCrouch 0 defCrouch 0 minStand 0 minCrouch 0 evade a999 d999 seekCover 0 delay 0 diveCover 0 diveGren 0 pathR 0 stalk 0/0
+    danger unreach 4 veh 0 player 3 time 1..2 friendsKilled 2 retreating 2 panicDmg 0 surprise 0 hideShield 0 hide 0..0 pos coord 3 normal 8 oldAvoid 0 friendAvoid 0 hear 40 vision 40 percept 0.6
+  --- unit characters\floodcombat_human\floodcombat_human
+    unit flags: unused, resists pings, not instantly killed by melee, runs around flaming
+    biped flags: uses limp body physics
+    team 4 ping soft 0/0.1 hard 0.03/0.4 hardDeath 0.26 feign thr 0.3 time 2.5 chance 0.4 repeat 0.25 evadeDist 0.8 diveDist 1 stunnedMove 0
+    spawned actor - count 0..0 vel 0 aiVehR 0 dangerR 0 melee characters\floodcombat_human\melee.jpt! grenade 0x0
+    maxV 0 side 0 acc 0 dec 0 jump 0.16 height 0.6/0.45 radius 0.18 creation - model characters\floodcombat_human\floodcombat_human.mod2 anim characters\floodcombat_human\floodcombat_human.antr
+    landing soft 1 hard 3..6 death 0 maxSlope 45.003315
+    weapons: 
+    coll characters\floodcombat_human\floodcombat_human: flags 7 body 80 damagedThr 0 damaged - depleted - destroyedThr 0 destroyed - shield 0 areaThr 0 area effects\blood aoe flood.effe localized weapons\assault rifle\effects\impact floodcarrier.effe
+      region head flags 200 thr 0.1 destroyed effects\flood bit h-head explode.effe
+      region left_arm flags 20 thr 0.12 destroyed effects\flood bit limb explode.effe
+      region legs flags 80 thr 0 destroyed effects\flood bit limb explode.effe
+      region right_arm flags 140 thr 0.12 destroyed effects\flood bit skin explode.effe
+      region torso flags 0 thr 0.2 destroyed effects\flood bit skin explode.effe
+=== actv characters\floodcombat_human\floodcombat_human assault rifle
+  flags: moveswitch stay w friends
+  unit floodcombat_human weapon assault rifle major - flags 08 move 0 crouch 0.7 fire dist 12wu rof 6 err 3 burst 1.6..2.4s every 0.7..1.3s first 0..0.3 range 1..5 dmg x0.4 lead 0.5 track 0.5 grenade frag 1-1 chance 0 stim 0 traj 0 v 0 ranges 0..0 melee 1.75/2.5 drop loaded 0.7..0.9 ammo 300-500 body 100 shield 0
+  movement 0 crouch 0.7 crouchTime 6..8 runTime 2..4 desired 1..5 meleeR 1.75 abort 2.5 berserkFire 0.75..2.75 berserkMelee 14/18 maxFire 12 special 0/0/0 superBall 0 bomb 0 vision 0 deathWild 0.25/1 surprise 0/0 dropLoaded 0.7..0.9 equipment -
+  actr characters\floodcombat_human\floodcombat_human type CombatForm
+    flags: can see in darkness, shoot at target s last location, crouch when not in combat, must crouch to shoot, standing must move forward, crouching must move forward, defensive crouch while charging, berserking uses panicked movement, always charge in attacking mode
+    more: pathfinding ignores danger
+    CombatForm flags 0111C251/10 vision 40wu cone 50/70 periph 120 6wu hear 40 percept c0.6/g1.4/n2 cover dive 0 grenade-dive 0 panic friend 0 leader(Elite) 0 dmg 0 cower 0..0 retreat 10..15 friendsKilled 2 shields hide 0 attack 0 pursue 0 crouch 5 evade a999/d999 melee delay 2 charge 3 leap 2.5..5 p0.8 berserk dmg 0.55 prox 0 pos guard 0..0 combat 0..0 search 0..0
+    meleeLeap range 2.5..5 vel 0.18 chance 0.8 ballistic 0.75 fudge 0.75 charge 3 berserk amt 0.1 thr 0.55 prox 0 suicide 0 bgren 0
+    crouchType 5 attCrouch 0 defCrouch 0 minStand 0 minCrouch 0 evade a999 d999 seekCover 0 delay 0 diveCover 0 diveGren 0 pathR 0 stalk 0/0
+    danger unreach 4 veh 0 player 3 time 1..2 friendsKilled 2 retreating 2 panicDmg 0 surprise 0 hideShield 0 hide 0..0 pos coord 3 normal 8 oldAvoid 0 friendAvoid 0 hear 40 vision 40 percept 0.6
+  unit characters\floodcombat_human\floodcombat_human (above)
+=== actv characters\floodcombat_human\floodcombat_human flame thrower
+  flags: moveswitch stay w friends
+  unit floodcombat_human weapon flamethrower major - flags 08 move 0 crouch 0.7 fire dist 5wu rof 0 err 0 burst 4..5s every 2..3s first 0..0.3 range 1..2.5 dmg x0.4 lead 0.5 track 0.75 grenade frag 1-1 chance 0 stim 0 traj 0 v 0 ranges 0..0 melee 1.75/2.5 drop loaded 0.5..0.95 ammo 125-175 body 100 shield 0
+  movement 0 crouch 0.7 crouchTime 6..8 runTime 2..4 desired 1..2.5 meleeR 1.75 abort 2.5 berserkFire 0.75..2.75 berserkMelee 14/18 maxFire 5 special 0/0/0 superBall 0 bomb 0 vision 0 deathWild 0.25/1 surprise 0/0 dropLoaded 0.5..0.95 equipment -
+  actr characters\floodcombat_human\floodcombat_human type CombatForm
+    flags: can see in darkness, shoot at target s last location, crouch when not in combat, must crouch to shoot, standing must move forward, crouching must move forward, defensive crouch while charging, berserking uses panicked movement, always charge in attacking mode
+    more: pathfinding ignores danger
+    CombatForm flags 0111C251/10 vision 40wu cone 50/70 periph 120 6wu hear 40 percept c0.6/g1.4/n2 cover dive 0 grenade-dive 0 panic friend 0 leader(Elite) 0 dmg 0 cower 0..0 retreat 10..15 friendsKilled 2 shields hide 0 attack 0 pursue 0 crouch 5 evade a999/d999 melee delay 2 charge 3 leap 2.5..5 p0.8 berserk dmg 0.55 prox 0 pos guard 0..0 combat 0..0 search 0..0
+    meleeLeap range 2.5..5 vel 0.18 chance 0.8 ballistic 0.75 fudge 0.75 charge 3 berserk amt 0.1 thr 0.55 prox 0 suicide 0 bgren 0
+    crouchType 5 attCrouch 0 defCrouch 0 minStand 0 minCrouch 0 evade a999 d999 seekCover 0 delay 0 diveCover 0 diveGren 0 pathR 0 stalk 0/0
+    danger unreach 4 veh 0 player 3 time 1..2 friendsKilled 2 retreating 2 panicDmg 0 surprise 0 hideShield 0 hide 0..0 pos coord 3 normal 8 oldAvoid 0 friendAvoid 0 hear 40 vision 40 percept 0.6
+  unit characters\floodcombat_human\floodcombat_human (above)
+=== actv characters\floodcombat_human\floodcombat_human needler
+  flags: moveswitch stay w friends
+  unit floodcombat_human weapon needler major - flags 08 move 0 crouch 0.7 fire dist 12wu rof 6 err 3 burst 1.6..2.4s every 0.7..1.3s first 0..0.3 range 1..5 dmg x0.4 lead 0.5 track 0.5 grenade frag 1-1 chance 0 stim 0 traj 0 v 0 ranges 0..0 melee 1.75/2.5 drop loaded 0.3..0.9 ammo 40-60 body 100 shield 0
+  movement 0 crouch 0.7 crouchTime 6..8 runTime 2..4 desired 1..5 meleeR 1.75 abort 2.5 berserkFire 0.75..2.75 berserkMelee 14/18 maxFire 12 special 0/0/0 superBall 0 bomb 0 vision 0 deathWild 0.25/1 surprise 0/0 dropLoaded 0.3..0.9 equipment -
+  actr characters\floodcombat_human\floodcombat_human type CombatForm
+    flags: can see in darkness, shoot at target s last location, crouch when not in combat, must crouch to shoot, standing must move forward, crouching must move forward, defensive crouch while charging, berserking uses panicked movement, always charge in attacking mode
+    more: pathfinding ignores danger
+    CombatForm flags 0111C251/10 vision 40wu cone 50/70 periph 120 6wu hear 40 percept c0.6/g1.4/n2 cover dive 0 grenade-dive 0 panic friend 0 leader(Elite) 0 dmg 0 cower 0..0 retreat 10..15 friendsKilled 2 shields hide 0 attack 0 pursue 0 crouch 5 evade a999/d999 melee delay 2 charge 3 leap 2.5..5 p0.8 berserk dmg 0.55 prox 0 pos guard 0..0 combat 0..0 search 0..0
+    meleeLeap range 2.5..5 vel 0.18 chance 0.8 ballistic 0.75 fudge 0.75 charge 3 berserk amt 0.1 thr 0.55 prox 0 suicide 0 bgren 0
+    crouchType 5 attCrouch 0 defCrouch 0 minStand 0 minCrouch 0 evade a999 d999 seekCover 0 delay 0 diveCover 0 diveGren 0 pathR 0 stalk 0/0
+    danger unreach 4 veh 0 player 3 time 1..2 friendsKilled 2 retreating 2 panicDmg 0 surprise 0 hideShield 0 hide 0..0 pos coord 3 normal 8 oldAvoid 0 friendAvoid 0 hear 40 vision 40 percept 0.6
+  unit characters\floodcombat_human\floodcombat_human (above)
+=== actv characters\floodcombat_human\floodcombat_human pistol
+  flags: moveswitch stay w friends
+  unit floodcombat_human weapon pistol major - flags 08 move 0 crouch 0.7 fire dist 12wu rof 6 err 3 burst 1.6..2.4s every 0.7..1.3s first 0..0.3 range 1..5 dmg x0.4 lead 0.5 track 0.5 grenade frag 1-1 chance 0 stim 0 traj 0 v 0 ranges 0..0 melee 1.75/2.5 drop loaded 0.3..0.9 ammo 50-100 body 100 shield 0
+  movement 0 crouch 0.7 crouchTime 6..8 runTime 2..4 desired 1..5 meleeR 1.75 abort 2.5 berserkFire 0.75..2.75 berserkMelee 14/18 maxFire 12 special 0/0/0 superBall 0 bomb 0 vision 0 deathWild 0.25/1 surprise 0/0 dropLoaded 0.3..0.9 equipment -
+  actr characters\floodcombat_human\floodcombat_human type CombatForm
+    flags: can see in darkness, shoot at target s last location, crouch when not in combat, must crouch to shoot, standing must move forward, crouching must move forward, defensive crouch while charging, berserking uses panicked movement, always charge in attacking mode
+    more: pathfinding ignores danger
+    CombatForm flags 0111C251/10 vision 40wu cone 50/70 periph 120 6wu hear 40 percept c0.6/g1.4/n2 cover dive 0 grenade-dive 0 panic friend 0 leader(Elite) 0 dmg 0 cower 0..0 retreat 10..15 friendsKilled 2 shields hide 0 attack 0 pursue 0 crouch 5 evade a999/d999 melee delay 2 charge 3 leap 2.5..5 p0.8 berserk dmg 0.55 prox 0 pos guard 0..0 combat 0..0 search 0..0
+    meleeLeap range 2.5..5 vel 0.18 chance 0.8 ballistic 0.75 fudge 0.75 charge 3 berserk amt 0.1 thr 0.55 prox 0 suicide 0 bgren 0
+    crouchType 5 attCrouch 0 defCrouch 0 minStand 0 minCrouch 0 evade a999 d999 seekCover 0 delay 0 diveCover 0 diveGren 0 pathR 0 stalk 0/0
+    danger unreach 4 veh 0 player 3 time 1..2 friendsKilled 2 retreating 2 panicDmg 0 surprise 0 hideShield 0 hide 0..0 pos coord 3 normal 8 oldAvoid 0 friendAvoid 0 hear 40 vision 40 percept 0.6
+  unit characters\floodcombat_human\floodcombat_human (above)
+=== actv characters\floodcombat_human\floodcombat_human plasma pistol
+  flags: moveswitch stay w friends
+  unit floodcombat_human weapon plasma pistol major - flags 08 move 0 crouch 0.7 fire dist 12wu rof 3 err 4 burst 1.6..2.4s every 0.7..1.3s first 0..0.6 range 1..5 dmg x0.4 lead 0.5 track 0.5 grenade frag 1-1 chance 0 stim 0 traj 0 v 0 ranges 0..0 melee 1.75/2.5 drop loaded 0.7..0.9 ammo 0-0 body 100 shield 0
+  movement 0 crouch 0.7 crouchTime 6..8 runTime 2..4 desired 1..5 meleeR 1.75 abort 2.5 berserkFire 0.75..2.75 berserkMelee 14/18 maxFire 12 special 0/0/0 superBall 0 bomb 0 vision 0 deathWild 0.25/1 surprise 0/0 dropLoaded 0.7..0.9 equipment -
+  actr characters\floodcombat_human\floodcombat_human type CombatForm
+    flags: can see in darkness, shoot at target s last location, crouch when not in combat, must crouch to shoot, standing must move forward, crouching must move forward, defensive crouch while charging, berserking uses panicked movement, always charge in attacking mode
+    more: pathfinding ignores danger
+    CombatForm flags 0111C251/10 vision 40wu cone 50/70 periph 120 6wu hear 40 percept c0.6/g1.4/n2 cover dive 0 grenade-dive 0 panic friend 0 leader(Elite) 0 dmg 0 cower 0..0 retreat 10..15 friendsKilled 2 shields hide 0 attack 0 pursue 0 crouch 5 evade a999/d999 melee delay 2 charge 3 leap 2.5..5 p0.8 berserk dmg 0.55 prox 0 pos guard 0..0 combat 0..0 search 0..0
+    meleeLeap range 2.5..5 vel 0.18 chance 0.8 ballistic 0.75 fudge 0.75 charge 3 berserk amt 0.1 thr 0.55 prox 0 suicide 0 bgren 0
+    crouchType 5 attCrouch 0 defCrouch 0 minStand 0 minCrouch 0 evade a999 d999 seekCover 0 delay 0 diveCover 0 diveGren 0 pathR 0 stalk 0/0
+    danger unreach 4 veh 0 player 3 time 1..2 friendsKilled 2 retreating 2 panicDmg 0 surprise 0 hideShield 0 hide 0..0 pos coord 3 normal 8 oldAvoid 0 friendAvoid 0 hear 40 vision 40 percept 0.6
+  unit characters\floodcombat_human\floodcombat_human (above)
+=== actv characters\floodcombat_human\floodcombat_human plasma rifle
+  flags: moveswitch stay w friends
+  unit floodcombat_human weapon plasma rifle major - flags 08 move 0 crouch 0.7 fire dist 12wu rof 3 err 4 burst 1.6..2.4s every 0.7..1.3s first 0..0.6 range 2..6 dmg x0.4 lead 0.5 track 0.5 grenade frag 1-1 chance 0 stim 0 traj 0 v 0 ranges 0..0 melee 1.75/2.5 drop loaded 0.7..0.9 ammo 0-0 body 100 shield 0
+  movement 0 crouch 0.7 crouchTime 6..8 runTime 2..4 desired 2..6 meleeR 1.75 abort 2.5 berserkFire 0.75..2.75 berserkMelee 14/18 maxFire 12 special 0/0/0 superBall 0 bomb 0 vision 0 deathWild 0.25/1 surprise 0/0 dropLoaded 0.7..0.9 equipment -
+  actr characters\floodcombat_human\floodcombat_human type CombatForm
+    flags: can see in darkness, shoot at target s last location, crouch when not in combat, must crouch to shoot, standing must move forward, crouching must move forward, defensive crouch while charging, berserking uses panicked movement, always charge in attacking mode
+    more: pathfinding ignores danger
+    CombatForm flags 0111C251/10 vision 40wu cone 50/70 periph 120 6wu hear 40 percept c0.6/g1.4/n2 cover dive 0 grenade-dive 0 panic friend 0 leader(Elite) 0 dmg 0 cower 0..0 retreat 10..15 friendsKilled 2 shields hide 0 attack 0 pursue 0 crouch 5 evade a999/d999 melee delay 2 charge 3 leap 2.5..5 p0.8 berserk dmg 0.55 prox 0 pos guard 0..0 combat 0..0 search 0..0
+    meleeLeap range 2.5..5 vel 0.18 chance 0.8 ballistic 0.75 fudge 0.75 charge 3 berserk amt 0.1 thr 0.55 prox 0 suicide 0 bgren 0
+    crouchType 5 attCrouch 0 defCrouch 0 minStand 0 minCrouch 0 evade a999 d999 seekCover 0 delay 0 diveCover 0 diveGren 0 pathR 0 stalk 0/0
+    danger unreach 4 veh 0 player 3 time 1..2 friendsKilled 2 retreating 2 panicDmg 0 surprise 0 hideShield 0 hide 0..0 pos coord 3 normal 8 oldAvoid 0 friendAvoid 0 hear 40 vision 40 percept 0.6
+  unit characters\floodcombat_human\floodcombat_human (above)
+=== actv characters\floodcombat_human\floodcombat_human rocket launcher
+  flags: moveswitch stay w friends
+  unit floodcombat_human weapon rocket launcher major - flags 08 move 0 crouch 0.7 fire dist 12wu rof 1 err 3 burst 1..1s every 4..5s first 0..0.3 range 1..5 dmg x0.4 lead 0.5 track 0.5 grenade frag 1-1 chance 0 stim 0 traj 0 v 0 ranges 0..0 melee 1.75/2.5 drop loaded 0..0 ammo 2-4 body 100 shield 0
+  movement 0 crouch 0.7 crouchTime 6..8 runTime 2..4 desired 1..5 meleeR 1.75 abort 2.5 berserkFire 0.75..2.75 berserkMelee 14/18 maxFire 12 special 0/0/0 superBall 0 bomb 0 vision 0 deathWild 0.25/1 surprise 0/0 dropLoaded 0..0 equipment -
+  actr characters\floodcombat_human\floodcombat_human type CombatForm
+    flags: can see in darkness, shoot at target s last location, crouch when not in combat, must crouch to shoot, standing must move forward, crouching must move forward, defensive crouch while charging, berserking uses panicked movement, always charge in attacking mode
+    more: pathfinding ignores danger
+    CombatForm flags 0111C251/10 vision 40wu cone 50/70 periph 120 6wu hear 40 percept c0.6/g1.4/n2 cover dive 0 grenade-dive 0 panic friend 0 leader(Elite) 0 dmg 0 cower 0..0 retreat 10..15 friendsKilled 2 shields hide 0 attack 0 pursue 0 crouch 5 evade a999/d999 melee delay 2 charge 3 leap 2.5..5 p0.8 berserk dmg 0.55 prox 0 pos guard 0..0 combat 0..0 search 0..0
+    meleeLeap range 2.5..5 vel 0.18 chance 0.8 ballistic 0.75 fudge 0.75 charge 3 berserk amt 0.1 thr 0.55 prox 0 suicide 0 bgren 0
+    crouchType 5 attCrouch 0 defCrouch 0 minStand 0 minCrouch 0 evade a999 d999 seekCover 0 delay 0 diveCover 0 diveGren 0 pathR 0 stalk 0/0
+    danger unreach 4 veh 0 player 3 time 1..2 friendsKilled 2 retreating 2 panicDmg 0 surprise 0 hideShield 0 hide 0..0 pos coord 3 normal 8 oldAvoid 0 friendAvoid 0 hear 40 vision 40 percept 0.6
+  unit characters\floodcombat_human\floodcombat_human (above)
+=== actv characters\floodcombat_human\floodcombat_human shotgun
+  flags: moveswitch stay w friends
+  unit floodcombat_human weapon shotgun major - flags 08 move 0 crouch 0.7 fire dist 12wu rof 6 err 3 burst 1.6..2.4s every 0.7..1.3s first 0..0.3 range 1..5 dmg x0.15 lead 0.5 track 0.5 grenade frag 1-1 chance 0 stim 0 traj 0 v 0 ranges 0..0 melee 1.75/2.5 drop loaded 0..0 ammo 10-18 body 100 shield 0
+  movement 0 crouch 0.7 crouchTime 6..8 runTime 2..4 desired 1..5 meleeR 1.75 abort 2.5 berserkFire 0.75..2.75 berserkMelee 14/18 maxFire 12 special 0/0/0 superBall 0 bomb 0 vision 0 deathWild 0.25/1 surprise 0/0 dropLoaded 0..0 equipment -
+  actr characters\floodcombat_human\floodcombat_human type CombatForm
+    flags: can see in darkness, shoot at target s last location, crouch when not in combat, must crouch to shoot, standing must move forward, crouching must move forward, defensive crouch while charging, berserking uses panicked movement, always charge in attacking mode
+    more: pathfinding ignores danger
+    CombatForm flags 0111C251/10 vision 40wu cone 50/70 periph 120 6wu hear 40 percept c0.6/g1.4/n2 cover dive 0 grenade-dive 0 panic friend 0 leader(Elite) 0 dmg 0 cower 0..0 retreat 10..15 friendsKilled 2 shields hide 0 attack 0 pursue 0 crouch 5 evade a999/d999 melee delay 2 charge 3 leap 2.5..5 p0.8 berserk dmg 0.55 prox 0 pos guard 0..0 combat 0..0 search 0..0
+    meleeLeap range 2.5..5 vel 0.18 chance 0.8 ballistic 0.75 fudge 0.75 charge 3 berserk amt 0.1 thr 0.55 prox 0 suicide 0 bgren 0
+    crouchType 5 attCrouch 0 defCrouch 0 minStand 0 minCrouch 0 evade a999 d999 seekCover 0 delay 0 diveCover 0 diveGren 0 pathR 0 stalk 0/0
+    danger unreach 4 veh 0 player 3 time 1..2 friendsKilled 2 retreating 2 panicDmg 0 surprise 0 hideShield 0 hide 0..0 pos coord 3 normal 8 oldAvoid 0 friendAvoid 0 hear 40 vision 40 percept 0.6
+  unit characters\floodcombat_human\floodcombat_human (above)
+  --- unit characters\flood_captain\flood_captain
+    unit flags: 
+    biped flags: 
+    team 4 ping soft 0/0 hard 0/0 hardDeath 0 feign thr 0 time 0 chance 0 repeat 0 evadeDist 0 diveDist 0 stunnedMove 0
+    spawned actor - count 0..0 vel 0 aiVehR 0 dangerR 0 melee - grenade 0x0
+    maxV 0 side 0 acc 0 dec 0 jump 0 height 1/1 radius 0.5 creation - model characters\flood_captain\flood_captain.mod2 anim characters\flood_captain\flood_captain.antr
+    landing soft 0 hard 0..0 death 0 maxSlope 0
+    weapons: 
+    coll characters\flood_captain\flood_captain: flags 0 body 0 damagedThr 0 damaged - depleted - destroyedThr 0 destroyed - shield 0 areaThr 0 area effects\blood aoe flood.effe localized weapons\assault rifle\effects\impact floodcarrier.effe
+      region body flags 0 thr 0 destroyed -
+      region head flags 0 thr 0 destroyed -

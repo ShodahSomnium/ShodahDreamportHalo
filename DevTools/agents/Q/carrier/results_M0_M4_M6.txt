@@ -1,0 +1,264 @@
+===== a30: 2 bsps
+-- static void temp : foehammer_rubble (pelican HumanPlane) from foehammer_rubble_flag (-444.2,220.6,106.2) yaw -78 : rp_and_hover foehammer_rubble_in
+   M0: | foehammer_rubble_in: 815t 81wu end (-393.1,163.5,81.4) gnd+15.9 solid 100
+   M4: | foehammer_rubble_in: 815t 67wu end (-400.2,174.8,85.3) gnd+19.8 solid 0
+   M6: | foehammer_rubble_in: 815t 67wu end (-400.2,174.8,85.3) gnd+19.8 solid 0 landed 0 blocked 0
+-- static void mission_extraction_cliff_skip : foehammer_cliff (pelican HumanPlane) from placement (-460.4,23.7,73.7) yaw 0 : rp_and_delete foehammer_cliff_out
+   M0: | foehammer_cliff_out: 1025t 214wu end (-589.0,177.3,-2.8) gnd+IN-SOLID solid 522
+   M4: | foehammer_cliff_out: 1025t 249wu end (-609.9,221.0,101.4) gnd+IN-SOLID solid 204
+   M6: | foehammer_cliff_out: 1025t 249wu end (-609.9,221.0,101.4) gnd+IN-SOLID solid 204 landed 0 blocked 1
+-- static void cliff_build : foehammer_cliff (pelican HumanPlane) from foehammer_cliff_flag (-440.3,-1.6,64.9) yaw 178 : rp_and_hover foehammer_cliff_in
+   M0: | foehammer_cliff_in: 1242t 75wu end (-487.6,42.3,102.9) gnd+26.8 solid 0
+   M4: | foehammer_cliff_in: 1242t 66wu end (-492.3,36.8,50.3) gnd+IN-SOLID solid 576
+   M6: | foehammer_cliff_in: 1242t 66wu end (-492.3,36.8,50.3) gnd+IN-SOLID solid 576 landed 0 blocked 7
+-- dormant mission_extraction_cliff : foehammer_cliff (pelican HumanPlane) from foehammer_cliff_flag (-440.3,-1.6,64.9) yaw 178 : rp_and_hover foehammer_cliff_in
+   M0: | foehammer_cliff_in: 1242t 75wu end (-487.6,42.3,102.9) gnd+26.8 solid 0
+   M4: | foehammer_cliff_in: 1242t 66wu end (-492.3,36.8,50.3) gnd+IN-SOLID solid 576
+   M6: | foehammer_cliff_in: 1242t 66wu end (-492.3,36.8,50.3) gnd+IN-SOLID solid 576 landed 0 blocked 7
+-- static void mission_extraction_rubble_skip : foehammer_rubble (pelican HumanPlane) from placement (-453.4,202.6,97.2) yaw 0 : rp_and_delete foehammer_rubble_out
+   M0: | foehammer_rubble_out: 720t 198wu end (-516.0,379.3,160.3) gnd+IN-SOLID solid 241
+   M4: | foehammer_rubble_out: 720t 226wu end (-540.7,411.1,111.4) gnd+IN-SOLID solid 270
+   M6: | foehammer_rubble_out: 720t 226wu end (-540.7,411.1,111.4) gnd+IN-SOLID solid 270 landed 0 blocked 1
+-- static void rubble_build : foehammer_rubble (pelican HumanPlane) from foehammer_rubble_flag (-444.2,220.6,106.2) yaw -78 : rp_and_hover foehammer_rubble_in
+   M0: | foehammer_rubble_in: 815t 81wu end (-393.1,163.5,81.4) gnd+15.9 solid 100
+   M4: | foehammer_rubble_in: 815t 67wu end (-400.2,174.8,85.3) gnd+19.8 solid 0
+   M6: | foehammer_rubble_in: 815t 67wu end (-400.2,174.8,85.3) gnd+19.8 solid 0 landed 0 blocked 0
+-- dormant mission_extraction_rubble : foehammer_rubble (pelican HumanPlane) from foehammer_rubble_flag (-444.2,220.6,106.2) yaw -78 : rp_and_hover foehammer_rubble_in
+   M0: | foehammer_rubble_in: 815t 81wu end (-393.1,163.5,81.4) gnd+15.9 solid 100
+   M4: | foehammer_rubble_in: 815t 67wu end (-400.2,174.8,85.3) gnd+19.8 solid 0
+   M6: | foehammer_rubble_in: 815t 67wu end (-400.2,174.8,85.3) gnd+19.8 solid 0 landed 0 blocked 0
+-- static void mission_extraction_river_skip : foehammer_river (pelican HumanPlane) from placement (-578.9,146.8,99.3) yaw 0 : rp_and_delete foehammer_river_out
+   M0: | foehammer_river_out: 668t 121wu end (-669.4,90.9,156.3) gnd+IN-SOLID solid 25
+   M4: | foehammer_river_out: 668t 116wu end (-675.8,86.4,122.5) gnd+IN-SOLID solid 41
+   M6: | foehammer_river_out: 668t 116wu end (-675.8,86.4,122.5) gnd+IN-SOLID solid 41 landed 0 blocked 1
+-- static void river_build : foehammer_river (pelican HumanPlane) from foehammer_river_flag (-582.5,149.1,99.5) yaw 11 : rp_and_hover foehammer_river_in
+   M0: | foehammer_river_in: 904t 68wu end (-522.8,179.1,87.6) gnd+IN-SOLID solid 508
+   M4: | foehammer_river_in: 904t 77wu end (-515.3,174.8,72.2) gnd+IN-SOLID solid 234
+   M6: | foehammer_river_in: 904t 73wu end (-515.3,174.8,89.5) gnd+0.1 solid 0 landed 169 blocked 0
+-- dormant mission_extraction_river : foehammer_river (pelican HumanPlane) from foehammer_river_flag (-582.5,149.1,99.5) yaw 11 : rp_and_hover foehammer_river_in
+   M0: | foehammer_river_in: 904t 68wu end (-522.8,179.1,87.6) gnd+IN-SOLID solid 508
+   M4: | foehammer_river_in: 904t 77wu end (-515.3,174.8,72.2) gnd+IN-SOLID solid 234
+   M6: | foehammer_river_in: 904t 73wu end (-515.3,174.8,89.5) gnd+0.1 solid 0 landed 169 blocked 0
+-- dormant mission_lz_dropship : lz_cship (c_dropship HumanPlane) from lz_cship_flag (83.1,-117.1,65.0) yaw -169 : rp_and_hover lz_cship_enter -> rp_and_hover lz_cship_landing_drop -> rp_and_delete lz_cship_landing_exit
+   M0: | lz_cship_enter: 1037t 65wu end (30.4,-83.1,83.4) gnd+25.5 solid 205 | lz_cship_landing_drop: 322t 0wu end (30.4,-83.1,83.4) gnd+25.5 solid 0 | lz_cship_landing_exit: 1054t 334wu end (-38.6,235.1,155.4) gnd+IN-SOLID solid 143
+   M4: | lz_cship_enter: 1037t 62wu end (29.7,-85.6,65.0) gnd+7.2 solid 262 | lz_cship_landing_drop: 322t 10wu end (29.7,-85.6,55.1) gnd+IN-SOLID solid 237 | lz_cship_landing_exit: 1054t 341wu end (-42.2,246.9,82.1) gnd+IN-SOLID solid 559
+   M6: | lz_cship_enter: 1037t 62wu end (29.7,-85.6,65.0) gnd+7.2 solid 262 landed 0 blocked 1 | lz_cship_landing_drop: 322t 7wu end (29.7,-85.6,57.8) gnd+0.1 solid 0 landed 41 blocked 0 | lz_cship_landing_exit: 1054t 341wu end (-42.2,246.9,84.8) gnd+IN-SOLID solid 501 landed 0 blocked 2
+-- dormant mission_first_wave_1 : pass_cship (c_dropship HumanPlane) from pass_cship_flag (25.9,45.1,63.8) yaw 0 : rp_and_delete back_cship_exit
+   M0: | back_cship_exit: 1098t 249wu end (-214.1,0.4,111.1) gnd+IN-SOLID solid 41
+   M4: | back_cship_exit: 1098t 258wu end (-224.0,0.4,112.1) gnd+IN-SOLID solid 146
+   M6: | back_cship_exit: 1098t 258wu end (-224.0,0.4,112.1) gnd+IN-SOLID solid 146 landed 0 blocked 1
+-- dormant mission_first_wave_2 : fort_cship (c_dropship HumanPlane) from fort_cship_flag (-107.5,78.0,100.1) yaw 6 : rp_and_hover fort_cship_enter -> rp_and_hover fort_cship_drop -> rp_and_delete fort_cship_exit
+   M0: | fort_cship_enter: 431t 108wu end (-13.7,26.8,81.8) gnd+21.6 solid 0 | fort_cship_drop: 312t 0wu end (-13.7,26.8,81.8) gnd+21.6 solid 0 | fort_cship_exit: 993t 162wu end (-168.9,6.2,124.3) gnd+16.8 solid 0
+   M4: | fort_cship_enter: 431t 111wu end (-2.2,43.0,100.1) gnd+40.0 solid 0 | fort_cship_drop: 312t 28wu end (-2.2,43.0,72.0) gnd+11.9 solid 0 | fort_cship_exit: 993t 180wu end (-173.1,20.7,124.7) gnd+10.4 solid 0
+   M6: | fort_cship_enter: 431t 111wu end (-2.2,43.0,100.1) gnd+40.0 solid 0 landed 0 blocked 0 | fort_cship_drop: 312t 28wu end (-2.2,43.0,72.0) gnd+11.9 solid 0 landed 0 blocked 0 | fort_cship_exit: 993t 180wu end (-173.1,20.7,124.7) gnd+10.4 solid 0 landed 0 blocked 0
+-- dormant mission_first_wave_3 : pipe_cship (c_dropship HumanPlane) from pipe_cship_flag (69.3,83.5,103.3) yaw -143 : rp_and_hover pipe_cship_enter -> rp_and_hover pipe_cship_drop -> rp_and_delete pipe_cship_exit
+   M0: | pipe_cship_enter: 510t 143wu end (-39.0,-4.3,73.2) gnd+14.6 solid 0 | pipe_cship_drop: 178t 0wu end (-39.0,-4.3,73.2) gnd+14.6 solid 0 | pipe_cship_exit: 1000t 211wu end (126.4,-129.1,112.8) gnd+179.0 solid 0
+   M4: | pipe_cship_enter: 510t 136wu end (-27.9,-12.0,103.3) gnd+43.7 solid 0 | pipe_cship_drop: 178t 16wu end (-27.9,-12.0,87.2) gnd+27.6 solid 0 | pipe_cship_exit: 1000t 234wu end (153.2,-152.9,133.6) gnd+207.1 solid 0
+   M6: | pipe_cship_enter: 510t 136wu end (-27.9,-12.0,103.3) gnd+43.7 solid 0 landed 0 blocked 0 | pipe_cship_drop: 178t 16wu end (-27.9,-12.0,87.2) gnd+27.6 solid 0 landed 0 blocked 0 | pipe_cship_exit: 1000t 234wu end (153.2,-152.9,133.6) gnd+207.1 solid 0 landed 0 blocked 0
+-- dormant mission_first_wave_4 : back_cship (c_dropship HumanPlane) from back_cship_flag (-15.0,-108.0,86.5) yaw 155 : rp_and_hover back_cship_enter -> rp_and_hover back_cship_drop -> rp_and_delete back_cship_exit
+   M0: | back_cship_enter: 812t 222wu end (20.6,111.1,88.6) gnd+IN-SOLID solid 327 | back_cship_drop: 162t 0wu end (20.6,111.1,88.6) gnd+IN-SOLID solid 162 | back_cship_exit: 1098t 249wu end (-219.5,66.4,135.9) gnd+IN-SOLID solid 564
+   M4: | back_cship_enter: 812t 216wu end (65.9,92.4,86.3) gnd+IN-SOLID solid 354 | back_cship_drop: 162t 12wu end (65.9,92.4,73.8) gnd+IN-SOLID solid 162 | back_cship_exit: 1098t 258wu end (-184.1,47.6,122.2) gnd+3.8 solid 276
+   M6: | back_cship_enter: 812t 216wu end (65.9,92.4,86.3) gnd+IN-SOLID solid 354 landed 0 blocked 1 | back_cship_drop: 162t 12wu end (65.9,92.4,73.8) gnd+IN-SOLID solid 162 landed 0 blocked 0 | back_cship_exit: 1098t 258wu end (-184.1,47.6,122.2) gnd+3.8 solid 276 landed 0 blocked 0
+-- dormant mission_first_wave_5 : pipe_cship (c_dropship HumanPlane) from pipe_cship_flag (69.3,83.5,103.3) yaw -143 : rp_and_hover pipe_cship_enter -> rp_and_hover pipe_cship_drop -> rp_and_delete pipe_cship_exit
+   M0: | pipe_cship_enter: 510t 143wu end (-39.0,-4.3,73.2) gnd+14.6 solid 0 | pipe_cship_drop: 178t 0wu end (-39.0,-4.3,73.2) gnd+14.6 solid 0 | pipe_cship_exit: 1000t 211wu end (126.4,-129.1,112.8) gnd+179.0 solid 0
+   M4: | pipe_cship_enter: 510t 136wu end (-27.9,-12.0,103.3) gnd+43.7 solid 0 | pipe_cship_drop: 178t 16wu end (-27.9,-12.0,87.2) gnd+27.6 solid 0 | pipe_cship_exit: 1000t 234wu end (153.2,-152.9,133.6) gnd+207.1 solid 0
+   M6: | pipe_cship_enter: 510t 136wu end (-27.9,-12.0,103.3) gnd+43.7 solid 0 landed 0 blocked 0 | pipe_cship_drop: 178t 16wu end (-27.9,-12.0,87.2) gnd+27.6 solid 0 landed 0 blocked 0 | pipe_cship_exit: 1000t 234wu end (153.2,-152.9,133.6) gnd+207.1 solid 0 landed 0 blocked 0
+-- dormant mission_first_wave_6 : fort_cship (c_dropship HumanPlane) from fort_cship_flag (-107.5,78.0,100.1) yaw 6 : rp_and_hover fort_cship_enter -> rp_and_hover fort_cship_drop -> rp_and_delete fort_cship_exit
+   M0: | fort_cship_enter: 431t 108wu end (-13.7,26.8,81.8) gnd+21.6 solid 0 | fort_cship_drop: 312t 0wu end (-13.7,26.8,81.8) gnd+21.6 solid 0 | fort_cship_exit: 993t 162wu end (-168.9,6.2,124.3) gnd+16.8 solid 0
+   M4: | fort_cship_enter: 431t 111wu end (-2.2,43.0,100.1) gnd+40.0 solid 0 | fort_cship_drop: 312t 28wu end (-2.2,43.0,72.0) gnd+11.9 solid 0 | fort_cship_exit: 993t 180wu end (-173.1,20.7,124.7) gnd+10.4 solid 0
+   M6: | fort_cship_enter: 431t 111wu end (-2.2,43.0,100.1) gnd+40.0 solid 0 landed 0 blocked 0 | fort_cship_drop: 312t 28wu end (-2.2,43.0,72.0) gnd+11.9 solid 0 landed 0 blocked 0 | fort_cship_exit: 993t 180wu end (-173.1,20.7,124.7) gnd+10.4 solid 0 landed 0 blocked 0
+-- dormant mission_first : foehammer_first (pelican HumanPlane) from foehammer_first_flag (-21.0,-110.0,86.0) yaw 130 : rp_and_hover foehammer_first_in
+   M0: | foehammer_first_in: 1258t 211wu end (-7.3,100.6,85.4) gnd+IN-SOLID solid 577
+   M4: | foehammer_first_in: 1258t 209wu end (-20.0,98.5,77.2) gnd+IN-SOLID solid 642
+   M6: | foehammer_first_in: 1258t 209wu end (-20.0,98.5,77.2) gnd+IN-SOLID solid 642 landed 0 blocked 2
+-- dormant mission_first : lifeboat_1 (lifepod_entry AlienFighter) from lifeboat_1_flag (107.2,-78.6,117.1) yaw 156 : rp_and_delete lifeboat_1_in
+   M0: | lifeboat_1_in: 426t 1167wu end (-868.4,559.3,166.4) gnd+IN-SOLID solid 199
+   M4: | lifeboat_1_in: 426t 1221wu end (-917.7,584.3,117.1) gnd+IN-SOLID solid 225
+   M6: | lifeboat_1_in: 426t 1221wu end (-917.7,584.3,117.1) gnd+IN-SOLID solid 225 landed 0 blocked 2
+-- dormant mission_first : lifeboat_3 (lifepod_entry AlienFighter) from lifeboat_3_flag (102.7,-99.5,115.6) yaw 156 : rp_and_delete lifeboat_3_in
+   M0: | lifeboat_3_in: 372t 993wu end (-797.4,321.0,106.9) gnd+IN-SOLID solid 100
+   M4: | lifeboat_3_in: 372t 1031wu end (-826.8,347.1,115.6) gnd+IN-SOLID solid 106
+   M6: | lifeboat_3_in: 372t 1031wu end (-826.8,347.1,115.6) gnd+IN-SOLID solid 106 landed 0 blocked 2
+-- dormant mission_first : lifeboat_2 (lifepod_entry AlienFighter) from lifeboat_2_flag (105.1,-90.4,117.1) yaw 156 : rp_and_delete lifeboat_2_in
+   M0: | lifeboat_2_in: 556t 1029wu end (-797.8,402.8,124.2) gnd+IN-SOLID solid 101
+   M4: | lifeboat_2_in: 556t 1121wu end (-880.1,445.4,117.1) gnd+IN-SOLID solid 124
+   M6: | lifeboat_2_in: 556t 1121wu end (-880.1,445.4,117.1) gnd+IN-SOLID solid 124 landed 0 blocked 2
+-- dormant mission_first : foehammer_first (pelican HumanPlane) from placement (-21.0,-110.0,86.0) yaw 130 : rp_and_hover foehammer_first_drop -> rp_and_delete foehammer_first_exit
+   M0: | foehammer_first_drop: 361t 0wu end (-21.0,-110.0,86.0) gnd+3.6 solid 0 | foehammer_first_exit: 865t 223wu end (37.8,-320.0,131.7) gnd+IN-SOLID solid 178
+   M4: | foehammer_first_drop: 361t 0wu end (-21.0,-110.0,86.4) gnd+4.0 solid 0 | foehammer_first_exit: 865t 246wu end (58.5,-342.8,101.6) gnd+IN-SOLID solid 267
+   M6: | foehammer_first_drop: 361t 0wu end (-21.0,-110.0,86.4) gnd+4.0 solid 0 landed 0 blocked 0 | foehammer_first_exit: 865t 246wu end (58.6,-342.8,101.6) gnd+IN-SOLID solid 267 landed 0 blocked 1
+-- dormant mission_cliff : foehammer_cliff (pelican HumanPlane) from foehammer_cliff_flag (-440.3,-1.6,64.9) yaw 178 : rp_and_hover foehammer_cliff_in -> rp_and_delete foehammer_cliff_out
+   M0: | foehammer_cliff_in: 1242t 75wu end (-487.6,42.3,102.9) gnd+26.8 solid 0 | foehammer_cliff_out: 1025t 214wu end (-616.2,195.9,26.3) gnd+IN-SOLID solid 197
+   M4: | foehammer_cliff_in: 1242t 66wu end (-492.3,36.8,50.3) gnd+IN-SOLID solid 576 | foehammer_cliff_out: 1025t 249wu end (-641.9,234.0,78.0) gnd+IN-SOLID solid 482
+   M6: | foehammer_cliff_in: 1242t 66wu end (-492.3,36.8,50.3) gnd+IN-SOLID solid 576 landed 0 blocked 7 | foehammer_cliff_out: 1025t 249wu end (-641.9,234.0,78.0) gnd+IN-SOLID solid 482 landed 0 blocked 3
+-- dormant mission_rubble_wave_2 : rubble_rock_cship (c_dropship HumanPlane) from rubble_rock_cship_flag (-450.0,232.0,106.0) yaw -20 : rp_and_hover rubble_rock_cship_enter -> rp_and_hover rubble_rock_cship_drop -> rp_and_delete rubble_rock_cship_exit
+   M0: | rubble_rock_cship_enter: 503t 54wu end (-428.2,187.2,86.0) gnd+18.5 solid 0 | rubble_rock_cship_drop: 259t 0wu end (-428.2,187.2,86.0) gnd+18.5 solid 0 | rubble_rock_cship_exit: 969t 117wu end (-313.6,204.5,103.9) gnd+IN-SOLID solid 31
+   M4: | rubble_rock_cship_enter: 503t 37wu end (-417.7,213.2,104.8) gnd+18.1 solid 0 | rubble_rock_cship_drop: 259t 18wu end (-417.7,213.2,86.5) gnd+IN-SOLID solid 23 | rubble_rock_cship_exit: 969t 143wu end (-289.9,219.7,149.6) gnd+45.4 solid 8
+   M6: | rubble_rock_cship_enter: 503t 37wu end (-417.7,213.2,104.8) gnd+18.1 solid 0 landed 0 blocked 0 | rubble_rock_cship_drop: 259t 18wu end (-417.7,213.2,86.8) gnd+0.1 solid 0 landed 2 blocked 0 | rubble_rock_cship_exit: 969t 143wu end (-289.9,219.7,149.9) gnd+45.7 solid 0 landed 0 blocked 0
+-- dormant mission_rubble_wave_3 : rubble_middle_cship (c_dropship HumanPlane) from rubble_middle_cship_flag (-363.9,94.3,108.0) yaw 100 : rp_and_hover rubble_middle_cship_enter -> rp_and_hover rubble_middle_cship_drop -> rp_and_delete rubble_middle_cship_exit
+   M0: | rubble_middle_cship_enter: 580t 107wu end (-422.9,177.5,74.5) gnd+IN-SOLID solid 286 | rubble_middle_cship_drop: 265t 0wu end (-422.9,177.5,74.5) gnd+IN-SOLID solid 265 | rubble_middle_cship_exit: 1134t 121wu end (-337.7,95.2,98.2) gnd+IN-SOLID solid 868
+   M4: | rubble_middle_cship_enter: 580t 116wu end (-444.5,177.8,108.0) gnd+19.1 solid 0 | rubble_middle_cship_drop: 265t 20wu end (-444.5,177.8,87.7) gnd+IN-SOLID solid 53 | rubble_middle_cship_exit: 1134t 146wu end (-355.1,92.2,164.8) gnd+58.1 solid 17
+   M6: | rubble_middle_cship_enter: 580t 116wu end (-444.5,177.8,108.0) gnd+19.1 solid 0 landed 0 blocked 0 | rubble_middle_cship_drop: 265t 19wu end (-444.5,177.8,89.0) gnd+0.1 solid 0 landed 8 blocked 0 | rubble_middle_cship_exit: 1134t 146wu end (-355.1,92.2,166.0) gnd+59.3 solid 0 landed 0 blocked 0
+-- dormant mission_rubble_wave_4 : rubble_rock_cship (c_dropship HumanPlane) from rubble_rock_cship_flag (-450.0,232.0,106.0) yaw -20 : rp_and_hover rubble_rock_cship_enter -> rp_and_hover rubble_rock_cship_drop -> rp_and_delete rubble_rock_cship_exit
+   M0: | rubble_rock_cship_enter: 503t 54wu end (-428.2,187.2,86.0) gnd+18.5 solid 0 | rubble_rock_cship_drop: 259t 0wu end (-428.2,187.2,86.0) gnd+18.5 solid 0 | rubble_rock_cship_exit: 969t 117wu end (-313.6,204.5,103.9) gnd+IN-SOLID solid 31
+   M4: | rubble_rock_cship_enter: 503t 37wu end (-417.7,213.2,104.8) gnd+18.1 solid 0 | rubble_rock_cship_drop: 259t 18wu end (-417.7,213.2,86.5) gnd+IN-SOLID solid 23 | rubble_rock_cship_exit: 969t 143wu end (-289.9,219.7,149.6) gnd+45.4 solid 8
+   M6: | rubble_rock_cship_enter: 503t 37wu end (-417.7,213.2,104.8) gnd+18.1 solid 0 landed 0 blocked 0 | rubble_rock_cship_drop: 259t 18wu end (-417.7,213.2,86.8) gnd+0.1 solid 0 landed 2 blocked 0 | rubble_rock_cship_exit: 969t 143wu end (-289.9,219.7,149.9) gnd+45.7 solid 0 landed 0 blocked 0
+-- dormant mission_rubble_wave_5 : rubble_boat_cship (c_dropship HumanPlane) from rubble_boat_cship_flag (-370.0,61.4,94.8) yaw 115 : rp_and_hover rubble_boat_cship_enter -> rp_and_hover rubble_boat_cship_drop -> rp_and_delete rubble_boat_cship_exit
+   M0: | rubble_boat_cship_enter: 506t 100wu end (-400.3,156.5,88.1) gnd+21.7 solid 0 | rubble_boat_cship_drop: 330t 0wu end (-400.3,156.5,88.1) gnd+21.7 solid 0 | rubble_boat_cship_exit: 1131t 173wu end (-299.7,16.4,98.4) gnd+IN-SOLID solid 56
+   M4: | rubble_boat_cship_enter: 506t 99wu end (-392.5,157.7,94.8) gnd+29.3 solid 0 | rubble_boat_cship_drop: 330t 29wu end (-392.5,157.7,65.6) gnd+0.2 solid 0 | rubble_boat_cship_exit: 1131t 180wu end (-291.7,17.0,116.6) gnd+12.2 solid 0
+   M6: | rubble_boat_cship_enter: 506t 99wu end (-392.5,157.7,94.8) gnd+29.3 solid 0 landed 0 blocked 0 | rubble_boat_cship_drop: 330t 29wu end (-392.5,157.7,65.6) gnd+0.2 solid 0 landed 0 blocked 0 | rubble_boat_cship_exit: 1131t 180wu end (-291.7,17.0,116.6) gnd+12.2 solid 0 landed 0 blocked 0
+-- dormant mission_rubble : foehammer_rubble (pelican HumanPlane) from foehammer_rubble_flag (-444.2,220.6,106.2) yaw -78 : rp_and_hover foehammer_rubble_in -> rp_and_delete foehammer_rubble_out
+   M0: | foehammer_rubble_in: 815t 81wu end (-393.1,163.5,81.4) gnd+15.9 solid 100 | foehammer_rubble_out: 720t 198wu end (-455.7,340.1,144.5) gnd+IN-SOLID solid 138
+   M4: | foehammer_rubble_in: 815t 67wu end (-400.2,174.8,85.3) gnd+19.8 solid 0 | foehammer_rubble_out: 720t 226wu end (-487.4,383.3,99.5) gnd+IN-SOLID solid 403
+   M6: | foehammer_rubble_in: 815t 67wu end (-400.2,174.8,85.3) gnd+19.8 solid 0 landed 0 blocked 0 | foehammer_rubble_out: 720t 226wu end (-487.4,383.3,99.5) gnd+IN-SOLID solid 403 landed 0 blocked 1
+-- dormant mission_river_wave_3 : river_boat_cship (c_dropship HumanPlane) from river_boat_cship_flag (-580.0,148.4,103.0) yaw 37 : rp_and_hover river_boat_cship_enter -> rp_and_hover river_boat_cship_drop -> rp_and_delete river_boat_cship_exit
+   M0: | river_boat_cship_enter: 451t 68wu end (-517.8,160.7,79.9) gnd+9.8 solid 0 | river_boat_cship_drop: 190t 0wu end (-517.8,160.7,79.9) gnd+9.8 solid 0 | river_boat_cship_exit: 805t 98wu end (-604.5,119.1,96.4) gnd+175.4 solid 0
+   M4: | river_boat_cship_enter: 451t 81wu end (-499.6,141.0,103.0) gnd+14.8 solid 0 | river_boat_cship_drop: 190t 16wu end (-499.6,141.0,87.5) gnd+IN-SOLID solid 38 | river_boat_cship_exit: 805t 124wu end (-594.5,79.1,136.9) gnd+215.8 solid 15
+   M6: | river_boat_cship_enter: 451t 81wu end (-499.6,141.0,103.0) gnd+14.8 solid 0 landed 0 blocked 0 | river_boat_cship_drop: 190t 15wu end (-499.6,141.0,88.3) gnd+0.1 solid 0 landed 1 blocked 0 | river_boat_cship_exit: 805t 124wu end (-594.5,79.1,137.7) gnd+216.6 solid 0 landed 0 blocked 0
+-- dormant mission_river : foehammer_river (pelican HumanPlane) from foehammer_river_flag (-582.5,149.1,99.5) yaw 11 : rp_and_hover foehammer_river_in -> rp_and_delete foehammer_river_out
+   M0: | foehammer_river_in: 904t 68wu end (-522.8,179.1,87.6) gnd+IN-SOLID solid 508 | foehammer_river_out: 668t 121wu end (-613.3,123.3,144.6) gnd+223.6 solid 309
+   M4: | foehammer_river_in: 904t 77wu end (-515.3,174.8,72.2) gnd+IN-SOLID solid 234 | foehammer_river_out: 668t 116wu end (-612.2,114.4,95.4) gnd+174.3 solid 283
+   M6: | foehammer_river_in: 904t 73wu end (-515.3,174.8,89.5) gnd+0.1 solid 0 landed 169 blocked 0 | foehammer_river_out: 668t 116wu end (-612.2,114.4,112.7) gnd+191.6 solid 0 landed 0 blocked 0
+-- dormant mission_mid_cliff_1 : midcliff_cship_1 (c_dropship HumanPlane) from midcliff_1_flag (-455.6,41.3,76.9) yaw 37 : rp_and_delete midcliff_1_cship_exit
+   M0: | midcliff_1_cship_exit: 545t 38wu end (-454.3,38.6,39.1) gnd+IN-SOLID solid 143
+   M4: | midcliff_1_cship_exit: 545t 19wu end (-446.8,42.2,93.5) gnd+29.5 solid 0
+   M6: | midcliff_1_cship_exit: 545t 19wu end (-446.8,42.2,93.5) gnd+29.5 solid 0 landed 0 blocked 0
+-- dormant mission_mid_cliff_2 : midcliff_cship_2 (c_dropship HumanPlane) from midcliff_2_flag (-536.2,121.2,81.9) yaw -34 : rp_and_delete midcliff_2_cship_exit
+   M0: | midcliff_2_cship_exit: 464t 113wu end (-517.6,24.1,26.6) gnd+105.5 solid 7
+   M4: | midcliff_2_cship_exit: 464t 108wu end (-500.2,20.0,93.1) gnd+26.5 solid 0
+   M6: | midcliff_2_cship_exit: 464t 108wu end (-500.2,20.0,93.1) gnd+26.5 solid 0 landed 0 blocked 0
+-- dormant mission_mid_rubble_1 : midrubble_cship_1 (c_dropship HumanPlane) from midrubble_1_flag (-434.1,128.0,74.1) yaw -60 : rp_and_delete midrubble_1_cship_exit
+   M0: | midrubble_1_cship_exit: 899t 173wu end (-405.8,297.3,92.5) gnd+IN-SOLID solid 59
+   M4: | midrubble_1_cship_exit: 899t 182wu end (-409.0,306.1,100.2) gnd+IN-SOLID solid 354
+   M6: | midrubble_1_cship_exit: 899t 182wu end (-409.0,306.1,100.2) gnd+IN-SOLID solid 354 landed 0 blocked 1
+-- dormant mission_mid_river_1 : midriver_cship_1 (c_dropship HumanPlane) from midriver_1_flag (-509.0,125.0,81.9) yaw -40 : rp_and_delete midriver_1_cship_exit
+   M0: | midriver_1_cship_exit: 875t 209wu end (-657.8,271.1,95.7) gnd+IN-SOLID solid 193
+   M4: | midriver_1_cship_exit: 875t 212wu end (-647.2,282.8,109.3) gnd+4.4 solid 145
+   M6: | midriver_1_cship_exit: 875t 212wu end (-647.2,282.8,109.3) gnd+4.4 solid 145 landed 0 blocked 1
+-- static void cutscene_intro : intro_pod (lifepod_entry AlienFighter) from intro_pod_flag (32.0,108.0,135.0) yaw -90 : rp intro_pod_fly
+   M0: | intro_pod_fly: 328t 528wu end (45.0,-399.1,-10.8) gnd+IN-SOLID solid 92
+   M4: | intro_pod_fly: 328t 903wu end (61.1,-794.1,135.0) gnd+IN-SOLID solid 179
+   M6: | intro_pod_fly: 328t 903wu end (61.1,-794.1,135.0) gnd+IN-SOLID solid 179 landed 0 blocked 1
+-- static void cutscene_intro : intro_pod_2 (lifepod_entry AlienFighter) from placement (37.0,67.3,86.0) yaw -85 : rp intro_pod_fly_2
+   M0: | intro_pod_fly_2: 160t 316wu end (54.5,-230.3,-19.2) gnd+54.3 solid 82
+   M4: | intro_pod_fly_2: 160t 457wu end (61.9,-388.9,86.0) gnd+IN-SOLID solid 60
+   M6: | intro_pod_fly_2: 160t 457wu end (61.9,-388.9,86.0) gnd+IN-SOLID solid 60 landed 0 blocked 3
+===== b30: 2 bsps
+-- static void extraction_build : extraction_pelican (pelican HumanPlane) from extraction_pelican_flag_1 (-6.8,-22.2,29.6) yaw 5 : rp_and_hover extraction_pelican_1
+   M0: | extraction_pelican_1: 818t 66wu end (57.0,-15.1,14.5) gnd+11.8 solid 0
+   M4: | extraction_pelican_1: 818t 52wu end (44.9,-18.9,28.5) gnd+25.3 solid 0
+   M6: | extraction_pelican_1: 818t 52wu end (44.9,-18.9,28.5) gnd+25.3 solid 0 landed 0 blocked 0
+-- static void cutscene_extraction_exit : extraction_pelican (pelican HumanPlane) from placement (63.9,60.1,0.2) yaw 0 : rp extraction_pelican_2
+   M0: | extraction_pelican_2: 804t 81wu end (16.9,118.4,30.1) gnd+31.8 solid 0
+   M4: | extraction_pelican_2: 804t 81wu end (21.0,126.7,-16.1) gnd+IN-SOLID solid 151
+   M6: | extraction_pelican_2: 804t 79wu end (21.0,126.7,-2.0) gnd+0.1 solid 0 landed 137 blocked 0
+-- static void cutscene_extraction_exit : extraction_pelican_2 (pelican HumanPlane) from extraction_pelican_flag_2 (37.3,20.2,2.2) yaw 87 : rp extraction_pelican_drop
+   M0: | extraction_pelican_drop: 1215t 0wu end (37.3,20.2,2.2) gnd+172.8 solid 0
+   M4: | extraction_pelican_drop: 1215t 120wu end (37.3,20.2,-117.6) gnd+53.0 solid 0
+   M6: | extraction_pelican_drop: 1215t 120wu end (37.3,20.2,-117.6) gnd+53.0 solid 0 landed 0 blocked 0
+-- dormant mission_beach_lz : hog_pelican (pelican HumanPlane) from hog_pelican_flag_1 (-5.8,7.2,25.9) yaw 125 : rp_and_hover hog_pelican_in -> rp_and_delete hog_pelican_out
+   M0: | hog_pelican_in: 838t 79wu end (-60.6,-49.9,20.1) gnd+19.0 solid 0 | hog_pelican_out: 864t 140wu end (54.9,11.1,71.5) gnd+51.8 solid 0
+   M4: | hog_pelican_in: 838t 86wu end (-65.2,-53.6,14.5) gnd+14.2 solid 0 | hog_pelican_out: 864t 147wu end (61.0,18.2,-5.4) gnd+IN-SOLID solid 235
+   M6: | hog_pelican_in: 838t 86wu end (-65.2,-53.6,14.5) gnd+14.2 solid 0 landed 0 blocked 0 | hog_pelican_out: 864t 147wu end (61.0,18.2,-5.4) gnd+IN-SOLID solid 235 landed 0 blocked 1
+-- dormant flavor_shafta_entrance_cship : shafta_cship (c_dropship HumanPlane) from shafta_cship_flag (52.6,-22.6,4.4) yaw -177 : rp_and_delete shaftA_cship_exit_arch -> rp_and_delete shaftA_cship_exit_pass -> rp_and_delete shaftA_cship_exit_pass
+   M0: | shaftA_cship_exit_arch: 1182t 94wu end (-26.2,4.2,48.0) gnd+26.2 solid 0 | shaftA_cship_exit_pass: 831t 182wu end (-208.5,9.0,48.0) gnd+54.0 solid 0 | shaftA_cship_exit_pass: 831t 182wu end (-390.8,13.8,47.9) gnd+54.0 solid 0
+   M4: | shaftA_cship_exit_arch: 1182t 74wu end (-14.3,9.2,8.8) gnd+IN-SOLID solid 171 | shaftA_cship_exit_pass: 831t 185wu end (-197.2,13.8,37.0) gnd+42.9 solid 128 | shaftA_cship_exit_pass: 831t 185wu end (-380.0,18.5,65.2) gnd+71.2 solid 0
+   M6: | shaftA_cship_exit_arch: 1182t 74wu end (-14.3,9.2,8.8) gnd+IN-SOLID solid 171 landed 0 blocked 1 | shaftA_cship_exit_pass: 831t 185wu end (-197.2,13.8,37.0) gnd+42.9 solid 128 landed 0 blocked 0 | shaftA_cship_exit_pass: 831t 185wu end (-380.0,18.5,65.2) gnd+71.2 solid 0 landed 0 blocked 0
+-- dormant flavor_shafta_inv_cship : shafta_inv_cship (c_dropship HumanPlane) from shaftA_inv_cship_flag (31.9,-22.0,10.5) yaw 179 : rp_and_delete shaftA_inv_cship_exit
+   M0: | shaftA_inv_cship_exit: 981t 108wu end (-69.9,7.4,31.7) gnd+31.0 solid 0
+   M4: | shaftA_inv_cship_exit: 981t 108wu end (-71.2,9.0,16.8) gnd+16.4 solid 339
+   M6: | shaftA_inv_cship_exit: 981t 108wu end (-71.2,9.0,15.7) gnd+15.3 solid 46 landed 34 blocked 2
+-- dormant obj_shafta_goal : extraction_pelican (pelican HumanPlane) from extraction_pelican_flag_1 (-6.8,-22.2,29.6) yaw 5 : rp_and_hover extraction_pelican_1
+   M0: | extraction_pelican_1: 818t 66wu end (57.0,-15.1,14.5) gnd+11.8 solid 0
+   M4: | extraction_pelican_1: 818t 52wu end (44.9,-18.9,28.5) gnd+25.3 solid 0
+   M6: | extraction_pelican_1: 818t 52wu end (44.9,-18.9,28.5) gnd+25.3 solid 0 landed 0 blocked 0
+-- dormant flavor_lid_cship : lid_cship (c_dropship HumanPlane) from lid_cship_flag (26.7,28.7,20.9) yaw 179 : rp_and_delete lid_cship_exit
+   M0: | lid_cship_exit: 468t 108wu end (-2.5,-74.5,10.7) gnd+10.8 solid 0
+   M4: | lid_cship_exit: 468t 114wu end (-3.8,-79.1,43.7) gnd+44.0 solid 0
+   M6: | lid_cship_exit: 468t 114wu end (-3.8,-79.1,43.7) gnd+44.0 solid 0 landed 0 blocked 0
+-- startup cutscene_insertion : insertion_pelican_1 (pelican HumanPlane) from insertion_pelican_flag_1 (-13.5,-196.3,11.9) yaw 120 : rp_and_hover insertion_pelican_1_in
+   M0: | insertion_pelican_1_in: 1031t 320wu end (-64.8,119.2,25.0) gnd+26.9 solid 0
+   M4: | insertion_pelican_1_in: 1031t 328wu end (-63.5,127.9,0.9) gnd+3.2 solid 0
+   M6: | insertion_pelican_1_in: 1031t 328wu end (-63.5,127.9,0.9) gnd+3.2 solid 0 landed 0 blocked 0
+-- startup cutscene_insertion : insertion_pelican_2 (pelican HumanPlane) from insertion_pelican_flag_2 (-10.0,-202.4,10.4) yaw 120 : rp_and_hover insertion_pelican_2_in
+   M0: | insertion_pelican_2_in: 1072t 306wu end (-75.9,96.2,24.0) gnd+24.6 solid 0
+   M4: | insertion_pelican_2_in: 1072t 314wu end (-74.4,104.6,1.5) gnd+2.4 solid 0
+   M6: | insertion_pelican_2_in: 1072t 314wu end (-74.4,104.6,1.5) gnd+2.4 solid 0 landed 0 blocked 0
+-- startup cutscene_insertion : insertion_pelican_1 (pelican HumanPlane) from placement (-59.5,35.4,3.3) yaw 112 : rp_and_delete insertion_pelican_1_out
+   M0: | insertion_pelican_1_out: 1020t 164wu end (7.9,-112.5,28.8) gnd+30.1 solid 0
+   M4: | insertion_pelican_1_out: 1020t 164wu end (15.7,-108.9,20.1) gnd+21.1 solid 0
+   M6: | insertion_pelican_1_out: 1020t 164wu end (15.7,-108.9,20.1) gnd+21.1 solid 0 landed 0 blocked 0
+-- startup cutscene_insertion : insertion_pelican_2 (pelican HumanPlane) from placement (-71.0,28.0,2.0) yaw 128 : rp_and_delete insertion_pelican_2_out
+   M0: | insertion_pelican_2_out: 957t 189wu end (12.7,-139.2,29.8) gnd+32.5 solid 0
+   M4: | insertion_pelican_2_out: 957t 191wu end (19.8,-139.0,19.6) gnd+22.3 solid 0
+   M6: | insertion_pelican_2_out: 957t 191wu end (19.8,-139.0,19.6) gnd+22.3 solid 0 landed 0 blocked 0
+===== a50: 4 bsps
+-- static void pelican_area4_a : insertion_pelican (pelican HumanPlane) from area4_pelican_flag (33.1,37.9,108.0) yaw 128 : rp_and_hover area4_pelican_a_in -> rp_and_delete area4_pelican_a_out
+   M0: | area4_pelican_a_in: 660t 74wu end (-23.3,-9.5,113.8) gnd+22.9 solid 0 | area4_pelican_a_out: 879t 117wu end (89.5,-30.6,92.5) gnd+89.5 solid 428
+   M4: | area4_pelican_a_in: 660t 45wu end (-7.3,21.0,98.2) gnd+2.7 solid 0 | area4_pelican_a_out: 879t 119wu end (108.8,-1.4,106.9) gnd+104.6 solid 307
+   M6: | area4_pelican_a_in: 660t 45wu end (-7.3,21.0,98.2) gnd+2.7 solid 0 landed 0 blocked 0 | area4_pelican_a_out: 879t 119wu end (108.8,-1.4,106.9) gnd+104.6 solid 307 landed 0 blocked 1
+-- static void pelican_area4_b : insertion_pelican (pelican HumanPlane) from area4_pelican_b_flag (32.2,38.3,109.2) yaw 128 : rp_and_hover area4_pelican_b_in -> rp_and_delete area4_pelican_b_out
+   M0: | area4_pelican_b_in: 599t 59wu end (2.3,-12.5,112.0) gnd+13.7 solid 0 | area4_pelican_b_out: 437t 109wu end (108.8,8.9,100.1) gnd+97.7 solid 0
+   M4: | area4_pelican_b_in: 599t 69wu end (-14.9,-11.2,97.4) gnd+IN-SOLID solid 11 | area4_pelican_b_out: 437t 110wu end (93.1,9.9,105.1) gnd+102.8 solid 26
+   M6: | area4_pelican_b_in: 599t 69wu end (-14.9,-11.2,98.1) gnd+0.1 solid 0 landed 3 blocked 0 | area4_pelican_b_out: 437t 110wu end (93.1,9.9,105.8) gnd+103.5 solid 13 landed 0 blocked 1
+-- static void pelican_area5_a : insertion_pelican (pelican HumanPlane) from area5_pelican_a (20.9,-48.3,92.6) yaw -2 : rp AREA5_PELICAN_A_IN -> rp_and_delete v_rec_pel_2_out
+   M0: | AREA5_PELICAN_A_IN: 575t 121wu end (20.0,67.7,127.5) gnd+127.5 solid 0 | v_rec_pel_2_out: 374t 100wu end (14.4,-31.3,115.4) gnd+21.0 solid 0
+   M4: | AREA5_PELICAN_A_IN: 575t 116wu end (14.8,67.0,78.4) gnd+78.4 solid 0 | v_rec_pel_2_out: 374t 109wu end (7.1,-40.6,90.3) gnd+IN-SOLID solid 150
+   M6: | AREA5_PELICAN_A_IN: 575t 116wu end (14.8,67.0,78.4) gnd+78.4 solid 0 landed 0 blocked 0 | v_rec_pel_2_out: 374t 109wu end (7.1,-40.6,90.3) gnd+IN-SOLID solid 150 landed 0 blocked 4
+-- static void pelican_area5_b : insertion_pelican (pelican HumanPlane) from area5_gravity_fodder_flag (23.1,-48.7,92.7) yaw -174 : rp area5_pelican_b_in -> rp_and_delete area5_pelican_b_out
+   M0: | area5_pelican_b_in: 1028t 134wu end (58.6,69.7,143.3) gnd+143.4 solid 103 | area5_pelican_b_out: 579t 138wu end (14.7,-57.4,111.4) gnd+88.9 solid 0
+   M4: | area5_pelican_b_in: 1028t 109wu end (47.8,55.5,72.8) gnd+58.9 solid 125 | area5_pelican_b_out: 579t 135wu end (3.5,-71.5,81.5) gnd+81.6 solid 0
+   M6: | area5_pelican_b_in: 1028t 109wu end (47.8,55.5,72.8) gnd+58.9 solid 125 landed 0 blocked 1 | area5_pelican_b_out: 579t 135wu end (3.5,-71.5,81.5) gnd+81.6 solid 0 landed 0 blocked 0
+-- dormant pelican_hangar_a : insertion_pelican (pelican HumanPlane) from v_flag_hangar_pelican_a (87.2,65.3,-17.5) yaw -89 : rp v_rec_hangar_pelican_a_in -> rp_and_delete v_rec_hangar_pelican_a_out
+   M0: | v_rec_hangar_pelican_a_in: 869t 135wu end (14.2,-48.3,-9.9) gnd+IN-SOLID solid 529 | v_rec_hangar_pelican_a_out: 449t 81wu end (-40.9,-98.9,-40.5) gnd+158.8 solid 252
+   M4: | v_rec_hangar_pelican_a_in: 869t 135wu end (11.7,-46.1,-27.6) gnd+IN-SOLID solid 529 | v_rec_hangar_pelican_a_out: 449t 84wu end (-52.6,-99.8,-20.3) gnd+IN-SOLID solid 400
+   M6: | v_rec_hangar_pelican_a_in: 869t 135wu end (11.7,-46.1,-27.6) gnd+IN-SOLID solid 529 landed 0 blocked 1 | v_rec_hangar_pelican_a_out: 449t 84wu end (-52.6,-99.8,-20.3) gnd+IN-SOLID solid 400 landed 0 blocked 2
+-- static void pelican_hangar_b : insertion_pelican (pelican HumanPlane) from hangar_pelican_b (87.2,65.4,-18.0) yaw -89 : rp hangar_pelican_b_in -> rp_and_delete hangar_pelican_b_out
+   M0: | hangar_pelican_b_in: 858t 130wu end (30.1,-50.8,-7.5) gnd+IN-SOLID solid 719 | hangar_pelican_b_out: 1404t 343wu end (-302.1,-125.8,34.9) gnd+IN-SOLID solid 1404
+   M4: | hangar_pelican_b_in: 858t 136wu end (23.4,-54.8,-23.7) gnd+IN-SOLID solid 417 | hangar_pelican_b_out: 1404t 348wu end (-319.1,-117.2,-17.9) gnd+IN-SOLID solid 1190
+   M6: | hangar_pelican_b_in: 858t 136wu end (23.4,-54.8,-19.8) gnd+0.1 solid 357 landed 31 blocked 2 | hangar_pelican_b_out: 1404t 348wu end (-319.1,-117.2,-18.5) gnd+IN-SOLID solid 1059 landed 38 blocked 3
+-- static void c_dropship_area4 : c_dropship_a (c_dropship HumanPlane) from truth_left_flag (53.3,25.6,125.3) yaw -74 : rp_and_hover AREA4_C_DROPSHIP_IN -> rp_and_delete area4_c_dropship_out
+   M0: | AREA4_C_DROPSHIP_IN: 671t 84wu end (-26.0,50.2,109.4) gnd+109.5 solid 0 | area4_c_dropship_out: 645t 115wu end (69.8,17.1,163.2) gnd+IN-SOLID solid 342
+   M4: | AREA4_C_DROPSHIP_IN: 671t 89wu end (-26.3,62.2,112.1) gnd+112.2 solid 0 | area4_c_dropship_out: 645t 106wu end (73.6,28.6,118.9) gnd+119.0 solid 322
+   M6: | AREA4_C_DROPSHIP_IN: 671t 89wu end (-26.3,62.2,112.1) gnd+112.2 solid 0 landed 0 blocked 0 | area4_c_dropship_out: 645t 106wu end (73.6,28.6,118.9) gnd+119.0 solid 322 landed 0 blocked 1
+-- static void c_dropship_area5 : c_dropship_a (c_dropship HumanPlane) from truth_left_flag_b (53.3,25.2,125.6) yaw -90 : rp_and_hover c_dropship_area5_in -> rp_and_delete c_dropship_area5_out
+   M0: | c_dropship_area5_in: 419t 37wu end (39.6,54.9,108.2) gnd+89.2 solid 0 | c_dropship_area5_out: 552t 91wu end (118.1,27.8,146.3) gnd+144.3 solid 210
+   M4: | c_dropship_area5_in: 419t 40wu end (35.0,60.1,119.5) gnd+119.5 solid 0 | c_dropship_area5_out: 552t 87wu end (115.7,30.3,128.7) gnd+126.7 solid 238
+   M6: | c_dropship_area5_in: 419t 40wu end (35.0,60.1,119.5) gnd+119.5 solid 0 landed 0 blocked 0 | c_dropship_area5_out: 552t 87wu end (115.7,30.3,128.7) gnd+126.7 solid 238 landed 0 blocked 1
+-- static void hangar_dropship_b : hangar_dropship_b (c_dropship HumanPlane) from placement (40.0,-32.8,-24.8) yaw 0 : rp_and_delete hangar_dropship_b_exit
+   M0: | hangar_dropship_b_exit: 572t 137wu end (-55.4,-118.1,-75.0) gnd+124.2 solid 0
+   M4: | hangar_dropship_b_exit: 572t 135wu end (-60.8,-122.7,-24.8) gnd+IN-SOLID solid 308
+   M6: | hangar_dropship_b_exit: 572t 135wu end (-60.8,-122.7,-24.8) gnd+IN-SOLID solid 308 landed 0 blocked 1
+-- static void cutscene_insertion : insertion_pelican (pelican HumanPlane) from insertion_pelican_1 (45.5,-39.8,84.4) yaw 156 : rp insertion_pelican_in -> rp_and_delete insertion_pelican_out
+   M0: | insertion_pelican_in: 788t 16wu end (30.4,-35.2,86.5) gnd+IN-SOLID solid 464 | insertion_pelican_out: 874t 156wu end (-115.2,10.2,52.4) gnd+IN-SOLID solid 339
+   M4: | insertion_pelican_in: 788t 34wu end (22.6,-32.1,108.1) gnd+19.8 solid 0 | insertion_pelican_out: 874t 155wu end (-124.2,15.3,121.5) gnd+IN-SOLID solid 166
+   M6: | insertion_pelican_in: 788t 34wu end (22.6,-32.1,108.1) gnd+19.8 solid 0 landed 0 blocked 0 | insertion_pelican_out: 874t 155wu end (-124.2,15.3,121.5) gnd+IN-SOLID solid 166 landed 0 blocked 1
+===== b40: 13 bsps
+-- static void cutscene_insertion_b : insertion_pelican (pelican HumanPlane) from placement (43.9,37.5,12.0) yaw 0 : rp_and_delete insertion_pelican_out
+   M0: | insertion_pelican_out: 1190t 297wu end (55.1,61.6,-283.6) gnd+IN-SOLID solid 183
+   M4: | insertion_pelican_out: 1190t 85wu end (113.9,81.2,32.7) gnd+IN-SOLID solid 329
+   M6: | insertion_pelican_out: 1190t 85wu end (113.9,81.2,32.7) gnd+IN-SOLID solid 329 landed 0 blocked 2
+-- static void ext_b_b_dropship_b : c_dropship_b (c_dropship HumanPlane) from ext_b_b_dropship_b (225.3,-527.6,23.3) yaw -131 : rp_and_delete ext_b_b_dropship_b_out
+   M0: | ext_b_b_dropship_b_out: 1022t 248wu end (208.1,-372.2,216.3) gnd+IN-SOLID solid 338
+   M4: | ext_b_b_dropship_b_out: 1022t 200wu end (220.6,-328.4,41.2) gnd+IN-SOLID solid 551
+   M6: | ext_b_b_dropship_b_out: 1022t 200wu end (220.6,-328.4,41.2) gnd+IN-SOLID solid 551 landed 0 blocked 7
+-- static void ext_b_b_dropship_a : c_dropship_b (c_dropship HumanPlane) from ext_b_b_dropship_a (228.4,-517.6,36.3) yaw -121 : rp_and_hover ext_b_b_dropship_a_in -> rp_and_delete ext_b_b_dropship_a_out
+   M0: | ext_b_b_dropship_a_in: 501t 45wu end (184.0,-522.8,33.4) gnd+20.7 solid 0 | ext_b_b_dropship_a_out: 876t 182wu end (292.7,-520.0,179.3) gnd+156.9 solid 29
+   M4: | ext_b_b_dropship_a_in: 501t 61wu end (175.4,-489.2,29.3) gnd+IN-SOLID solid 250 | ext_b_b_dropship_a_out: 876t 162wu end (334.7,-513.6,47.4) gnd+IN-SOLID solid 513
+   M6: | ext_b_b_dropship_a_in: 501t 61wu end (175.4,-489.2,29.3) gnd+IN-SOLID solid 250 landed 0 blocked 2 | ext_b_b_dropship_a_out: 876t 162wu end (334.7,-513.6,47.4) gnd+IN-SOLID solid 513 landed 0 blocked 5
+-- static void ext_b_a_dropship_a : c_dropship_b (c_dropship HumanPlane) from ext_b_dropship_a (160.1,-410.5,53.7) yaw -90 : rp_and_hover ext_b_dropship_a_in -> rp_and_delete EXT_B_DROPSHIP_A_OUT
+   M0: | ext_b_dropship_a_in: 534t 0wu end (160.1,-410.5,53.7) gnd+31.6 solid 0 | EXT_B_DROPSHIP_A_OUT: 830t 197wu end (215.8,-598.9,60.3) gnd+IN-SOLID solid 223
+   M4: | ext_b_dropship_a_in: 534t 42wu end (160.1,-410.5,11.5) gnd+IN-SOLID solid 176 | EXT_B_DROPSHIP_A_OUT: 830t 213wu end (231.1,-610.1,36.8) gnd+IN-SOLID solid 345
+   M6: | ext_b_dropship_a_in: 534t 32wu end (160.1,-410.5,22.1) gnd+0.1 solid 0 landed 98 blocked 0 | EXT_B_DROPSHIP_A_OUT: 830t 213wu end (231.1,-610.1,47.4) gnd+IN-SOLID solid 230 landed 0 blocked 3
+-- static void cinematic_ext_a_pelican : pelican_a (pelican HumanPlane) from ext_a_pelican_flag (146.1,-67.8,62.7) yaw 88 : rp ext_a_pelican_in -> rp_and_delete EXT_A_PELICAN_OUT
+   M0: | ext_a_pelican_in: 1683t 147wu end (-1.0,-66.4,62.2) gnd+IN-SOLID solid 1309 | EXT_A_PELICAN_OUT: 499t 190wu end (188.1,-53.6,59.2) gnd+IN-SOLID solid 240
+   M4: | ext_a_pelican_in: 1683t 149wu end (40.4,-59.7,-42.3) gnd+IN-SOLID solid 1311 | EXT_A_PELICAN_OUT: 499t 201wu end (241.3,-51.3,-33.9) gnd+IN-SOLID solid 499
+   M6: | ext_a_pelican_in: 1683t 149wu end (40.5,-58.6,-42.3) gnd+IN-SOLID solid 1311 landed 0 blocked 1 | EXT_A_PELICAN_OUT: 499t 201wu end (241.3,-50.2,-33.9) gnd+IN-SOLID solid 499 landed 0 blocked 0
+-- dormant pelican_up : insertion_pelican (pelican HumanPlane) from insertion_pelican_1 (44.6,43.4,45.7) yaw -90 : rp insertion_pelican_in
+   M0: | insertion_pelican_in: 611t 13wu end (39.0,31.1,46.0) gnd+37.3 solid 0
+   M4: | insertion_pelican_in: 611t 33wu end (33.1,29.2,73.7) gnd+25.8 solid 0
+   M6: | insertion_pelican_in: 611t 33wu end (33.1,29.2,73.7) gnd+25.8 solid 0 landed 0 blocked 0
+-- static void pelican : insertion_pelican (pelican HumanPlane) from insertion_pelican_1 (44.6,43.4,45.7) yaw -90 : rp insertion_pelican_in -> rp_and_delete insertion_pelican_out
+   M0: | insertion_pelican_in: 611t 13wu end (39.0,31.1,46.0) gnd+37.3 solid 0 | insertion_pelican_out: 1190t 297wu end (50.1,55.2,-249.7) gnd+IN-SOLID solid 67
+   M4: | insertion_pelican_in: 611t 33wu end (33.1,29.2,73.7) gnd+25.8 solid 0 | insertion_pelican_out: 1190t 85wu end (103.0,72.9,94.4) gnd+IN-SOLID solid 533
+   M6: | insertion_pelican_in: 611t 33wu end (33.1,29.2,73.7) gnd+25.8 solid 0 landed 0 blocked 0 | insertion_pelican_out: 1190t 83wu end (103.0,72.9,78.1) gnd+IN-SOLID solid 230 landed 157 blocked 8

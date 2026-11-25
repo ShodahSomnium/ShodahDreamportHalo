@@ -1,0 +1,686 @@
+CMDLIST [0] 'introduction_1' flags 20 bsp 0/0 points 0
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookPlayer(2) p0.1,2.6 pt 0,3 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p0.6,2.6 pt 0,2 anim -1 script -1 rec -1 cmd 1 obj 0
+CMDLIST [1] 'introduction_2' flags 20 bsp 0/0 points 0
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookPlayer(0) p0.1,2.6 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p0.6,2.6 pt 0,5 anim -1 script -1 rec -1 cmd 1 obj 0
+CMDLIST [2] 'introduction_3' flags 20 bsp 0/0 points 0
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Animate(0) p0,0 pt -1,-1 anim 5 script -1 rec -1 cmd -1 obj 0
+    LookPlayer(0) p0.1,0 pt -1,-1 anim -1 script -1 rec -1 cmd 1 obj -1
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 2 obj -1
+CMDLIST [3] 'introduction_4' flags 20 bsp 0/0 points 0
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookPlayer(2) p0.1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Animate(0) p1,0 pt -1,-1 anim 4 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd 2 obj 0
+    LookPlayer(2) p0.1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd 4 obj -1
+CMDLIST [4] 'introduction_5' flags 20 bsp 0/0 points 1
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Look(0) p0.1,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p1,0 pt 0,-1 anim -1 script -1 rec -1 cmd 1 obj 0
+CMDLIST [5] 'looking_1' flags 20 bsp 0/0 points 7
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    SetRadius(1) p0.1,1.6 pt 1,4 anim -1 script -1 rec -1 cmd 2 obj 0
+    GoToAndFace(0) p0,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.6,2.6 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.6,1.6 pt 1,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.6,1.6 pt 1,4 anim -1 script -1 rec -1 cmd 3 obj -1
+CMDLIST [6] 'looking_2' flags 20 bsp 0/0 points 0
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookPlayer(0) p0.1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 1 obj 0
+CMDLIST [7] 'action_1' flags 20 bsp 0/0 points 1
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Look(0) p0.1,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p1,0 pt 0,-1 anim -1 script -1 rec -1 cmd 1 obj 0
+CMDLIST [8] 'action_2' flags 20 bsp 0/0 points 5
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookPlayer(0) p0.1,2.6 pt 1,3 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.6,2.6 pt 1,3 anim -1 script -1 rec -1 cmd 1 obj -1
+CMDLIST [9] 'action_3' flags 20 bsp 0/0 points 6
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    GoTo(1) p0,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    GoToAndFace(1) p0,0 pt 1,2 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p0.6,2.6 pt 2,5 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p0.6,2.6 pt 2,5 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookPlayer(1) p1.2,2.6 pt 2,5 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p1.2,2.6 pt 2,5 anim -1 script -1 rec -1 cmd 3 obj 0
+CMDLIST [10] 'action_4' flags 20 bsp 0/0 points 0
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookPlayer(0) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd 1 obj 0
+CMDLIST [11] 'moving_1_1' flags 20 bsp 0/0 points 3
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p1.5,4 pt 0,2 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p0.6,2.6 pt 0,2 anim -1 script -1 rec -1 cmd 1 obj 0
+CMDLIST [12] 'moving_1_2' flags 20 bsp 0/0 points 1
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoTo(0) p0,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Wait(2) p0.1,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookPlayer(0) p0.1,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.1,0 pt 0,-1 anim -1 script -1 rec -1 cmd 3 obj -1
+CMDLIST [13] 'moving_1_3' flags 20 bsp 0/0 points 5
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    GoTo(1) p0,0 pt 5,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    SetRadius(0) p0.1,2.6 pt 2,3 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoToAndFace(1) p0,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookPlayer(0) p0.1,2.6 pt 2,3 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p2,2.6 pt 2,3 anim -1 script -1 rec -1 cmd 4 obj -1
+CMDLIST [14] 'red_square' flags 20 bsp 0/0 points 1
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Look(0) p1,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookPlayer(0) p0.1,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p1,0 pt 0,-1 anim -1 script -1 rec -1 cmd 3 obj 0
+CMDLIST [15] 'looking_targeted_1' flags 20 bsp 0/0 points 6
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookPlayer(0) p0.1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p3,2.6 pt 0,5 anim -1 script -1 rec -1 cmd 1 obj 0
+CMDLIST [16] 'looking_targeted_2' flags 20 bsp 0/0 points 2
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    GoToAndFace(0) p0,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookPlayer(0) p0.1,0 pt 1,1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p1,0 pt 1,1 anim -1 script -1 rec -1 cmd 2 obj 0
+CMDLIST [17] 'looking_inverted_1' flags 20 bsp 0/0 points 1
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Look(0) p0.1,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p0,0 pt 0,-1 anim -1 script -1 rec -1 cmd 1 obj 0
+CMDLIST [18] 'looking_inverted_2' flags 20 bsp 0/0 points 1
+    AnimationMode(0) p3,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Look(0) p0.6,2.6 pt 0,5 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookPlayer(0) p0.1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p1.6,0 pt -1,-1 anim -1 script -1 rec -1 cmd 2 obj 0
+CMDLIST [19] 'moving_2_1' flags 20 bsp 0/0 points 5
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    SetRadius(0) p0.1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoToAndFace(0) p0,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.6,2.6 pt 1,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookPlayer(0) p2,2.6 pt 1,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.6,2.6 pt 1,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookPlayer(0) p3.5,2.6 pt 1,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p3.5,2.6 pt 1,4 anim -1 script -1 rec -1 cmd 3 obj -1
+CMDLIST [20] 'moving_2_2' flags 20 bsp 0/0 points 6
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    GoTo(1) p0,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    GoTo(1) p0,0 pt 1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    SetRadius(1) p0.2,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoToAndFace(1) p0,0 pt 2,3 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookPlayer(2) p0.1,0 pt 2,3 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 5 obj -1
+CMDLIST [21] 'asst_kill_1' flags 20 bsp 0/0 points 3
+    AnimationMode(2) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Look(0) p0.1,1.8 pt 0,2 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p0.2,0 pt 2,1 anim -1 script -1 rec -1 cmd 1 obj 0
+    LookPlayer(0) p0.1,1.8 pt 0,2 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.2,0 pt 2,1 anim -1 script -1 rec -1 cmd 3 obj -1
+    GoToAndFace(0) p0.1,1.8 pt 1,2 anim -1 script -1 rec -1 cmd -1 obj -1
+    Look(0) p0.1,1.8 pt 2,2 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.2,0 pt 2,1 anim -1 script -1 rec -1 cmd 6 obj -1
+CMDLIST [22] 'asst_kill_2' flags 20 bsp 0/0 points 2
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    GoToAndFace(0) p0,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Look(0) p0.1,1.8 pt 1,2 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p0.1,1.8 pt 1,2 anim -1 script -1 rec -1 cmd 2 obj -1
+    LookPlayer(0) p0.1,1.8 pt 1,2 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.1,1.8 pt 1,2 anim -1 script -1 rec -1 cmd 4 obj -1
+CMDLIST [23] 'asst_kill_3' flags 20 bsp 0/0 points 1
+    AnimationMode(2) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Look(0) p0.1,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p2,0 pt 0,-1 anim -1 script -1 rec -1 cmd 1 obj 0
+CMDLIST [24] 'asst_kill_4' flags 20 bsp 0/0 points 1
+    AnimationMode(2) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Pause(0) p0.2,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Look(0) p0.1,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p2,0 pt 0,-1 anim -1 script -1 rec -1 cmd 1 obj 0
+CMDLIST [25] 'asst_kill_5' flags 20 bsp 0/0 points 2
+    AnimationMode(3) p0.2,0 pt 2,1 anim -1 script -1 rec -1 cmd 2 obj -1
+    Crouch(1) p0.2,0 pt 2,1 anim -1 script -1 rec -1 cmd 2 obj -1
+    Pause(2) p0.1,0 pt 2,1 anim -1 script -1 rec -1 cmd 2 obj -1
+    Loop(1) p0.2,0 pt 2,1 anim -1 script -1 rec -1 cmd 2 obj -1
+CMDLIST [26] 'asst_kill_6' flags 20 bsp 0/0 points 3
+    AnimationMode(2) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Wait(2) p0.2,0 pt 2,1 anim -1 script -1 rec -1 cmd 2 obj 0
+CMDLIST [27] 'asst_kill_7' flags 24 bsp 0/0 points 2
+    AnimationMode(2) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Look(0) p0.3,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    AnimationMode(0) p0.3,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    GoToAndFace(0) p0.3,0 pt 1,0 anim -1 script -1 rec -1 cmd -1 obj 0
+    Crouch(1) p0.3,0 pt 1,0 anim -1 script -1 rec -1 cmd -1 obj 0
+    Look(0) p0.3,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p0.3,0 pt 0,-1 anim -1 script -1 rec -1 cmd 5 obj 0
+CMDLIST [28] 'asst_kill_8' flags 20 bsp 0/0 points 1
+    AnimationMode(2) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Shoot(2) p0.5,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p0.5,0 pt 0,1 anim -1 script -1 rec -1 cmd 1 obj -1
+CMDLIST [29] 'asst_kill_9' flags 24 bsp 0/0 points 3
+    AnimationMode(2) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    GoToAndFace(2) p0,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Wait(2) p1.5,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj 0
+    GoTo(0) p2,0 pt 2,1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Wait(2) p2,0 pt 2,1 anim -1 script -1 rec -1 cmd -1 obj 0
+CMDLIST [30] 'cryo_explosion_1' flags 20 bsp 0/0 points 3
+    AnimationMode(2) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    SetRadius(0) p0.1,0 pt 1,1 anim -1 script -1 rec -1 cmd 3 obj -1
+    GoTo(0) p0,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Wait(2) p0.1,0 pt 1,1 anim -1 script -1 rec -1 cmd 3 obj -1
+    LookPlayer(0) p0.1,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.1,0 pt 0,1 anim -1 script -1 rec -1 cmd 4 obj -1
+    GoTo(1) p0.1,0 pt 2,1 anim -1 script -1 rec -1 cmd 3 obj -1
+    GoTo(0) p0.1,0 pt 1,1 anim -1 script -1 rec -1 cmd 3 obj -1
+    Wait(2) p0.1,0 pt 1,1 anim -1 script -1 rec -1 cmd 3 obj -1
+CMDLIST [31] 'cryo_explosion_2' flags 20 bsp 0/0 points 0
+    Die(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+CMDLIST [32] 'blam_1' flags 20 bsp 0/0 points 3
+    AnimationMode(3) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    GoToAndFace(0) p0,0 pt 0,2 anim -1 script -1 rec -1 cmd -1 obj 0
+    Look(0) p0.25,0 pt 2,-1 anim -1 script -1 rec -1 cmd 2 obj 0
+    Loop(1) p0,0 pt 1,-1 anim -1 script -1 rec -1 cmd 2 obj 0
+    GoTo(0) p0,0 pt 1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Die(1) p0,0 pt 1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+CMDLIST [33] 'blam_2' flags 20 bsp 0/0 points 1
+    AnimationMode(3) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    GoTo(1) p0,0 pt 0,-1 anim -1 script -1 rec -1 cmd 3 obj 0
+    LookPlayer(0) p0.5,0 pt -1,-1 anim -1 script -1 rec -1 cmd 3 obj 0
+    Loop(1) p0,0 pt 0,-1 anim -1 script -1 rec -1 cmd 2 obj 0
+    Die(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 3 obj 0
+CMDLIST [34] 'containment_1_1' flags 20 bsp 0/0 points 1
+    AnimationMode(3) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    GoTo(1) p0,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+CMDLIST [35] 'containment_1_2' flags 20 bsp 0/0 points 0
+    Pause(1) p1.5,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+CMDLIST [36] 'containment_1_3' flags 20 bsp 0/0 points 2
+    AnimationMode(3) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    GoToAndFace(3) p0,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj 0
+CMDLIST [37] 'first_contact_1' flags 24 bsp 0/0 points 1
+    AnimationMode(2) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Wait(2) p0,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Action(0) p0,0 pt 0,1 anim 0 script -1 rec -1 cmd -1 obj -1
+CMDLIST [38] 'first_contact_2' flags 20 bsp 0/0 points 1
+    Die(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+CMDLIST [39] 'first_contact_3' flags 20 bsp 0/0 points 1
+    LookPlayer(3) p0.1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.5,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [40] 'crossfire_1' flags 20 bsp 1/1 points 0
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(2) p10,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(0) p0.1,0 pt -1,-1 anim -1 script -1 rec -1 cmd 1 obj -1
+CMDLIST [41] 'crossfire_2' flags 20 bsp 1/1 points 0
+    LookPlayer(0) p0.5,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [42] 'crossfire_5' flags 22 bsp 1/1 points 0
+    Pause(0) p2,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+CMDLIST [43] 'crossfire_6' flags 22 bsp 1/1 points 0
+    Pause(0) p3,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+CMDLIST [44] 'crossfire_7' flags 20 bsp 1/1 points 0
+    Pause(0) p4,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+CMDLIST [45] 'crossfire_8' flags 22 bsp 1/1 points 0
+    Pause(0) p5,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+CMDLIST [46] 'crossfire_9' flags 20 bsp 1/1 points 3
+    AnimationMode(2) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    GoToAndFace(1) p0,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Crouch(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(1) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 3 obj 0
+    Shoot(1) p0.3,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 3 obj 0
+    LookRandom(1) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 6 obj 0
+    Crouch(0) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 6 obj 0
+    AnimationMode(0) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 6 obj 0
+    MoveImmediate(3) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 6 obj 0
+    Wait(1) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 6 obj 0
+CMDLIST [47] 'crossfire_10' flags 20 bsp 1/1 points 3
+    AnimationMode(2) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    GoToAndFace(1) p0,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Crouch(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(1) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 3 obj 0
+    Shoot(1) p0.3,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 3 obj 0
+    LookRandom(1) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 6 obj 0
+    Crouch(0) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 6 obj 0
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    MoveImmediate(3) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 6 obj 0
+    Wait(1) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 6 obj 0
+CMDLIST [48] 'crossfire_11' flags 20 bsp 1/1 points 3
+    AnimationMode(2) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    GoToAndFace(1) p0,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(1) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 3 obj 0
+    Shoot(1) p0.3,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 3 obj 0
+    LookRandom(1) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 5 obj 0
+    AnimationMode(0) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 5 obj 0
+    Wait(1) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 5 obj 0
+CMDLIST [49] 'crossfire_12' flags 20 bsp 1/1 points 4
+    AnimationMode(2) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    GoToAndFace(1) p0,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(1) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd -1 obj 0
+    Loop(1) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 3 obj 0
+    AnimationMode(0) p0.3,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 3 obj 0
+    Look(0) p0.3,1.6 pt 3,2 anim -1 script -1 rec -1 cmd 3 obj 0
+    Animate(1) p0.3,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 3 obj 0
+    Loop(1) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 5 obj 0
+    Wait(1) p0.4,1.6 pt 1,2 anim -1 script -1 rec -1 cmd 5 obj 0
+CMDLIST [50] 'crossfire_13' flags 20 bsp 1/1 points 2
+    AnimationMode(2) p0.1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+    GoToAndFace(1) p0.1,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj 0
+    Animate(1) p0.1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 0
+CMDLIST [51] 'crossfire_14' flags 20 bsp 1/1 points 0
+CMDLIST [52] 'fetch_1' flags 22 bsp 1/1 points 4
+    AnimationMode(2) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(2) p0.1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(1) p0.1,0 pt -1,-1 anim -1 script -1 rec -1 cmd 1 obj -1
+    SetRadius(1) p0.1,0 pt 0,1 anim -1 script -1 rec -1 cmd 1 obj -1
+    GoTo(1) p0.1,0 pt 3,1 anim -1 script -1 rec -1 cmd 1 obj -1
+    GoToAndFace(1) p0.1,0 pt 0,1 anim -1 script -1 rec -1 cmd 1 obj -1
+    Wait(2) p1.5,0 pt 0,1 anim -1 script -1 rec -1 cmd 5 obj -1
+    Grenade(0) p1.5,0 pt 2,1 anim -1 script -1 rec -1 cmd 5 obj -1
+    Wait(2) p1.5,0 pt 0,1 anim -1 script -1 rec -1 cmd 1 obj -1
+CMDLIST [53] 'fetch_2' flags 20 bsp 1/1 points 4
+    SetRadius(0) p0.1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    AnimationMode(2) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoToAndFace(0) p0,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookPlayer(3) p0.1,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0,0 pt 0,1 anim -1 script -1 rec -1 cmd 2 obj -1
+CMDLIST [54] 'fetch_3' flags 20 bsp 1/1 points 2
+    SetRadius(0) p0.1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    AnimationMode(2) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoToAndFace(1) p0,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj -1
+    AnimationMode(0) p0,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookPlayer(2) p1,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0,0 pt 0,1 anim -1 script -1 rec -1 cmd 3 obj -1
+CMDLIST [55] 'bridge_flavor_1' flags 20 bsp 1/1 points 5
+    LookRandom(0) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    Animate(0) p2,4 pt 1,6 anim 1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p0.5,1 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p2,5 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    Pause(0) p3,4 pt 1,6 anim 2 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    Animate(0) p2,4 pt 1,6 anim 3 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.5,1 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,5 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p3,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.7,4 pt 1,6 anim -1 script -1 rec -1 cmd 1 obj -1
+CMDLIST [56] 'bridge_flavor_2' flags 20 bsp 1/1 points 5
+    LookRandom(0) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    Pause(0) p2,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p0.5,1 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p2,5 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    Animate(0) p3,4 pt 1,6 anim 1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p2,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.5,1 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,5 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    Animate(0) p3,4 pt 1,6 anim 3 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.7,4 pt 1,6 anim -1 script -1 rec -1 cmd 1 obj -1
+CMDLIST [57] 'bridge_flavor_3' flags 20 bsp 1/1 points 5
+    LookRandom(0) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    Animate(0) p2,4 pt 1,6 anim 1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p0.5,1 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p2,5 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    Pause(0) p3,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    Animate(0) p2,4 pt 1,6 anim 3 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.5,1 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,5 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p3,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.7,4 pt 1,6 anim -1 script -1 rec -1 cmd 1 obj -1
+CMDLIST [58] 'bridge_flavor_4' flags 20 bsp 1/1 points 5
+    LookRandom(0) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    Animate(0) p2,4 pt 1,6 anim 2 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p0.5,1 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p2,5 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    Pause(0) p3,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    Animate(0) p2,4 pt 1,6 anim 3 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.5,1 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,5 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p3,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.7,4 pt 1,6 anim -1 script -1 rec -1 cmd 1 obj -1
+CMDLIST [59] 'bridge_flavor_5' flags 20 bsp 1/1 points 5
+    LookRandom(0) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    Pause(0) p2,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p0.5,1 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p2,5 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    Animate(0) p3,4 pt 1,6 anim 2 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p2,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.5,1 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,5 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    Animate(0) p3,4 pt 1,6 anim 3 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.7,4 pt 1,6 anim -1 script -1 rec -1 cmd 1 obj -1
+CMDLIST [60] 'bridge_flavor_6' flags 20 bsp 1/1 points 5
+    LookRandom(0) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    Animate(0) p2,4 pt 1,6 anim 1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p0.5,1 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p2,5 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    Pause(0) p3,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    Animate(0) p2,4 pt 1,6 anim 3 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.5,1 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,5 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p3,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.7,4 pt 1,6 anim -1 script -1 rec -1 cmd 1 obj -1
+CMDLIST [61] 'bridge_flavor_7' flags 20 bsp 1/1 points 5
+    LookRandom(0) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    Animate(0) p2,4 pt 1,6 anim 1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p0.5,1 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p2,5 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    Pause(0) p3,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    Animate(0) p2,4 pt 1,6 anim 3 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.5,1 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,5 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p3,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.7,4 pt 1,6 anim -1 script -1 rec -1 cmd 1 obj -1
+CMDLIST [62] 'bridge_flavor_8' flags 20 bsp 1/1 points 5
+    LookRandom(0) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    Pause(0) p2,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p0.5,1 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p2,5 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    Animate(0) p3,4 pt 1,6 anim 1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p2,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.5,1 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,5 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    Animate(0) p3,4 pt 1,6 anim 3 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.7,4 pt 1,6 anim -1 script -1 rec -1 cmd 1 obj -1
+CMDLIST [63] 'bridge_flavor_9' flags 20 bsp 1/1 points 5
+    LookRandom(0) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    Pause(0) p2,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p0.5,1 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p2,5 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p2,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.5,1 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,5 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.7,4 pt 1,6 anim -1 script -1 rec -1 cmd 1 obj -1
+CMDLIST [64] 'bridge_flavor_10' flags 20 bsp 1/1 points 5
+    LookRandom(0) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p0.5,1 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p2,5 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj 0
+    Pause(0) p3,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj 0
+    LookRandom(0) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.5,1 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,5 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p3,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.7,4 pt 1,6 anim -1 script -1 rec -1 cmd 1 obj -1
+CMDLIST [65] 'bridge_flavor_11' flags 20 bsp 1/1 points 8
+    AnimationMode(3) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoToAndFace(0) p2,4 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj -1
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,4 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p2,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.5,1 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,5 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p3,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.7,4 pt 1,6 anim -1 script -1 rec -1 cmd 2 obj -1
+CMDLIST [66] 'bridge_flavor_12' flags 20 bsp 1/1 points 8
+    AnimationMode(3) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoToAndFace(0) p2,4 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj -1
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,4 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p2,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.5,1 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,5 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p3,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.7,4 pt 1,6 anim -1 script -1 rec -1 cmd 2 obj -1
+CMDLIST [67] 'bridge_flavor_13' flags 20 bsp 1/1 points 8
+    AnimationMode(3) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoToAndFace(0) p2,4 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj -1
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,4 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p2,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.5,1 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,5 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p3,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.7,4 pt 1,6 anim -1 script -1 rec -1 cmd 2 obj -1
+CMDLIST [68] 'bridge_flavor_14' flags 20 bsp 1/1 points 8
+    AnimationMode(3) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoToAndFace(0) p2,4 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj -1
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,4 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p2,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.5,1 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,5 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p3,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.7,4 pt 1,6 anim -1 script -1 rec -1 cmd 2 obj -1
+CMDLIST [69] 'bridge_flavor_15' flags 20 bsp 1/1 points 8
+    AnimationMode(3) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoToAndFace(0) p2,4 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,4 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p2,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.5,1 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,5 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p3,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.7,4 pt 1,6 anim -1 script -1 rec -1 cmd 2 obj -1
+CMDLIST [70] 'bridge_flavor_16' flags 20 bsp 1/1 points 8
+    AnimationMode(3) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoToAndFace(0) p2,4 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,4 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p2,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.5,1 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,5 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p3,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.7,4 pt 1,6 anim -1 script -1 rec -1 cmd 2 obj -1
+CMDLIST [71] 'bridge_flavor_17' flags 20 bsp 1/1 points 8
+    AnimationMode(3) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoToAndFace(0) p2,4 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,4 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p2,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.5,1 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,5 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p3,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.7,4 pt 1,6 anim -1 script -1 rec -1 cmd 2 obj -1
+CMDLIST [72] 'bridge_flavor_18' flags 20 bsp 1/1 points 8
+    AnimationMode(3) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoToAndFace(0) p2,4 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,4 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p2,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.5,1 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,5 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p3,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.7,4 pt 1,6 anim -1 script -1 rec -1 cmd 2 obj -1
+CMDLIST [73] 'bridge_flavor_19' flags 20 bsp 1/1 points 8
+    AnimationMode(3) p2,4 pt 0,4 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoToAndFace(0) p2,4 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,4 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p2,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p0.5,1 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookRandom(0) p2,5 pt 2,7 anim -1 script -1 rec -1 cmd -1 obj -1
+    Pause(0) p3,4 pt 1,6 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.7,4 pt 1,6 anim -1 script -1 rec -1 cmd 2 obj -1
+CMDLIST [74] 'shoot_1' flags 20 bsp 1/1 points 1
+    Pause(0) p0.5,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p2,0 pt 2,1 anim -1 script -1 rec -1 cmd 0 obj -1
+    Shoot(0) p1,0 pt 0,1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p2,0 pt 2,1 anim -1 script -1 rec -1 cmd 2 obj -1
+CMDLIST [75] 'airlock_1_1' flags 20 bsp 2/2 points 2
+    AnimationMode(2) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Look(0) p0.5,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.5,0 pt 0,-1 anim -1 script -1 rec -1 cmd 1 obj -1
+    GoTo(0) p0.1,0 pt 0,-1 anim -1 script -1 rec -1 cmd 1 obj -1
+CMDLIST [76] 'airlock_1_2' flags 20 bsp 2/2 points 1
+    AnimationMode(2) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Look(0) p0.5,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.5,0 pt 0,-1 anim -1 script -1 rec -1 cmd 1 obj -1
+    MoveImmediate(3) p0.25,0 pt 0,-1 anim -1 script -1 rec -1 cmd 1 obj -1
+    Action(8) p0.5,0 pt 0,-1 anim -1 script -1 rec -1 cmd 1 obj -1
+CMDLIST [77] 'tutorial_skip' flags 0 bsp 0/-1 points 0
+    LookPlayer(0) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [78] 'cryo_search_1' flags 20 bsp 5/5 points 2
+    Look(0) p0.5,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.5,0 pt 0,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+    Look(0) p1,0 pt 1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+    LookPlayer(0) p1,0 pt 1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+    Wait(2) p1,0 pt 1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+    Shoot(2) p2,0 pt 1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+    Animate(0) p2,0 pt 1,-1 anim 0 script -1 rec -1 cmd 0 obj -1
+CMDLIST [79] 'cryo_search_2' flags 20 bsp 5/5 points 1
+    GoTo(0) p0,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Wait(2) p0,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+CMDLIST [80] 'flank_1' flags 20 bsp 2/2 points 0
+    LookPlayer(3) p0.1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.5,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [81] 'yellow_square' flags 20 bsp 0/0 points 1
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Look(0) p1,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    LookPlayer(0) p0.1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.1,0 pt -1,-1 anim -1 script -1 rec -1 cmd 3 obj -1
+CMDLIST [82] 'hud_1' flags 20 bsp 0/0 points 1
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Look(0) p0.1,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.1,0 pt 0,-1 anim -1 script -1 rec -1 cmd 1 obj -1
+    LookPlayer(0) p0.1,0 pt 0,-1 anim -1 script -1 rec -1 cmd 1 obj -1
+    Loop(1) p0.1,0 pt 0,-1 anim -1 script -1 rec -1 cmd 3 obj -1
+CMDLIST [83] 'lifepod_1_1' flags 20 bsp 0/0 points 1
+    Wait(2) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Grenade(0) p0,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+CMDLIST [84] 'player0_introduction_1' flags 0 bsp 0/-1 points 0
+    LookObject(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+CMDLIST [85] 'fetch_0' flags 22 bsp 1/1 points 0
+    Pause(0) p0.1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.1,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [86] 'stairs_1' flags 0 bsp 0/4 points 5
+    SetRadius(0) p0.25,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoTo(1) p0.25,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoTo(1) p0.25,0 pt 1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoTo(1) p0.25,0 pt 2,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoTo(1) p0.25,0 pt 3,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoTo(1) p0.25,0 pt 4,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+CMDLIST [87] 'keyes_1' flags 20 bsp 1/1 points 0
+    LookPlayer(0) p0.1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.1,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [88] 'keyes_2' flags 20 bsp 1/1 points 1
+    Look(0) p0.5,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0.5,0 pt 0,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [89] 'chief_enter' flags 0 bsp 0/1 points 3
+    AnimationMode(0) p0,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoTo(1) p0,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoTo(1) p0,0 pt 1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Wait(2) p0,0 pt 2,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoTo(0) p0,0 pt 2,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Wait(2) p0,0 pt 2,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+CMDLIST [90] 'remain_calm' flags 0 bsp 0/-1 points 0
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+CMDLIST [91] 'look_at_chief' flags 0 bsp 0/-1 points 0
+    LookObject(0) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [92] 'look_at_keyes' flags 0 bsp 0/-1 points 0
+    LookObject(0) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 206
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [93] 'look_at_cortana' flags 0 bsp 0/-1 points 0
+    LookObject(0) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 205
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [94] 'cortana_look_display' flags 0 bsp 0/8 points 1
+    Look(0) p1,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p1,0 pt 0,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [95] 'keyes_look_display' flags 0 bsp 0/8 points 1
+    Look(0) p1,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [96] 'chip_setup' flags 0 bsp 0/1 points 1
+    GoTo(0) p0,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Wait(2) p0,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+CMDLIST [97] 'face_chief' flags 0 bsp 0/-1 points 0
+    LookObject(3) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [98] 'face_cortana' flags 4 bsp 0/-1 points 0
+    LookObject(3) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 205
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [99] 'keyes_face_display' flags 0 bsp 0/8 points 1
+    Look(3) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [100] 'chief_enter' flags 0 bsp 0/1 points 3
+    AnimationMode(0) p0,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoTo(1) p0,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoTo(1) p0,0 pt 1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Wait(2) p0,0 pt 2,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoTo(0) p0,0 pt 2,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Wait(2) p0,0 pt 2,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+CMDLIST [101] 'remain_calm' flags 0 bsp 0/-1 points 0
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+CMDLIST [102] 'look_at_chief' flags 0 bsp 0/-1 points 0
+    LookObject(0) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 337
+    Loop(1) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [103] 'look_at_keyes' flags 0 bsp 0/-1 points 0
+    LookObject(0) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 336
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [104] 'look_at_cortana' flags 4 bsp 0/-1 points 0
+    LookObject(3) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 335
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [105] 'cortana_look_display' flags 0 bsp 0/8 points 1
+    Look(0) p1,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p1,0 pt 0,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [106] 'keyes_look_display' flags 0 bsp 0/8 points 1
+    LookObject(0) p1,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj 343
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [107] 'look_at_halo' flags 0 bsp 0/1 points 2
+    GoToAndFace(1) p0,0 pt 1,0 anim -1 script -1 rec -1 cmd 0 obj -1
+    Look(0) p1,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 1 obj -1
+CMDLIST [108] 'chip_setup' flags 0 bsp 0/1 points 1
+    GoTo(0) p0,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Wait(2) p0,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+CMDLIST [109] 'face_chief' flags 0 bsp 0/-1 points 0
+    LookObject(3) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 337
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [110] 'face_cortana' flags 0 bsp 0/-1 points 0
+    LookObject(3) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj 335
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [111] 'keyes_face_display' flags 0 bsp 0/8 points 1
+    Look(3) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [112] 'chief_enter' flags 0 bsp 0/1 points 3
+    AnimationMode(0) p0,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoTo(1) p0,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoTo(1) p0,0 pt 1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Wait(2) p0,0 pt 2,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    GoTo(0) p0,0 pt 2,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Wait(2) p0,0 pt 2,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+CMDLIST [113] 'remain_calm' flags 0 bsp 0/-1 points 0
+    AnimationMode(0) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+CMDLIST [114] 'look_at_chief' flags 0 bsp 0/-1 points 0
+    LookObject(0) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [115] 'look_at_keyes' flags 0 bsp 0/-1 points 0
+    LookObject(0) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [116] 'look_at_cortana' flags 0 bsp 0/-1 points 0
+    LookObject(0) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [117] 'cortana_look_display' flags 0 bsp 0/8 points 1
+    Look(0) p1,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p1,0 pt 0,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [118] 'keyes_look_display' flags 0 bsp 0/8 points 1
+    Look(0) p1,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [119] 'look_at_halo' flags 0 bsp 0/1 points 2
+    GoToAndFace(1) p0,0 pt 1,0 anim -1 script -1 rec -1 cmd 0 obj -1
+    Look(0) p1,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 1 obj -1
+CMDLIST [120] 'chip_setup' flags 0 bsp 0/1 points 1
+    GoTo(0) p0,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Wait(2) p0,0 pt 0,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+CMDLIST [121] 'face_chief' flags 0 bsp 0/-1 points 0
+    LookObject(3) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [122] 'face_cortana' flags 0 bsp 0/-1 points 0
+    LookObject(3) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+CMDLIST [123] 'keyes_face_display' flags 0 bsp 0/8 points 1
+    Look(3) p1,0 pt -1,-1 anim -1 script -1 rec -1 cmd -1 obj -1
+    Loop(1) p0,0 pt -1,-1 anim -1 script -1 rec -1 cmd 0 obj -1
+atoms used: Loop 106, LookRandom 102, AnimationMode 74, Pause 55, LookPlayer 32, GoTo 32, Look 31, GoToAndFace 31, Wait 25, Animate 21, LookObject 17, SetRadius 9, Crouch 6, Shoot 6, Die 4, MoveImmediate 3, Action 2, Grenade 2
+ai animations: stand pistol berserk(elite), pilot_fidget01(marine), pilot_fidget02(marine), pilot_fidget03(marine), stand_unarmed_act-wave(marine), stand_unarmed_act-wave2(marine)
+ai scripts: 
+ai recordings: 

@@ -1,0 +1,55 @@
+lab copy ready
+lab 'fx-burst' in slot B (D:\Dreamport\Halo\Halo Dreamport\DevTools\labproject)
+unity exit 0 (slot B)
+472:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+910:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[SomniumHalo] Access: editor: the whitelist (5 name(s)) is not applied
+[SomniumHalo] Halo Dreamport Halo Dreamport - iteration 1 (2026-10-19): First build: the ring hub, whitelist, tablet app, multiplayer maps, weapons, vehicles and HUD read from the player's own Halo install
+[SomniumHalo] Shaders carried: SomniumHalo/Env, SomniumHalo/Model, SomniumHalo/Transparent, SomniumHalo/Glass, SomniumHalo/Fx
+[SomniumHalo] Isolation: up (whitelisted: other whitelisted players): players not on the whitelist (a visitor) are hidden (after 0.5 s, shown after 0 s is on the whitelist (a Dreamport player); first decision at once; renderers forceRenderingOff, tag alpha, colliders, voices volume 0, other sounds muted); warm-up scan of 0 scene(s) 2.90 ms, 0 avatar/item root(s)
+[SomniumHalo] Editor: no EventSystem in the scene - added one with a StandaloneInputModule.
+[SomniumHalo] Lobby: ready (Team Slayer on bloodgulch, score 50, time none, respawn +0 s, weapons 0, vehicles 0).
+[SomniumHalo] Shader 'Universal Render Pipeline/Unlit': Shader.Find
+[SomniumHalo] Shader 'Universal Render Pipeline/Lit': Shader.Find
+[SomniumHalo] Tablet: searching for the Somnium tablet (the "HALO" app goes on its home screen; the hub panel stays the menu too).
+[SomniumHalo] Front: the ring hub and its menu are up (whitelisted player).
+[SomniumHalo] Lobby: net link set (LobbyLink)
+[SomniumHalo] Net: started (Fusion session); alone or offline everything stays local
+[SomniumHalo] Boot: install C:\Program Files (x86)\Microsoft Games\Halo, 19 multiplayer maps (24 ms)
+[SomniumHalo] Hub: hub menu placed on the floor 3.24 m in front of the camera (60 degrees), 2.32 m tall (shown).
+[SomniumHalo] Tags: on - the Somnium name tags of the other Somnium players in this world are hidden while the Dreamport runs, given back when you leave (the Bridge's ISomniumPlayerInfo.SetPlayerTagDisableState - unproven, first used here; fallback ready: the tag's CanvasGroup alpha; re-applied every 1 s; visitors are left to the isolation)
+LAB: booted: Halo found: C:\Program Files (x86)\Microsoft Games\Halo  -  19 multiplayer maps
+LAB: ok   map in the install
+[SomniumHalo] Fx: bloodgulch effects ready: 557 tags (effe/part/pctl/cont/ligh/deca) in 15 ms
+[SomniumHalo] Fonts: Halo's large_ui small_ui fonts built; 71 texts switched to them.
+[SomniumHalo] Front art: ui.map read in 508 ms: 57 pictures, fonts large_ui 224 glyphs (2048x1024), small_ui 224, sounds cursor forward back , music title1
+[SomniumHalo] Front: the hub's lobby was built in 38 ms (19 maps, ui.map read).
+[SomniumHalo] Audio: started - output 48000 Hz, Stereo, dsp buffer 256 x 4
+[SomniumHalo] Audio: music sound\music\title1\title1 (fade in 2 s)
+[SomniumHalo] Front: menu music started (sound\music\title1\title1).
+[SomniumHalo] Hub: the menu sky (sky\sky_ui\sky_ui) built: 4 parts, a 7.0 km dome round the head.
+[SomniumHalo] Hub: the ring scene faces 0 degrees (behind the menu).
+[SomniumHalo] Shader 'SomniumHalo/Fx': carried
+LAB: AR bullet 988 m/s
+[SomniumHalo] Shader 'SomniumHalo/Model': carried
+[SomniumHalo] Shader 'SomniumHalo/Transparent': carried
+[SomniumHalo] Hub: the ring (scenery\halo\halo) built x40: radius about 2.33 km, centre (219, 1890, 1500) m from the eye, turning 0.25 degrees/s.
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx-burst\burst_mid.png average 0.48,0.49,0.50
+LAB:   mid fx: effects 8, particles 303, systems 0, contrails 2, decals 16, lights 0, quads 319 in 14 batches; played 32, spawned 405
+LAB: burst over at 0.94 s: fx: effects 6, particles 575, systems 0, contrails 0, decals 30, lights 0, quads 620 in 14 batches; played 60, spawned 821
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx-burst\burst_after_0_5.png average 0.48,0.49,0.50
+LAB:   burst_after_0_5 t=1.444 fx: effects 0, particles 485, systems 0, contrails 0, decals 30, lights 0, quads 515 in 10 batches; played 60, spawned 880
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx-burst\burst_after_2.png average 0.48,0.49,0.50
+LAB:   burst_after_2 t=2.944 fx: effects 0, particles 32, systems 0, contrails 0, decals 30, lights 0, quads 62 in 6 batches; played 60, spawned 880
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx-burst\burst_after_2_feet.png average 0.60,0.60,0.59
+LAB:   burst_after_2_feet t=3.000 fx: effects 0, particles 30, systems 0, contrails 0, decals 30, lights 0, quads 60 in 6 batches; played 60, spawned 880
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx-burst\burst_after_5.png average 0.48,0.49,0.50
+LAB:   burst_after_5 t=5.944 fx: effects 0, particles 15, systems 0, contrails 0, decals 30, lights 0, quads 45 in 2 batches; played 60, spawned 880
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx-burst\burst_after_5_feet.png average 0.60,0.60,0.59
+LAB:   burst_after_5_feet t=6.000 fx: effects 0, particles 15, systems 0, contrails 0, decals 30, lights 0, quads 45 in 2 batches; played 60, spawned 880
+LAB: ok   no contrail left 5 s after the burst: fx: effects 0, particles 15, systems 0, contrails 0, decals 30, lights 0, quads 45 in 2 batches; played 60, spawned 880
+LAB: done (passed)
+[SomniumHalo] Lobby: net link cleared - the lobby runs local
+[SomniumHalo] Net: stopped
+[SomniumHalo] Isolation: shutdown: restored 0 hidden player(s); isolation (whitelisted: other whitelisted players): 0 tracked, 0 hidden, 0 sweeps (last 0.00 ms, max 0.00 ms), slowest hide 0.00 ms, slowest frame 0.85 ms, no voice pass yet
+[SomniumHalo] Tags: off (leaving the world) - 0 player tag(s) given back; tags not hidden (Bridge SetPlayerTagDisableState): 0 player(s) now, 0 ever, 0 Bridge call(s)

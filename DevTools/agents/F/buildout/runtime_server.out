@@ -1,0 +1,5 @@
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Combat\HaloCombat.cs(43,23): error CS0246: The type or namespace name 'HaloHandling' could not be found (are you missing a using directive or an assembly reference?)
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Combat\HaloCombat.cs(137,24): error CS0246: The type or namespace name 'HaloHandling' could not be found (are you missing a using directive or an assembly reference?)
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Combat\HaloCombat.cs(171,40): error CS0246: The type or namespace name 'HaloHandling' could not be found (are you missing a using directive or an assembly reference?)
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Combat\HaloCombat.cs(270,23): error CS0246: The type or namespace name 'HaloProjectiles' could not be found (are you missing a using directive or an assembly reference?)
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Combat\HaloCombat.cs(410,43): error CS0246: The type or namespace name 'HaloProjectiles' could not be found (are you missing a using directive or an assembly reference?)

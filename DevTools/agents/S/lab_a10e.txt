@@ -1,0 +1,125 @@
+lab copy ready
+lab 'script' in slot B (D:\Dreamport\Halo\Halo Dreamport\DevTools\labproject)
+unity exit 0 (slot B)
+482:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+920:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[SomniumHalo] Access: editor: the whitelist (5 name(s)) is not applied
+[SomniumHalo] Halo Dreamport Halo Dreamport - iteration 3 (2026-10-19): After the second client test: tablet held off around vehicles, head shown in the VR third-person seat, warthog gun fires on either trigger, Scorpion driver seat first, Ghost and Banshee fire forward, reload sounds per hand action, footsteps, ladders climbable
+[SomniumHalo] Shaders carried: SomniumHalo/Env, SomniumHalo/Model, SomniumHalo/Transparent, SomniumHalo/Glass, SomniumHalo/Fx, SomniumHalo/Sprite
+[SomniumHalo] Isolation: up (whitelisted: other whitelisted players): players not on the whitelist (a visitor) are hidden (after 0.5 s, shown after 0 s is on the whitelist (a Dreamport player); first decision at once; renderers forceRenderingOff, tag alpha, colliders, voices volume 0, other sounds muted); warm-up scan of 0 scene(s) 2.28 ms, 0 avatar/item root(s)
+[SomniumHalo] Editor: no EventSystem in the scene - added one with a StandaloneInputModule.
+[SomniumHalo] Lobby: ready (Slayer on bloodgulch, score 50, time none, respawn +0 s, weapons 0, vehicles 0).
+[SomniumHalo] Shader 'Universal Render Pipeline/Unlit': Shader.Find
+[SomniumHalo] Shader 'Universal Render Pipeline/Lit': Shader.Find
+[SomniumHalo] Tablet: searching for the Somnium tablet (the "HALO" app goes on its home screen; the hub panel stays the menu too).
+[SomniumHalo] Front: the ring hub and its menu are up (whitelisted player).
+[SomniumHalo] Lobby: net link set (LobbyLink)
+[SomniumHalo] Net: started (Fusion session); alone or offline everything stays local
+[SomniumHalo] Boot: install C:\Program Files (x86)\Microsoft Games\Halo, 19 multiplayer maps (25 ms)
+[SomniumHalo] Hub: hub menu placed on the floor 3.24 m in front of the camera (60 degrees), 2.32 m tall (shown).
+[SomniumHalo] Tags: on - the Somnium name tags of the other Somnium players in this world are hidden while the Dreamport runs, given back when you leave (the Bridge's ISomniumPlayerInfo.SetPlayerTagDisableState - unproven, first used here; fallback ready: the tag's CanvasGroup alpha; re-applied every 1 s; visitors are left to the isolation)
+LAB: booted: Halo found: C:\Program Files (x86)\Microsoft Games\Halo  -  19 multiplayer maps
+[SomniumHalo] Campaign: starting a10 (Pillar of Autumn) on Normal (C:\Program Files (x86)\Microsoft Games\Halo\MAPS\a10.map)
+[SomniumHalo] Session: Hub -> Loading
+[SomniumHalo] Loading: Pillar of Autumn (campaign, Normal)
+[SomniumHalo] Fonts: Halo's large_ui small_ui fonts built; 80 texts switched to them.
+[SomniumHalo] Front art: ui.map read in 451 ms: 80 pictures, fonts large_ui 224 glyphs (2048x1024), small_ui 224, sounds cursor forward back , music title1
+[SomniumHalo] Front: the hub's lobby was built in 33 ms (19 maps, ui.map read).
+[SomniumHalo] Hub: the menu sky (sky\sky_ui\sky_ui) built: 4 parts, a 7.0 km dome round the head.
+[SomniumHalo] Hub: the ring scene faces 0 degrees (behind the menu).
+[SomniumHalo] Campaign: opened a10 in 37 ms: 3724 tags, 9 BSPs (start 0), 782 placements (379 names), 9 device groups, 126 trigger volumes (12 BSP switches), 5 starting profiles, 2 starting locations
+[SomniumHalo] Net: playing a match of my own (no game of the master on this map)
+[SomniumHalo] Audio: started - output 48000 Hz, Stereo, dsp buffer 256 x 4
+[SomniumHalo] Audio: announcer - 0 multiplayer sounds in a10's globals
+[SomniumHalo] Audio: preloading 841 sound clips of a10
+[SomniumHalo] Fx: a10 effects ready: 489 tags (effe/part/pctl/cont/ligh/deca) in 17 ms
+[SomniumHalo] Hub: the ring (scenery\halo\halo) built x40: radius about 2.33 km, centre (219, 1890, 1500) m from the eye, turning 0.25 degrees/s.
+[SomniumHalo] Shader 'SomniumHalo/Fx': carried
+[SomniumHalo] Shader 'SomniumHalo/Env': carried
+[SomniumHalo] Shader 'SomniumHalo/Transparent': carried
+[SomniumHalo] World: Somnium climbable surfaces available - Halo's ladders get one
+[SomniumHalo] World: ladders - 'collision 5 climbable invisible' (and every other climbable Halo surface) is a Somnium climbable surface
+[SomniumHalo] Shader 'SomniumHalo/Sprite': carried
+[SomniumHalo] World: levels\a10\a10a decals: 51/65 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] World: BSP 0 levels\a10\a10a built: 19 surface meshes (40946 triangles, 181 sections, lightmap atlas 1024x1024), collision 6 pieces / 41986 triangles (cooked on a worker), 507 lens flares, 65 decals, 0 weather systems; worker 270 ms, render 70 ms, collision 19 ms; bounds (-194, -4, -93)..(-101, 12, 25)
+[SomniumHalo] World: planar fog levels\a10\fog\smoke flags 0 density 0.50 depth 15.2 m dist 18.3 m plane (0.00, 0.00, 1.00) -71.2
+[SomniumHalo] World: sky sky\space\space (model), fog out 0.00 0-0 m, in 1.00, indoor, sun (-0.15, -0.50, 0.85) RGBA(0.591, 0.591, 0.586, 1.000)
+[SomniumHalo] World: BSP -1 -> 0 (levels\a10\a10a) active in 11 ms
+[SomniumHalo] World: a10 ready: BSP 0/9 levels\a10\a10a, 0 objects (0 devices); worker 270 ms, BSP 154 ms, objects 0 ms, total 436 ms
+[SomniumHalo] Campaign: world ready (BSP 0), bounds (-194, -4, -93) .. (-101, 12, 25) (0.7 s)
+[SomniumHalo] Audio: ambience a10 - background sound\sfx\ambience\a10\shipambience (1 in the palette, 33 clusters), 39 sound scenery loops
+[SomniumHalo] Campaign: devices: 9 device groups: cryotube_power=1, cryotube_position=0, cryotube_dead_power=0, cryotube_dead_position=0, ship_power=1, ship_open_position=1, ship_half_position=0.8, ship_closed_position=0, shield_charge_power=0
+[SomniumHalo] Shader 'SomniumHalo/Model': carried
+[SomniumHalo] Combat: vitality (campaign player unit characters\cyborg\cyborg.bipd) from characters\cyborg\cyborg: body 75, shield 75, shields recharge 6 s after damage, full in 4 s
+[SomniumHalo] Combat: a10: 0 weapons in the globals' list, grenades 4/4 (spawn with 2/0), unit characters\cyborg\cyborg.bipd
+[SomniumHalo] Weapon anim: weapons\assault rifle\assault rifle: 2 animations on its parts: reload-empty='first-person reload-full' reload-full='first-person reload-full'
+[SomniumHalo] Campaign: checkpoint part 'characters' registered (1 parts)
+[SomniumHalo] Characters: first characters\marine_armored\marine_armored: model characters\marine_armored\marine_armored, 176 animations, weapon weapons\assault rifle\assault rifle (ar), body 50 shield 50, team Human, hit boxes 16, permutations arms=__base head=head_rob_helmet-13 legs=__base torso=__base
+[SomniumHalo] Characters: first characters\crewman\crewman: model characters\crewman\crewman, 176 animations, weapon none, body 25 shield 0, team Human, hit boxes 16, permutations arms=__base head=head_rob-13 legs=__base torso=__base
+[SomniumHalo] Vehicles: campaign placements: full rotation, desired permutation, named (HaloObjects), no MP respawn; vitality from the tags (cryotube: indestructible).
+[SomniumHalo] Desk: cyborg 'characters\cyborg\cyborg_unarmed' of a10: 19 nodes, 254 animations (0 compressed), 24 seats, stand classes 6, hand markers True/True
+[SomniumHalo] Vehicles: net not up - this client owns every vehicle.
+[SomniumHalo] Campaign: devices: door small (door, position 0.8 s, power 2 s, open 1.5 s)
+[SomniumHalo] Campaign: devices: door jeff tube (door, position 0.8 s, power 0 s, open 0.6 s)
+[SomniumHalo] Campaign: devices: door jeff tube burnt (door, position 0.8 s, power 0 s, open 0.6 s)
+[SomniumHalo] Campaign: BSP 0: placed 85 objects (3 bipeds, 1 vehicles, 29 scenery, 37 machines, 15 sound scenery) in 338 ms; 90 wait for a script (not placed automatically), 0 not on Normal; live 85 (17 named)
+[SomniumHalo] Combat: ready (monitor)
+[SomniumHalo] Combat: spawned with no weapons, 2 frag / 0 plasma, shields 75 body 75 (monitor)
+[SomniumHalo] Campaign: starting profile 'player0_starting_profile':, 0 frag / 0 plasma
+[SomniumHalo] Campaign: the player starts at (-169.0, 0.0, 2.4) facing 90 (editor: CharacterController 'PlayerController' moved)
+[SomniumHalo] Campaign: checkpoint part 'script' registered (2 parts)
+[SomniumHalo] Script: a10 - 185 scripts (105 threads), 84 globals, 19001 nodes read in 24 ms; 195 functions used: 16 VM forms, 179 bound (10 no-op by design), 0 unimplemented
+[SomniumHalo] Campaign: scripts running (185 scripts, 84 globals)
+[SomniumHalo] Loading: done - fading into the match.
+[SomniumHalo] HUD: tags of a10: hud globals ui\hud\default, unit hud ui\hud\cyborg (biped characters\cyborg\cyborg), grenade huds 2, font ui\large_ui, multiplayer scale 0.75, motion sensor range 20 wu, 191 multiplayer strings, 13 hud messages
+[SomniumHalo] HUD: monitor screen overlay
+[SomniumHalo] HUD: started on a10 (monitor overlay)
+[SomniumHalo] Desk: started (monitor; view first person, V switches)
+[SomniumHalo] Session: Loading -> Playing
+[SomniumHalo] Hub: hidden.
+[SomniumHalo] Campaign: checkpoint 1 (mission start) at 0.0 s game time, BSP 0: 85 placements (1 movable), 37 devices, player at (-169.0, 0.0, 2.4) with no weapon, 0/0 grenades, 2 module parts
+[SomniumHalo] Campaign: playing a10 (Pillar of Autumn) on Normal - loaded in 1.2 s, 85 objects placed (17 named), 37 devices
+LAB: ok   a10: playing
+LAB: ok   a10: scripts running
+LAB: a10: 195 functions used: 16 VM forms, 179 bound (10 no-op by design), 0 unimplemented
+[SomniumHalo] Cinematic: skip point (a fresh press of Space / Enter / E or A / X / a trigger skips)
+[SomniumHalo] Campaign: checkpoint 2 (game_save_totally_unsafe) at 0.0 s game time, BSP 0: 85 placements (1 movable), 37 devices, player at (-169.0, 0.0, 2.4) with no weapon, 0/0 grenades, 2 module parts
+[SomniumHalo] Cinematic: the player is held where they stand during cutscenes - script teleports deferred (the last one applies after the cutscene)
+[SomniumHalo] Script: unit_suspended on the player ignored (VR: the player is never frozen by a script)
+[SomniumHalo] Campaign: switching BSP 0 -> 7 (levels\a10\a10_space.sbsp)
+[SomniumHalo] World: BSP 7 still building - switching when ready
+[SomniumHalo] Cinematic: cinematic_start (player input held, HUD hidden) - monitor picture
+[SomniumHalo] AI: a10: 39 encounters, 144 squads, 296 starting locations, 2381 firing positions, 124 command lists, 20 conversations, actor palette 18/18, difficulty Normal (globals table) read in 8 ms
+[SomniumHalo] Campaign: checkpoint part 'ai' registered (3 parts)
+[SomniumHalo] AI: navigation bsp 7: 607 walkable surfaces (sbsp pathfinding bytes), 431 shared edges, 32 step links, 203 islands, built in 25 ms
+[SomniumHalo] Cinematic: the held player stands on a cinema floor at (-169.0, 0.0, 2.4) while the cutscene switches BSPs
+[SomniumHalo] Audio: footsteps from characters\crewman\crewman -> globals\cyborg (6 step kinds, 84 sounds)
+[SomniumHalo] Desk: monitor camera held in first person (V switches first / third person)
+[SomniumHalo] World: levels\a10\a10b decals: 119/158 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] Cinematic: presenting on the monitor overlay
+[SomniumHalo] Cinematic: cutscene picture 640x480
+[SomniumHalo] Cinematic: title font ui\large_ui (line 21 px)
+[SomniumHalo] World: BSP 1 levels\a10\a10b built: 22 surface meshes (54908 triangles, 243 sections, lightmap atlas 1024x1024), collision 7 pieces / 55706 triangles (cooked on a worker), 792 lens flares, 158 decals, 0 weather systems; worker 205 ms, render 79 ms, collision 199 ms; bounds (-124, -10, -78)..(144, 122, 78)
+[SomniumHalo] Audio: preloaded a10 - 841 clips, 815 s of sound, 80 MB PCM, 0 failed, decode 604 ms worker, 1.5 s wall
+[SomniumHalo] World: BSP 7 levels\a10\a10_space built: 22 surface meshes (8190 triangles, 55 sections, lightmap atlas 2048x1024), collision 6 pieces / 8044 triangles (cooked on a worker), 34 lens flares, 0 decals, 0 weather systems; worker 82 ms, render 27 ms, collision 6 ms; bounds (1348, -207, -585)..(1700, 207, 637)
+[SomniumHalo] World: sky sky\sky_x10\space_x10 (model), fog out 0.00 0-0 m, in 1.00, outdoor, sun (0.85, -0.50, 0.15) RGBA(0.591, 0.591, 0.586, 1.000)
+[SomniumHalo] World: BSP 0 -> 7 (levels\a10\a10_space) active in 1 ms
+[SomniumHalo] Campaign: BSP 7: placed 14 objects (2 vehicles, 12 scenery) in 6 ms; 24 wait for a script (not placed automatically), 0 not on Normal; live 99 (19 named)
+[SomniumHalo] Campaign: BSP 7 objects shown 12, hidden 81 (other BSPs)
+[SomniumHalo] Campaign: BSP 7 active in 657 ms, world ready, 99 objects
+[SomniumHalo] World: levels\a10\a10c decals: 40/46 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] World: BSP 2 levels\a10\a10c built: 21 surface meshes (40642 triangles, 240 sections, lightmap atlas 1024x1024), collision 6 pieces / 40994 triangles (cooked on a worker), 740 lens flares, 46 decals, 0 weather systems; worker 92 ms, render 22 ms, collision 19 ms; bounds (-184, -1, 20)..(-65, 5, 138)
+[SomniumHalo] World: levels\a10\a10d decals: 74/91 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] World: BSP 3 levels\a10\a10d built: 21 surface meshes (36544 triangles, 244 sections, lightmap atlas 1024x1024), collision 6 pieces / 36924 triangles (cooked on a worker), 562 lens flares, 91 decals, 0 weather systems; worker 82 ms, render 15 ms, collision 18 ms; bounds (-253, -1, 36)..(-140, 5, 139)
+[SomniumHalo] World: levels\a10\a10e decals: 37/71 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] World: BSP 4 levels\a10\a10e built: 19 surface meshes (52128 triangles, 276 sections, lightmap atlas 1024x1024), collision 6 pieces / 53830 triangles (cooked on a worker), 688 lens flares, 71 decals, 0 weather systems; worker 95 ms, render 15 ms, collision 22 ms; bounds (-295, -10, 42)..(-158, 23, 167)
+[SomniumHalo] World: levels\a10\a10f decals: 20/23 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] World: BSP 5 levels\a10\a10f built: 30 surface meshes (56668 triangles, 284 sections, lightmap atlas 1024x1024), collision 6 pieces / 57396 triangles (cooked on a worker), 631 lens flares, 23 decals, 0 weather systems; worker 144 ms, render 22 ms, collision 27 ms; bounds (-210, -4, -89)..(-139, 12, 95)
+[SomniumHalo] World: levels\a10\a10g decals: 17/19 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] World: BSP 6 levels\a10\a10g built: 18 surface meshes (57532 triangles, 317 sections, lightmap atlas 2048x1024), collision 6 pieces / 58058 triangles (cooked on a worker), 725 lens flares, 19 decals, 0 weather systems; worker 107 ms, render 23 ms, collision 26 ms; bounds (-218, -10, -207)..(-103, 23, -47)
+[SomniumHalo] World: levels\a10\x10hangar decals: 0/59 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] World: BSP 8 levels\a10\x10hangar built: 10 surface meshes (17216 triangles, 26 sections, lightmap atlas 1024x1024), collision 4 pieces / 17246 triangles (cooked on a worker), 2598 lens flares, 59 decals, 0 weather systems; worker 43 ms, render 10 ms, collision 10 ms; bounds (-179, -12, -161)..(177, 103, 166)
+[SomniumHalo] World: all 9 BSPs of a10 built in the background (2124 ms)
+[SomniumHalo] Vehicles: Halo Vehicle 46 halo has no ground under it (none within 500 m: the world is not built); held where it is.
+[SomniumHalo] Shader 'SomniumHalo/Glass': carried
+[SomniumHalo] Cinematic: a10: 292 camera points, 221 cutscene flags, 3 titles, 99 recorded animations (0 unreadable), first title "Reveille"

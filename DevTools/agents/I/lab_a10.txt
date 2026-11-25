@@ -1,0 +1,125 @@
+lab copy ready
+lab 'ai' in slot B (D:\Dreamport\Halo\Halo Dreamport\DevTools\labproject)
+unity exit 0 (slot B)
+496:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+921:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[SomniumHalo] Access: editor: the whitelist (5 name(s)) is not applied
+[SomniumHalo] Halo Dreamport Halo Dreamport - iteration 6 (2026-10-19): Campaign sound effects: one-shots were dropped because ambient loops filled the voice cap (only music was heard)
+[SomniumHalo] Shaders carried: SomniumHalo/Env, SomniumHalo/Model, SomniumHalo/Transparent, SomniumHalo/Glass, SomniumHalo/Fx, SomniumHalo/Sprite
+[SomniumHalo] Isolation: up (whitelisted: other whitelisted players): players not on the whitelist (a visitor) are hidden (after 0.5 s, shown after 0 s is on the whitelist (a Dreamport player); first decision at once; renderers forceRenderingOff, tag alpha, colliders, voices volume 0, other sounds muted); warm-up scan of 0 scene(s) 3.08 ms, 0 avatar/item root(s)
+[SomniumHalo] Editor: no EventSystem in the scene - added one with a StandaloneInputModule.
+[SomniumHalo] Lobby: ready (Slayer on bloodgulch, score 50, time none, respawn +0 s, weapons 0, vehicles 0).
+[SomniumHalo] Shader 'Universal Render Pipeline/Unlit': Shader.Find
+[SomniumHalo] Shader 'Universal Render Pipeline/Lit': Shader.Find
+[SomniumHalo] Tablet: searching for the Somnium tablet (the "HALO" app goes on its home screen; the hub panel stays the menu too).
+[SomniumHalo] Front: the ring hub and its menu are up (whitelisted player).
+[SomniumHalo] Lobby: net link set (LobbyLink)
+[SomniumHalo] Net: started (Fusion session); alone or offline everything stays local
+[SomniumHalo] Hub: hub menu placed on the floor 3.24 m in front of the camera (60 degrees), 2.32 m tall (shown).
+[SomniumHalo] Tags: on - the Somnium name tags of the other Somnium players in this world are hidden while the Dreamport runs, given back when you leave (the Bridge's ISomniumPlayerInfo.SetPlayerTagDisableState - unproven, first used here; fallback ready: the tag's CanvasGroup alpha; re-applied every 1 s; visitors are left to the isolation)
+[SomniumHalo] Boot: install C:\Program Files (x86)\Microsoft Games\Halo, 19 multiplayer maps (339 ms)
+[SomniumHalo] Hub: the ring scene faces 0 degrees (behind the menu).
+LAB: booted: Halo found: C:\Program Files (x86)\Microsoft Games\Halo  -  19 multiplayer maps
+LAB: ok   map a10 in the install
+LAB: ok   encounter crossfire_anti
+LAB: ai: a10 encounter crossfire_anti (bsp 1, 4 squads, 42 firing positions)
+[SomniumHalo] Fx: a10 effects ready: 489 tags (effe/part/pctl/cont/ligh/deca) in 37 ms
+LAB: starting locations: 11, densest cluster 6 around (-93.0, 0.0, -59.3)
+[SomniumHalo] Shader 'SomniumHalo/Fx': carried
+[SomniumHalo] Fonts: Halo's large_ui small_ui fonts built; 73 texts switched to them.
+[SomniumHalo] Front art: ui.map read in 718 ms: 80 pictures, fonts large_ui 224 glyphs (2048x1024), small_ui 224, sounds cursor forward back , music title1
+[SomniumHalo] Front: the hub's lobby was built in 57 ms (19 maps, ui.map read).
+[SomniumHalo] Audio: started - output 48000 Hz, Stereo, dsp buffer 256 x 4
+[SomniumHalo] Audio: music sound\music\title1\title1 (fade in 2 s)
+[SomniumHalo] Front: menu music started (sound\music\title1\title1).
+[SomniumHalo] Shader 'SomniumHalo/Env': carried
+[SomniumHalo] Shader 'SomniumHalo/Transparent': carried
+[SomniumHalo] World: Somnium climbable surfaces available - Halo's ladders get one
+[SomniumHalo] World: ladders - 'collision 5 climbable invisible' (and every other climbable Halo surface) is a Somnium climbable surface
+[SomniumHalo] Shader 'SomniumHalo/Sprite': carried
+[SomniumHalo] World: levels\a10\a10b decals: 119/158 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] World: BSP 1 levels\a10\a10b built: 22 surface meshes (54908 triangles, 243 sections, lightmap atlas 1024x1024), collision 7 pieces / 55706 triangles (cooked on a worker), 792 lens flares, 158 decals, 0 weather systems; worker 490 ms, render 158 ms, collision 39 ms; bounds (-124, -10, -78)..(144, 122, 78)
+[SomniumHalo] World: sky sky\space\space (model), fog out 0.00 0-0 m, in 1.00, outdoor, sun (-0.15, -0.50, 0.85) RGBA(0.591, 0.591, 0.586, 1.000)
+[SomniumHalo] World: BSP -1 -> 1 (levels\a10\a10b) active in 16 ms
+[SomniumHalo] World: a10 ready: BSP 1/9 levels\a10\a10b, 0 objects (0 devices); worker 490 ms, BSP 509 ms, objects 0 ms, total 1020 ms
+LAB: ok   bsp 1 built in 1.0 s
+LAB: stand-in spot sees -1 of 6 starting locations
+LAB: stand-in player at (-75.0, 0.0, -59.3), 18 m from the encounter's centre (-93.0, 0.0, -59.3)
+[SomniumHalo] AI: a10: 39 encounters, 144 squads, 296 starting locations, 2381 firing positions, 124 command lists, 20 conversations, actor palette 18/18, difficulty Normal (globals table) read in 6 ms
+[SomniumHalo] Campaign: checkpoint part 'ai' registered (1 parts)
+[SomniumHalo] Shader 'SomniumHalo/Model': carried
+[SomniumHalo] Combat: vitality (multiplayer unit characters\cyborg\cyborg.bipd) from characters\cyborg\cyborg: body 75, shield 75, shields recharge 6 s after damage, full in 4 s
+[SomniumHalo] Combat: a10: 0 weapons in the globals' list, grenades 4/4 (spawn with 2/0), unit characters\cyborg\cyborg.bipd
+[SomniumHalo] Weapon anim: weapons\plasma rifle\plasma rifle: 5 animations on its parts: overheating='first-person overheating' overheated='first-person overheated' overheat-exit='first-person o-h-exit' misfire='first-person misfire-1'
+[SomniumHalo] Characters: first characters\elite\elite minor\elite minor plasma rifle ranged: model characters\elite\elite, 135 animations, weapon weapons\plasma rifle\plasma rifle (pr), body 100 shield 100, team Covenant, hit boxes 19, permutations arms=base00 head=base00 legs=base00 torso=base00
+[SomniumHalo] AI: first actor elite minor plasma rifle ranged (Elite) at (-92.2, 0.0, -60.9)
+[SomniumHalo] AI: crossfire_anti/first_elite#1 Idle -> Search
+[SomniumHalo] Weapon anim: weapons\plasma pistol\plasma pistol: 7 animations on its parts: fire-2='first-person fire-2' overheating='first-person overheating' overheated='first-person overheating-again' overheat-exit='first-person o-h-exit' misfire='first-person misfire-1' posing='first-person posing'
+[SomniumHalo] Characters: first characters\grunt\grunt minor plasma pistol: model characters\grunt\grunt, 89 animations, weapon weapons\plasma pistol\plasma pistol (pp), body 30 shield 0, team Covenant, hit boxes 12, permutations perm arms and legs=base00 perm head and back=base00
+[SomniumHalo] AI: crossfire_anti/last_elite#5 Idle -> Search
+[SomniumHalo] AI: ai_place crossfire_anti: 8 actors (Normal): 2 x elite minor plasma rifle ranged, 6 x grunt minor plasma pistol
+LAB: ok   ai_place crossfire_anti: 8 living actors
+[SomniumHalo] Weapon anim: weapons\pistol\pistol: 5 animations on its parts: fire='fire-1' reload-empty='first-person reload-empty' reload-full='first-person reload-full' ready='first-person ready'
+[SomniumHalo] Characters: first characters\crewman\crewman security pistol: model characters\crewman\crewman, 176 animations, weapon weapons\pistol\pistol (hp), body 25 shield 0, team Human, hit boxes 16, permutations arms=__base head=head_chris-11 legs=__base torso=__base
+[SomniumHalo] AI: crossfire/first_crewman#9 Idle -> Search
+[SomniumHalo] AI: crossfire/first_crewman#10 Idle -> Search
+[SomniumHalo] AI: crossfire/last_crewman#11 Idle -> Search
+[SomniumHalo] AI: crossfire/last_crewman#12 Idle -> Search
+[SomniumHalo] Characters: first characters\crewman\crewman engineer: model characters\crewman\crewman, 176 animations, weapon none, body 25 shield 0, team Human, hit boxes 16, permutations arms=__base head=head_rob-13 legs=__base torso=__base
+[SomniumHalo] AI: crossfire/rash_crewman#13 Idle -> Search
+[SomniumHalo] AI: ai_place crossfire: 5 actors (Normal): 4 x crewman security pistol, 1 x crewman engineer
+LAB: ok   allies crossfire: 5 next to the player, following
+LAB:   actor crossfire_anti/first_elite#1 elite minor plasma rifle ranged (Elite) team Covenant state Search/Searching at (-92.2, 0.0, -60.9) weapon plasma rifle
+LAB:   actor crossfire_anti/first_grunt#2 grunt minor plasma pistol (Grunt) team Covenant state Idle/None at (-96.1, 0.0, -59.3) weapon plasma pistol
+LAB:   actor crossfire_anti/first_grunt#3 grunt minor plasma pistol (Grunt) team Covenant state Idle/None at (-91.3, 0.0, -57.8) weapon plasma pistol
+LAB:   actor crossfire_anti/first_grunt#4 grunt minor plasma pistol (Grunt) team Covenant state Idle/None at (-89.8, 0.0, -58.8) weapon plasma pistol
+LAB:   actor crossfire_anti/last_elite#5 elite minor plasma rifle ranged (Elite) team Covenant state Search/Searching at (-39.9, 0.0, -62.1) weapon plasma rifle
+LAB:   actor crossfire_anti/last_grunt#6 grunt minor plasma pistol (Grunt) team Covenant state Idle/None at (-37.9, 0.0, -59.1) weapon plasma pistol
+LAB:   actor crossfire_anti/last_grunt#7 grunt minor plasma pistol (Grunt) team Covenant state Idle/None at (-41.1, 0.0, -58.9) weapon plasma pistol
+LAB:   actor crossfire_anti/last_grunt#8 grunt minor plasma pistol (Grunt) team Covenant state Idle/None at (-40.0, 0.0, -58.0) weapon plasma pistol
+LAB:   actor crossfire/first_crewman#9 crewman security pistol (Crew) team Human state Search/Searching at (-96.1, 0.0, -37.4) weapon pistol
+LAB:   actor crossfire/first_crewman#10 crewman security pistol (Crew) team Human state Search/Searching at (-93.7, 0.0, -35.5) weapon pistol
+LAB:   actor crossfire/last_crewman#11 crewman security pistol (Crew) team Human state Search/Searching at (-38.5, 0.0, -36.2) weapon pistol
+LAB:   actor crossfire/last_crewman#12 crewman security pistol (Crew) team Human state Search/Searching at (-42.2, 0.0, -30.0) weapon pistol
+LAB:   actor crossfire/rash_crewman#13 crewman engineer (Crew) team Human state Search/Searching at (-38.9, 0.0, -40.4) weapon -
+[SomniumHalo] AI: navigation bsp 1: 3798 walkable surfaces (sbsp pathfinding bytes), 3376 shared edges, 471 step links, 913 islands, built in 81 ms
+[SomniumHalo] AI: first target: crossfire_anti/last_elite#5 -> Unit crewman engineer (sight)
+[SomniumHalo] AI: crossfire_anti/last_elite#5 Search -> Combat (target Unit crewman engineer)
+[SomniumHalo] AI: crossfire_anti/last_grunt#8 Idle -> Flee
+[SomniumHalo] AI: crossfire/last_crewman#11 Search -> Combat (target Unit grunt minor plasma pistol)
+[SomniumHalo] AI: crossfire_anti/last_grunt#7 Idle -> Combat (target Unit crewman engineer)
+[SomniumHalo] AI: crossfire/first_crewman#10 Search -> Combat (target Unit grunt minor plasma pistol)
+[SomniumHalo] AI: crossfire/rash_crewman#13 Search -> Flee
+[SomniumHalo] AI: crossfire_anti/last_grunt#6 Idle -> Combat (target Unit crewman engineer)
+[SomniumHalo] AI: crossfire/first_crewman#9 Search -> Flee
+[SomniumHalo] AI: crossfire/last_crewman#12 Search -> Combat (target Unit grunt minor plasma pistol)
+[SomniumHalo] World: levels\a10\a10a decals: 51/65 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] World: BSP 0 levels\a10\a10a built: 19 surface meshes (40946 triangles, 181 sections, lightmap atlas 1024x1024), collision 6 pieces / 41986 triangles (cooked on a worker), 507 lens flares, 65 decals, 0 weather systems; worker 348 ms, render 249 ms, collision 55 ms; bounds (-194, -4, -93)..(-101, 12, 25)
+[SomniumHalo] AI: first burst by a Crew (pistol) at Unit grunt minor plasma pistol
+[SomniumHalo] Combat: ready (monitor)
+[SomniumHalo] Combat: first projectile weapons\pistol\bullet at 914 m/s (gravity x1, range 122 m)
+[SomniumHalo] AI: crossfire_anti/first_grunt#2 Idle -> Search (target Unit crewman security pistol)
+[SomniumHalo] AI: crossfire_anti/first_grunt#3 Idle -> Search (target Unit crewman security pistol)
+[SomniumHalo] AI: crossfire_anti/first_grunt#4 Idle -> Search (target Unit crewman security pistol)
+[SomniumHalo] AI: crossfire_anti/first_grunt#2 Search -> Combat (target Unit crewman security pistol)
+[SomniumHalo] AI: crossfire_anti/first_elite#1 Search -> Combat (target Unit crewman security pistol)
+[SomniumHalo] AI: first burst by a Grunt (plasma pistol) at Unit crewman security pistol
+[SomniumHalo] AI: crossfire_anti/first_grunt#3 Search -> Combat (target Unit crewman security pistol)
+[SomniumHalo] AI: crossfire_anti/first_grunt#4 Search -> Combat (target Unit crewman security pistol)
+[SomniumHalo] AI: first burst by a Elite (plasma rifle) at Unit crewman security pistol
+[SomniumHalo] Audio: step remote run on metal thick -> (no sound in the tag)
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/ai\ai_a10_0_behind.png average 0.02,0.02,0.03
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/ai\ai_a10_0_above.png average 0.02,0.02,0.02
+[SomniumHalo] World: levels\a10\a10c decals: 40/46 on a collision surface (the rest face their stored yaw / pitch)
+[SomniumHalo] Audio: step remote run on metal hollow -> (no sound in the tag)
+[SomniumHalo] World: BSP 2 levels\a10\a10c built: 21 surface meshes (40642 triangles, 240 sections, lightmap atlas 1024x1024), collision 6 pieces / 40994 triangles (cooked on a worker), 740 lens flares, 46 decals, 0 weather systems; worker 148 ms, render 1083 ms, collision 61 ms; bounds (-184, -1, 20)..(-65, 5, 138)
+[SomniumHalo] World: BSP 2 background build: longest main-thread step 16 ms (levels\a10\shaders\pipes)
+[SomniumHalo] Combat: reload points for Pistol: well (-0.004,0,-0.04) (the bottom of 'frame magazine') = (0.000, -0.122, -0.013) m, pull 'frame slide' at (-0.029,0,0.043) = (0.000, 0.130, -0.089) m, travel 5.5 cm, support (0.011, -0.013, 0.052) m
+[SomniumHalo] Combat: reload sounds for Pistol: mag out = pistol_reload 0.68+0.36 s [reload-empty @0.73 s, 'frame magazine' motion, 'frame slide' motion], mag in = pistol_reload 1.05+0.55 s [reload-empty @1.17 s], pull = pistol_reload 1.15+0.30 s [reload-empty @1.35 s], release = pistol_reload 1.55+0.45 s [reload-empty @1.60 s]
+[SomniumHalo] Characters: characters\crewman\crewman security pistol dropped its weapons\pistol\pistol
+[SomniumHalo] Characters: characters\crewman\crewman security pistol died (h-kill front gut, weapons\plasma pistol\plasma pistol)
+[SomniumHalo] AI: crossfire_anti/first_elite#1 Combat -> Search
+[SomniumHalo] AI: crossfire_anti/first_grunt#2 Combat -> Idle
+[SomniumHalo] AI: crossfire_anti/first_grunt#3 Combat -> Idle
+[SomniumHalo] AI: crossfire_anti/first_grunt#4 Combat -> Idle
+[SomniumHalo] AI: first death: crossfire/first_crewman#10 (Crew) by plasma pistol

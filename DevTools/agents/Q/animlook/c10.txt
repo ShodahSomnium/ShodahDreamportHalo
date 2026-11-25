@@ -1,0 +1,288 @@
+## characters\floodcombat elite\floodcombat elite flags 200 accscale 0.9 maxv 0 side 0 acc 0 dec 0 angv 0 anga 0 crouchmod 0 slope 60 movturn 338deg/s statthr 60deg crouchT 0.2 aimv 720 aima 1440 lookv 1440 looka 2880 casual 1 jump 0.16 land 0.6/1.5/1/3/6/0 h 0.7/0.8 rad 0.2 evade 0.8 dive 1 stunmove 0
+  graph characters\floodcombat elite\floodcombat elite limp r? flags? anims 60
+  seat 'stand' look 0.0/0.0deg x0/0 pitch 0.0/0.0 x0/0 own: [0]stand airborne-dead [1]stand landing-dead
+    class 'pistol' aim 90.0/90.0deg x1/1 pitch 90.0/90.0 x1/1 ids:0,2,3,8,16,17,18,25,26,27,39,42,44,45,48,49,50
+      0: stand pistol idle[Base,fr120,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      2: stand pistol turn-left[Base,fr14,it2,key0/0,loop0,nx-1] v=(-0.03,0.03,0.00)wu/s yaw=193deg/s tot=(-0.01,0.01,0.00,90)
+      3: stand pistol turn-right[Base,fr14,it2,key0/0,loop0,nx-1] v=(-0.03,-0.03,0.00)wu/s yaw=-193deg/s tot=(-0.01,-0.01,0.00,-90)
+      8: stand pistol move-front%0[Base,fr24,it1,key0/0,loop0,nx49] v=(1.88,0.00,0.00)wu/s yaw=0deg/s tot=(1.50,0.00,0.00,0)
+      16: stand pistol airborne[Base,fr32,it1,key0/0,loop11,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      17: stand pistol land-hard[Base,fr56,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.35,0.00,0.00,0)
+      18: stand pistol land-hard[Base,fr56,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.35,0.00,0.00,0)
+      25: stand pistol aim-still[Overlay,fr9,it0,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      26: stand pistol aim-move[Overlay,fr9,it0,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      39: stand pistol melee%0[Base,fr51,it1,key16/31,loop0,nx46] v=(0.58,0.01,0.00)wu/s yaw=0deg/s tot=(0.99,0.01,0.00,0)
+      type 'ar': [4]stand pistol ar fire-1%0(Overlay,fr10,key0)
+      type 'pr': [4]stand pistol ar fire-1%0(Overlay,fr10,key0)
+      type 'hp': [4]stand pistol ar fire-1%0(Overlay,fr10,key0)
+      type 'ne': [4]stand pistol ar fire-1%0(Overlay,fr10,key0)
+      type 'pp': [4]stand pistol ar fire-1%0(Overlay,fr10,key0)
+      type 'rl': [4]stand pistol ar fire-1%0(Overlay,fr10,key0)
+      type 'ft':
+      type 'sg': [4]stand pistol ar fire-1%0(Overlay,fr10,key0)
+    class 'unarmed' aim 90.0/90.0deg x1/1 pitch 90.0/90.0 x1/1 ids:0,2,3,8,16,17,18,25,27,39,42,44,45,48,49,50
+      0: stand unarmed idle%0[Base,fr60,it1,key0/0,loop0,nx55] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      2: stand unarmed turn-left[Base,fr14,it2,key0/0,loop0,nx-1] v=(-0.03,0.03,0.00)wu/s yaw=193deg/s tot=(-0.01,0.01,0.00,90)
+      3: stand unarmed turn-right[Base,fr14,it2,key0/0,loop0,nx-1] v=(-0.03,-0.03,0.00)wu/s yaw=-193deg/s tot=(-0.01,-0.01,0.00,-90)
+      8: stand pistol move-front%0[Base,fr24,it1,key0/0,loop0,nx49] v=(1.88,0.00,0.00)wu/s yaw=0deg/s tot=(1.50,0.00,0.00,0)
+      16: stand pistol airborne[Base,fr32,it1,key0/0,loop11,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      17: stand pistol land-hard[Base,fr56,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.35,0.00,0.00,0)
+      18: stand pistol land-hard[Base,fr56,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.35,0.00,0.00,0)
+      25: stand unarmed aim-still[Overlay,fr9,it0,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      39: stand pistol melee%0[Base,fr51,it1,key16/31,loop0,nx46] v=(0.58,0.01,0.00)wu/s yaw=0deg/s tot=(0.99,0.01,0.00,0)
+      type '':
+  seat 'crouch' look 0.0/0.0deg x0/0 pitch 0.0/0.0 x0/0 own: [0]stand airborne-dead [1]stand landing-dead
+    class 'pistol' aim 90.0/90.0deg x1/1 pitch 90.0/90.0 x1/1 ids:0,2,3,8,16,17,18,25,26,27,39,42,44,45,48,49,50
+      0: stand pistol idle[Base,fr120,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      2: stand pistol turn-left[Base,fr14,it2,key0/0,loop0,nx-1] v=(-0.03,0.03,0.00)wu/s yaw=193deg/s tot=(-0.01,0.01,0.00,90)
+      3: stand pistol turn-right[Base,fr14,it2,key0/0,loop0,nx-1] v=(-0.03,-0.03,0.00)wu/s yaw=-193deg/s tot=(-0.01,-0.01,0.00,-90)
+      8: crouch pistol move-front[Base,fr36,it1,key0/0,loop0,nx-1] v=(0.54,-0.00,0.00)wu/s yaw=0deg/s tot=(0.65,-0.00,0.00,0)
+      16: stand pistol airborne[Base,fr32,it1,key0/0,loop11,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      17: stand pistol land-hard[Base,fr56,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.35,0.00,0.00,0)
+      18: stand pistol land-hard[Base,fr56,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.35,0.00,0.00,0)
+      25: stand pistol aim-still[Overlay,fr9,it0,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      26: crouch pistol aim-move[Overlay,fr9,it0,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      39: stand pistol melee%0[Base,fr51,it1,key16/31,loop0,nx46] v=(0.58,0.01,0.00)wu/s yaw=0deg/s tot=(0.99,0.01,0.00,0)
+      type 'ar':
+      type 'pr':
+      type 'hp':
+      type 'ne':
+    class 'unarmed' aim 90.0/90.0deg x1/1 pitch 90.0/90.0 x1/1 ids:0,2,3,8,16,17,18,25,26,27,39,42,44,45,48,49,50
+      0: stand pistol idle[Base,fr120,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      2: stand pistol turn-left[Base,fr14,it2,key0/0,loop0,nx-1] v=(-0.03,0.03,0.00)wu/s yaw=193deg/s tot=(-0.01,0.01,0.00,90)
+      3: stand pistol turn-right[Base,fr14,it2,key0/0,loop0,nx-1] v=(-0.03,-0.03,0.00)wu/s yaw=-193deg/s tot=(-0.01,-0.01,0.00,-90)
+      8: crouch pistol move-front[Base,fr36,it1,key0/0,loop0,nx-1] v=(0.54,-0.00,0.00)wu/s yaw=0deg/s tot=(0.65,-0.00,0.00,0)
+      16: stand pistol airborne[Base,fr32,it1,key0/0,loop11,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      17: stand pistol land-hard[Base,fr56,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.35,0.00,0.00,0)
+      18: stand pistol land-hard[Base,fr56,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.35,0.00,0.00,0)
+      25: stand pistol aim-still[Overlay,fr9,it0,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      26: stand pistol aim-move[Overlay,fr9,it0,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      39: stand pistol melee%0[Base,fr51,it1,key16/31,loop0,nx46] v=(0.58,0.01,0.00)wu/s yaw=0deg/s tot=(0.99,0.01,0.00,0)
+      type '':
+  seat 'flee' look 0.0/0.0deg x0/0 pitch 0.0/0.0 x0/0 own: [0]stand airborne-dead [1]stand landing-dead
+    class 'pistol' aim 90.0/90.0deg x1/1 pitch 90.0/90.0 x1/1 ids:0,2,3,8,16,17,18,27,39,42,44,45,48,49,50
+      0: stand pistol idle[Base,fr120,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      2: stand pistol turn-left[Base,fr14,it2,key0/0,loop0,nx-1] v=(-0.03,0.03,0.00)wu/s yaw=193deg/s tot=(-0.01,0.01,0.00,90)
+      3: stand pistol turn-right[Base,fr14,it2,key0/0,loop0,nx-1] v=(-0.03,-0.03,0.00)wu/s yaw=-193deg/s tot=(-0.01,-0.01,0.00,-90)
+      8: flee pistol move-front[Base,fr40,it1,key0/0,loop0,nx-1] v=(3.60,0.00,0.00)wu/s yaw=0deg/s tot=(4.80,0.00,0.00,0)
+      16: stand pistol airborne[Base,fr32,it1,key0/0,loop11,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      17: stand pistol land-hard[Base,fr56,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.35,0.00,0.00,0)
+      18: stand pistol land-hard[Base,fr56,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.35,0.00,0.00,0)
+      39: stand pistol melee%0[Base,fr51,it1,key16/31,loop0,nx46] v=(0.58,0.01,0.00)wu/s yaw=0deg/s tot=(0.99,0.01,0.00,0)
+      type 'ar':
+      type 'pr':
+      type 'hp':
+      type 'ne':
+    class 'unarmed' aim 90.0/90.0deg x1/1 pitch 90.0/90.0 x1/1 ids:0,2,3,8,16,17,18,27,39,42,44,45,48,49,50
+      0: stand pistol idle[Base,fr120,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      2: stand pistol turn-left[Base,fr14,it2,key0/0,loop0,nx-1] v=(-0.03,0.03,0.00)wu/s yaw=193deg/s tot=(-0.01,0.01,0.00,90)
+      3: stand pistol turn-right[Base,fr14,it2,key0/0,loop0,nx-1] v=(-0.03,-0.03,0.00)wu/s yaw=-193deg/s tot=(-0.01,-0.01,0.00,-90)
+      8: flee pistol move-front[Base,fr40,it1,key0/0,loop0,nx-1] v=(3.60,0.00,0.00)wu/s yaw=0deg/s tot=(4.80,0.00,0.00,0)
+      16: stand pistol airborne[Base,fr32,it1,key0/0,loop11,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      17: stand pistol land-hard[Base,fr56,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.35,0.00,0.00,0)
+      18: stand pistol land-hard[Base,fr56,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.35,0.00,0.00,0)
+      39: stand pistol melee%0[Base,fr51,it1,key16/31,loop0,nx46] v=(0.58,0.01,0.00)wu/s yaw=0deg/s tot=(0.99,0.01,0.00,0)
+      type '':
+  seat 'alert' look 0.0/0.0deg x0/0 pitch 0.0/0.0 x0/0 own: [0]stand airborne-dead [1]stand landing-dead
+    class 'unarmed' aim 90.0/90.0deg x1/1 pitch 90.0/90.0 x1/1 ids:0,2,3,8,16,17,18,25,27,39,42,44,45,48,49,50
+      0: alert unarmed idle%0[Base,fr60,it1,key0/0,loop0,nx2] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      2: alert unarmed turn-left[Base,fr14,it2,key0/0,loop0,nx-1] v=(-0.03,0.03,0.00)wu/s yaw=193deg/s tot=(-0.01,0.01,0.00,90)
+      3: alert unarmed turn-right[Base,fr14,it2,key0/0,loop0,nx-1] v=(-0.03,-0.03,0.00)wu/s yaw=-193deg/s tot=(-0.01,-0.01,0.00,-90)
+      8: alert unarmed move-front[Base,fr36,it1,key0/0,loop0,nx-1] v=(0.54,-0.00,0.00)wu/s yaw=0deg/s tot=(0.65,-0.00,0.00,0)
+      16: stand pistol airborne[Base,fr32,it1,key0/0,loop11,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      17: stand pistol land-hard[Base,fr56,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.35,0.00,0.00,0)
+      18: stand pistol land-hard[Base,fr56,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.35,0.00,0.00,0)
+      25: alert unarmed aim-still[Overlay,fr9,it0,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      39: stand pistol melee%0[Base,fr51,it1,key16/31,loop0,nx46] v=(0.58,0.01,0.00)wu/s yaw=0deg/s tot=(0.99,0.01,0.00,0)
+      type '':
+    dmg88: s-kill front gut%0[Base,fr49,it1,key0/0,loop0,nx-1] v=(-0.30,0.00,0.00)wu/s yaw=0deg/s tot=(-0.50,0.01,0.00,0)
+    dmg99: s-kill left gut[Base,fr40,it1,key0/0,loop0,nx-1] v=(-0.09,-0.89,0.00)wu/s yaw=0deg/s tot=(-0.11,-1.18,0.00,0)
+    dmg110: s-kill right gut[Base,fr57,it1,key0/0,loop0,nx-1] v=(-0.01,0.51,0.00)wu/s yaw=0deg/s tot=(-0.01,0.97,0.00,0)
+    dmg121: s-kill back gut[Base,fr59,it1,key0/0,loop0,nx-1] v=(0.29,0.00,0.00)wu/s yaw=0deg/s tot=(0.56,0.01,0.00,0)
+    dmg132: h-kill front gut[Base,fr46,it1,key0/0,loop0,nx-1] v=(-0.35,0.34,0.00)wu/s yaw=0deg/s tot=(-0.54,0.52,0.00,0)
+    dmg143: h-kill front gut[Base,fr46,it1,key0/0,loop0,nx-1] v=(-0.35,0.34,0.00)wu/s yaw=0deg/s tot=(-0.54,0.52,0.00,0)
+    dmg154: h-kill front gut[Base,fr46,it1,key0/0,loop0,nx-1] v=(-0.35,0.34,0.00)wu/s yaw=0deg/s tot=(-0.54,0.52,0.00,0)
+    dmg165: h-kill back gut[Base,fr49,it1,key0/0,loop0,nx-1] v=(1.09,-0.00,0.00)wu/s yaw=0deg/s tot=(1.78,-0.00,0.00,0)
+    airdead: stand airborne-dead[Base,fr37,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+    landdead: stand landing-dead[Base,fr34,it1,key0/0,loop0,nx-1] v=(-0.00,0.00,0.00)wu/s yaw=0deg/s tot=(-0.00,0.00,0.00,0)
+  damage: [0]s-ping front gut%0(Overlay,21) [1]s-ping front gut%0(Overlay,21) [2]s-ping front gut%0(Overlay,21) [3]s-ping front gut%0(Overlay,21) [4]s-ping front gut%0(Overlay,21) [5]s-ping front gut%0(Overlay,21) [6]s-ping front gut%0(Overlay,21) [7]s-ping front gut%0(Overlay,21) [8]s-ping front gut%0(Overlay,21) [9]s-ping front gut%0(Overlay,21) [10]s-ping front gut%0(Overlay,21) [11]s-ping left gut%0(Overlay,21) [12]s-ping left gut%0(Overlay,21) [13]s-ping left gut%0(Overlay,21) [14]s-ping left gut%0(Overlay,21) [15]s-ping left gut%0(Overlay,21) [16]s-ping left gut%0(Overlay,21) [17]s-ping left gut%0(Overlay,21) [18]s-ping left gut%0(Overlay,21) [19]s-ping left gut%0(Overlay,21) [20]s-ping left gut%0(Overlay,21) [21]s-ping left gut%0(Overlay,21) [22]s-ping right gut%0(Overlay,21) [23]s-ping right gut%0(Overlay,21) [24]s-ping right gut%0(Overlay,21) [25]s-ping right gut%0(Overlay,21) [26]s-ping right gut%0(Overlay,21) [27]s-ping right gut%0(Overlay,21) [28]s-ping right gut%0(Overlay,21) [29]s-ping right gut%0(Overlay,21) [30]s-ping right gut%0(Overlay,21) [31]s-ping right gut%0(Overlay,21) [32]s-ping right gut%0(Overlay,21) [33]s-ping back gut%0(Overlay,21) [34]s-ping back gut%0(Overlay,21) [35]s-ping back gut%0(Overlay,21) [36]s-ping back gut%0(Overlay,21) [37]s-ping back gut%0(Overlay,21) [38]s-ping back gut%0(Overlay,21) [39]s-ping back gut%0(Overlay,21) [40]s-ping back gut%0(Overlay,21) [41]s-ping back gut%0(Overlay,21) [42]s-ping back gut%0(Overlay,21) [43]s-ping back gut%0(Overlay,21) [44]h-ping front gut(Base,40) [45]h-ping front chest(Base,37) [46]h-ping front chest(Base,37) [47]h-ping front chest(Base,37) [48]h-ping front l-hand(Base,42) [49]h-ping front gut(Base,40) [50]h-ping front gut(Base,40) [51]h-ping front chest(Base,37) [52]h-ping front r-hand(Base,42) [53]h-ping front gut(Base,40) [54]h-ping front gut(Base,40) [55]h-ping left gut(Base,32) [56]h-ping left gut(Base,32) [57]h-ping left gut(Base,32) [58]h-ping left gut(Base,32) [59]h-ping left gut(Base,32) [60]h-ping left gut(Base,32) [61]h-ping left gut(Base,32) [62]h-ping left gut(Base,32) [63]h-ping left gut(Base,32) [64]h-ping left gut(Base,32) [65]h-ping left gut(Base,32) [66]h-ping right gut(Base,33) [67]h-ping right gut(Base,33) [68]h-ping right gut(Base,33) [69]h-ping right gut(Base,33) [70]h-ping right gut(Base,33) [71]h-ping right gut(Base,33) [72]h-ping right gut(Base,33) [73]h-ping right gut(Base,33) [74]h-ping right gut(Base,33) [75]h-ping right gut(Base,33) [76]h-ping right gut(Base,33) [77]h-ping back gut(Base,36) [78]h-ping back gut(Base,36) [79]h-ping back gut(Base,36) [80]h-ping back gut(Base,36) [81]h-ping back gut(Base,36) [82]h-ping back gut(Base,36) [83]h-ping back gut(Base,36) [84]h-ping back gut(Base,36) [85]h-ping back gut(Base,36) [86]h-ping back gut(Base,36) [87]h-ping back gut(Base,36) [88]s-kill front gut%0(Base,49) [89]s-kill front gut%0(Base,49) [90]s-kill front gut%0(Base,49) [91]s-kill front gut%0(Base,49) [92]s-kill front gut%0(Base,49) [93]s-kill front gut%0(Base,49) [94]s-kill front gut%0(Base,49) [95]s-kill front gut%0(Base,49) [96]s-kill front gut%0(Base,49) [97]s-kill front gut%0(Base,49) [98]s-kill front gut%0(Base,49) [99]s-kill left gut(Base,40) [100]s-kill left gut(Base,40) [101]s-kill left gut(Base,40) [102]s-kill left gut(Base,40) [103]s-kill left gut(Base,40) [104]s-kill left gut(Base,40) [105]s-kill left gut(Base,40) [106]s-kill left gut(Base,40) [107]s-kill left gut(Base,40) [108]s-kill left gut(Base,40) [109]s-kill left gut(Base,40) [110]s-kill right gut(Base,57) [111]s-kill right gut(Base,57) [112]s-kill right gut(Base,57) [113]s-kill right gut(Base,57) [114]s-kill right gut(Base,57) [115]s-kill right gut(Base,57) [116]s-kill right gut(Base,57) [117]s-kill right gut(Base,57) [118]s-kill right gut(Base,57) [119]s-kill right gut(Base,57) [120]s-kill right gut(Base,57) [121]s-kill back gut(Base,59) [122]s-kill back gut(Base,59) [123]s-kill back gut(Base,59) [124]s-kill back gut(Base,59) [125]s-kill back gut(Base,59) [126]s-kill back gut(Base,59) [127]s-kill back gut(Base,59) [128]s-kill back gut(Base,59) [129]s-kill back gut(Base,59) [130]s-kill back gut(Base,59) [131]s-kill back gut(Base,59) [132]h-kill front gut(Base,46) [133]h-kill front gut(Base,46) [134]h-kill front gut(Base,46) [135]h-kill front gut(Base,46) [136]h-kill front gut(Base,46) [137]h-kill front gut(Base,46) [138]h-kill front gut(Base,46) [139]h-kill front gut(Base,46) [140]h-kill front gut(Base,46) [141]h-kill front gut(Base,46) [142]h-kill front gut(Base,46) [143]h-kill front gut(Base,46) [144]h-kill front gut(Base,46) [145]h-kill front gut(Base,46) [146]h-kill front gut(Base,46) [147]h-kill front gut(Base,46) [148]h-kill front gut(Base,46) [149]h-kill front gut(Base,46) [150]h-kill front gut(Base,46) [151]h-kill front gut(Base,46) [152]h-kill front gut(Base,46) [153]h-kill front gut(Base,46) [154]h-kill front gut(Base,46) [155]h-kill front gut(Base,46) [156]h-kill front gut(Base,46) [157]h-kill front gut(Base,46) [158]h-kill front gut(Base,46) [159]h-kill front gut(Base,46) [160]h-kill front gut(Base,46) [161]h-kill front gut(Base,46) [162]h-kill front gut(Base,46) [163]h-kill front gut(Base,46) [164]h-kill front gut(Base,46) [165]h-kill back gut(Base,49) [166]h-kill back gut(Base,49) [167]h-kill back gut(Base,49) [168]h-kill back gut(Base,49) [169]h-kill back gut(Base,49) [170]h-kill back gut(Base,49) [171]h-kill back gut(Base,49) [172]h-kill back gut(Base,49) [173]h-kill back gut(Base,49) [174]h-kill back gut(Base,49) [175]h-kill back gut(Base,49)
+## characters\flood_infection\flood_infection flags 5F9 accscale 1 maxv 0 side 0 acc 0 dec 0 angv 0 anga 0 crouchmod 0 slope 45 movturn 338deg/s statthr 90deg crouchT 0.2 aimv 720 aima 1440 lookv 1440 looka 2880 casual 1 jump 0.05 land 0.4/0.7/0.5/1.5/4/0 h 0/0 rad 0.12 evade 0.8 dive 1 stunmove 0
+  graph characters\flood_infection\flood_infection limp r? flags? anims 15
+  seat 'stand' look 0.0/0.0deg x0/0 pitch 0.0/0.0 x0/0 own: [0]stand airborne-dead [1]stand landing-dead
+    class 'unarmed' aim 90.0/90.0deg x1/1 pitch 90.0/90.0 x1/1 ids:0,8,16,17,18,25,39,46,47
+      0: stand unarmed idle[Base,fr60,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      8: stand unarmed move-front[Base,fr27,it1,key0/0,loop0,nx-1] v=(1.29,0.00,0.00)wu/s yaw=0deg/s tot=(1.16,0.00,0.00,0)
+      16: stand unarmed airborne[Base,fr24,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      17: stand unarmed land-hard[Base,fr11,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.07,0.00,0.00,0)
+      18: stand unarmed land-hard[Base,fr11,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.07,0.00,0.00,0)
+      25: stand unarmed aim-still[Overlay,fr9,it0,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      39: stand unarmed melee[Base,fr40,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      type '':
+  seat 'crouch' look 0.0/0.0deg x0/0 pitch 0.0/0.0 x0/0 own: [0]stand airborne-dead [1]stand landing-dead
+    class 'pistol' aim 90.0/90.0deg x1/1 pitch 90.0/90.0 x1/1 ids:16,17,18,39,46,47
+      16: stand unarmed airborne[Base,fr24,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      17: stand unarmed land-hard[Base,fr11,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.07,0.00,0.00,0)
+      18: stand unarmed land-hard[Base,fr11,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.07,0.00,0.00,0)
+      39: stand unarmed melee[Base,fr40,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      type 'hp':
+      type 'ar':
+    class 'unarmed' aim 90.0/90.0deg x1/1 pitch 90.0/90.0 x1/1 ids:0,8,16,17,18,39,46,47
+      0: stand unarmed idle[Base,fr60,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      8: crouch unarmed move-front[Base,fr28,it1,key0/0,loop0,nx-1] v=(0.12,0.00,0.00)wu/s yaw=0deg/s tot=(0.11,0.00,0.00,0)
+      16: stand unarmed airborne[Base,fr24,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      17: stand unarmed land-hard[Base,fr11,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.07,0.00,0.00,0)
+      18: stand unarmed land-hard[Base,fr11,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.07,0.00,0.00,0)
+      39: stand unarmed melee[Base,fr40,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      type '':
+    dmg88: h-kill front gut%0[Base,fr7,it1,key0/0,loop0,nx2] v=(0.03,-0.22,0.00)wu/s yaw=0deg/s tot=(0.01,-0.05,0.00,0)
+    dmg99: h-kill front gut%0[Base,fr7,it1,key0/0,loop0,nx2] v=(0.03,-0.22,0.00)wu/s yaw=0deg/s tot=(0.01,-0.05,0.00,0)
+    dmg110: h-kill front gut%0[Base,fr7,it1,key0/0,loop0,nx2] v=(0.03,-0.22,0.00)wu/s yaw=0deg/s tot=(0.01,-0.05,0.00,0)
+    dmg121: h-kill front gut%0[Base,fr7,it1,key0/0,loop0,nx2] v=(0.03,-0.22,0.00)wu/s yaw=0deg/s tot=(0.01,-0.05,0.00,0)
+    dmg132: h-kill front gut%0[Base,fr7,it1,key0/0,loop0,nx2] v=(0.03,-0.22,0.00)wu/s yaw=0deg/s tot=(0.01,-0.05,0.00,0)
+    dmg143: h-kill front gut%0[Base,fr7,it1,key0/0,loop0,nx2] v=(0.03,-0.22,0.00)wu/s yaw=0deg/s tot=(0.01,-0.05,0.00,0)
+    dmg154: h-kill front gut%0[Base,fr7,it1,key0/0,loop0,nx2] v=(0.03,-0.22,0.00)wu/s yaw=0deg/s tot=(0.01,-0.05,0.00,0)
+    dmg165: h-kill front gut%0[Base,fr7,it1,key0/0,loop0,nx2] v=(0.03,-0.22,0.00)wu/s yaw=0deg/s tot=(0.01,-0.05,0.00,0)
+    airdead: stand airborne-dead[Base,fr24,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+    landdead: stand landing-dead[Base,fr50,it1,key0/0,loop0,nx-1] v=(-0.00,0.00,0.00)wu/s yaw=0deg/s tot=(-0.01,0.00,0.00,0)
+  damage: [44]h-ping front gut(Base,14) [45]h-ping front gut(Base,14) [46]h-ping front gut(Base,14) [47]h-ping front gut(Base,14) [48]h-ping front gut(Base,14) [49]h-ping front gut(Base,14) [50]h-ping front gut(Base,14) [51]h-ping front gut(Base,14) [52]h-ping front gut(Base,14) [53]h-ping front gut(Base,14) [54]h-ping front gut(Base,14) [55]h-ping front gut(Base,14) [56]h-ping front gut(Base,14) [57]h-ping front gut(Base,14) [58]h-ping front gut(Base,14) [59]h-ping front gut(Base,14) [60]h-ping front gut(Base,14) [61]h-ping front gut(Base,14) [62]h-ping front gut(Base,14) [63]h-ping front gut(Base,14) [64]h-ping front gut(Base,14) [65]h-ping front gut(Base,14) [66]h-ping front gut(Base,14) [67]h-ping front gut(Base,14) [68]h-ping front gut(Base,14) [69]h-ping front gut(Base,14) [70]h-ping front gut(Base,14) [71]h-ping front gut(Base,14) [72]h-ping front gut(Base,14) [73]h-ping front gut(Base,14) [74]h-ping front gut(Base,14) [75]h-ping front gut(Base,14) [76]h-ping front gut(Base,14) [77]h-ping front gut(Base,14) [78]h-ping front gut(Base,14) [79]h-ping front gut(Base,14) [80]h-ping front gut(Base,14) [81]h-ping front gut(Base,14) [82]h-ping front gut(Base,14) [83]h-ping front gut(Base,14) [84]h-ping front gut(Base,14) [85]h-ping front gut(Base,14) [86]h-ping front gut(Base,14) [87]h-ping front gut(Base,14) [88]h-kill front gut%0(Base,7) [89]h-kill front gut%0(Base,7) [90]h-kill front gut%0(Base,7) [91]h-kill front gut%0(Base,7) [92]h-kill front gut%0(Base,7) [93]h-kill front gut%0(Base,7) [94]h-kill front gut%0(Base,7) [95]h-kill front gut%0(Base,7) [96]h-kill front gut%0(Base,7) [97]h-kill front gut%0(Base,7) [98]h-kill front gut%0(Base,7) [99]h-kill front gut%0(Base,7) [100]h-kill front gut%0(Base,7) [101]h-kill front gut%0(Base,7) [102]h-kill front gut%0(Base,7) [103]h-kill front gut%0(Base,7) [104]h-kill front gut%0(Base,7) [105]h-kill front gut%0(Base,7) [106]h-kill front gut%0(Base,7) [107]h-kill front gut%0(Base,7) [108]h-kill front gut%0(Base,7) [109]h-kill front gut%0(Base,7) [110]h-kill front gut%0(Base,7) [111]h-kill front gut%0(Base,7) [112]h-kill front gut%0(Base,7) [113]h-kill front gut%0(Base,7) [114]h-kill front gut%0(Base,7) [115]h-kill front gut%0(Base,7) [116]h-kill front gut%0(Base,7) [117]h-kill front gut%0(Base,7) [118]h-kill front gut%0(Base,7) [119]h-kill front gut%0(Base,7) [120]h-kill front gut%0(Base,7) [121]h-kill front gut%0(Base,7) [122]h-kill front gut%0(Base,7) [123]h-kill front gut%0(Base,7) [124]h-kill front gut%0(Base,7) [125]h-kill front gut%0(Base,7) [126]h-kill front gut%0(Base,7) [127]h-kill front gut%0(Base,7) [128]h-kill front gut%0(Base,7) [129]h-kill front gut%0(Base,7) [130]h-kill front gut%0(Base,7) [131]h-kill front gut%0(Base,7) [132]h-kill front gut%0(Base,7) [133]h-kill front gut%0(Base,7) [134]h-kill front gut%0(Base,7) [135]h-kill front gut%0(Base,7) [136]h-kill front gut%0(Base,7) [137]h-kill front gut%0(Base,7) [138]h-kill front gut%0(Base,7) [139]h-kill front gut%0(Base,7) [140]h-kill front gut%0(Base,7) [141]h-kill front gut%0(Base,7) [142]h-kill front gut%0(Base,7) [143]h-kill front gut%0(Base,7) [144]h-kill front gut%0(Base,7) [145]h-kill front gut%0(Base,7) [146]h-kill front gut%0(Base,7) [147]h-kill front gut%0(Base,7) [148]h-kill front gut%0(Base,7) [149]h-kill front gut%0(Base,7) [150]h-kill front gut%0(Base,7) [151]h-kill front gut%0(Base,7) [152]h-kill front gut%0(Base,7) [153]h-kill front gut%0(Base,7) [154]h-kill front gut%0(Base,7) [155]h-kill front gut%0(Base,7) [156]h-kill front gut%0(Base,7) [157]h-kill front gut%0(Base,7) [158]h-kill front gut%0(Base,7) [159]h-kill front gut%0(Base,7) [160]h-kill front gut%0(Base,7) [161]h-kill front gut%0(Base,7) [162]h-kill front gut%0(Base,7) [163]h-kill front gut%0(Base,7) [164]h-kill front gut%0(Base,7) [165]h-kill front gut%0(Base,7) [166]h-kill front gut%0(Base,7) [167]h-kill front gut%0(Base,7) [168]h-kill front gut%0(Base,7) [169]h-kill front gut%0(Base,7) [170]h-kill front gut%0(Base,7) [171]h-kill front gut%0(Base,7) [172]h-kill front gut%0(Base,7) [173]h-kill front gut%0(Base,7) [174]h-kill front gut%0(Base,7) [175]h-kill front gut%0(Base,7)
+## characters\flood_infection\flood_infection nopop flags DF9 accscale 1 maxv 0 side 0 acc 0 dec 0 angv 0 anga 0 crouchmod 0 slope 45 movturn 338deg/s statthr 90deg crouchT 0.2 aimv 720 aima 1440 lookv 1440 looka 2880 casual 1 jump 0.05 land 0.4/0.7/0.5/1.5/4/0 h 0/0 rad 0.12 evade 0.8 dive 1 stunmove 0
+  graph characters\flood_infection\flood_infection limp r? flags? anims 15
+  seat 'stand' look 0.0/0.0deg x0/0 pitch 0.0/0.0 x0/0 own: [0]stand airborne-dead [1]stand landing-dead
+    class 'unarmed' aim 90.0/90.0deg x1/1 pitch 90.0/90.0 x1/1 ids:0,8,16,17,18,25,39,46,47
+      0: stand unarmed idle[Base,fr60,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      8: stand unarmed move-front[Base,fr27,it1,key0/0,loop0,nx-1] v=(1.29,0.00,0.00)wu/s yaw=0deg/s tot=(1.16,0.00,0.00,0)
+      16: stand unarmed airborne[Base,fr24,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      17: stand unarmed land-hard[Base,fr11,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.07,0.00,0.00,0)
+      18: stand unarmed land-hard[Base,fr11,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.07,0.00,0.00,0)
+      25: stand unarmed aim-still[Overlay,fr9,it0,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      39: stand unarmed melee[Base,fr40,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      type '':
+  seat 'crouch' look 0.0/0.0deg x0/0 pitch 0.0/0.0 x0/0 own: [0]stand airborne-dead [1]stand landing-dead
+    class 'pistol' aim 90.0/90.0deg x1/1 pitch 90.0/90.0 x1/1 ids:16,17,18,39,46,47
+      16: stand unarmed airborne[Base,fr24,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      17: stand unarmed land-hard[Base,fr11,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.07,0.00,0.00,0)
+      18: stand unarmed land-hard[Base,fr11,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.07,0.00,0.00,0)
+      39: stand unarmed melee[Base,fr40,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      type 'hp':
+      type 'ar':
+    class 'unarmed' aim 90.0/90.0deg x1/1 pitch 90.0/90.0 x1/1 ids:0,8,16,17,18,39,46,47
+      0: stand unarmed idle[Base,fr60,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      8: crouch unarmed move-front[Base,fr28,it1,key0/0,loop0,nx-1] v=(0.12,0.00,0.00)wu/s yaw=0deg/s tot=(0.11,0.00,0.00,0)
+      16: stand unarmed airborne[Base,fr24,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      17: stand unarmed land-hard[Base,fr11,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.07,0.00,0.00,0)
+      18: stand unarmed land-hard[Base,fr11,it1,key0/0,loop0,nx-1] v=(0.19,0.00,0.00)wu/s yaw=0deg/s tot=(0.07,0.00,0.00,0)
+      39: stand unarmed melee[Base,fr40,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      type '':
+    dmg88: h-kill front gut%0[Base,fr7,it1,key0/0,loop0,nx2] v=(0.03,-0.22,0.00)wu/s yaw=0deg/s tot=(0.01,-0.05,0.00,0)
+    dmg99: h-kill front gut%0[Base,fr7,it1,key0/0,loop0,nx2] v=(0.03,-0.22,0.00)wu/s yaw=0deg/s tot=(0.01,-0.05,0.00,0)
+    dmg110: h-kill front gut%0[Base,fr7,it1,key0/0,loop0,nx2] v=(0.03,-0.22,0.00)wu/s yaw=0deg/s tot=(0.01,-0.05,0.00,0)
+    dmg121: h-kill front gut%0[Base,fr7,it1,key0/0,loop0,nx2] v=(0.03,-0.22,0.00)wu/s yaw=0deg/s tot=(0.01,-0.05,0.00,0)
+    dmg132: h-kill front gut%0[Base,fr7,it1,key0/0,loop0,nx2] v=(0.03,-0.22,0.00)wu/s yaw=0deg/s tot=(0.01,-0.05,0.00,0)
+    dmg143: h-kill front gut%0[Base,fr7,it1,key0/0,loop0,nx2] v=(0.03,-0.22,0.00)wu/s yaw=0deg/s tot=(0.01,-0.05,0.00,0)
+    dmg154: h-kill front gut%0[Base,fr7,it1,key0/0,loop0,nx2] v=(0.03,-0.22,0.00)wu/s yaw=0deg/s tot=(0.01,-0.05,0.00,0)
+    dmg165: h-kill front gut%0[Base,fr7,it1,key0/0,loop0,nx2] v=(0.03,-0.22,0.00)wu/s yaw=0deg/s tot=(0.01,-0.05,0.00,0)
+    airdead: stand airborne-dead[Base,fr24,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+    landdead: stand landing-dead[Base,fr50,it1,key0/0,loop0,nx-1] v=(-0.00,0.00,0.00)wu/s yaw=0deg/s tot=(-0.01,0.00,0.00,0)
+  damage: [44]h-ping front gut(Base,14) [45]h-ping front gut(Base,14) [46]h-ping front gut(Base,14) [47]h-ping front gut(Base,14) [48]h-ping front gut(Base,14) [49]h-ping front gut(Base,14) [50]h-ping front gut(Base,14) [51]h-ping front gut(Base,14) [52]h-ping front gut(Base,14) [53]h-ping front gut(Base,14) [54]h-ping front gut(Base,14) [55]h-ping front gut(Base,14) [56]h-ping front gut(Base,14) [57]h-ping front gut(Base,14) [58]h-ping front gut(Base,14) [59]h-ping front gut(Base,14) [60]h-ping front gut(Base,14) [61]h-ping front gut(Base,14) [62]h-ping front gut(Base,14) [63]h-ping front gut(Base,14) [64]h-ping front gut(Base,14) [65]h-ping front gut(Base,14) [66]h-ping front gut(Base,14) [67]h-ping front gut(Base,14) [68]h-ping front gut(Base,14) [69]h-ping front gut(Base,14) [70]h-ping front gut(Base,14) [71]h-ping front gut(Base,14) [72]h-ping front gut(Base,14) [73]h-ping front gut(Base,14) [74]h-ping front gut(Base,14) [75]h-ping front gut(Base,14) [76]h-ping front gut(Base,14) [77]h-ping front gut(Base,14) [78]h-ping front gut(Base,14) [79]h-ping front gut(Base,14) [80]h-ping front gut(Base,14) [81]h-ping front gut(Base,14) [82]h-ping front gut(Base,14) [83]h-ping front gut(Base,14) [84]h-ping front gut(Base,14) [85]h-ping front gut(Base,14) [86]h-ping front gut(Base,14) [87]h-ping front gut(Base,14) [88]h-kill front gut%0(Base,7) [89]h-kill front gut%0(Base,7) [90]h-kill front gut%0(Base,7) [91]h-kill front gut%0(Base,7) [92]h-kill front gut%0(Base,7) [93]h-kill front gut%0(Base,7) [94]h-kill front gut%0(Base,7) [95]h-kill front gut%0(Base,7) [96]h-kill front gut%0(Base,7) [97]h-kill front gut%0(Base,7) [98]h-kill front gut%0(Base,7) [99]h-kill front gut%0(Base,7) [100]h-kill front gut%0(Base,7) [101]h-kill front gut%0(Base,7) [102]h-kill front gut%0(Base,7) [103]h-kill front gut%0(Base,7) [104]h-kill front gut%0(Base,7) [105]h-kill front gut%0(Base,7) [106]h-kill front gut%0(Base,7) [107]h-kill front gut%0(Base,7) [108]h-kill front gut%0(Base,7) [109]h-kill front gut%0(Base,7) [110]h-kill front gut%0(Base,7) [111]h-kill front gut%0(Base,7) [112]h-kill front gut%0(Base,7) [113]h-kill front gut%0(Base,7) [114]h-kill front gut%0(Base,7) [115]h-kill front gut%0(Base,7) [116]h-kill front gut%0(Base,7) [117]h-kill front gut%0(Base,7) [118]h-kill front gut%0(Base,7) [119]h-kill front gut%0(Base,7) [120]h-kill front gut%0(Base,7) [121]h-kill front gut%0(Base,7) [122]h-kill front gut%0(Base,7) [123]h-kill front gut%0(Base,7) [124]h-kill front gut%0(Base,7) [125]h-kill front gut%0(Base,7) [126]h-kill front gut%0(Base,7) [127]h-kill front gut%0(Base,7) [128]h-kill front gut%0(Base,7) [129]h-kill front gut%0(Base,7) [130]h-kill front gut%0(Base,7) [131]h-kill front gut%0(Base,7) [132]h-kill front gut%0(Base,7) [133]h-kill front gut%0(Base,7) [134]h-kill front gut%0(Base,7) [135]h-kill front gut%0(Base,7) [136]h-kill front gut%0(Base,7) [137]h-kill front gut%0(Base,7) [138]h-kill front gut%0(Base,7) [139]h-kill front gut%0(Base,7) [140]h-kill front gut%0(Base,7) [141]h-kill front gut%0(Base,7) [142]h-kill front gut%0(Base,7) [143]h-kill front gut%0(Base,7) [144]h-kill front gut%0(Base,7) [145]h-kill front gut%0(Base,7) [146]h-kill front gut%0(Base,7) [147]h-kill front gut%0(Base,7) [148]h-kill front gut%0(Base,7) [149]h-kill front gut%0(Base,7) [150]h-kill front gut%0(Base,7) [151]h-kill front gut%0(Base,7) [152]h-kill front gut%0(Base,7) [153]h-kill front gut%0(Base,7) [154]h-kill front gut%0(Base,7) [155]h-kill front gut%0(Base,7) [156]h-kill front gut%0(Base,7) [157]h-kill front gut%0(Base,7) [158]h-kill front gut%0(Base,7) [159]h-kill front gut%0(Base,7) [160]h-kill front gut%0(Base,7) [161]h-kill front gut%0(Base,7) [162]h-kill front gut%0(Base,7) [163]h-kill front gut%0(Base,7) [164]h-kill front gut%0(Base,7) [165]h-kill front gut%0(Base,7) [166]h-kill front gut%0(Base,7) [167]h-kill front gut%0(Base,7) [168]h-kill front gut%0(Base,7) [169]h-kill front gut%0(Base,7) [170]h-kill front gut%0(Base,7) [171]h-kill front gut%0(Base,7) [172]h-kill front gut%0(Base,7) [173]h-kill front gut%0(Base,7) [174]h-kill front gut%0(Base,7) [175]h-kill front gut%0(Base,7)
+## characters\floodcombat_human\floodcombat_human flags 200 accscale 1 maxv 0 side 0 acc 0 dec 0 angv 0 anga 0 crouchmod 0 slope 45 movturn 338deg/s statthr 90deg crouchT 0.2 aimv 720 aima 1440 lookv 1440 looka 2880 casual 1 jump 0.16 land 0.6/1.5/1/3/6/0 h 0.6/0.45 rad 0.18 evade 0.8 dive 1 stunmove 0
+  graph characters\floodcombat_human\floodcombat_human limp r? flags? anims 49
+  seat 'stand' look 0.0/0.0deg x0/0 pitch 0.0/0.0 x0/0 own: [0]stand airborne-dead [1]stand landing-dead
+    class 'unarmed' aim 90.0/90.0deg x1/1 pitch 90.0/90.0 x1/1 ids:0,2,3,8,9,16,17,18,25,39,42,44,45,48,49,50
+      0: stand unarmed idle%0[Base,fr40,it1,key0/0,loop0,nx39] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      2: stand unarmed turn-left[Base,fr14,it2,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=193deg/s tot=(0.00,0.00,0.00,90)
+      3: stand unarmed turn-right[Base,fr14,it2,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=-193deg/s tot=(0.00,0.00,0.00,-90)
+      8: stand pistol move-front[Base,fr30,it1,key0/0,loop0,nx-1] v=(1.84,0.00,0.00)wu/s yaw=0deg/s tot=(1.84,0.00,0.00,0)
+      9: stand pistol move-back[Base,fr30,it1,key0/0,loop0,nx-1] v=(-1.84,0.00,0.00)wu/s yaw=0deg/s tot=(-1.84,0.00,0.00,0)
+      16: stand pistol airborne[Base,fr40,it1,key5/0,loop21,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      17: stand unarmed land-soft[Base,fr30,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      18: stand unarmed land-hard[Base,fr50,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      25: stand pistol aim-still[Overlay,fr9,it0,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      39: stand pistol melee[Base,fr50,it1,key15/0,loop0,nx-1] v=(0.54,0.00,0.00)wu/s yaw=0deg/s tot=(0.90,0.00,0.00,0)
+      type '':
+    class 'pistol' aim 90.0/90.0deg x1/1 pitch 90.0/90.0 x1/1 ids:0,2,3,8,9,16,17,18,25,26,39,42,44,45,48,49,50
+      0: stand pistol idle%0[Base,fr40,it1,key0/0,loop0,nx23] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      2: stand pistol turn-left[Base,fr14,it2,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=193deg/s tot=(0.00,0.00,0.00,90)
+      3: stand pistol turn-right[Base,fr14,it2,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=-193deg/s tot=(0.00,0.00,0.00,-90)
+      8: stand pistol move-front[Base,fr30,it1,key0/0,loop0,nx-1] v=(1.84,0.00,0.00)wu/s yaw=0deg/s tot=(1.84,0.00,0.00,0)
+      9: stand pistol move-back[Base,fr30,it1,key0/0,loop0,nx-1] v=(-1.84,0.00,0.00)wu/s yaw=0deg/s tot=(-1.84,0.00,0.00,0)
+      16: stand pistol airborne[Base,fr40,it1,key5/0,loop21,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      17: stand pistol land-soft[Base,fr30,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      18: stand pistol land-hard[Base,fr70,it1,key0/0,loop50,nx-1] v=(0.06,0.00,0.00)wu/s yaw=0deg/s tot=(0.14,0.00,0.00,0)
+      25: stand pistol aim-still[Overlay,fr9,it0,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      26: stand pistol aim-still[Overlay,fr9,it0,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      39: stand pistol melee[Base,fr50,it1,key15/0,loop0,nx-1] v=(0.54,0.00,0.00)wu/s yaw=0deg/s tot=(0.90,0.00,0.00,0)
+      type 'ar': [4]stand pistol ar fire-1(Overlay,fr3,key0)
+      type 'hp': [4]stand pistol ar fire-1(Overlay,fr3,key0)
+      type 'ft':
+      type 'rl': [4]stand pistol sg fire-1(Overlay,fr13,key0)
+      type 'pp': [4]stand pistol ar fire-1(Overlay,fr3,key0)
+      type 'pr': [4]stand pistol ar fire-1(Overlay,fr3,key0)
+      type 'ne': [4]stand pistol ar fire-1(Overlay,fr3,key0)
+      type 'sg': [4]stand pistol sg fire-1(Overlay,fr13,key0)
+  seat 'crouch' look 0.0/0.0deg x0/0 pitch 0.0/0.0 x0/0 own: [0]stand airborne-dead [1]stand landing-dead
+    class 'pistol' aim 90.0/90.0deg x1/1 pitch 90.0/90.0 x1/1 ids:0,2,3,8,16,17,18,25,26,39,42,44,45,48,49,50
+      0: stand pistol idle%0[Base,fr40,it1,key0/0,loop0,nx23] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      2: stand pistol turn-left[Base,fr14,it2,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=193deg/s tot=(0.00,0.00,0.00,90)
+      3: stand pistol turn-right[Base,fr14,it2,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=-193deg/s tot=(0.00,0.00,0.00,-90)
+      8: crouch pistol move-front[Base,fr65,it1,key0/0,loop0,nx-1] v=(0.25,0.00,0.00)wu/s yaw=0deg/s tot=(0.54,0.00,0.00,0)
+      16: stand pistol airborne[Base,fr40,it1,key5/0,loop21,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      17: stand pistol land-soft[Base,fr30,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      18: stand pistol land-hard[Base,fr70,it1,key0/0,loop50,nx-1] v=(0.06,0.00,0.00)wu/s yaw=0deg/s tot=(0.14,0.00,0.00,0)
+      25: stand pistol aim-still[Overlay,fr9,it0,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      26: stand pistol aim-still[Overlay,fr9,it0,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      39: stand pistol melee[Base,fr50,it1,key15/0,loop0,nx-1] v=(0.54,0.00,0.00)wu/s yaw=0deg/s tot=(0.90,0.00,0.00,0)
+      type 'hp':
+      type 'ar':
+      type 'ne':
+      type 'pp':
+      type 'pr':
+      type 'rl':
+      type 'ft':
+    class 'unarmed' aim 90.0/90.0deg x1/1 pitch 90.0/90.0 x1/1 ids:0,2,3,8,16,17,18,39,42,44,45,48,49,50
+      0: stand unarmed idle%0[Base,fr40,it1,key0/0,loop0,nx39] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      2: stand unarmed turn-left[Base,fr14,it2,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=193deg/s tot=(0.00,0.00,0.00,90)
+      3: stand unarmed turn-right[Base,fr14,it2,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=-193deg/s tot=(0.00,0.00,0.00,-90)
+      8: crouch pistol move-front[Base,fr65,it1,key0/0,loop0,nx-1] v=(0.25,0.00,0.00)wu/s yaw=0deg/s tot=(0.54,0.00,0.00,0)
+      16: stand pistol airborne[Base,fr40,it1,key5/0,loop21,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      17: stand pistol land-soft[Base,fr30,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      18: stand pistol land-hard[Base,fr70,it1,key0/0,loop50,nx-1] v=(0.06,0.00,0.00)wu/s yaw=0deg/s tot=(0.14,0.00,0.00,0)
+      39: stand pistol melee[Base,fr50,it1,key15/0,loop0,nx-1] v=(0.54,0.00,0.00)wu/s yaw=0deg/s tot=(0.90,0.00,0.00,0)
+      type '':
+  seat 'flee' look 0.0/0.0deg x0/0 pitch 0.0/0.0 x0/0 own: [0]stand airborne-dead [1]stand landing-dead
+    class 'pistol' aim 0.0/0.0deg x0/0 pitch 0.0/0.0 x0/0 ids:0,2,3,8,16,17,18,39,42,44,45,48,49,50
+      0: stand pistol idle%0[Base,fr40,it1,key0/0,loop0,nx23] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      2: stand pistol turn-left[Base,fr14,it2,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=193deg/s tot=(0.00,0.00,0.00,90)
+      3: stand pistol turn-right[Base,fr14,it2,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=-193deg/s tot=(0.00,0.00,0.00,-90)
+      8: flee pistol move-front[Base,fr20,it1,key0/0,loop0,nx-1] v=(3.26,0.00,0.00)wu/s yaw=0deg/s tot=(2.17,0.00,0.00,0)
+      16: stand pistol airborne[Base,fr40,it1,key5/0,loop21,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      17: stand pistol land-soft[Base,fr30,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      18: stand pistol land-hard[Base,fr70,it1,key0/0,loop50,nx-1] v=(0.06,0.00,0.00)wu/s yaw=0deg/s tot=(0.14,0.00,0.00,0)
+      39: stand pistol melee[Base,fr50,it1,key15/0,loop0,nx-1] v=(0.54,0.00,0.00)wu/s yaw=0deg/s tot=(0.90,0.00,0.00,0)
+      type 'ar':
+      type 'hp':
+      type 'pp':
+      type 'pr':
+      type 'ft':
+      type 'rl':
+      type 'ne':
+    class 'unarmed' aim 0.0/0.0deg x0/0 pitch 0.0/0.0 x0/0 ids:0,2,3,8,16,17,18,39,42,44,45,48,49,50
+      0: stand pistol idle%0[Base,fr40,it1,key0/0,loop0,nx23] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      2: stand pistol turn-left[Base,fr14,it2,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=193deg/s tot=(0.00,0.00,0.00,90)
+      3: stand pistol turn-right[Base,fr14,it2,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=-193deg/s tot=(0.00,0.00,0.00,-90)
+      8: flee pistol move-front[Base,fr20,it1,key0/0,loop0,nx-1] v=(3.26,0.00,0.00)wu/s yaw=0deg/s tot=(2.17,0.00,0.00,0)
+      16: stand pistol airborne[Base,fr40,it1,key5/0,loop21,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      17: stand pistol land-soft[Base,fr30,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+      18: stand pistol land-hard[Base,fr70,it1,key0/0,loop50,nx-1] v=(0.06,0.00,0.00)wu/s yaw=0deg/s tot=(0.14,0.00,0.00,0)
+      39: stand pistol melee[Base,fr50,it1,key15/0,loop0,nx-1] v=(0.54,0.00,0.00)wu/s yaw=0deg/s tot=(0.90,0.00,0.00,0)
+      type '':
+    dmg88: h-kill front gut[Base,fr40,it1,key0/0,loop0,nx-1] v=(-0.24,0.00,0.00)wu/s yaw=0deg/s tot=(-0.32,0.00,0.00,0)
+    dmg99: h-kill front gut[Base,fr40,it1,key0/0,loop0,nx-1] v=(-0.24,0.00,0.00)wu/s yaw=0deg/s tot=(-0.32,0.00,0.00,0)
+    dmg110: h-kill front gut[Base,fr40,it1,key0/0,loop0,nx-1] v=(-0.24,0.00,0.00)wu/s yaw=0deg/s tot=(-0.32,0.00,0.00,0)
+    dmg121: h-kill back gut[Base,fr48,it1,key0/0,loop0,nx-1] v=(0.18,0.00,0.00)wu/s yaw=0deg/s tot=(0.29,0.00,0.00,0)
+    dmg132: h-kill front gut[Base,fr40,it1,key0/0,loop0,nx-1] v=(-0.24,0.00,0.00)wu/s yaw=0deg/s tot=(-0.32,0.00,0.00,0)
+    dmg143: h-kill front gut[Base,fr40,it1,key0/0,loop0,nx-1] v=(-0.24,0.00,0.00)wu/s yaw=0deg/s tot=(-0.32,0.00,0.00,0)
+    dmg154: h-kill front gut[Base,fr40,it1,key0/0,loop0,nx-1] v=(-0.24,0.00,0.00)wu/s yaw=0deg/s tot=(-0.32,0.00,0.00,0)
+    dmg165: h-kill back gut[Base,fr48,it1,key0/0,loop0,nx-1] v=(0.18,0.00,0.00)wu/s yaw=0deg/s tot=(0.29,0.00,0.00,0)
+    airdead: stand airborne-dead[Base,fr37,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+    landdead: stand landing-dead[Base,fr41,it1,key0/0,loop0,nx-1] v=(0.00,0.00,0.00)wu/s yaw=0deg/s tot=(0.00,0.00,0.00,0)
+  damage: [0]s-ping front gut%0(Base,10) [1]s-ping front gut%0(Base,10) [2]s-ping front gut%0(Base,10) [3]s-ping front gut%0(Base,10) [4]s-ping front gut%0(Base,10) [5]s-ping front gut%0(Base,10) [6]s-ping front gut%0(Base,10) [7]s-ping front gut%0(Base,10) [8]s-ping front gut%0(Base,10) [9]s-ping front gut%0(Base,10) [10]s-ping front gut%0(Base,10) [11]s-ping front gut%0(Base,10) [12]s-ping front gut%0(Base,10) [13]s-ping front gut%0(Base,10) [14]s-ping front gut%0(Base,10) [15]s-ping front gut%0(Base,10) [16]s-ping front gut%0(Base,10) [17]s-ping front gut%0(Base,10) [18]s-ping front gut%0(Base,10) [19]s-ping front gut%0(Base,10) [20]s-ping front gut%0(Base,10) [21]s-ping front gut%0(Base,10) [22]s-ping front gut%0(Base,10) [23]s-ping front gut%0(Base,10) [24]s-ping front gut%0(Base,10) [25]s-ping front gut%0(Base,10) [26]s-ping front gut%0(Base,10) [27]s-ping front gut%0(Base,10) [28]s-ping front gut%0(Base,10) [29]s-ping front gut%0(Base,10) [30]s-ping front gut%0(Base,10) [31]s-ping front gut%0(Base,10) [32]s-ping front gut%0(Base,10) [33]s-ping front gut%0(Base,10) [34]s-ping front gut%0(Base,10) [35]s-ping front gut%0(Base,10) [36]s-ping front gut%0(Base,10) [37]s-ping front gut%0(Base,10) [38]s-ping front gut%0(Base,10) [39]s-ping front gut%0(Base,10) [40]s-ping front gut%0(Base,10) [41]s-ping front gut%0(Base,10) [42]s-ping front gut%0(Base,10) [43]s-ping front gut%0(Base,10) [44]h-ping front gut(Base,40) [45]h-ping front chest(Base,40) [46]h-ping front chest(Base,40) [47]h-ping front l-arm(Base,40) [48]h-ping front l-arm(Base,40) [49]h-ping front l-leg(Base,40) [50]h-ping front l-leg(Base,40) [51]h-ping front r-arm(Base,40) [52]h-ping front r-arm(Base,40) [53]h-ping front r-leg(Base,40) [54]h-ping front r-leg(Base,40) [55]h-ping left gut(Base,40) [56]h-ping left gut(Base,40) [57]h-ping left gut(Base,40) [58]h-ping left gut(Base,40) [59]h-ping left gut(Base,40) [60]h-ping left gut(Base,40) [61]h-ping left gut(Base,40) [62]h-ping left gut(Base,40) [63]h-ping left gut(Base,40) [64]h-ping left gut(Base,40) [65]h-ping left gut(Base,40) [66]h-ping right gut(Base,40) [67]h-ping right gut(Base,40) [68]h-ping right gut(Base,40) [69]h-ping right gut(Base,40) [70]h-ping right gut(Base,40) [71]h-ping right gut(Base,40) [72]h-ping right gut(Base,40) [73]h-ping right gut(Base,40) [74]h-ping right gut(Base,40) [75]h-ping right gut(Base,40) [76]h-ping right gut(Base,40) [77]h-ping back gut(Base,40) [78]h-ping back chest(Base,40) [79]h-ping back chest(Base,40) [80]h-ping back chest(Base,40) [81]h-ping back chest(Base,40) [82]h-ping back gut(Base,40) [83]h-ping back gut(Base,40) [84]h-ping back chest(Base,40) [85]h-ping back chest(Base,40) [86]h-ping back gut(Base,40) [87]h-ping back gut(Base,40) [88]h-kill front gut(Base,40) [89]h-kill front gut(Base,40) [90]h-kill front gut(Base,40) [91]h-kill front gut(Base,40) [92]h-kill front gut(Base,40) [93]h-kill front gut(Base,40) [94]h-kill front gut(Base,40) [95]h-kill front gut(Base,40) [96]h-kill front gut(Base,40) [97]h-kill front gut(Base,40) [98]h-kill front gut(Base,40) [99]h-kill front gut(Base,40) [100]h-kill front gut(Base,40) [101]h-kill front gut(Base,40) [102]h-kill front gut(Base,40) [103]h-kill front gut(Base,40) [104]h-kill front gut(Base,40) [105]h-kill front gut(Base,40) [106]h-kill front gut(Base,40) [107]h-kill front gut(Base,40) [108]h-kill front gut(Base,40) [109]h-kill front gut(Base,40) [110]h-kill front gut(Base,40) [111]h-kill front gut(Base,40) [112]h-kill front gut(Base,40) [113]h-kill front gut(Base,40) [114]h-kill front gut(Base,40) [115]h-kill front gut(Base,40) [116]h-kill front gut(Base,40) [117]h-kill front gut(Base,40) [118]h-kill front gut(Base,40) [119]h-kill front gut(Base,40) [120]h-kill front gut(Base,40) [121]h-kill back gut(Base,48) [122]h-kill back gut(Base,48) [123]h-kill back gut(Base,48) [124]h-kill back gut(Base,48) [125]h-kill back gut(Base,48) [126]h-kill back gut(Base,48) [127]h-kill back gut(Base,48) [128]h-kill back gut(Base,48) [129]h-kill back gut(Base,48) [130]h-kill back gut(Base,48) [131]h-kill back gut(Base,48) [132]h-kill front gut(Base,40) [133]h-kill front gut(Base,40) [134]h-kill front gut(Base,40) [135]h-kill front gut(Base,40) [136]h-kill front gut(Base,40) [137]h-kill front gut(Base,40) [138]h-kill front gut(Base,40) [139]h-kill front gut(Base,40) [140]h-kill front gut(Base,40) [141]h-kill front gut(Base,40) [142]h-kill front gut(Base,40) [143]h-kill front gut(Base,40) [144]h-kill front gut(Base,40) [145]h-kill front gut(Base,40) [146]h-kill front gut(Base,40) [147]h-kill front gut(Base,40) [148]h-kill front gut(Base,40) [149]h-kill front gut(Base,40) [150]h-kill front gut(Base,40) [151]h-kill front gut(Base,40) [152]h-kill front gut(Base,40) [153]h-kill front gut(Base,40) [154]h-kill front gut(Base,40) [155]h-kill front gut(Base,40) [156]h-kill front gut(Base,40) [157]h-kill front gut(Base,40) [158]h-kill front gut(Base,40) [159]h-kill front gut(Base,40) [160]h-kill front gut(Base,40) [161]h-kill front gut(Base,40) [162]h-kill front gut(Base,40) [163]h-kill front gut(Base,40) [164]h-kill front gut(Base,40) [165]h-kill back gut(Base,48) [166]h-kill back gut(Base,48) [167]h-kill back gut(Base,48) [168]h-kill back gut(Base,48) [169]h-kill back gut(Base,48) [170]h-kill back gut(Base,48) [171]h-kill back gut(Base,48) [172]h-kill back gut(Base,48) [173]h-kill back gut(Base,48) [174]h-kill back gut(Base,48) [175]h-kill back gut(Base,48)

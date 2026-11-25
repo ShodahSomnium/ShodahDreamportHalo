@@ -1,0 +1,25 @@
+{
+    "name": "SomniumHalo.Editor",
+    "rootNamespace": "SomniumSpace.Worlds.SomniumHalo.Editor",
+    "references": [
+        "SomniumHalo",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "Unity.XR.Interaction.Toolkit",
+        "SomniumSpace.Network",
+        "Fusion.Unity",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Core.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

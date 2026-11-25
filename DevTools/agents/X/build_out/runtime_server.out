@@ -1,0 +1,1 @@
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\World\HaloWorld.cs(306,60): warning CS0618: 'Physics.BakeMesh(int, bool)' is obsolete: 'BakeMesh(int, bool) is obsolete. Use BakeMesh(EntityId, bool) instead.'

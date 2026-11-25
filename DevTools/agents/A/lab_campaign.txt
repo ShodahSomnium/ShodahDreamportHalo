@@ -1,0 +1,53 @@
+lab 'audio-campaign' in slot A (D:\Dreamport\Halo\Halo Dreamport)
+unity exit 0 (slot A)
+[SomniumHalo] Access: editor: the whitelist (5 name(s)) is not applied
+[SomniumHalo] Halo Dreamport Halo Dreamport - iteration 3 (2026-10-19): After the second client test: tablet held off around vehicles, head shown in the VR third-person seat, warthog gun fires on either trigger, Scorpion driver seat first, Ghost and Banshee fire forward, reload sounds per hand action, footsteps, ladders climbable
+[SomniumHalo] Shaders carried: SomniumHalo/Env, SomniumHalo/Model, SomniumHalo/Transparent, SomniumHalo/Glass, SomniumHalo/Fx, SomniumHalo/Sprite
+[SomniumHalo] Isolation: up (whitelisted: other whitelisted players): players not on the whitelist (a visitor) are hidden (after 0.5 s, shown after 0 s is on the whitelist (a Dreamport player); first decision at once; renderers forceRenderingOff, tag alpha, colliders, voices volume 0, other sounds muted); warm-up scan of 0 scene(s) 2.87 ms, 0 avatar/item root(s)
+[SomniumHalo] Editor: no EventSystem in the scene - added one with a StandaloneInputModule.
+[SomniumHalo] Lobby: ready (Slayer on bloodgulch, score 50, time none, respawn +0 s, weapons 0, vehicles 0).
+[SomniumHalo] Shader 'Universal Render Pipeline/Unlit': Shader.Find
+[SomniumHalo] Shader 'Universal Render Pipeline/Lit': Shader.Find
+[SomniumHalo] Tablet: searching for the Somnium tablet (the "HALO" app goes on its home screen; the hub panel stays the menu too).
+[SomniumHalo] Front: the ring hub and its menu are up (whitelisted player).
+[SomniumHalo] Lobby: net link set (LobbyLink)
+[SomniumHalo] Net: started (Fusion session); alone or offline everything stays local
+[SomniumHalo] Boot: install C:\Program Files (x86)\Microsoft Games\Halo, 19 multiplayer maps (25 ms)
+[SomniumHalo] Hub: hub menu placed on the floor 3.24 m in front of the camera (60 degrees), 2.32 m tall (shown).
+[SomniumHalo] Tags: on - the Somnium name tags of the other Somnium players in this world are hidden while the Dreamport runs, given back when you leave (the Bridge's ISomniumPlayerInfo.SetPlayerTagDisableState - unproven, first used here; fallback ready: the tag's CanvasGroup alpha; re-applied every 1 s; visitors are left to the isolation)
+LAB: booted: Halo found: C:\Program Files (x86)\Microsoft Games\Halo  -  19 multiplayer maps
+LAB: ok   a10 in the install
+[SomniumHalo] Audio: started - output 48000 Hz, Stereo, dsp buffer 256 x 4
+[SomniumHalo] Audio: announcer - 0 multiplayer sounds in a10's globals
+[SomniumHalo] Audio: preloading 841 sound clips of a10
+LAB: ok   a10 dialogue line sound\dialog\a10\a10_440_cryoassist
+[SomniumHalo] Fonts: Halo's large_ui small_ui fonts built; 73 texts switched to them.
+[SomniumHalo] Front art: ui.map read in 600 ms: 80 pictures, fonts large_ui 224 glyphs (2048x1024), small_ui 224, sounds cursor forward back , music title1
+[SomniumHalo] Front: the hub's lobby was built in 76 ms (19 maps, ui.map read).
+[SomniumHalo] Audio: music sound\music\title1\title1 (fade in 2 s)
+[SomniumHalo] Front: menu music started (sound\music\title1\title1).
+[SomniumHalo] Hub: the menu sky (sky\sky_ui\sky_ui) built: 4 parts, a 7.0 km dome round the head.
+[SomniumHalo] Hub: the ring scene faces 0 degrees (behind the menu).
+[SomniumHalo] Hub: the ring (scenery\halo\halo) built x40: radius about 2.33 km, centre (219, 1890, 1500) m from the eye, turning 0.25 degrees/s.
+LAB: ok   2D dialogue started after 3 ms during the preload (47 clips (4 MB), 47 decoded, 0 failed, 2 voices, 1 loops, 1 sources (0 free), 0 dropped, queue 0+521/274, decode 55 ms)
+LAB: ok   sound_impulse_stop stops it
+LAB: ok   line stopped
+[SomniumHalo] Audio: preloaded a10 - 841 clips, 784 s of sound, 83 MB PCM, 0 failed, decode 788 ms worker, 0.8 s wall
+LAB: ok   positional dialogue on a speaker plays
+LAB: ok   levels\a10\music\a10_05.lsnd
+LAB: ok   music loop started
+LAB: music: levels\a10\music\a10_05 alive scale 1 pitch 1 | track 0: sound\music\rhythm1\in__0__0 range 'default' src pitch 1 vol 1 playing @0 joins 0 gap frames 0
+LAB: music +6 s: levels\a10\music\a10_05 alive scale 1 pitch 1 | track 0: sound\music\rhythm1\in__0__0 range 'default' src pitch 1 vol 1 playing @263071 joins 0 gap frames 0
+LAB: ok   alternate loop after 6.0 s: levels\a10\music\a10_05 alive scale 1 pitch 1 | track 0: sound\music\rhythm1\alt_loops__0__0p range 'default' src pitch 1 vol 1 playing @411 joins 1 gap frames 0
+LAB: ok   music class gain 0: levels\a10\music\a10_05 alive scale 1 pitch 1 | track 0: sound\music\rhythm1\alt_loops__0__0p range 'default' src pitch 1 vol 0 playing @57800 joins 1 gap frames 0
+[SomniumHalo] Audio: no sound class 'no_such_class'
+LAB: ok   unknown class refused
+[SomniumHalo] Tablet: not linked after 20 s - no transform with a TabletControl component, and none named 'Tablet.XR(...' or 'Tablet.NonXR(...', in MasterScene (NOT loaded) or 1 other loaded scene(s); 'Simulator' objects (remote tablets) and the world's 'Halo ...' subtrees skipped; still searching every 0.5 s; 40 searches, slowest 8.2 ms. The menu is the room's panel.
+LAB: ok   stop: the playing permutation ended, then the end piece (alt_out), then done in 12.5 s
+LAB: after: 846 clips (90 MB), 854 decoded, 0 failed, 1 voices, 1 loops, 3 sources (2 free), 0 dropped, queue 0+0/0, decode 1304 ms
+[SomniumHalo] Audio: released 844 clips of a10
+LAB: done (passed)
+[SomniumHalo] Lobby: net link cleared - the lobby runs local
+[SomniumHalo] Net: stopped
+[SomniumHalo] Isolation: shutdown: restored 0 hidden player(s); isolation (whitelisted: other whitelisted players): 0 tracked, 0 hidden, 0 sweeps (last 0.00 ms, max 0.00 ms), slowest hide 0.00 ms, slowest frame 0.85 ms, no voice pass yet
+[SomniumHalo] Tags: off (leaving the world) - 0 player tag(s) given back; tags not hidden (Bridge SetPlayerTagDisableState): 0 player(s) now, 0 ever, 0 Bridge call(s)

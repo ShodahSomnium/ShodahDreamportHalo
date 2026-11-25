@@ -1,0 +1,13 @@
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Front\HaloLobby.cs(68,29): error CS0103: The name 'JsonUtility' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Front\HaloLobby.cs(78,55): error CS0103: The name 'JsonUtility' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\World\HaloObjectLight.cs(88,57): error CS0170: Use of possibly unassigned field 'r'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\World\HaloObjectLight.cs(88,77): error CS0170: Use of possibly unassigned field 'g'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\World\HaloObjectLight.cs(88,97): error CS0170: Use of possibly unassigned field 'b'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\World\HaloObjectLight.cs(89,59): error CS0170: Use of possibly unassigned field 'x'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\World\HaloObjectLight.cs(89,64): error CS0170: Use of possibly unassigned field 'y'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\World\HaloObjectLight.cs(89,69): error CS0170: Use of possibly unassigned field 'z'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Hud\HaloHudView.Weapon.cs(107,49): error CS0165: Use of unassigned local variable 'weap'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Hud\HaloHudView.Weapon.cs(114,17): error CS0165: Use of unassigned local variable 'held'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Vehicles\HaloVehicleDirector.cs(16,22): warning CS0169: The field 'HaloVehicleDirector._wasXr' is never used
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Net\HaloNetGame.Lobby.cs(22,29): warning CS0414: The field 'HaloNetGame._countingDown' is assigned but its value is never used
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Hud\HaloHudView.Weapon.cs(292,33): warning CS0414: The field 'HaloHudView._aimHit' is assigned but its value is never used

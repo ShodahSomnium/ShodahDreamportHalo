@@ -1,0 +1,6 @@
+Assets\#User\SomniumHalo\Game\Net\HaloNetGame.Remote.cs(47,23): error CS0246: The type or namespace name 'HaloRemoteView' could not be found (are you missing a using directive or an assembly reference?)
+Assets\#User\SomniumHalo\Game\Net\HaloNetGame.Remote.cs(42,33): error CS0246: The type or namespace name 'HaloRemoteView' could not be found (are you missing a using directive or an assembly reference?)
+Assets\#User\SomniumHalo\Game\Net\HaloNetGame.Remote.cs(43,38): error CS0246: The type or namespace name 'HaloRemoteView' could not be found (are you missing a using directive or an assembly reference?)
+Assets\#User\SomniumHalo\Game\Front\HaloFront.cs(43,23): error CS0246: The type or namespace name 'HaloTabletApp' could not be found (are you missing a using directive or an assembly reference?)
+Assets\#User\SomniumHalo\Game\Front\HaloFront.cs(20,24): error CS0246: The type or namespace name 'HaloTabletApp' could not be found (are you missing a using directive or an assembly reference?)
+Assets\#User\SomniumHalo\Game\Combat\HaloHandling.Hands.cs(155,30): error CS0246: The type or namespace name 'HaloPickups' could not be found (are you missing a using directive or an assembly reference?)

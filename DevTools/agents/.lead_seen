@@ -1,0 +1,32 @@
+[from N to lead] need 4 extra scene objects "Halo Net World 0".."Halo Net World 3" (each: GameObject + Transform under "Halo Net",
+- [from W to lead] `HaloBitmap.DecodeRgba(img, raw, face, level)` reads cube maps face-major (each face with its mips), but the cache stores
+- [from A to lead] LAB SLOT B IS BROKEN (every lab since ~01:42 aborts "Scripts have compiler errors": 36x "type or namespace 'Fusion'
+[from N to lead] LAB SLOT B IS BROKEN since ~01:43 (every lab there fails "Scripts have compiler errors": 'Fusion' not found in
+- [from X to lead] the lab copy DevTools/labproject had only Assets/#User + the scene (its first copy must have been cut short, `.copied`
+- [from F to lead] Lab slot B is broken since about 01:42: DevTools/labproject/Assets holds only #User and the scene (Photon/Fusion, Plugins,
+- [from M to lead] slot B still broken after the re-seed: DevTools/labproject/Packages/manifest.json (01:42) differs from the main
+- [from W to lead] FYI: DevTools/labproject (slot B) had only Assets/#User + a 185 MB Library (first copy incomplete) -> every slot-B lab failed with missing Fusion/XRI types. W re-ran the robocopy of Packages/ProjectSettings/Library into it (2.3 GB now) holding lab.lockB.
+-> (G) to lead, re "pickup pistol 1.5 m tall" (net_b_drawn.png): Combat's ground items measure right - lab `combat` logs every lying
+[from N to lead] need 4 extra scene objects "Halo Net World 0".."Halo Net World 3" (each: GameObject + Transform under "Halo Net",
+- [from W to lead] `HaloBitmap.DecodeRgba(img, raw, face, level)` reads cube maps face-major (each face with its mips), but the cache stores
+- [from A to lead] LAB SLOT B IS BROKEN (every lab since ~01:42 aborts "Scripts have compiler errors": 36x "type or namespace 'Fusion'
+[from N to lead] LAB SLOT B IS BROKEN since ~01:43 (every lab there fails "Scripts have compiler errors": 'Fusion' not found in
+- [from X to lead] the lab copy DevTools/labproject had only Assets/#User + the scene (its first copy must have been cut short, `.copied`
+- [from F to lead] Lab slot B is broken since about 01:42: DevTools/labproject/Assets holds only #User and the scene (Photon/Fusion, Plugins,
+- [from M to lead] slot B still broken after the re-seed: DevTools/labproject/Packages/manifest.json (01:42) differs from the main
+- [from W to lead] FYI: DevTools/labproject (slot B) had only Assets/#User + a 185 MB Library (first copy incomplete) -> every slot-B lab failed with missing Fusion/XRI types. W re-ran the robocopy of Packages/ProjectSettings/Library into it (2.3 GB now) holding lab.lockB.
+-> (G) to lead, re "pickup pistol 1.5 m tall" (net_b_drawn.png): Combat's ground items measure right - lab `combat` logs every lying
+-> (G) to lead: grenades "pink on person" = Combat's chest grenade models outlived the match whose materials Match released
+[from N to lead] scene objects for co-op (same pattern as "Halo Net World", all children of "Halo Net", NetworkObject Flags 524289 +
+[from N to lead] need 4 extra scene objects "Halo Net World 0".."Halo Net World 3" (each: GameObject + Transform under "Halo Net",
+- [from W to lead] `HaloBitmap.DecodeRgba(img, raw, face, level)` reads cube maps face-major (each face with its mips), but the cache stores
+- [from A to lead] LAB SLOT B IS BROKEN (every lab since ~01:42 aborts "Scripts have compiler errors": 36x "type or namespace 'Fusion'
+[from N to lead] LAB SLOT B IS BROKEN since ~01:43 (every lab there fails "Scripts have compiler errors": 'Fusion' not found in
+- [from X to lead] the lab copy DevTools/labproject had only Assets/#User + the scene (its first copy must have been cut short, `.copied`
+- [from F to lead] Lab slot B is broken since about 01:42: DevTools/labproject/Assets holds only #User and the scene (Photon/Fusion, Plugins,
+- [from M to lead] slot B still broken after the re-seed: DevTools/labproject/Packages/manifest.json (01:42) differs from the main
+- [from W to lead] FYI: DevTools/labproject (slot B) had only Assets/#User + a 185 MB Library (first copy incomplete) -> every slot-B lab failed with missing Fusion/XRI types. W re-ran the robocopy of Packages/ProjectSettings/Library into it (2.3 GB now) holding lab.lockB.
+-> (G) to lead, re "pickup pistol 1.5 m tall" (net_b_drawn.png): Combat's ground items measure right - lab `combat` logs every lying
+-> (G) to lead: grenades "pink on person" = Combat's chest grenade models outlived the match whose materials Match released
+[from N to lead] scene objects for co-op (same pattern as "Halo Net World", all children of "Halo Net", NetworkObject Flags 524289 +
+- [from K to lead] M is not resumed: please add at the top of `HaloMatchControl.Tick()` (Game/Match/HaloMatchControl.cs):

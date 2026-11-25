@@ -1,0 +1,67 @@
+LAB: booted: Halo found: C:\Program Files (x86)\Microsoft Games\Halo  -  19 multiplayer maps
+[SomniumHalo] World: planar fog levels\test\beavercreek\beavercreek flags 0 density 0.50 depth 1.5 m dist 9.1 m plane (0.00, 1.00, 0.00) -1.9
+[SomniumHalo] World: sky levels\test\beavercreek\beavercreek sky (model), fog out 0.30 15-152 m, in 1.00, outdoor, sun (0.11, 0.98, 0.13) RGBA(0.815, 0.805, 0.716, 1.000)
+[SomniumHalo] World: beavercreek built: 18 surface meshes (3317 triangles, 67 sections, lightmap atlas 512x256), collision 5 pieces / 3276 triangles, 38 objects; worker 128 ms, render 41 ms, collision 2 ms, objects 53 ms, total 225 ms; bounds (-23, -4, 7)..(108, 34, 72)
+LAB: world beavercreek built in 0.45 s, worst main-thread step 15 ms
+LAB: ok   world ready
+LAB: ok   ray down from every start location hits collision: 70/70 (worst |hit - start| 0.00 m)
+LAB: ok   no start location outside the BSP (0)
+LAB: ok   a point far below the map is outside
+LAB: start 0 surface material 1 cluster 5
+LAB: start 0 lightmap under it RGBA(1.000, 0.980, 0.871, 1.000) incident (0.10, 0.99, 0.12)
+[SomniumHalo] World: sky levels\test\bloodgulch\bloodgulch (model), fog out 0.40 9-305 m, in 1.00, outdoor, sun (0.75, 0.64, 0.13) RGBA(0.815, 0.805, 0.716, 1.000)
+[SomniumHalo] World: bloodgulch built: 17 surface meshes (5503 triangles, 79 sections, lightmap atlas 512x512), collision 5 pieces / 6162 triangles, 49 objects; worker 76 ms, render 14 ms, collision 2 ms, objects 29 ms, total 123 ms; bounds (18, -1, -580)..(402, 80, -137)
+LAB: world bloodgulch built in 0.14 s, worst main-thread step 11 ms
+LAB: ok   world ready
+LAB: ok   ray down from every start location hits collision: 72/72 (worst |hit - start| 0.15 m)
+LAB: ok   no start location outside the BSP (0)
+LAB: ok   a point far below the map is outside
+LAB: start 0 surface material 7 cluster 3
+LAB: start 0 lightmap under it RGBA(0.996, 0.928, 0.829, 1.000) incident (0.33, 0.94, 0.11)
+[SomniumHalo] World: sky levels\test\boardingaction\boardingaction space (model), fog out 0.20 0-213 m, in 1.00, outdoor, sun (-0.09, 0.17, -0.98) RGBA(0.642, 0.645, 0.587, 1.000)
+[SomniumHalo] World: boardingaction built: 14 surface meshes (7134 triangles, 176 sections, lightmap atlas 1024x1024), collision 5 pieces / 6320 triangles, 29 objects; worker 75 ms, render 14 ms, collision 3 ms, objects 22 ms, total 114 ms; bounds (-175, -218, -297)..(236, 200, 297)
+LAB: world boardingaction built in 0.13 s, worst main-thread step 10 ms
+LAB: ok   world ready
+LAB: ok   ray down from every start location hits collision: 74/74 (worst |hit - start| 0.01 m)
+LAB: ok   no start location outside the BSP (0)
+LAB: FAIL a point far below the map is outside
+LAB: start 0 surface material 7 cluster 8
+LAB: start 0 lightmap under it RGBA(0.273, 0.281, 0.255, 1.000) incident (0.07, 0.99, 0.09)
+[SomniumHalo] World: planar fog levels\test\chillout\chillout flags 0 density 0.60 depth 1.5 m dist 6.1 m plane (0.00, 1.00, 0.00) 1.0
+[SomniumHalo] World: sky levels\test\chillout\chillout sky, fog out 1.00 15-274 m, in 0.20, indoor, sun (0.17, 0.97, 0.20) RGBA(0.770, 0.760, 0.677, 1.000)
+[SomniumHalo] World: chillout built: 22 surface meshes (3108 triangles, 163 sections, lightmap atlas 512x512), collision 2 pieces / 2802 triangles, 8 objects; worker 56 ms, render 15 ms, collision 1 ms, objects 6 ms, total 80 ms; bounds (-31, 0, -25)..(39, 20, 40)
+LAB: world chillout built in 0.10 s, worst main-thread step 9 ms
+LAB: ok   world ready
+LAB: ok   ray down from every start location hits collision: 58/58 (worst |hit - start| 0.00 m)
+LAB: ok   no start location outside the BSP (0)
+LAB: ok   a point far below the map is outside
+LAB: start 0 surface material 7 cluster 0
+LAB: start 0 lightmap under it RGBA(0.416, 0.394, 0.416, 1.000) incident (0.32, 0.69, -0.65)
+[SomniumHalo] World: sky none, fog out 0.00 0-1 m, in 0.00, indoor, sun (0.17, 0.97, 0.20) RGBA(0.770, 0.760, 0.677, 1.000)
+[SomniumHalo] World: putput built: 13 surface meshes (10494 triangles, 67 sections, lightmap atlas 512x512), collision 6 pieces / 10142 triangles, 32 objects; worker 48 ms, render 11 ms, collision 3 ms, objects 8 ms, total 72 ms; bounds (-60, -1, -112)..(109, 15, -3)
+LAB: world putput built in 0.09 s, worst main-thread step 9 ms
+LAB: ok   world ready
+LAB: ok   ray down from every start location hits collision: 59/59 (worst |hit - start| 0.00 m)
+LAB: ok   no start location outside the BSP (0)
+LAB: ok   a point far below the map is outside
+LAB: start 0 surface material 7 cluster 7
+LAB: start 0 lightmap under it RGBA(0.840, 0.856, 0.627, 1.000) incident (-0.16, 0.99, 0.04)
+[SomniumHalo] World: planar fog levels\test\damnation\damnation flags 0 density 1.00 depth 18.3 m dist 6.1 m plane (0.00, 1.00, 0.00) -12.0
+[SomniumHalo] World: sky sky\mp_dusk\mp_dusk (model), fog out 0.50 0-488 m, in 1.00, outdoor, sun (-0.67, 0.44, -0.60) RGBA(0.481, 0.477, 0.453, 1.000)
+[SomniumHalo] World: damnation built: 18 surface meshes (8650 triangles, 78 sections, lightmap atlas 1024x512), collision 5 pieces / 8216 triangles, 43 objects; worker 75 ms, render 22 ms, collision 3 ms, objects 47 ms, total 148 ms; bounds (-48, -152, -48)..(37, 55, 49)
+LAB: world damnation built in 0.17 s, worst main-thread step 10 ms
+LAB: ok   world ready
+LAB: ok   ray down from every start location hits collision: 67/67 (worst |hit - start| 0.00 m)
+LAB: ok   no start location outside the BSP (0)
+LAB: ok   a point far below the map is outside
+LAB: start 0 surface material 7 cluster 12
+LAB: start 0 lightmap under it RGBA(0.277, 0.305, 0.334, 1.000) incident (0.29, 0.93, 0.21)
+[SomniumHalo] World: sky sky\clear afternoon\clear afternoon (model), fog out 0.50 15-274 m, in 1.00, outdoor, sun (0.53, 0.57, 0.63) RGBA(0.770, 0.760, 0.677, 1.000)
+[SomniumHalo] World: dangercanyon built: 27 surface meshes (8341 triangles, 173 sections, lightmap atlas 1024x512), collision 5 pieces / 9444 triangles, 182 objects; worker 98 ms, render 24 ms, collision 3 ms, objects 143 ms, total 269 ms; bounds (-230, -37, -70)..(221, 35, 211)
+LAB: world dangercanyon built in 0.29 s, worst main-thread step 17 ms
+LAB: ok   world ready
+LAB: ok   ray down from every start location hits collision: 103/103 (worst |hit - start| 0.00 m)
+LAB: ok   no start location outside the BSP (0)
+LAB: ok   a point far below the map is outside
+LAB: start 0 surface material 0 cluster 48
+LAB: start 0 lightmap under it RGBA(0.363, 0.411, 0.511, 1.000) incident (-0.04, 0.98, 0.17)

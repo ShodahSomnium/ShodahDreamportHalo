@@ -1,0 +1,14 @@
+waiting for a free lab slot...
+lab copy ready
+lab 'ai' in slot B (D:\Dreamport\Halo\Halo Dreamport\DevTools\labproject)
+
+Aborting batchmode due to failure:
+Scripts have compiler errors.
+
+unity exit 1 (slot B)
+1031:Assets\#User\SomniumHalo\Game\Vehicles\HaloVehicle.cs(543,17): error CS0103: The name 'Campaign' does not exist in the current context
+1033:Assets\#User\SomniumHalo\Game\Vehicles\HaloVehicle.cs(543,29): error CS0103: The name 'CampaignDamage' does not exist in the current context
+1039:Assets\#User\SomniumHalo\Game\Vehicles\HaloVehicle.cs(543,17): error CS0103: The name 'Campaign' does not exist in the current context
+1040:Assets\#User\SomniumHalo\Game\Vehicles\HaloVehicle.cs(543,29): error CS0103: The name 'CampaignDamage' does not exist in the current context
+1043:Assets\#User\SomniumHalo\Game\Vehicles\HaloVehicle.cs(543,17): error CS0103: The name 'Campaign' does not exist in the current context
+1044:Assets\#User\SomniumHalo\Game\Vehicles\HaloVehicle.cs(543,29): error CS0103: The name 'CampaignDamage' does not exist in the current context

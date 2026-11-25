@@ -1,0 +1,642 @@
+ENC [0] 'shaftA_entrance' flags 1 team 0 search 0 bsp m0/p0 respawn 0..0 squads 9 platoons 4 fpos 434
+   PLATOON 'interior' flags 0 change 5->0 maneuver 0->-1
+   PLATOON 'platform' flags 0 change 6->1 maneuver 8->1
+   PLATOON 'beach' flags 0 change 2->2 maneuver 6->1
+   PLATOON 'ledge' flags 0 change 2->3 maneuver 6->1
+   SQUAD 'interior elite' actor [1] elite minor plasma rifle platoon 0 state MovingLoop->None flags 0 leader 0 maneuverTo -1 delay 0 count n1/i2 major 2 respawn 0-0 tot 0 groups att ab attS abc attG ab def a defS a defG a purs z starts 2 moves 3
+      start (14.555,-21.619,9.336) face -5 cl 20 seq 47 req False st None->None actor -1 cmd -1
+      start (14.419,-22.344,9.336) face 3 cl 20 seq 47 req False st None->None actor -1 cmd -1
+      move (14.16,-21.832,9.336) face 112 w 0.001 t 0..0 anim -1 seq 0
+      move (23.29,-22.308,9.336) face -85 w 0.001 t 0..0 anim -1 seq 0
+      move (23.637,-17.638,9.257) face 57 w 0.001 t 0..0 anim -1 seq 0
+   SQUAD 'interior grunt' actor [0] grunt minor plasma pistol platoon 0 state MovingRandomly->None flags 0 leader 0 maneuverTo -1 delay 0 count n4/i3 major 2 respawn 0-0 tot 0 groups att bc attS abcdtu attG bc def b defS ab defG b purs z starts 5 moves 6
+      start (16.681,-23.155,9.336) face 51 cl 20 seq 47 req False st None->None actor -1 cmd -1
+      start (16.548,-20.735,9.336) face -35 cl 20 seq 47 req False st None->None actor 6 cmd -1
+      start (19.827,-24.192,9.336) face 62 cl 20 seq 47 req False st None->None actor -1 cmd -1
+      start (19.524,-19.559,9.336) face -53 cl 20 seq 47 req False st None->None actor 6 cmd -1
+      start (13.685,-22.62,9.336) face 8 cl 20 seq 47 req False st None->None actor -1 cmd -1
+      move (17.58,-19.274,9.336) face -117 w 1 t 6..10 anim -1 seq 0
+      move (16.572,-19.575,9.336) face -25 w 1 t 6..10 anim -1 seq 0
+      move (17.857,-20.238,9.336) face 163 w 1 t 6..10 anim -1 seq 0
+      move (17.973,-22.566,9.336) face 152 w 1 t 6..10 anim -1 seq 0
+      move (17.208,-23.236,9.336) face 69 w 1 t 6..10 anim -1 seq 0
+      move (16.557,-22.617,9.336) face 36 w 1 t 6..10 anim -1 seq 0
+   SQUAD 'interior fallback' actor [-1] - platoon -1 state None->None flags 0 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att ab attS abctu attG ab def ab defS abc defG bc purs z starts 0 moves 0
+   SQUAD 'platform elite' actor [1] elite minor plasma rifle platoon 1 state MovingLoop->None flags 0 leader 0 maneuverTo 2 delay 0 count n1/i3 major 0 respawn 0-0 tot 0 groups att defgtu attS cdefghitu attG defgtu def cdtu defS cdefgtu defG c purs y starts 3 moves 2
+      start (25.363,-14.483,9.045) face -49 cl 39 seq 50 req False st None->None actor -1 cmd -1
+      start (26.429,-13.723,9.045) face -71 cl 39 seq 50 req False st None->None actor 6 cmd -1
+      start (31.785,-27.175,9.045) face 126 cl 39 seq 0 req False st None->None actor -1 cmd 6
+      move (25.412,-14.552,9.045) face -46 w 1 t 1..4 anim -1 seq 0
+      move (29.396,-17.003,9.045) face -49 w 10 t 10..14 anim -1 seq 0
+   SQUAD 'right platform grunt' actor [0] grunt minor plasma pistol platoon 1 state MovingRandomly->None flags 0 leader 0 maneuverTo 2 delay 0 count n3/i2 major 0 respawn 0-0 tot 0 groups att fgit attS dfgikt attG fgit def cdt defS cdfgt defG t purs y starts 8 moves 13
+      start (25.198,-15.951,9.045) face 74 cl 39 seq 50 req False st None->None actor -1 cmd -1
+      start (24.577,-15.05,9.045) face -4 cl 39 seq 50 req False st Alert->None actor 7 cmd -1
+      start (26.44,-16.122,9.045) face 63 cl 39 seq 50 req False st None->None actor -1 cmd -1
+      start (25.291,-13.485,9.045) face -76 cl 39 seq 50 req False st Alert->None actor 7 cmd -1
+      start (26.358,-13.707,9.045) face -124 cl 39 seq 50 req False st None->None actor -1 cmd -1
+      start (27.365,-15.665,9.045) face 179 cl 39 seq 50 req False st None->None actor 7 cmd -1
+      start (34.277,-18.215,9.045) face 33 cl 39 seq 50 req False st None->None actor -1 cmd -1
+      start (34.696,-17.017,9.045) face -88 cl 39 seq 50 req False st None->None actor 7 cmd -1
+      move (37.606,-19.032,9.045) face -2 w 1 t 3..7 anim -1 seq 0
+      move (35.327,-18.789,9.045) face 58 w 1 t 3..7 anim -1 seq 0
+      move (35.13,-17.466,9.045) face -58 w 1 t 3..7 anim -1 seq 0
+      move (34.405,-18.008,9.045) face -3 w 1 t 3..7 anim -1 seq 0
+      move (26.485,-16.176,9.045) face 105 w 1 t 3..7 anim -1 seq 0
+      move (27.401,-15.8,9.045) face 166 w 1 t 3..7 anim -1 seq 0
+      move (27.721,-14.675,9.045) face -179 w 1 t 3..7 anim -1 seq 0
+      move (24.988,-16.228,9.045) face 41 w 1 t 3..7 anim -1 seq 0
+      move (26.465,-17.488,9.045) face 3 w 1 t 3..7 anim -1 seq 0
+      move (24.733,-14.821,9.045) face -21 w 1 t 3..7 anim -1 seq 0
+      move (25.505,-13.797,9.045) face -61 w 1 t 3..7 anim -1 seq 0
+      move (28.531,-16.563,9.045) face 2 w 1 t 3..7 anim -1 seq 0
+      move (27.873,-13.353,9.045) face -20 w 1 t 3..7 anim -1 seq 0
+   SQUAD 'left platform grunt' actor [0] grunt minor plasma pistol platoon 1 state MovingRandomly->None flags 0 leader 0 maneuverTo 2 delay 0 count n3/i2 major 0 respawn 0-0 tot 0 groups att eghu attS deghju attG eghu def cdu defS cdegu defG u purs y starts 6 moves 9
+      start (37.763,-24.843,9.045) face 7 cl 39 seq 50 req False st None->None actor -1 cmd -1
+      start (29.909,-27.303,9.045) face 36 cl 39 seq 50 req False st Alert->None actor 7 cmd -1
+      start (30.474,-25.742,9.045) face -72 cl 39 seq 50 req False st Alert->None actor -1 cmd -1
+      start (31.383,-27.488,9.045) face 97 cl 39 seq 50 req False st None->None actor 7 cmd -1
+      start (29.553,-22.79,9.045) face 90 cl 39 seq 50 req False st None->None actor -1 cmd -1
+      start (30.497,-22.479,9.045) face -5 cl 39 seq 50 req False st None->None actor 7 cmd -1
+      move (37.596,-24.696,9.045) face 29 w 1 t 3..7 anim -1 seq 0
+      move (30.931,-27.654,9.045) face 66 w 1 t 3..7 anim -1 seq 0
+      move (29.839,-27.214,9.045) face 33 w 1 t 3..7 anim -1 seq 0
+      move (30.04,-26.058,9.045) face -21 w 1 t 3..7 anim -1 seq 0
+      move (32.419,-26.633,9.045) face -169 w 1 t 3..7 anim -1 seq 0
+      move (31.642,-25.322,9.045) face -121 w 1 t 3..7 anim -1 seq 0
+      move (32.022,-23.423,9.045) face 41 w 1 t 3..7 anim -1 seq 0
+      move (29.272,-23.446,9.045) face 90 w 1 t 3..7 anim -1 seq 0
+      move (29.459,-21.978,9.045) face -97 w 1 t 3..7 anim -1 seq 0
+   SQUAD 'beach jackal' actor [4] jackal minor plasma pistol platoon 2 state MovingRandomly->None flags 0 leader 0 maneuverTo 3 delay 0 count n3/i3 major 0 respawn 0-0 tot 0 groups att p attS lpqr attG p def q defS lqr defG q purs x starts 6 moves 7
+      start (56.652,-21.3,1.704) face -92 cl 40 seq 29 req False st None->None actor -1 cmd -1
+      start (56.441,-19.778,2.036) face 50 cl 40 seq 29 req False st None->None actor -1 cmd -1
+      start (55.813,-20.543,1.981) face 127 cl 40 seq 29 req False st None->None actor -1 cmd -1
+      start (50.046,-12.847,3.523) face -104 cl 40 seq 29 req False st None->None actor -1 cmd -1
+      start (51.301,-12.972,3.504) face -140 cl 40 seq 29 req False st Alert->None actor -1 cmd -1
+      start (56.777,-20.741,1.786) face -93 cl 40 seq 29 req False st Alert->None actor -1 cmd -1
+      move (56.76,-21.36,1.676) face -70 w 1 t 4..10 anim -1 seq 0
+      move (55.941,-20.625,1.942) face 135 w 1 t 4..10 anim -1 seq 0
+      move (56.563,-19.736,2.025) face 39 w 1 t 4..10 anim -1 seq 0
+      move (51.266,-12.972,3.504) face -138 w 1 t 4..10 anim -1 seq 0
+      move (50.051,-12.848,3.523) face -106 w 10 t 4..10 anim -1 seq 0
+      move (45.294,-18.781,3.211) face 173 w 1 t 4..10 anim -1 seq 0
+      move (51.723,-20.032,2.453) face -99 w 1 t 4..10 anim -1 seq 0
+   SQUAD 'ledge jackal' actor [4] jackal minor plasma pistol platoon 3 state MovingRandomly->None flags 0 leader 0 maneuverTo 3 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att mno attS mno attG mno def o defS no defG o purs x starts 3 moves 8
+      start (32.001,-48.669,8.863) face -72 cl 35 seq 30 req False st Alert->None actor -1 cmd -1
+      start (32.37,-47.008,8.838) face 28 cl 35 seq 30 req False st None->None actor -1 cmd -1
+      start (31.645,-47.658,8.928) face -6 cl 35 seq 30 req False st None->None actor -1 cmd -1
+      move (32.503,-48.361,8.804) face -42 w 6 t 4..12 anim -1 seq 0
+      move (33.08,-46.663,8.755) face 23 w 6 t 4..12 anim -1 seq 0
+      move (29.951,-47.064,9.226) face 112 w 1 t 4..12 anim -1 seq 0
+      move (28.67,-51.132,9.405) face 15 w 1 t 4..12 anim -1 seq 0
+      move (33.697,-47.884,8.672) face -74 w 6 t 4..12 anim -1 seq 0
+      move (34.348,-46.329,8.588) face -26 w 1 t 4..12 anim -1 seq 0
+      move (37.782,-41.351,8.537) face 12 w 1 t 4..12 anim -1 seq 0
+      move (34.277,-52.363,8.68) face -104 w 1 t 4..12 anim -1 seq 0
+   SQUAD 'platform fallback' actor [-1] - platoon -1 state None->None flags 0 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att defgtu attS cdefghitu attG defgtu def cdefgtu defS cdefgtu defG g purs y starts 0 moves 0
+   fpos groups a:15 b:23 c:20 d:12 e:21 f:22 g:29 h:13 i:11 j:14 k:13 l:7 m:28 n:15 o:34 p:53 q:27 r:30 t:11 u:12 x:7 y:6 z:11
+ENC [1] 'shaftA_beam' flags 1 team 0 search 0 bsp m0/p1 respawn 0..0 squads 4 platoons 3 fpos 152
+   PLATOON 'regular' flags 0 change 7->0 maneuver 0->-1
+   PLATOON 'leader' flags 0 change 6->0 maneuver 0->-1
+   PLATOON 'backup' flags 0 change 0->-1 maneuver 0->-1
+   SQUAD 'catwalk grunt' actor [0] grunt minor plasma pistol platoon 0 state Alert->None flags 0 leader 0 maneuverTo -1 delay 0 count n2/i3 major 0 respawn 0-0 tot 0 groups att cjk attS cegjk attG c def cj defS cjk defG c purs z starts 4 moves 4
+      start (16.488,-20.025,4.136) face -90 cl 21 seq 23 req False st Alert->None actor -1 cmd -1
+      start (16.686,-21.03,4.136) face 93 cl 21 seq 23 req False st MovingLoopBackAndForth->None actor 7 cmd -1
+      start (14.151,-26.961,4.136) face 180 cl 21 seq 23 req False st MovingLoopBackAndForth->None actor -1 cmd -1
+      start (11.45,-26.054,4.136) face 90 cl 21 seq 23 req False st Sleeping->None actor 7 cmd -1
+      move (16.686,-21.045,4.136) face 93 w 0.001 t 2..4 anim -1 seq 0
+      move (16.333,-23.323,4.136) face -162 w 0.001 t 2..4 anim -1 seq 0
+      move (13.639,-26.314,4.136) face 88 w 0.001 t 2..4 anim -1 seq 0
+      move (7.03,-26.608,4.136) face 86 w 0.001 t 2..4 anim -1 seq 0
+   SQUAD 'floor grunt' actor [0] grunt minor plasma pistol platoon 0 state Alert->None flags 0 leader 0 maneuverTo -1 delay 0 count n2/i3 major 0 respawn 0-0 tot 0 groups att abdefh attS abdefgh attG bd def abef defS abdefh defG b purs z starts 4 moves 4
+      start (13.527,-17.1,2.136) face -62 cl 21 seq 23 req False st Alert->None actor -1 cmd -1
+      start (9.544,-23.623,1.936) face -0 cl 21 seq 23 req False st MovingLoop->None actor 7 cmd -1
+      start (8.799,-23.377,1.936) face -0 cl 21 seq 23 req False st Sleeping->None actor -1 cmd -1
+      start (11.828,-19.769,1.936) face 1 cl 21 seq 23 req False st MovingLoop->None actor 7 cmd -1
+      move (13.267,-19.789,1.936) face 65 w 0.001 t 2..4 anim -1 seq 0
+      move (13.274,-23.352,1.936) face -66 w 0.001 t 2..4 anim -1 seq 0
+      move (9.714,-23.504,1.936) face 121 w 0.001 t 2..4 anim -1 seq 0
+      move (9.621,-19.991,1.936) face 84 w 0.001 t 2..4 anim -1 seq 0
+   SQUAD 'floor elite' actor [1] elite minor plasma rifle platoon 1 state Alert->None flags 0 leader 0 maneuverTo -1 delay 0 count n2/i2 major 0 respawn 0-0 tot 0 groups att abdef attS abdefgh attG a def abe defS abdef defG a purs z starts 2 moves 2
+      start (15.191,-17.948,2.136) face -178 cl 21 seq 23 req False st None->None actor -1 cmd -1
+      start (6.78,-19.651,2.136) face 52 cl 20 seq 0 req True st None->None actor -1 cmd 6
+      move (15.159,-17.898,2.136) face 180 w 5 t 4..6 anim -1 seq 0
+      move (15.147,-20.169,2.136) face 94 w 2 t 2..4 anim -1 seq 0
+   SQUAD 'ramp jackal' actor [4] jackal minor plasma pistol platoon 2 state Alert->None flags 0 leader 0 maneuverTo -1 delay 10 count n2/i3 major 0 respawn 0-0 tot 0 groups att abem attS abefm attG b def abem defS abefm defG b purs z starts 3 moves 0
+      start (7.167,-10.124,-0.864) face -12 cl 16 seq 38 req False st None->None actor -1 cmd -1
+      start (7.827,-9.639,-0.864) face 74 cl 16 seq 38 req False st None->None actor -1 cmd -1
+      start (8.626,-9.336,-0.864) face 78 cl 16 seq 38 req False st None->None actor -1 cmd -1
+   fpos groups a:1 b:5 c:4 d:3 e:9 f:34 g:10 h:32 j:15 k:14 m:9 z:16
+ENC [2] 'shaftA_u' flags 1 team 0 search 0 bsp m0/p1 respawn 0..0 squads 3 platoons 2 fpos 256
+   PLATOON 'hallway' flags 0 change 7->0 maneuver 0->-1
+   PLATOON 'floor' flags 0 change 6->1 maneuver 0->-1
+   SQUAD 'last hunter' actor [3] hunter platoon 1 state Alert->None flags 0 leader 0 maneuverTo -1 delay 0 count n2/i2 major 0 respawn 0-0 tot 0 groups att abc attS abce attG abc def a defS abc defG a purs z starts 2 moves 6
+      start (17.568,-25.558,-2.864) face 152 cl 23 seq 21 req False st None->None actor -1 cmd -1
+      start (19.849,-22.595,-2.414) face 169 cl 23 seq 21 req False st None->None actor -1 cmd -1
+      move (15.977,-24.52,-2.864) face -177 w 0.001 t 6..12 anim -1 seq 0
+      move (15.336,-25.923,-2.864) face 90 w 0.001 t 6..12 anim -1 seq 0
+      move (19.391,-25.744,-2.864) face 160 w 0.001 t 6..12 anim -1 seq 0
+      move (15.996,-21.373,-2.864) face 128 w 0.001 t 6..12 anim -1 seq 0
+      move (14.839,-20.546,-2.864) face -50 w 0.001 t 6..12 anim -1 seq 0
+      move (12.859,-25.505,-2.864) face 8 w 0.001 t 6..12 anim -1 seq 0
+   SQUAD 'last jackal' actor [4] jackal minor plasma pistol platoon 1 state Alert->None flags 0 leader 0 maneuverTo -1 delay 0 count n2/i2 major 0 respawn 0-0 tot 0 groups att abcdefg attS abcdefghln attG abcdefg def abc defS abcde defG bc purs z starts 3 moves 0
+      start (13.437,-20.22,-2.864) face 45 cl 23 seq 21 req False st None->None actor -1 cmd -1
+      start (12.11,-25.863,-2.864) face 67 cl 23 seq 21 req False st None->None actor -1 cmd -1
+      start (8.902,-23.514,-2.864) face 35 cl 23 seq 21 req False st None->None actor -1 cmd -1
+   SQUAD 'patrolling jackal' actor [4] jackal minor plasma pistol platoon 0 state MovingRandomly->None flags 0 leader 0 maneuverTo -1 delay 0 count n2/i2 major 0 respawn 0-0 tot 0 groups att dfghijklmn attS defghijklmn attG dfghijklmn def defg defS defghn defG ln purs z starts 2 moves 6
+      start (6.382,-29.818,-2.364) face -117 cl 19 seq 22 req False st None->None actor -1 cmd -1
+      start (5.616,-29.106,-2.364) face 82 cl 19 seq 22 req False st None->None actor -1 cmd -1
+      move (16.211,-30.493,-2.364) face 78 w 1 t 6..12 anim -1 seq 0
+      move (16.968,-29.113,-2.364) face -110 w 1 t 6..12 anim -1 seq 0
+      move (5.739,-28.729,-2.364) face -72 w 1 t 6..12 anim -1 seq 0
+      move (6.11,-29.86,-2.364) face 82 w 1 t 6..12 anim -1 seq 0
+      move (6.959,-28.955,-2.364) face -151 w 1 t 6..12 anim -1 seq 0
+      move (4.213,-23.484,-2.364) face 53 w 1 t 6..12 anim -1 seq 0
+   fpos groups a:13 b:16 c:15 d:12 e:10 f:28 g:31 h:14 i:27 j:10 k:28 l:11 m:15 n:7 z:19
+ENC [3] 'shaftA_mind' flags 1 team 0 search 0 bsp m0/p1 respawn 0..0 squads 0 platoons 1 fpos 215
+   PLATOON 'floor' flags 0 change 6->0 maneuver 0->-1
+   fpos groups a:24 b:11 c:26 d:20 e:21 f:17 g:14 h:18 i:19 j:17 k:16 z:12
+ENC [4] 'shaftA_ante' flags 1 team 0 search 0 bsp m0/p1 respawn 0..0 squads 4 platoons 2 fpos 188
+   PLATOON 'floor' flags 0 change 6->0 maneuver 0->-1
+   PLATOON 'rein' flags 0 change 6->0 maneuver 0->-1
+   SQUAD 'rein_elite' actor [1] elite minor plasma rifle platoon 1 state Alert->None flags 0 leader 0 maneuverTo -1 delay 5 count n2/i2 major 2 respawn 0-0 tot 0 groups att bhi attS bhi attG b def bh defS bh defG b purs xy starts 2 moves 0
+      start (12.815,-11.506,-14.864) face -1 cl 15 seq 36 req False st None->None actor -1 cmd -1
+      start (11.163,-12.137,-14.864) face -172 cl 15 seq 36 req False st None->None actor 6 cmd -1
+   SQUAD 'floor grunt' actor [0] grunt minor plasma pistol platoon 0 state Alert->None flags 0 leader 0 maneuverTo -1 delay 0 count n5/i6 major 2 respawn 0-0 tot 0 groups att cj attS cjk attG c def f defS afg defG a purs wz starts 8 moves 3
+      start (13.296,-24.58,-13.364) face -23 cl 5 seq 2 req False st Alert->None actor -1 cmd -1
+      start (14.277,-24.334,-13.364) face -139 cl 5 seq 2 req False st Alert->None actor 7 cmd -1
+      start (11.803,-25.915,-13.364) face -0 cl 5 seq 2 req False st MovingLoop->None actor -1 cmd -1
+      start (21.097,-20.744,-13.364) face -94 cl 11 seq 25 req False st MovingLoop->None actor 7 cmd -1
+      start (18.776,-28.519,-13.364) face 144 cl 5 seq 2 req False st Sleeping->None actor -1 cmd -1
+      start (8.218,-26.275,-13.364) face 10 cl 5 seq 2 req False st Alert->None actor 7 cmd -1
+      start (11.724,-19.571,-13.364) face -5 cl 9 seq 35 req False st Alert->None actor -1 cmd -1
+      start (14.685,-27.107,-13.364) face -19 cl 5 seq 2 req False st Sleeping->None actor 7 cmd -1
+      move (11.031,-25.843,-13.364) face 0 w 1 t 0..0 anim -1 seq 0
+      move (19.596,-25.548,-13.364) face 138 w 1 t 0..0 anim -1 seq 0
+      move (21.112,-24.063,-13.364) face 93 w 1 t 0..0 anim -1 seq 0
+   SQUAD 'catwalk grunt' actor [0] grunt minor plasma pistol platoon 0 state Alert->None flags 0 leader 0 maneuverTo -1 delay 0 count n2/i3 major 2 respawn 0-0 tot 0 groups att dl attS djl attG d def af defS afg defG a purs vz starts 3 moves 3
+      start (15.257,-17.714,-11.964) face -89 cl 9 seq 35 req False st None->None actor -1 cmd -1
+      start (15.589,-18.64,-11.964) face -93 cl 9 seq 35 req False st MovingLoopBackAndForth->None actor 7 cmd -1
+      start (16.097,-24.069,-11.964) face -24 cl 5 seq 2 req False st Alert->None actor -1 cmd -1
+      move (15.365,-28.113,-11.964) face -97 w 1 t 1..6 anim -1 seq 0
+      move (15.898,-25.697,-11.964) face -9 w 1 t 1..6 anim -1 seq 0
+      move (15.943,-19.46,-11.964) face -13 w 1 t 1..6 anim -1 seq 0
+   SQUAD 'floor elite' actor [1] elite minor plasma rifle platoon 0 state Alert->None flags 0 leader 0 maneuverTo -1 delay 5 count n1/i1 major 1 respawn 0-0 tot 0 groups att cj attS cj attG c def f defS afg defG a purs wz starts 1 moves 0
+      start (8.266,-23.186,-13.364) face 127 cl 8 seq 5 req False st None->None actor -1 cmd -1
+   fpos groups a:3 b:3 c:7 d:4 f:9 g:14 h:20 i:18 j:29 k:28 l:23 v:5 w:12 x:5 y:4 z:4
+ENC [5] 'beach_pass' flags 1 team 0 search 0 bsp m0/p0 respawn 0..0 squads 2 platoons 1 fpos 101
+   PLATOON 'pass' flags 0 change 6->0 maneuver 0->-1
+   SQUAD 'pass elite' actor [1] elite minor plasma rifle platoon 0 state MovingRandomly->None flags 0 leader 0 maneuverTo -1 delay 0 count n1/i2 major 0 respawn 0-0 tot 0 groups att c attS cd attG c def a defS ab defG a purs z starts 3 moves 5
+      start (3.551,-52.574,2.881) face 153 cl 12 seq 20 req False st None->None actor -1 cmd -1
+      start (3.866,-57.948,2.906) face 163 cl 11 seq 18 req False st Alert->None actor 6 cmd -1
+      start (0.12,-61.413,2.03) face 140 cl 11 seq 18 req False st None->None actor -1 cmd -1
+      move (-0.046,-61.175,2.026) face 134 w 0.001 t 0..0 anim -1 seq 0
+      move (3.142,-57.306,2.791) face 167 w 0.001 t 0..0 anim -1 seq 0
+      move (2.806,-52.159,2.868) face -178 w 0.001 t 0..0 anim -1 seq 0
+      move (7.52,-55.587,3.561) face -52 w 0.001 t 0..0 anim -1 seq 0
+      move (2.096,-63.734,2.461) face 2 w 0.001 t 0..0 anim -1 seq 0
+   SQUAD 'pass grunt' actor [0] grunt minor plasma pistol platoon 0 state MovingRandomly->None flags 0 leader 0 maneuverTo -1 delay 0 count n3/i6 major 0 respawn 0-0 tot 0 groups att c attS cd attG c def a defS ab defG c purs z starts 7 moves 11
+      start (1.598,-51.245,2.771) face 164 cl 12 seq 20 req False st Alert->None actor -1 cmd -1
+      start (-2.811,-62.814,1.567) face 133 cl 11 seq 18 req False st None->None actor 7 cmd -1
+      start (4.498,-58.996,3.115) face 163 cl 11 seq 18 req False st None->None actor -1 cmd -1
+      start (6.192,-61.297,3.623) face 25 cl 11 seq 18 req False st None->None actor 7 cmd -1
+      start (6.668,-60.328,3.689) face -16 cl 11 seq 18 req False st None->None actor -1 cmd -1
+      start (9.41,-63.981,4.977) face -169 cl 11 seq 18 req False st None->None actor 7 cmd -1
+      start (14.365,-65.174,6.112) face -17 cl 13 seq 19 req False st Alert->None actor -1 cmd -1
+      move (14.31,-65.17,6.104) face -19 w 0.001 t 4..10 anim -1 seq 0
+      move (14.184,-63.124,6.005) face -15 w 0.001 t 4..10 anim -1 seq 0
+      move (9.485,-63.643,4.951) face -164 w 0.001 t 4..10 anim -1 seq 0
+      move (9.728,-61.463,4.698) face -85 w 0.001 t 4..10 anim -1 seq 0
+      move (5.818,-60.69,3.511) face 100 w 0.001 t 4..10 anim -1 seq 0
+      move (4.235,-59.325,3.061) face -27 w 0.001 t 4..10 anim -1 seq 0
+      move (3.429,-61.958,2.857) face -80 w 0.001 t 4..10 anim -1 seq 0
+      move (1.599,-56.564,2.54) face -107 w 0.001 t 4..10 anim -1 seq 0
+      move (0.874,-60.26,2.283) face 122 w 0.001 t 4..10 anim -1 seq 0
+      move (-1.679,-57.448,2.004) face -48 w 0.001 t 4..10 anim -1 seq 0
+      move (5.502,-54.61,3.084) face 6 w 0.001 t 4..10 anim -1 seq 0
+   fpos groups a:14 b:16 c:42 d:22 z:7
+ENC [6] 'beach_crack' flags 1 team 0 search 0 bsp m0/p0 respawn 0..0 squads 3 platoons 1 fpos 86
+   PLATOON 'crack' flags 0 change 6->0 maneuver 8->0
+   SQUAD 'crack elite' actor [1] elite minor plasma rifle platoon 0 state MovingRandomly->None flags 0 leader 0 maneuverTo -1 delay 0 count n1/i1 major 2 respawn 0-0 tot 0 groups att b attS ab attG b def a defS a defG a purs z starts 1 moves 3
+      start (40.444,51.752,4.761) face 20 cl 52 seq 78 req False st None->None actor -1 cmd -1
+      move (40.688,51.553,4.739) face 16 w 0.001 t 4..8 anim -1 seq 0
+      move (41.558,46.94,5.048) face -65 w 0.001 t 4..8 anim -1 seq 0
+      move (44.561,49.104,4.139) face 2 w 0.001 t 4..8 anim -1 seq 0
+   SQUAD 'crack grunt' actor [0] grunt minor plasma pistol platoon 0 state MovingRandomly->None flags 0 leader 0 maneuverTo -1 delay 0 count n2/i4 major 0 respawn 0-0 tot 0 groups att c attS bc attG c def b defS b defG b purs z starts 4 moves 6
+      start (44.901,47.694,4.213) face 37 cl 52 seq 78 req False st None->None actor 7 cmd -1
+      start (45.118,43.106,4.252) face -47 cl 51 seq 75 req False st Alert->None actor -1 cmd -1
+      start (44.428,51.347,3.871) face 15 cl 52 seq 78 req False st None->None actor 7 cmd -1
+      start (41.724,56.076,3.319) face 50 cl 52 seq 78 req False st Alert->None actor -1 cmd -1
+      move (42.382,56.012,3.215) face 61 w 0.001 t 4..8 anim -1 seq 0
+      move (39.917,50.593,5.169) face 167 w 0.001 t 4..8 anim -1 seq 0
+      move (44.819,43.819,4.313) face -71 w 0.001 t 4..8 anim -1 seq 0
+      move (44.875,47.973,4.189) face 5 w 0.001 t 4..8 anim -1 seq 0
+      move (44.091,50.093,4.143) face -26 w 0.001 t 4..8 anim -1 seq 0
+      move (46.011,53.266,3.296) face 38 w 0.001 t 4..8 anim -1 seq 0
+   SQUAD 'clearing jackal' actor [4] jackal minor plasma pistol platoon 0 state Alert->None flags 1 leader 0 maneuverTo -1 delay 0 count n5/i7 major 0 respawn 0-0 tot 0 groups att de attS cde attG de def b defS bde defG e purs z starts 7 moves 0
+      start (44.912,54.564,3.211) face 61 cl 52 seq 78 req False st None->None actor -1 cmd -1
+      start (46.087,53.024,3.331) face -36 cl 52 seq 78 req False st None->None actor -1 cmd -1
+      start (45.137,53.055,3.478) face 54 cl 52 seq 78 req False st None->None actor -1 cmd -1
+      start (46.097,54.335,3.075) face 34 cl 52 seq 78 req False st None->None actor -1 cmd -1
+      start (44.595,53.794,3.422) face 29 cl 52 seq 78 req False st None->None actor -1 cmd -1
+      start (46.795,53.818,3.076) face 0 cl 52 seq 78 req False st None->None actor -1 cmd -1
+      start (46.852,53.117,3.201) face -40 cl 52 seq 78 req False st None->None actor -1 cmd -1
+   fpos groups a:7 b:24 c:20 d:26 e:9
+ENC [7] 'valley_crack' flags 1 team 0 search 0 bsp m0/p0 respawn 0..0 squads 5 platoons 1 fpos 91
+   PLATOON 'crack' flags 0 change 5->0 maneuver 0->-1
+   SQUAD 'first bend grunt' actor [0] grunt minor plasma pistol platoon 0 state Alert->None flags 0 leader 0 maneuverTo -1 delay 0 count n3/i4 major 0 respawn 0-0 tot 0 groups att abefg attS abefg attG a def abefg defS abefg defG b purs z starts 4 moves 8
+      start (27.027,43.923,11.685) face 88 cl 54 seq 77 req False st MovingRandomly->None actor 7 cmd -1
+      start (28.806,44.985,11.513) face 103 cl 54 seq 77 req False st MovingRandomly->None actor -1 cmd -1
+      start (26.617,42.493,11.903) face 87 cl 54 seq 77 req False st MovingRandomly->None actor 7 cmd -1
+      start (28.116,42.713,12.226) face 115 cl 54 seq 77 req False st MovingRandomly->None actor -1 cmd -1
+      move (29.073,48.616,10.567) face 2 w 1 t 20..30 anim -1 seq 0
+      move (27.83,51.083,11.242) face -16 w 1 t 20..30 anim -1 seq 0
+      move (27.204,48.42,11.132) face 4 w 1 t 20..30 anim -1 seq 0
+      move (26.584,50.536,11.487) face -4 w 1 t 20..30 anim -1 seq 0
+      move (28.703,46.791,10.995) face 34 w 1 t 20..30 anim -1 seq 0
+      move (28.31,49.142,10.898) face -3 w 1 t 20..30 anim -1 seq 0
+      move (26.808,46.862,11.292) face 19 w 1 t 20..30 anim -1 seq 0
+      move (30.519,50.365,9.866) face -16 w 1 t 20..30 anim -1 seq 0
+   SQUAD 'first bend elite' actor [1] elite minor plasma rifle platoon 0 state Alert->None flags 0 leader 0 maneuverTo -1 delay 10 count n1/i1 major 0 respawn 0-0 tot 0 groups att abefg attS abefg attG b def abefg defS abefg defG b purs z starts 1 moves 0
+      start (28.492,39.815,13.103) face 91 cl 54 seq 77 req False st None->None actor -1 cmd -1
+   SQUAD 'second bend grunt' actor [0] grunt minor plasma pistol platoon 0 state Alert->None flags 0 leader 0 maneuverTo -1 delay 20 count n4/i5 major 0 respawn 0-0 tot 0 groups att cdhi attS cdghi attG c def cghi defS cghi defG c purs z starts 6 moves 0
+      start (33.945,34.793,16.737) face 126 cl 54 seq 77 req False st None->None actor -1 cmd -1
+      start (34.997,36.114,16.374) face 131 cl 54 seq 77 req False st None->None actor 7 cmd -1
+      start (32.799,35.716,15.705) face 135 cl 54 seq 77 req False st None->None actor -1 cmd -1
+      start (33.347,38.009,15.002) face 134 cl 54 seq 77 req False st None->None actor 7 cmd -1
+      start (35.662,34.651,17.171) face 124 cl 54 seq 77 req False st None->None actor 0 cmd -1
+      start (35.262,33.266,17.414) face 120 cl 53 seq 77 req False st None->None actor 7 cmd -1
+   SQUAD 'second bend elite' actor [1] elite minor plasma rifle platoon 0 state Alert->None flags 0 leader 0 maneuverTo -1 delay 30 count n1/i1 major 0 respawn 0-0 tot 0 groups att cghi attS cghi attG c def cghi defS cghi defG d purs z starts 1 moves 0
+      start (38.633,29.303,19.11) face 104 cl 53 seq 74 req False st None->None actor -1 cmd -1
+   SQUAD 'last bend grunt' actor [0] grunt minor plasma pistol platoon 0 state Alert->None flags 0 leader 0 maneuverTo -1 delay 40 count n0/i0 major 0 respawn 0-0 tot 0 groups att cdhi attS cdhi attG d def cdhi defS cdhi defG d purs z starts 4 moves 0
+      start (38.98,21.285,19.683) face 51 cl 23 seq 66 req False st None->None actor -1 cmd -1
+      start (40.386,20.417,20.266) face 72 cl 23 seq 66 req False st None->None actor 7 cmd -1
+      start (39.632,23.821,20.124) face 74 cl 23 seq 66 req False st None->None actor -1 cmd -1
+      start (42.372,23.465,20.335) face 102 cl 23 seq 66 req False st None->None actor 7 cmd -1
+   fpos groups a:3 b:3 c:3 d:3 e:12 f:13 g:11 h:13 i:22 z:8
+ENC [8] 'shaftA_ramp_inv' flags 1 team 0 search 2 bsp m0/p1 respawn 0..0 squads 3 platoons 2 fpos 70
+   PLATOON 'ramp' flags 0 change 2->0 maneuver 4->1
+   PLATOON 'booth' flags 0 change 2->1 maneuver 4->0
+   SQUAD 'ramp jackal' actor [4] jackal minor plasma pistol platoon 0 state Searching->None flags 0 leader 0 maneuverTo 2 delay 0 count n3/i4 major 2 respawn 0-0 tot 0 groups att bd attS abd attG d def ce defS bce defG e purs z starts 4 moves 0
+      start (10,-31.408,-9.378) face -90 cl 0 seq 1 req False st None->None actor -1 cmd -1
+      start (10.273,-30.054,-8.864) face -91 cl 0 seq 1 req False st None->None actor -1 cmd -1
+      start (10.131,-28.828,-8.864) face -10 cl 4 seq 0 req False st None->None actor -1 cmd -1
+      start (10.541,-28.248,-8.864) face -108 cl 4 seq 0 req False st None->None actor -1 cmd -1
+   SQUAD 'booth jackal' actor [4] jackal minor plasma pistol platoon 1 state Searching->None flags 0 leader 0 maneuverTo 2 delay 0 count n2/i3 major 2 respawn 0-0 tot 0 groups att gi attS gi attG i def hj defS hj defG j purs y starts 4 moves 0
+      start (17.432,-29.311,-8.864) face -178 cl 4 seq 0 req False st None->None actor -1 cmd -1
+      start (16.862,-33.491,-10.464) face -92 cl 10 seq 24 req False st None->None actor -1 cmd -1
+      start (16.945,-29.913,-8.864) face -98 cl 10 seq 24 req False st None->None actor -1 cmd -1
+      start (17.159,-32.477,-9.964) face -104 cl 10 seq 24 req False st None->None actor -1 cmd -1
+   SQUAD 'ramp fallback' actor [-1] - platoon -1 state None->None flags 0 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att cehj attS cehj attG ej def cehj defS cehj defG ej purs x starts 0 moves 0
+   fpos groups a:9 b:6 c:14 d:4 e:4 g:4 h:10 i:4 j:5 x:3 y:3 z:4
+ENC [9] 'shaftA_mind_inv' flags 1 team 0 search 2 bsp m0/p1 respawn 0..0 squads 4 platoons 2 fpos 114
+   PLATOON 'ramp' flags 0 change 6->0 maneuver 2->1
+   PLATOON 'catwalk' flags 0 change 2->1 maneuver 0->-1
+   SQUAD 'ramp jackal' actor [4] jackal minor plasma pistol platoon 0 state Searching->None flags 4 leader 0 maneuverTo 3 delay 12 count n3/i5 major 2 respawn 0-0 tot 0 groups att acj attS abcdgjm attG j def ck defS cdgkm defG k purs z starts 4 moves 0
+      start (4.241,-16.502,-6.864) face 1 cl 3 seq 3 req False st None->None actor -1 cmd -1
+      start (3.71,-18.318,-6.864) face -88 cl 3 seq 3 req False st None->None actor -1 cmd -1
+      start (3.411,-16.844,-6.864) face 0 cl 3 seq 3 req False st None->None actor -1 cmd -1
+      start (3.178,-17.688,-6.864) face -87 cl 3 seq 3 req False st None->None actor -1 cmd -1
+   SQUAD 'catwalk elite' actor [1] elite minor plasma rifle platoon 1 state Searching->None flags 4 leader 0 maneuverTo -1 delay 30 count n1/i1 major 0 respawn 0-0 tot 0 groups att fnp attS fgmnp attG m def fn defS fn defG n purs y starts 1 moves 0
+      start (23.17,-20.149,-5.164) face -152 cl 12 seq 26 req False st None->None actor -1 cmd -1
+   SQUAD 'catwalk grunt' actor [0] grunt minor plasma pistol platoon 1 state Searching->None flags 4 leader 0 maneuverTo -1 delay 25 count n3/i5 major 2 respawn 0-0 tot 0 groups att fnp attS fgmnp attG m def fn defS fn defG n purs y starts 5 moves 0
+      start (18.219,-23.645,-5.164) face -89 cl 4 seq 0 req False st None->None actor -1 cmd -1
+      start (20.946,-22.051,-5.164) face -147 cl 4 seq 0 req False st None->None actor 7 cmd -1
+      start (18.572,-22.79,-5.164) face -142 cl 4 seq 0 req False st None->None actor -1 cmd -1
+      start (19.335,-22.429,-5.164) face -146 cl 4 seq 0 req False st None->None actor 7 cmd -1
+      start (20.158,-22.387,-5.164) face -113 cl 4 seq 0 req False st None->None actor -1 cmd -1
+   SQUAD 'catwalk fallback' actor [-1] - platoon -1 state Searching->None flags 10 leader 0 maneuverTo -1 delay 0.1 count n0/i0 major 0 respawn 0-0 tot 0 groups att dfgmn attS dfgmn attG km def dfgmn defS dfgmn defG km purs y starts 0 moves 0
+   fpos groups a:15 b:6 c:11 d:11 f:9 g:13 j:3 k:4 m:4 n:4 p:19 y:7 z:8
+ENC [10] 'shaftA_jig_inv' flags 1 team 0 search 2 bsp m0/p1 respawn 0..0 squads 1 platoons 1 fpos 60
+   PLATOON 'jig' flags 0 change 5->0 maneuver 0->-1
+   SQUAD 'jig jackal' actor [4] jackal minor plasma pistol platoon 0 state Searching->None flags 0 leader 0 maneuverTo -1 delay 0 count n3/i4 major 2 respawn 0-0 tot 0 groups att bf attS bfg attG g def ac defS ace defG a purs y starts 4 moves 0
+      start (27.807,-21.043,-5.164) face 179 cl 12 seq 26 req False st None->None actor -1 cmd -1
+      start (25.599,-25.129,-3.849) face 12 cl 12 seq 26 req False st None->None actor -1 cmd -1
+      start (28.253,-24.629,-5.164) face 86 cl 12 seq 26 req False st None->None actor -1 cmd -1
+      start (24.589,-25.28,-3.123) face 18 cl 12 seq 26 req False st None->None actor -1 cmd -1
+   fpos groups a:3 b:3 c:13 e:9 f:16 g:12 z:4
+ENC [11] 'shaftA_u_inv' flags 1 team 0 search 2 bsp m0/p1 respawn 0..0 squads 3 platoons 2 fpos 103
+   PLATOON 'hallway' flags 0 change 6->0 maneuver 0->-1
+   PLATOON 'back' flags 0 change 6->0 maneuver 0->-1
+   SQUAD 'hallway elite' actor [1] elite minor plasma rifle platoon 0 state Searching->None flags 4 leader 0 maneuverTo -1 delay 12 count n1/i1 major 2 respawn 0-0 tot 0 groups att abcd attS abcd attG b def bd defS bd defG b purs z starts 1 moves 0
+      start (6.664,-15.677,-2.364) face -2 cl 24 seq 37 req False st None->None actor -1 cmd -1
+   SQUAD 'hallway grunt' actor [0] grunt minor plasma pistol platoon 0 state Searching->None flags 0 leader 0 maneuverTo -1 delay 3 count n3/i4 major 2 respawn 0-0 tot 0 groups att abcd attS abcd attG a def bd defS bd defG b purs z starts 4 moves 0
+      start (8.942,-16.341,-2.364) face -2 cl 24 seq 37 req False st None->None actor -1 cmd -1
+      start (7.898,-15.444,-2.364) face -1 cl 24 seq 37 req False st None->None actor 7 cmd -1
+      start (7.821,-16.48,-2.364) face -0 cl 24 seq 37 req False st None->None actor -1 cmd -1
+      start (7.084,-16.328,-2.364) face -2 cl 24 seq 37 req False st None->None actor 7 cmd -1
+   SQUAD 'back jackal' actor [4] jackal minor plasma pistol platoon 1 state Searching->None flags 4 leader 0 maneuverTo -1 delay 5 count n2/i3 major 2 respawn 0-0 tot 0 groups att efg attS efg attG g def bd defS bde defG b purs z starts 3 moves 0
+      start (6.118,-25.912,-2.364) face -94 cl 3 seq 3 req False st None->None actor -1 cmd -1
+      start (5.44,-25.664,-2.364) face -87 cl 3 seq 3 req False st None->None actor -1 cmd -1
+      start (5.826,-24.887,-2.364) face -88 cl 3 seq 3 req False st None->None actor -1 cmd -1
+   fpos groups a:5 b:7 c:14 d:16 e:20 f:24 g:4 z:13
+ENC [12] 'shaftA_beam_inv' flags 1 team 0 search 2 bsp m0/p1 respawn 0..0 squads 3 platoons 2 fpos 74
+   PLATOON 'floor' flags 0 change 6->0 maneuver 0->-1
+   PLATOON 'catwalk' flags 0 change 6->0 maneuver 0->-1
+   SQUAD 'floor elite' actor [1] elite minor plasma rifle platoon 0 state Searching->None flags 4 leader 0 maneuverTo -1 delay 8 count n1/i1 major 2 respawn 0-0 tot 0 groups att dh attS dgh attG d def dh defS dh defG d purs z starts 1 moves 0
+      start (4.425,-23.03,2.18) face 87 cl 17 seq 45 req False st None->None actor -1 cmd -1
+   SQUAD 'floor grunt' actor [0] grunt minor plasma pistol platoon 0 state Searching->None flags 4 leader 0 maneuverTo -1 delay 3 count n3/i4 major 2 respawn 0-0 tot 0 groups att cg attS cgh attG c def dh defS dh defG d purs z starts 4 moves 0
+      start (6.44,-21.033,2.136) face 1 cl 20 seq 46 req False st None->None actor -1 cmd -1
+      start (8.301,-27.155,2.136) face 1 cl 21 seq 23 req False st None->None actor 7 cmd -1
+      start (7.13,-27.111,2.136) face -10 cl 21 seq 23 req False st None->None actor -1 cmd -1
+      start (7.351,-27.907,2.136) face 11 cl 21 seq 23 req False st None->None actor 7 cmd -1
+   SQUAD 'catwalk jackal' actor [4] jackal minor plasma pistol platoon 1 state Searching->None flags 0 leader 0 maneuverTo -1 delay 0 count n2/i3 major 2 respawn 0-0 tot 0 groups att abef attS abef attG a def bf defS bdfh defG b purs z starts 3 moves 0
+      start (9.032,-26.639,4.136) face -15 cl 21 seq 23 req False st None->None actor -1 cmd -1
+      start (10.369,-26.756,4.136) face 0 cl 21 seq 23 req False st None->None actor -1 cmd -1
+      start (11.497,-26.903,4.136) face 7 cl 21 seq 23 req False st None->None actor -1 cmd -1
+   fpos groups a:3 b:3 c:5 d:5 e:20 f:8 g:21 h:9
+ENC [13] 'shaftA_entrance_inv' flags 1 team 0 search 0 bsp m0/p0 respawn 0..0 squads 3 platoons 1 fpos 123
+   PLATOON 'ambush' flags 0 change 0->-1 maneuver 0->-1
+   SQUAD 'exterior_stealth_elite' actor [5] stealth elite plasma rifle platoon 0 state Alert->None flags 0 leader 0 maneuverTo -1 delay 0 count n2/i3 major 0 respawn 0-0 tot 0 groups att abc attS abcf attG b def abc defS abcf defG b purs z starts 7 moves 0
+      start (28.075,-22.142,9.045) face 179 cl 39 seq 50 req False st GuardingAtGuardPosition->None actor -1 cmd -1
+      start (29.22,-21.888,9.045) face 178 cl 39 seq 50 req True st GuardingAtGuardPosition->None actor -1 cmd -1
+      start (20.182,-19.405,9.336) face -91 cl 20 seq 0 req False st None->None actor -1 cmd -1
+      start (17.092,-24.528,9.336) face 77 cl 20 seq 0 req False st None->None actor -1 cmd -1
+      start (20.131,-24.247,9.336) face 81 cl 20 seq 0 req False st None->None actor -1 cmd -1
+      start (17.087,-19.523,9.336) face -83 cl 20 seq 0 req False st None->None actor -1 cmd -1
+      start (14.175,-13.506,6.336) face -86 cl 21 seq 0 req False st None->None actor -1 cmd -1
+   SQUAD 'interior_stealth_elite' actor [5] stealth elite plasma rifle platoon 0 state Alert->None flags 0 leader 0 maneuverTo -1 delay 0 count n1/i3 major 0 respawn 0-0 tot 0 groups att f attS abcf attG a def f defS abcf defG a purs z starts 4 moves 0
+      start (23.769,-17.632,9.257) face -98 cl 39 seq 50 req False st None->None actor -1 cmd -1
+      start (23.553,-26.827,9.181) face 3 cl 39 seq 0 req False st None->None actor -1 cmd -1
+      start (28.134,-26.17,9.045) face 136 cl 39 seq 0 req False st None->None actor -1 cmd -1
+      start (28.009,-17.441,9.045) face -137 cl 39 seq 0 req False st None->None actor -1 cmd -1
+   SQUAD 'refresh_stealth_elite' actor [5] stealth elite plasma rifle platoon 0 state Searching->None flags 0 leader 0 maneuverTo -1 delay 0 count n2/i2 major 0 respawn 0-0 tot 0 groups att abcf attS abcf attG abcf def abcf defS abcf defG abcf purs z starts 9 moves 0
+      start (31.837,-16.057,9.045) face -145 cl 39 seq 50 req False st None->None actor -1 cmd -1
+      start (30.941,-14.435,9.045) face -145 cl 39 seq 50 req False st None->None actor -1 cmd -1
+      start (31.939,-27.451,9.045) face 116 cl 39 seq 50 req False st None->None actor -1 cmd -1
+      start (27.025,-31.064,9.045) face 90 cl 39 seq 50 req False st None->None actor -1 cmd -1
+      start (28.507,-29.793,9.045) face 106 cl 39 seq 50 req False st None->None actor -1 cmd -1
+      start (19.597,-24.824,9.336) face 67 cl 20 seq 47 req False st None->None actor -1 cmd -1
+      start (16.458,-24.761,9.336) face 59 cl 20 seq 47 req False st None->None actor -1 cmd -1
+      start (16.867,-19.17,9.336) face -73 cl 20 seq 47 req False st None->None actor -1 cmd -1
+      start (20.326,-19.178,9.336) face -107 cl 20 seq 47 req False st None->None actor -1 cmd -1
+   fpos groups a:2 b:91 c:2 f:28
+ENC [14] 'valley_lid' flags 1 team 0 search 0 bsp m0/p0 respawn 0..0 squads 1 platoons 0 fpos 43
+   SQUAD 'lid hunter' actor [3] hunter platoon -1 state GuardingAtGuardPosition->None flags 0 leader 0 maneuverTo -1 delay 8 count n2/i2 major 0 respawn 0-0 tot 0 groups att abd attS abd attG a def abd defS abd defG abd purs z starts 2 moves 0
+      start (23.156,18.74,18.046) face -7 cl 23 seq 66 req False st None->None actor -1 cmd -1
+      start (24.612,26.049,18.046) face 2 cl 23 seq 66 req False st None->None actor -1 cmd -1
+   fpos groups a:2 b:19 d:18 z:4
+ENC [15] 'valley_mouth' flags 1 team 0 search 0 bsp m0/p0 respawn 0..0 squads 1 platoons 0 fpos 72
+   SQUAD 'ref_mouth_jackal' actor [4] jackal minor plasma pistol platoon -1 state Searching->None flags 0 leader 0 maneuverTo -1 delay 0 count n4/i5 major 0 respawn 4-5 tot 0 groups att abeg attS abeg attG a def bg defS bg defG b purs z starts 5 moves 0
+      start (2.534,5.779,17.771) face 53 cl 16 seq 59 req False st None->None actor -1 cmd -1
+      start (-1.363,14.305,15.659) face -50 cl 16 seq 59 req False st None->None actor -1 cmd -1
+      start (3.164,5.583,17.842) face 72 cl 16 seq 59 req False st None->None actor -1 cmd -1
+      start (-2.223,14.499,15.603) face -48 cl 16 seq 59 req False st None->None actor -1 cmd -1
+      start (2.644,3.982,17.429) face 82 cl 16 seq 59 req False st None->None actor -1 cmd -1
+   fpos groups a:6 b:4 e:42 g:11 z:9
+ENC [16] 'valley_canyon' flags 1 team 0 search 0 bsp m0/p0 respawn 0..0 squads 3 platoons 1 fpos 87
+   PLATOON 'regular' flags 0 change 0->-1 maneuver 0->-1
+   SQUAD 'canyon grunt' actor [0] grunt minor plasma pistol platoon 0 state GuardingAtGuardPosition->None flags 0 leader 0 maneuverTo -1 delay 0 count n4/i5 major 0 respawn 0-0 tot 0 groups att abfg attS abfg attG a def bg defS bg defG b purs z starts 5 moves 0
+      start (-4.429,-2.305,16.654) face 100 cl 16 seq 59 req False st None->None actor -1 cmd -1
+      start (-5.626,-1.376,16.574) face 94 cl 16 seq 59 req False st None->None actor 7 cmd -1
+      start (-5.306,-2.803,16.599) face 92 cl 16 seq 59 req False st None->None actor -1 cmd -1
+      start (-5.766,-2.595,16.56) face 90 cl 16 seq 59 req False st None->None actor 7 cmd -1
+      start (-4.856,-2.047,16.622) face 96 cl 16 seq 59 req False st None->None actor -1 cmd -1
+   SQUAD 'canyon elite' actor [1] elite minor plasma rifle platoon 0 state GuardingAtGuardPosition->None flags 0 leader 0 maneuverTo -1 delay 0 count n1/i1 major 0 respawn 0-0 tot 0 groups att abfg attS abfg attG a def bg defS bg defG b purs z starts 1 moves 0
+      start (-5.529,-0.48,16.588) face 79 cl 16 seq 59 req False st None->None actor -1 cmd -1
+   SQUAD 'backup jackal' actor [4] jackal minor plasma pistol platoon 0 state GuardingAtGuardPosition->None flags 0 leader 0 maneuverTo -1 delay 20 count n2/i3 major 0 respawn 0-0 tot 0 groups att chi attS chi attG c def chi defS chi defG c purs z starts 3 moves 0
+      start (-15.057,17.461,13.845) face -84 cl 17 seq 55 req False st None->None actor -1 cmd -1
+      start (-15.216,19.831,13.293) face -92 cl 17 seq 55 req False st None->None actor -1 cmd -1
+      start (-15.056,18.778,13.505) face -96 cl 17 seq 55 req False st None->None actor -1 cmd -1
+   fpos groups a:6 b:6 c:4 f:9 g:26 h:11 i:19 z:6
+ENC [17] 'shaftB_entrance' flags 1 team 0 search 0 bsp m0/p0 respawn 0..0 squads 2 platoons 0 fpos 93
+   SQUAD 'bait grunt' actor [0] grunt minor plasma pistol platoon -1 state GuardingAtGuardPosition->None flags 0 leader 0 maneuverTo -1 delay 0 count n3/i4 major 0 respawn 0-0 tot 0 groups att aef attS aefg attG a def aef defS aefg defG a purs z starts 4 moves 0
+      start (-6.94,27.357,13.001) face -180 cl 30 seq 64 req False st None->None actor -1 cmd -1
+      start (-6.32,26.838,13.001) face 175 cl 30 seq 64 req False st None->None actor 7 cmd -1
+      start (-6.119,27.676,13.001) face 179 cl 30 seq 64 req False st None->None actor -1 cmd -1
+      start (-5.813,27.08,13.001) face 176 cl 30 seq 64 req False st None->None actor 7 cmd -1
+   SQUAD 'door grunt' actor [0] grunt minor plasma pistol platoon -1 state GuardingAtGuardPosition->None flags 0 leader 0 maneuverTo -1 delay 3 count n2/i3 major 0 respawn 0-0 tot 0 groups att h attS bfh attG b def h defS bfh defG b purs z starts 3 moves 0
+      start (-5.958,25.173,12.547) face 31 cl 31 seq 58 req False st None->None actor -1 cmd -1
+      start (-6.562,24.95,12.407) face 133 cl 31 seq 58 req False st None->None actor 7 cmd -1
+      start (-6.212,25.697,12.874) face 31 cl 31 seq 58 req False st None->None actor -1 cmd -1
+   fpos groups a:5 b:5 e:21 f:25 g:11 h:19 z:7
+ENC [18] 'shaftB_wide' flags 1 team 0 search 0 bsp m0/p0 respawn 0..0 squads 4 platoons 1 fpos 55
+   PLATOON 'hunters' flags 0 change 6->0 maneuver 0->-1
+   SQUAD 'right hunter' actor [3] hunter platoon -1 state MovingLoopBackAndForth->None flags 0 leader 0 maneuverTo 2 delay 0 count n1/i1 major 0 respawn 0-0 tot 0 groups att ae attS aef attG a def ae defS ae defG a purs z starts 1 moves 2
+      start (13.75,19.563,10.001) face -89 cl 34 seq 68 req False st None->None actor -1 cmd -1
+      move (13.749,19.022,10.001) face -89 w 1 t 5..6 anim -1 seq 0
+      move (8.754,17.656,10.001) face 173 w 1 t 100..100 anim -1 seq 0
+   SQUAD 'left hunter' actor [3] hunter platoon -1 state MovingLoopBackAndForth->None flags 0 leader 0 maneuverTo 3 delay 0 count n1/i1 major 0 respawn 0-0 tot 0 groups att bi attS bij attG b def bi defS bi defG b purs z starts 1 moves 2
+      start (13.804,20.64,10.001) face 86 cl 34 seq 68 req False st None->None actor -1 cmd -1
+      move (13.867,21.273,10.001) face 88 w 1 t 5..6 anim -1 seq 0
+      move (8.295,22.633,10.001) face -176 w 1 t 100..100 anim -1 seq 0
+   SQUAD 'right_inv_hunter' actor [-1] - platoon -1 state None->None flags 0 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att oq attS eoq attG o def oq defS eoq defG q purs z starts 0 moves 0
+   SQUAD 'left_inv_hunter' actor [-1] - platoon -1 state None->None flags 0 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att np attS inp attG n def np defS inp defG n purs z starts 0 moves 0
+   fpos groups a:1 b:1 e:9 f:5 i:10 j:3 n:1 o:1 p:9 q:8 z:7
+ENC [19] 'shaftB_control' flags 1 team 0 search 0 bsp m0/p-1 respawn 0..0 squads 0 platoons 0 fpos 0
+   fpos groups 
+ENC [20] 'shaftB_wide_inv' flags 1 team 0 search 0 bsp m0/p0 respawn 0..0 squads 1 platoons 1 fpos 142
+   PLATOON 'regular' flags 0 change 5->0 maneuver 0->-1
+   SQUAD 'ref_stealth_elite' actor [5] stealth elite plasma rifle platoon 0 state GuardingAtGuardPosition->None flags 0 leader 0 maneuverTo -1 delay 0 count n2/i5 major 4 respawn 0-0 tot 0 groups att abcdefghijklmnopqrstuvwxyz attS abcdefghijklmnopqrstuvwxyz attG abcdefghijklmnopqrstuvwxyz def abcdefghijklmnopqrstuvwxyz defS abcdefghijklmnopqrstuvwxyz defG abcdefghijklmnopqrstuvwxyz purs - starts 4 moves 0
+      start (4.863,25.248,10.001) face -91 cl 24 seq 67 req False st None->None actor -1 cmd -1
+      start (0.709,23.389,10.001) face -19 cl 24 seq 67 req False st None->None actor -1 cmd -1
+      start (0.727,15.637,10.001) face 92 cl 24 seq 67 req False st None->None actor -1 cmd -1
+      start (5.267,18.857,10.001) face 60 cl 24 seq 67 req False st None->None actor -1 cmd -1
+   fpos groups a:3 b:4 e:17 f:17 g:27 h:23 i:25 j:8 z:18
+ENC [21] 'beach_lz' flags 1 team 0 search 0 bsp m0/p0 respawn 0..0 squads 10 platoons 3 fpos 198
+   PLATOON 'base_toon' flags 1 change 6->2 maneuver 0->-1
+   PLATOON 'camp_toon' flags 0 change 0->-1 maneuver 0->-1
+   PLATOON 'arch_toon' flags 0 change 0->-1 maneuver 0->-1
+   SQUAD 'last_elite' actor [1] elite minor plasma rifle platoon 0 state Alert->None flags 0 leader 0 maneuverTo -1 delay 0 count n1/i1 major 0 respawn 0-0 tot 0 groups att fg attS fg attG g def g defS g defG g purs z starts 2 moves 2
+      start (-54.315,4.74,3.703) face 152 cl 1 seq 9 req False st None->None actor -1 cmd -1
+      start (-54.613,7.283,4.076) face -118 cl 2 seq 12 req False st MovingRandomly->None actor 6 cmd -1
+      move (-55.476,5.327,3.864) face -26 w 0.001 t 10..10 anim -1 seq 0
+      move (-57.808,4.781,3.653) face -157 w 0.001 t 10..10 anim -1 seq 0
+   SQUAD 'last_grunt' actor [0] grunt minor plasma pistol platoon 0 state Alert->None flags 0 leader 0 maneuverTo -1 delay 0 count n5/i3 major 0 respawn 0-0 tot 0 groups att fg attS fg attG g def g defS g defG g purs z starts 5 moves 4
+      start (-53.725,3.252,3.397) face 103 cl 1 seq 9 req False st Sleeping->None actor -1 cmd -1
+      start (-53.249,4.149,3.542) face -131 cl 1 seq 9 req False st Sleeping->None actor 7 cmd -1
+      start (-50.578,11.776,3.74) face 111 cl 1 seq 9 req False st Alert->None actor -1 cmd -1
+      start (-55.858,-3.781,3.403) face 87 cl 2 seq 12 req False st MovingRandomly->None actor 7 cmd -1
+      start (-57.182,-4.24,3.368) face 84 cl 2 seq 12 req False st MovingRandomly->None actor -1 cmd -1
+      move (-59.485,4.73,3.355) face 16 w 0.001 t 4..7 anim -1 seq 0
+      move (-58.84,3.682,3.438) face 49 w 0.001 t 4..7 anim -1 seq 0
+      move (-58.551,7.37,3.669) face 162 w 0.001 t 8..9 anim -1 seq 0
+      move (-60.623,1.801,2.945) face 169 w 0.001 t 8..9 anim -1 seq 0
+   SQUAD 'last_tree_jackal' actor [4] jackal minor plasma pistol platoon 0 state None->None flags 0 leader 0 maneuverTo -1 delay 0 count n2/i2 major 0 respawn 0-0 tot 0 groups att p attS p attG p def p defS p defG p purs z starts 0 moves 0
+   SQUAD 'camp_elite' actor [1] elite minor plasma rifle platoon 1 state None->None flags 0 leader 0 maneuverTo -1 delay 0 count n1/i1 major 0 respawn 0-0 tot 0 groups att q attS q attG q def q defS q defG q purs z starts 1 moves 1
+      start (-52.022,18.932,2.797) face -150 cl 1 seq 9 req False st MovingRandomly->None actor -1 cmd -1
+      move (-58.412,15.857,2.138) face -104 w 0.001 t 0..0 anim -1 seq 0
+   SQUAD 'camp_right_grunt' actor [0] grunt minor plasma pistol platoon 1 state MovingRandomly->None flags 0 leader 0 maneuverTo 1 delay 0 count n3/i2 major 0 respawn 0-0 tot 0 groups att o attS o attG o def o defS o defG o purs z starts 3 moves 3
+      start (-64.603,5.82,2.169) face 114 cl 2 seq 12 req False st None->None actor -1 cmd -1
+      start (-65.788,5.348,1.821) face 86 cl 2 seq 12 req False st None->None actor 7 cmd -1
+      start (-66.882,5.316,1.466) face 61 cl 2 seq 12 req False st None->None actor -1 cmd -1
+      move (-61.497,10.735,2.338) face 138 w 0.001 t 50..50 anim -1 seq 0
+      move (-63.368,9.379,2.03) face 85 w 0.001 t 50..50 anim -1 seq 0
+      move (-65.01,9.59,1.726) face 70 w 0.001 t 50..50 anim -1 seq 0
+   SQUAD 'camp_leff_grunt' actor [0] grunt minor plasma pistol platoon 1 state Alert->None flags 0 leader 0 maneuverTo 1 delay 0 count n2/i2 major 0 respawn 0-0 tot 0 groups att n attS n attG n def n defS n defG n purs z starts 2 moves 0
+      start (-48.169,20.887,3.281) face 134 cl 1 seq 9 req False st Sleeping->None actor -1 cmd -1
+      start (-49.922,21.243,3.092) face 129 cl 1 seq 9 req False st Alert->None actor 7 cmd -1
+   SQUAD 'camp_center_grunt' actor [0] grunt minor plasma pistol platoon 1 state Alert->None flags 0 leader 0 maneuverTo 1 delay 0 count n3/i2 major 0 respawn 0-0 tot 0 groups att m attS m attG m def m defS m defG m purs z starts 4 moves 3
+      start (-51.843,19.569,2.832) face 110 cl 1 seq 9 req False st None->None actor 7 cmd -1
+      start (-54.389,14.024,2.662) face 158 cl 2 seq 12 req False st None->None actor -1 cmd -1
+      start (-53.175,17.329,2.639) face 126 cl 1 seq 9 req False st MovingRandomly->None actor 7 cmd -1
+      start (-51.085,15.818,2.875) face 122 cl 1 seq 9 req False st MovingRandomly->None actor -1 cmd -1
+      move (-57.243,15.462,2.25) face 150 w 0.001 t 5..8 anim -1 seq 0
+      move (-54.163,18.485,2.567) face 74 w 0.001 t 5..8 anim -1 seq 0
+      move (-52.098,21.155,2.841) face 83 w 0.001 t 5..8 anim -1 seq 0
+   SQUAD 'arch_jackal' actor [4] jackal minor plasma pistol platoon 2 state None->None flags 18 leader 0 maneuverTo 10 delay 0 count n3/i2 major 0 respawn 0-0 tot 0 groups att h attS h attG h def i defS i defG i purs z starts 4 moves 0
+      start (-61.34,-17.087,2.485) face -123 cl 2 seq 12 req False st None->None actor -1 cmd -1
+      start (-60.052,-17.524,2.783) face -82 cl 2 seq 12 req False st None->None actor -1 cmd -1
+      start (-58.83,-17.203,2.996) face -47 cl 2 seq 12 req False st None->None actor -1 cmd -1
+      start (-57.826,-16.86,3.162) face -69 cl 2 seq 12 req False st None->None actor -1 cmd -1
+   SQUAD 'arch_elite' actor [1] elite minor plasma rifle platoon 2 state None->None flags 18 leader 0 maneuverTo 10 delay 0 count n2/i2 major 0 respawn 0-0 tot 0 groups att h attS h attG h def i defS i defG i purs z starts 3 moves 0
+      start (-60.393,-19.114,2.841) face 0 cl 2 seq 12 req False st None->None actor -1 cmd -1
+      start (-58.848,-19.122,3.155) face 0 cl 2 seq 12 req False st None->None actor -1 cmd -1
+      start (-59.235,-19.682,3.122) face 0 cl 2 seq 12 req False st None->None actor 6 cmd -1
+   SQUAD 'arch_retreat' actor [-1] - platoon 2 state None->None flags 0 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att j attS j attG j def j defS j defG j purs z starts 0 moves 0
+   fpos groups a:3 b:3 f:23 g:32 h:9 i:21 j:14 m:11 n:9 o:22 p:13 q:21 z:17
+ENC [22] 'beach_lz_marine' flags 1 team 0 search 2 bsp m0/p0 respawn 0..0 squads 13 platoons 2 fpos 272
+   PLATOON 'left_marine_toon' flags 6 change 0->-1 maneuver 0->-1
+   PLATOON 'right_marine_toon' flags 6 change 0->-1 maneuver 0->-1
+   SQUAD 'left_marine' actor [2] marine_armored assault rifle platoon 0 state Alert->None flags 0 leader 0 maneuverTo 2 delay 0 count n4/i3 major 0 respawn 0-0 tot 0 groups att a attS a attG a def a defS a defG a purs z starts 5 moves 0
+      start (-63.108,33.457,0.947) face -78 cl 15 seq 54 req False st None->None actor -1 cmd -1
+      start (-61.599,33.964,1.124) face -69 cl 15 seq 54 req False st None->None actor -1 cmd -1
+      start (-61.945,32.904,1.138) face -70 cl 15 seq 54 req False st None->None actor -1 cmd -1
+      start (-62.052,31.918,1.176) face -76 cl 15 seq 54 req False st None->None actor -1 cmd -1
+      start (-60.819,32.419,1.319) face -73 cl 15 seq 54 req False st None->None actor -1 cmd -1
+   SQUAD 'right_marine' actor [2] marine_armored assault rifle platoon 1 state Searching->None flags 0 leader 0 maneuverTo 3 delay 0 count n5/i3 major 0 respawn 0-0 tot 0 groups att b attS b attG b def b defS b defG b purs z starts 5 moves 0
+      start (-68.531,29.118,0.482) face -58 cl 15 seq 54 req False st None->None actor -1 cmd -1
+      start (-67.82,29.565,0.55) face -65 cl 15 seq 54 req False st None->None actor -1 cmd -1
+      start (-68,27.872,0.585) face -52 cl 15 seq 54 req False st None->None actor -1 cmd -1
+      start (-66.819,28.586,0.702) face -67 cl 15 seq 54 req False st None->None actor -1 cmd -1
+      start (-67.15,27.605,0.697) face -61 cl 15 seq 54 req False st None->None actor -1 cmd -1
+   SQUAD 'left_marine_rock' actor [-1] - platoon 0 state None->None flags 0 leader 0 maneuverTo 4 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att e attS ce attG e def e defS ce defG e purs z starts 0 moves 0
+   SQUAD 'right_marine_rock' actor [-1] - platoon 1 state None->None flags 0 leader 0 maneuverTo 5 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att d attS d attG d def d defS d defG d purs z starts 0 moves 0
+   SQUAD 'left_marine_camp' actor [-1] - platoon 0 state None->None flags 0 leader 0 maneuverTo 6 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att f attS f attG f def f defS f defG f purs z starts 0 moves 0
+   SQUAD 'right_marine_camp' actor [-1] - platoon 1 state None->None flags 0 leader 0 maneuverTo 7 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att f attS f attG f def f defS f defG f purs z starts 0 moves 0
+   SQUAD 'left_marine_base_attack' actor [-1] - platoon 0 state None->None flags 0 leader 0 maneuverTo 8 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att g attS g attG g def g defS g defG g purs z starts 0 moves 0
+   SQUAD 'right_marine_base_attack' actor [-1] - platoon 1 state None->None flags 0 leader 0 maneuverTo 8 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att h attS h attG h def h defS h defG h purs z starts 0 moves 0
+   SQUAD 'marine_base' actor [-1] - platoon -1 state None->None flags 0 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att i attS i attG t def i defS i defG i purs z starts 0 moves 0
+   SQUAD 'marine_arch_attack' actor [-1] - platoon -1 state None->None flags 0 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att j attS j attG j def j defS j defG j purs z starts 0 moves 0
+   SQUAD 'marine_arch' actor [-1] - platoon -1 state None->None flags 0 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att k attS k attG k def k defS k defG k purs z starts 0 moves 0
+   SQUAD 'marine_arch_back' actor [-1] - platoon -1 state None->None flags 0 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att l attS l attG m def l defS l defG m purs z starts 0 moves 0
+   SQUAD 'jeep_marine' actor [-1] - platoon -1 state None->None flags 0 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att o attS o attG o def o defS o defG o purs o starts 0 moves 0
+   fpos groups a:10 b:10 c:10 d:14 e:13 f:14 g:10 h:12 i:58 j:27 k:12 l:15 m:8 o:15 t:11 z:33
+ENC [23] 'shaftA_locked' flags 41 team 0 search 0 bsp m1/p1 respawn 0..0 squads 3 platoons 1 fpos 44
+   PLATOON 'platoons_block_0' flags 0 change 0->-1 maneuver 0->-1
+   SQUAD 'lock_elite' actor [1] elite minor plasma rifle platoon -1 state Alert->None flags 0 leader 0 maneuverTo -1 delay 0 count n1/i1 major 0 respawn 0-0 tot 0 groups att abcdefghijklmnopqrstuvwxyz attS abcdefghijklmnopqrstuvwxyz attG abcdefghijklmnopqrstuvwxyz def abcdefghijklmnopqrstuvwxyz defS abcdefghijklmnopqrstuvwxyz defG abcdefghijklmnopqrstuvwxyz purs - starts 1 moves 0
+      start (2.515,-21.596,2.136) face 117 cl 18 seq 43 req False st None->None actor -1 cmd -1
+   SQUAD 'lock grunt' actor [0] grunt minor plasma pistol platoon -1 state Alert->None flags 0 leader 0 maneuverTo -1 delay 0 count n3/i4 major 0 respawn 0-0 tot 0 groups att abcdefghijklmnopqrstuvwxyz attS abcdefghijklmnopqrstuvwxyz attG abcdefghijklmnopqrstuvwxyz def abcdefghijklmnopqrstuvwxyz defS abcdefghijklmnopqrstuvwxyz defG abcdefghijklmnopqrstuvwxyz purs - starts 4 moves 0
+      start (2.985,-19.849,2.136) face 85 cl 18 seq 43 req False st None->None actor -1 cmd -1
+      start (2.324,-20.524,2.136) face 85 cl 18 seq 43 req False st None->None actor 7 cmd -1
+      start (1.571,-20.287,2.136) face 85 cl 18 seq 43 req False st None->None actor -1 cmd -1
+      start (1.086,-19.577,2.136) face 85 cl 18 seq 43 req False st None->None actor 7 cmd -1
+   SQUAD 'locker_elite' actor [9] elite commander energy sword platoon -1 state None->None flags 0 leader 0 maneuverTo -1 delay 0 count n1/i1 major 3 respawn 0-0 tot 0 groups att abcdefghijklmnopqrstuvwxyz attS abcdefghijklmnopqrstuvwxyz attG abcdefghijklmnopqrstuvwxyz def abcdefghijklmnopqrstuvwxyz defS abcdefghijklmnopqrstuvwxyz defG abcdefghijklmnopqrstuvwxyz purs - starts 1 moves 0
+      start (2.184,-24.936,2.136) face 89 cl 18 seq 43 req False st None->None actor -1 cmd -1
+   fpos groups a:1 b:4 c:2 d:6 l:31
+ENC [24] 'valley_lid_inv' flags 1 team 0 search 0 bsp m0/p0 respawn 0..0 squads 2 platoons 0 fpos 169
+   SQUAD 'advance stealth elite' actor [4] jackal minor plasma pistol platoon -1 state Searching->None flags 0 leader 0 maneuverTo -1 delay 0 count n2/i2 major 0 respawn 0-0 tot 0 groups att efh attS efh attG a def efh defS efh defG a purs z starts 4 moves 0
+      start (22.136,9.714,19.615) face 81 cl 23 seq 66 req False st None->None actor -1 cmd -1
+      start (16.678,31.425,19.304) face -58 cl 23 seq 66 req False st None->None actor -1 cmd -1
+      start (15.341,10.95,20.018) face 39 cl 23 seq 66 req False st None->None actor -1 cmd -1
+      start (15.871,17.876,19.492) face 20 cl 23 seq 66 req False st None->None actor -1 cmd -1
+   SQUAD 'rear stealth elite' actor [4] jackal minor plasma pistol platoon -1 state Searching->None flags 0 leader 0 maneuverTo -1 delay 0 count n3/i3 major 0 respawn 0-0 tot 0 groups att gh attS gh attG a def gh defS gh defG a purs z starts 4 moves 0
+      start (37.179,22.99,19.012) face 177 cl 23 seq 66 req False st None->None actor -1 cmd -1
+      start (34.992,11.745,19.611) face 132 cl 23 seq 66 req False st None->None actor -1 cmd -1
+      start (40.068,15.38,20.154) face 166 cl 23 seq 66 req False st None->None actor -1 cmd -1
+      start (30.383,11.907,18.711) face 113 cl 23 seq 66 req False st None->None actor -1 cmd -1
+   fpos groups a:6 e:48 f:19 g:36 h:45 z:15
+ENC [25] 'beach_slab' flags 1 team 0 search 0 bsp m0/p0 respawn 0..0 squads 2 platoons 0 fpos 163
+   SQUAD 'slab_jackals' actor [4] jackal minor plasma pistol platoon -1 state None->None flags 0 leader 0 maneuverTo -1 delay 0 count n1/i3 major 0 respawn 0-0 tot 0 groups att abe attS abe attG abe def abe defS abe defG abe purs z starts 5 moves 0
+      start (-27.692,-55.262,4.407) face -137 cl 8 seq 10 req True st None->None actor -1 cmd -1
+      start (-25.572,-54.781,4.42) face -41 cl 8 seq 10 req False st None->None actor -1 cmd -1
+      start (-26.786,-53.771,4.334) face -167 cl 8 seq 10 req False st None->None actor -1 cmd -1
+      start (-29.374,-49.343,3.417) face -88 cl 8 seq 10 req False st None->None actor -1 cmd -1
+      start (-26.004,-48.69,4.212) face -59 cl 8 seq 10 req False st None->None actor -1 cmd -1
+   SQUAD 'ground_jackal' actor [4] jackal minor plasma pistol platoon -1 state None->None flags 0 leader 0 maneuverTo -1 delay 0 count n1/i4 major 0 respawn 0-0 tot 0 groups att cd attS cdf attG d def de defS def defG d purs z starts 6 moves 5
+      start (-27.775,-60.203,1.8) face -180 cl 7 seq 11 req False st None->None actor -1 cmd -1
+      start (-25.701,-64.596,1.267) face -98 cl 7 seq 11 req False st None->None actor -1 cmd -1
+      start (-25.041,-60.691,1.616) face -153 cl 7 seq 11 req False st MovingRandomly->None actor -1 cmd -1
+      start (-26.768,-63.174,1.358) face 37 cl 7 seq 11 req False st MovingRandomly->None actor -1 cmd -1
+      start (-32.364,-50.228,2.193) face -50 cl 8 seq 10 req False st None->None actor -1 cmd -1
+      start (-21.16,-47.728,1.977) face -64 cl 8 seq 10 req False st None->None actor -1 cmd -1
+      move (-24.584,-59.471,1.832) face -175 w 0.001 t 0..0 anim -1 seq 0
+      move (-29.546,-59.768,1.917) face -106 w 0.001 t 0..0 anim -1 seq 0
+      move (-29.071,-62.327,1.329) face 21 w 0.001 t 0..0 anim -1 seq 0
+      move (-27.025,-64.059,1.26) face -6 w 0.001 t 0..0 anim -1 seq 0
+      move (-23.462,-61.617,1.63) face -110 w 0.001 t 0..0 anim -1 seq 0
+   fpos groups a:10 b:13 c:17 d:9 e:43 f:51 z:20
+ENC [26] 'beach_ghost' flags 1 team 0 search 0 bsp m0/p0 respawn 0..0 squads 10 platoons 1 fpos 281
+   PLATOON 'follow' flags 0 change 0->-1 maneuver 0->-1
+   SQUAD 'a_squad' actor [-1] - platoon 0 state GuardingAtGuardPosition->GuardingAtGuardPosition flags 20 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att a attS a attG a def a defS a defG a purs a starts 0 moves 0
+   SQUAD 'b_squad' actor [-1] - platoon 0 state GuardingAtGuardPosition->GuardingAtGuardPosition flags 20 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att b attS b attG b def b defS b defG b purs b starts 0 moves 0
+   SQUAD 'c_squad' actor [-1] - platoon 0 state GuardingAtGuardPosition->GuardingAtGuardPosition flags 20 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att c attS c attG c def c defS c defG c purs c starts 0 moves 0
+   SQUAD 'd_squad' actor [-1] - platoon 0 state GuardingAtGuardPosition->GuardingAtGuardPosition flags 20 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att d attS d attG d def d defS d defG d purs d starts 0 moves 0
+   SQUAD 'e_squad' actor [-1] - platoon 0 state GuardingAtGuardPosition->GuardingAtGuardPosition flags 20 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att e attS e attG e def e defS e defG e purs e starts 0 moves 0
+   SQUAD 'f_squad' actor [-1] - platoon 0 state GuardingAtGuardPosition->GuardingAtGuardPosition flags 20 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att f attS f attG f def f defS f defG f purs f starts 0 moves 0
+   SQUAD 'pilot_1' actor [1] elite minor plasma rifle platoon 0 state GuardingAtGuardPosition->GuardingAtGuardPosition flags 20 leader 0 maneuverTo -1 delay 0 count n1/i1 major 0 respawn 0-0 tot 0 groups att a attS a attG a def a defS a defG a purs a starts 1 moves 0
+      start (8.758,-63.502,4.701) face 0 cl 11 seq 0 req False st None->None actor -1 cmd -1
+   SQUAD 'pilot_2' actor [1] elite minor plasma rifle platoon 0 state GuardingAtGuardPosition->GuardingAtGuardPosition flags 20 leader 0 maneuverTo -1 delay 0 count n1/i1 major 0 respawn 0-0 tot 0 groups att a attS a attG a def a defS a defG a purs a starts 1 moves 0
+      start (9.783,-60.528,4.633) face 0 cl 11 seq 0 req False st None->None actor -1 cmd -1
+   SQUAD 'pilot_3' actor [1] elite minor plasma rifle platoon 0 state GuardingAtGuardPosition->GuardingAtGuardPosition flags 20 leader 0 maneuverTo -1 delay 0 count n1/i1 major 0 respawn 0-0 tot 0 groups att e attS e attG e def e defS e defG e purs e starts 1 moves 0
+      start (-59.339,39.31,1.013) face 0 cl 15 seq 0 req False st None->None actor -1 cmd -1
+   SQUAD 'pilot_4' actor [1] elite minor plasma rifle platoon 0 state GuardingAtGuardPosition->GuardingAtGuardPosition flags 20 leader 0 maneuverTo -1 delay 0 count n1/i1 major 0 respawn 0-0 tot 0 groups att e attS e attG e def e defS e defG e purs e starts 1 moves 0
+      start (-61.596,40.583,0.64) face 0 cl 15 seq 0 req False st None->None actor -1 cmd -1
+   fpos groups a:61 b:21 c:41 d:44 e:48 f:66
+ENC [27] 'downed_marine' flags 1 team 0 search 0 bsp m0/p0 respawn 0..0 squads 1 platoons 1 fpos 63
+   PLATOON 'downed' flags 0 change 6->0 maneuver 0->-1
+   SQUAD 'marine' actor [2] marine_armored assault rifle platoon -1 state GuardingAtGuardPosition->GuardingAtGuardPosition flags 0 leader 0 maneuverTo -1 delay 0 count n4/i4 major 0 respawn 0-0 tot 0 groups att abc attS abc attG a def a defS a defG a purs z starts 4 moves 0
+      start (-21.113,43.609,2.576) face -43 cl 26 seq 0 req False st None->None actor -1 cmd -1
+      start (-22.329,43.686,2.532) face 30 cl 26 seq 0 req False st None->None actor -1 cmd -1
+      start (-23.734,43.701,2.498) face -86 cl 26 seq 0 req False st None->None actor -1 cmd -1
+      start (-22.694,42.621,2.471) face -99 cl 26 seq 0 req False st None->None actor -1 cmd -1
+   fpos groups a:17 b:20 c:17 z:9
+ENC [28] 'downed' flags 1 team 0 search 0 bsp m0/p0 respawn 0..0 squads 3 platoons 0 fpos 67
+   SQUAD 'top_grunt' actor [0] grunt minor plasma pistol platoon -1 state None->None flags 0 leader 0 maneuverTo -1 delay 0 count n3/i5 major 0 respawn 0-0 tot 0 groups att b attS b attG b def b defS b defG b purs b starts 5 moves 0
+      start (-27.998,50.998,6.614) face -19 cl 28 seq 0 req False st None->None actor -1 cmd -1
+      start (-29.027,50.217,6.61) face -63 cl 28 seq 0 req False st None->None actor -1 cmd -1
+      start (-20.68,51.15,6.89) face -139 cl 28 seq 0 req False st None->None actor -1 cmd -1
+      start (-32.167,46.527,6.75) face 27 cl 28 seq 0 req False st None->None actor -1 cmd -1
+      start (-15.453,51.378,6.883) face -121 cl 28 seq 0 req False st None->None actor -1 cmd -1
+   SQUAD 'left_jackal' actor [4] jackal minor plasma pistol platoon -1 state None->None flags 0 leader 0 maneuverTo -1 delay 0 count n2/i4 major 0 respawn 0-0 tot 0 groups att a attS a attG a def a defS a defG a purs a starts 4 moves 0
+      start (-5.955,52.276,0.688) face -130 cl 26 seq 0 req False st None->None actor -1 cmd -1
+      start (-7.165,55.818,0.42) face -132 cl 28 seq 0 req False st None->None actor -1 cmd -1
+      start (-10.58,56.99,0.511) face -102 cl 28 seq 0 req False st None->None actor -1 cmd -1
+      start (-7.735,50.213,0.957) face -138 cl 26 seq 0 req False st None->None actor -1 cmd -1
+   SQUAD 'right_jackal' actor [4] jackal minor plasma pistol platoon -1 state None->None flags 0 leader 0 maneuverTo -1 delay 0 count n2/i4 major 0 respawn 0-0 tot 0 groups att c attS c attG c def c defS c defG c purs c starts 4 moves 0
+      start (-38.077,46.951,1.493) face -32 cl 28 seq 0 req False st None->None actor -1 cmd -1
+      start (-39.051,44.959,1.639) face -22 cl 28 seq 0 req False st None->None actor -1 cmd -1
+      start (-38.247,42.974,1.812) face -44 cl 26 seq 0 req False st None->None actor -1 cmd -1
+      start (-39.358,41.15,1.862) face -15 cl 26 seq 0 req False st None->None actor -1 cmd -1
+   fpos groups a:26 b:26 c:15
+ENC [29] 'shaftA_entrance_again' flags 1 team 0 search 0 bsp m0/p0 respawn 0..0 squads 3 platoons 2 fpos 286
+   PLATOON 'platform' flags 0 change 6->1 maneuver 0->-1
+   PLATOON 'ledge' flags 0 change 2->3 maneuver 6->1
+   SQUAD 'platform hunter right' actor [3] hunter platoon 0 state MovingLoop->None flags 0 leader 0 maneuverTo -1 delay 0 count n1/i1 major 0 respawn 0-0 tot 0 groups att fgi attS dfgikl attG i def fg defS cdfgt defG t purs z starts 1 moves 2
+      start (25.363,-14.483,9.045) face -49 cl 39 seq 50 req False st None->None actor -1 cmd -1
+      move (25.412,-14.552,9.045) face -46 w 1 t 1..4 anim -1 seq 0
+      move (29.658,-17.872,9.045) face -14 w 10 t 10..14 anim -1 seq 0
+   SQUAD 'ledge jackal' actor [4] jackal minor plasma pistol platoon 1 state MovingRandomly->None flags 0 leader 0 maneuverTo -1 delay 0 count n3/i3 major 0 respawn 0-0 tot 0 groups att mno attS mno attG mno def o defS no defG o purs x starts 3 moves 8
+      start (32.001,-48.669,8.863) face -72 cl 35 seq 30 req False st Alert->None actor -1 cmd -1
+      start (32.37,-47.008,8.838) face 28 cl 35 seq 30 req False st None->None actor -1 cmd -1
+      start (31.645,-47.658,8.928) face -6 cl 35 seq 30 req False st None->None actor -1 cmd -1
+      move (32.503,-48.361,8.804) face -42 w 6 t 4..12 anim -1 seq 0
+      move (33.08,-46.663,8.755) face 23 w 6 t 4..12 anim -1 seq 0
+      move (29.951,-47.064,9.226) face 112 w 1 t 4..12 anim -1 seq 0
+      move (28.67,-51.132,9.405) face 15 w 1 t 4..12 anim -1 seq 0
+      move (33.697,-47.884,8.672) face -74 w 6 t 4..12 anim -1 seq 0
+      move (34.348,-46.329,8.588) face -26 w 1 t 4..12 anim -1 seq 0
+      move (37.782,-41.351,8.537) face 12 w 1 t 4..12 anim -1 seq 0
+      move (34.277,-52.363,8.68) face -104 w 1 t 4..12 anim -1 seq 0
+   SQUAD 'platform hunter left' actor [3] hunter platoon 0 state MovingLoop->None flags 0 leader 0 maneuverTo -1 delay 0 count n1/i1 major 0 respawn 0-0 tot 0 groups att egh attS deghj attG h def eg defS degu defG u purs z starts 1 moves 2
+      start (27.337,-27.207,9.045) face 30 cl 39 seq 0 req False st None->None actor -1 cmd -1
+      move (26.64,-27.519,9.045) face -28 w 0.001 t 0..0 anim -1 seq 0
+      move (30.022,-24.907,9.045) face 14 w 0.001 t 0..0 anim -1 seq 0
+   fpos groups c:20 d:12 e:21 f:22 g:29 h:13 i:11 j:14 k:13 l:7 m:28 n:15 o:34 q:1 r:5 t:11 u:12 x:3 y:6 z:9
+ENC [30] 'beach_banshee' flags 21 team 0 search 0 bsp m0/p0 respawn 0..0 squads 8 platoons 1 fpos 368
+   PLATOON 'follow' flags 0 change 0->-1 maneuver 0->-1
+   SQUAD 'squad_a' actor [-1] - platoon 0 state GuardingAtGuardPosition->GuardingAtGuardPosition flags 20 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att a attS a attG a def a defS a defG a purs a starts 0 moves 0
+   SQUAD 'squad_b' actor [-1] - platoon 0 state GuardingAtGuardPosition->GuardingAtGuardPosition flags 20 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att b attS b attG b def b defS b defG b purs b starts 0 moves 0
+   SQUAD 'squad_c' actor [-1] - platoon 0 state GuardingAtGuardPosition->GuardingAtGuardPosition flags 20 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att c attS c attG c def c defS c defG c purs c starts 0 moves 0
+   SQUAD 'squad_d' actor [-1] - platoon 0 state GuardingAtGuardPosition->GuardingAtGuardPosition flags 20 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att d attS d attG d def d defS d defG d purs d starts 0 moves 0
+   SQUAD 'squad_e' actor [-1] - platoon 0 state GuardingAtGuardPosition->GuardingAtGuardPosition flags 20 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att e attS e attG e def e defS e defG e purs e starts 0 moves 0
+   SQUAD 'squad_f' actor [-1] - platoon 0 state GuardingAtGuardPosition->GuardingAtGuardPosition flags 20 leader 0 maneuverTo -1 delay 0 count n0/i0 major 0 respawn 0-0 tot 0 groups att f attS f attG f def f defS f defG f purs f starts 0 moves 0
+   SQUAD 'pilot_1' actor [1] elite minor plasma rifle platoon 0 state GuardingAtGuardPosition->GuardingAtGuardPosition flags 20 leader 0 maneuverTo -1 delay 0 count n1/i1 major 0 respawn 0-0 tot 0 groups att d attS d attG d def d defS d defG d purs d starts 1 moves 0
+      start (23.008,-6.148,23.991) face 0 cl 19 seq 0 req False st None->None actor -1 cmd -1
+   SQUAD 'pilot_2' actor [1] elite minor plasma rifle platoon 0 state GuardingAtGuardPosition->GuardingAtGuardPosition flags 20 leader 0 maneuverTo -1 delay 0 count n1/i1 major 0 respawn 0-0 tot 0 groups att d attS d attG d def d defS d defG d purs d starts 1 moves 0
+      start (19.657,-36.354,22.185) face 0 cl 19 seq 0 req False st None->None actor -1 cmd -1
+   fpos groups a:51 b:44 c:69 d:63 e:66 f:75
+ENC [31] 'unlock_elite' flags 41 team 0 search 0 bsp m0/p0 respawn 0..0 squads 1 platoons 0 fpos 0
+   SQUAD 'elite' actor [9] elite commander energy sword platoon -1 state None->None flags 0 leader 0 maneuverTo -1 delay 0 count n1/i1 major 0 respawn 0-0 tot 0 groups att abcdefghijklmnopqrstuvwxyz attS abcdefghijklmnopqrstuvwxyz attG abcdefghijklmnopqrstuvwxyz def abcdefghijklmnopqrstuvwxyz defS abcdefghijklmnopqrstuvwxyz defG abcdefghijklmnopqrstuvwxyz purs - starts 1 moves 0
+      start (2.193,-23.97,2.136) face 89 cl 18 seq 0 req False st None->None actor -1 cmd -1
+   fpos groups 
+total starting locations 280

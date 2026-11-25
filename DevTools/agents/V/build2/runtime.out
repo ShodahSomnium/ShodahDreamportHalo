@@ -1,0 +1,4 @@
+Assets\#User\SomniumHalo\Game\Net\HaloNetGame.World.cs(57,54): error CS1061: 'HaloNetTimeline' does not contain a definition for 'NewestArrival' and no accessible extension method 'NewestArrival' accepting a first argument of type 'HaloNetTimeline' could be found (are you missing a using directive or an assembly reference?)
+Assets\#User\SomniumHalo\Game\Hud\HaloHudView.Weapon.cs(107,49): error CS0165: Use of unassigned local variable 'weap'
+Assets\#User\SomniumHalo\Game\Hud\HaloHudView.Weapon.cs(114,17): error CS0165: Use of unassigned local variable 'held'
+Assets\#User\SomniumHalo\Game\Hud\HaloHudView.Weapon.cs(292,33): warning CS0414: The field 'HaloHudView._aimHit' is assigned but its value is never used

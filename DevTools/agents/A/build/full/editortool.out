@@ -1,0 +1,2 @@
+Assets\#User\SomniumHalo\Editor\HaloLabNet.cs(239,21): warning CS0219: The variable 'lastHitOnA' is assigned but its value is never used
+Assets\#User\SomniumHalo\Editor\HaloLabVehicles.cs(134,25): error CS0136: A local or parameter named 'top' cannot be declared in this scope because that name is used in an enclosing local scope to define a local or parameter

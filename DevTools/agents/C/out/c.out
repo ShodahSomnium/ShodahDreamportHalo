@@ -1,0 +1,31 @@
+Assets\#User\SomniumHalo\Game\Campaign\HaloCampaign.Load.cs(153,17): error CS0103: The name 'HaloAi' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Campaign\HaloCampaign.Load.cs(158,17): error CS0103: The name 'HaloAi' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Cinematic\HaloCinematic.cs(87,13): error CS0103: The name 'HaloCinemaView' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Cinematic\HaloCinematic.cs(104,13): error CS0103: The name 'HaloCinemaView' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Cinematic\HaloCinematic.cs(110,22): error CS0103: The name '_camValid' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Cinematic\HaloCinematic.cs(110,33): error CS0103: The name 'StartAtPlayer' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Cinematic\HaloCinematic.cs(115,17): error CS0103: The name '_mode' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Cinematic\HaloCinematic.cs(115,25): error CS0103: The name 'CamMode' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Cinematic\HaloCinematic.cs(121,49): error CS0103: The name 'HaloCinemaView' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Cinematic\HaloCinematic.cs(137,13): error CS0103: The name 'HaloCinemaView' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Cinematic\HaloCinematic.cs(166,13): error CS0103: The name 'HaloCinemaView' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Cinematic\HaloCinematic.cs(175,13): error CS0103: The name 'HaloCinemaView' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Cinematic\HaloCinematic.cs(294,26): error CS0019: Operator '!=' cannot be applied to operands of type 'HaloHand' and '<null>'
+Assets\#User\SomniumHalo\Game\Cinematic\HaloCinematic.cs(294,76): error CS0019: Operator '!=' cannot be applied to operands of type 'HaloHand' and '<null>'
+Assets\#User\SomniumHalo\Game\Cinematic\HaloCinematic.cs(332,13): error CS0103: The name 'CameraStep' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Cinematic\HaloCinematic.cs(333,13): error CS0103: The name 'RecordingsStep' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Cinematic\HaloCinematic.cs(349,13): error CS0103: The name '_camValid' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Cinematic\HaloCinematic.cs(349,32): error CS0103: The name '_mode' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Cinematic\HaloCinematic.cs(349,40): error CS0103: The name 'CamMode' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Cinematic\HaloCinematic.cs(349,56): error CS0103: The name '_moveTicks' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Cinematic\HaloCinematic.cs(349,72): error CS0103: The name '_relative' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Cinematic\HaloCinematic.cs(349,90): error CS0103: The name '_follow' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Cinematic\HaloCinematic.cs(355,13): error CS0103: The name 'ScreenEffectStop' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Cinematic\HaloCinematic.cs(356,13): error CS0103: The name 'KillAllRecordings' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Campaign\HaloCampaign.Load.cs(356,46): error CS0103: The name 'HaloAi' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Campaign\HaloCampaign.Load.cs(387,13): error CS0103: The name 'HaloAi' does not exist in the current context
+Assets\#User\SomniumHalo\Game\World\HaloWorld.cs(273,60): warning CS0618: 'Physics.BakeMesh(int, bool)' is obsolete: 'BakeMesh(int, bool) is obsolete. Use BakeMesh(EntityId, bool) instead.'
+Assets\#User\SomniumHalo\Game\Script\HaloScript.cs(43,17): error CS0103: The name 'HaloScriptFns' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Script\HaloScript.cs(48,17): error CS0103: The name 'HaloScriptFns' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Script\HaloScript.cs(67,23): error CS0103: The name 'HaloScriptFns' does not exist in the current context
+Assets\#User\SomniumHalo\Game\Script\HaloScript.cs(80,17): error CS0103: The name 'HaloScriptFns' does not exist in the current context

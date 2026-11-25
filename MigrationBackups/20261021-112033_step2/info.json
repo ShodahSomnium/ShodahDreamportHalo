@@ -1,0 +1,15 @@
+{
+    "Id": "20261021-112033_step2",
+    "Label": "Old Community Modules scripts",
+    "CreatedLocal": "2026-10-21 11:20:33",
+    "Step": 2,
+    "Scopes": [
+        "Assets/#User/Community Modules",
+        "Assets/#User/SomniumHalo/Game/Access/HaloIsolation.cs",
+        "Assets/#User/SomniumHalo/Game/Net/HaloFusionTransport.cs",
+        "Assets/#User/SomniumHalo/Game/Net/SceneNetworking.cs",
+        "Assets/#User/SomniumHalo/Game/Vehicles/HaloVehicleRiders.cs"
+    ],
+    "MissingScopes": [],
+    "Restored": false
+}

@@ -1,0 +1,1410 @@
+DeLa:811 bitm:222 ustr:168 part:32 snd!:29 effe:29 devc:23 pphy:13 soso:10 ligh:7 schi:6 mod2:5 lens:5 jpt!:5 deca:5 font:4 colo:4 tagc:4 grhi:2 eqip:2 pctl:2 proj:2 lsnd:2 metr:2 scnr:1 sky :1 scex:1 scen:1 matg:1 trak:1 hudg:1 hmt :1 wphi:1 str#:1 hud#:1 vcky:1 mply:1 Soul:1 sbsp:1 
+      0 scnr levels\ui\ui
+      1 sky  sky\sky_ui\sky_ui
+      2 mod2 sky\sky_ui\sky_ui
+      3 scex sky\sky_x10\shaders\space
+      4 bitm sky\space\bitmaps\star mask
+      5 bitm sky\space\bitmaps\stars
+      6 bitm sky\sky_x10\bitmaps\space
+      7 schi sky\sky_x10\shaders\threshold
+      8 bitm sky\planets\threshold space
+      9 schi sky\sky_x10\shaders\basis
+     10 bitm sky\planets\basis space
+     11 schi sky\sky_x10\shaders\galaxy
+     12 bitm sky\sky_x10\bitmaps\galaxy
+     13 lens sky\space\sun in space
+     14 bitm effects\particles\lens flare\bitmaps\flares_generic
+     15 scen scenery\halo\halo
+     16 mod2 scenery\halo\halo
+     17 soso scenery\halo\shaders\halo inner ring
+     18 bitm scenery\halo\bitmaps\halo inner ring
+     19 bitm scenery\halo\bitmaps\halo inner ring multi
+     20 bitm scenery\halo\bitmaps\cubemap halo
+     21 soso scenery\halo\shaders\halo outer ring
+     22 bitm scenery\halo\bitmaps\halo outer ring
+     23 bitm scenery\halo\bitmaps\halo outer ring multi
+     24 bitm characters\cyborg\bitmaps\detail corroded metal light
+     25 schi scenery\halo\shaders\halo inner ring shadow
+     26 bitm scenery\halo\bitmaps\halo ring inner shadow
+     27 matg globals\globals
+     28 snd! sound\sfx\impulse\coolant\enter_water
+     29 snd! sound\sfx\impulse\coolant\exit_water
+     30 trak globals\default unit camera track
+     31 effe weapons\frag grenade\effects\throw
+     32 snd! sound\sfx\weapons\frag grenade\throwgren
+     33 grhi ui\hud\default
+     34 bitm ui\hud\bitmaps\combined\hud_weapon_backgrounds
+     35 bitm ui\hud\bitmaps\combined\hud_ammo_outlines
+     36 bitm ui\hud\bitmaps\combined\hud_ammo_type_icons
+     37 eqip weapons\frag grenade\frag grenade
+     38 mod2 weapons\frag grenade\frag grenade
+     39 soso weapons\frag grenade\shaders\frag metal
+     40 bitm weapons\frag grenade\bitmaps\frag grenade
+     41 bitm weapons\frag grenade\bitmaps\frag grenade multipurpose
+     42 bitm weapons\assault rifle\fp\bitmaps\diffuse gunmetal
+     43 soso weapons\frag grenade\shaders\frag plastic
+     44 soso weapons\frag grenade\shaders\frag decal
+     45 bitm weapons\frag grenade\bitmaps\frag grenade decal
+     46 schi weapons\frag grenade\shaders\frag light
+     47 effe weapons\frag grenade\effects\explosion
+     48 jpt! weapons\frag grenade\explosion
+     49 snd! sound\sfx\weapons\frag grenade\expl
+     50 jpt! weapons\frag grenade\shock wave
+     51 pctl weapons\frag grenade\effects\explosion med
+     52 pphy weapons\frag grenade\effects\fire explosion
+     53 bitm effects\particles\flash\bitmaps\fire cloud
+     54 bitm effects\particles\air\bitmaps\smoke cloud
+     55 pphy weapons\frag grenade\effects\smoke explosion
+     56 deca effects\decals\bullet holes\grenade char
+     57 bitm effects\decals\bullet holes\bitmaps\dirt pistol
+     58 ligh weapons\frag grenade\explosion
+     59 ligh weapons\frag grenade\effects\grenade quickflash
+     60 lens weapons\frag grenade\effects\grenade quickflash
+     61 bitm effects\particles\lens flare\bitmaps\flares_generic2
+     62 part weapons\frag grenade\effects\drifting smoke
+     63 bitm effects\particles\air\bitmaps\smoke tank cannon
+     64 snd! sound\sfx\weapons\weapon_pickup_ammo\grenade_ammo
+     65 proj weapons\frag grenade\frag grenade
+     66 effe weapons\frag grenade\effects\smoke
+     67 part effects\particles\air\smoke impact
+     68 bitm effects\particles\air\bitmaps\smoke warthog gun
+     69 pphy effects\point physics\cold smoke cloud
+     70 bitm effects\zmaps\zmap_noisy_small
+     71 ligh weapons\frag grenade\frag grenade
+     72 effe weapons\frag grenade\effects\dirt reflection
+     73 snd! sound\sfx\weapons\frag grenade\bouncedirt
+     74 part effects\particles\air\smoke h generic still
+     75 effe weapons\rocket launcher\effects\impact dirt
+     76 snd! sound\sfx\impulse\impacts\dirt_burst
+     77 part effects\particles\solid\dirt burst
+     78 bitm effects\particles\solid\bitmaps\dirt burst
+     79 pphy effects\point physics\dirt burst
+     80 bitm effects\zmaps\zmap_noisy_large
+     81 part effects\particles\solid\water burst
+     82 bitm effects\particles\solid\bitmaps\water burst
+     83 part effects\particles\solid\water burst small
+     84 bitm effects\particles\solid\bitmaps\blood burst
+     85 effe effects\blood collision elite large
+     86 deca effects\decals\blood splats\blood elite splat
+     87 bitm effects\decals\blood splats\bitmaps\blood splat elite
+     88 bitm effects\zmaps\zmap_noisy_medium
+     89 part effects\particles\solid\gravel small
+     90 bitm effects\particles\solid\bitmaps\gravel
+     91 pphy effects\point physics\stones
+     92 snd! sound\sfx\impulse\impacts\smallrock
+     93 snd! sound\sfx\impulse\impacts\medrocks
+     94 snd! sound\sfx\impulse\impacts\lrgrocks
+     95 effe weapons\rocket launcher\effects\impact stone
+     96 part effects\particles\lens flare\grenade explosion flare
+     97 pphy effects\point physics\cold smoke puff
+     98 part effects\particles\solid\stone bunch
+     99 bitm effects\particles\solid\bitmaps\stone bunch
+    100 pphy effects\point physics\stone bunch
+    101 effe effects\stone bunch death
+    102 effe weapons\frag grenade\effects\snow reflection
+    103 part effects\particles\solid\snow impact
+    104 bitm effects\particles\solid\bitmaps\snow impact
+    105 pphy effects\point physics\wood
+    106 part effects\particles\solid\snow burst
+    107 bitm effects\particles\solid\bitmaps\snow burst
+    108 effe weapons\rocket launcher\effects\impact wood
+    109 snd! sound\sfx\impulse\impacts\woodhit
+    110 part effects\particles\solid\wood impact
+    111 bitm effects\particles\solid\bitmaps\wood chips
+    112 part effects\particles\lens flare\flare h stealth cannon
+    113 bitm effects\particles\lens flare\bitmaps\flares weapon lens
+    114 effe weapons\frag grenade\effects\metal reflection
+    115 snd! sound\sfx\weapons\frag grenade\bouncemetal
+    116 part effects\particles\flash\sparks impact
+    117 bitm effects\particles\flash\bitmaps\sparks impact
+    118 part effects\particles\flash\sparks trail
+    119 bitm effects\particles\flash\bitmaps\sparks
+    120 part effects\particles\flash\flash h shield impact
+    121 bitm effects\particles\flash\bitmaps\flash h shield impact
+    122 effe weapons\frag grenade\effects\impact metal
+    123 part effects\particles\solid\metal chips
+    124 bitm effects\particles\solid\bitmaps\metal chips
+    125 snd! sound\sfx\impulse\impacts\metal_chips
+    126 snd! sound\sfx\impulse\impacts\metal_chip_med
+    127 effe weapons\frag grenade\effects\impact rubber
+    128 part effects\particles\solid\rubber impact
+    129 bitm effects\particles\solid\bitmaps\rubber impact
+    130 pphy effects\point physics\rubber
+    131 effe weapons\assault rifle\effects\impact engineer force field
+    132 part effects\particles\flash\flash h generic med
+    133 bitm effects\particles\flash\bitmaps\flash h generic muzzle
+    134 part effects\particles\energy\shield jackal bolt
+    135 bitm effects\particles\energy\bitmaps\shield jackal bolt
+    136 pphy effects\point physics\vacuum particle
+    137 effe weapons\frag grenade\effects\energy reflection
+    138 snd! sound\sfx\weapons\shield fx\hits
+    139 part effects\particles\energy\shield c generic
+    140 bitm effects\particles\energy\bitmaps\shield c generic
+    141 effe weapons\assault rifle\effects\impact cyborg shield
+    142 part effects\particles\energy\shield jackal sparks
+    143 bitm effects\particles\energy\bitmaps\shield jackal spark
+    144 part effects\particles\energy\flash c generic
+    145 bitm effects\particles\energy\bitmaps\flash c generic muzzle
+    146 effe weapons\frag grenade\effects\impact water pen
+    147 snd! sound\sfx\impulse\impacts\med_splash
+    148 effe weapons\rocket launcher\effects\impact water
+    149 snd! sound\sfx\impulse\impacts\water_burst
+    150 effe weapons\rocket launcher\effects\impact leaves
+    151 part effects\particles\solid\grass impact
+    152 bitm effects\particles\solid\bitmaps\grass impact
+    153 pphy effects\point physics\leaf
+    154 effe weapons\plasma grenade\effects\throw
+    155 grhi ui\hud\plasma_flare
+    156 eqip weapons\plasma grenade\plasma grenade
+    157 mod2 weapons\plasma grenade\plasma grenade
+    158 schi weapons\plasma grenade\shaders\pg decal
+    159 bitm weapons\plasma grenade\bitmaps\plasma grenade
+    160 soso weapons\plasma grenade\shaders\pg body
+    161 bitm weapons\plasma grenade\bitmaps\plasma grenade multipurpose
+    162 bitm weapons\plasma rifle\bitmaps\cubemap plasma rifle
+    163 soso weapons\plasma grenade\shaders\pg button
+    164 soso weapons\plasma grenade\shaders\pg light
+    165 effe weapons\plasma grenade\effects\detonation start
+    166 snd! sound\sfx\impulse\impacts\dirthits
+    167 part effects\particles\energy\smoke c generic
+    168 bitm effects\particles\energy\bitmaps\smoke c generic
+    169 part effects\particles\energy\plasma electric bolts
+    170 bitm effects\particles\energy\bitmaps\plasma electric bolts
+    171 part effects\particles\air\bubbles
+    172 bitm effects\particles\air\bitmaps\bubbles
+    173 pphy effects\point physics\hot smoke puff
+    174 effe weapons\plasma grenade\effects\explosion
+    175 pctl weapons\plasma grenade\effects\explosion
+    176 bitm effects\particles\energy\bitmaps\cloud c fire
+    177 pphy effects\point physics\hot smoke cloud
+    178 jpt! weapons\plasma grenade\shock wave
+    179 snd! sound\sfx\weapons\plasma grenade\plasmagrenexpl
+    180 jpt! weapons\plasma grenade\explosion
+    181 ligh weapons\plasma grenade\explosion
+    182 deca effects\decals\bullet holes\plasma burn large
+    183 deca effects\decals\bullet holes\plasma burn inner glow large
+    184 deca effects\decals\bullet holes\plasma burn outer glow large
+    185 bitm effects\decals\bullet holes\bitmaps\plasma burn outer glow
+    186 bitm effects\decals\bullet holes\bitmaps\plasma burn inner glow
+    187 bitm effects\decals\bullet holes\bitmaps\plasma burn large
+    188 snd! sound\sfx\weapons\weapon_pickup_ammo\grenade_plas_ammo
+    189 proj weapons\plasma grenade\plasma grenade
+    190 effe weapons\plasma grenade\effects\plasma grenade armed
+    191 part weapons\plasma grenade\plasma grenade armed
+    192 ligh weapons\plasma grenade\plasma grenade
+    193 lens weapons\plasma grenade\plasma grenade
+    194 bitm effects\particles\lens flare\bitmaps\flares pr overcharge
+    195 lsnd sound\sfx\weapons\plasma grenade\plasma_projectile
+    196 snd! sound\sfx\weapons\plasma grenade\plasma_projectile
+    197 jpt! weapons\plasma grenade\attached
+    198 effe weapons\plasma grenade\effects\bounce
+    199 part effects\particles\air\dirt animated dust
+    200 effe weapons\plasma grenade\effects\material explosion
+    201 part effects\particles\energy\tracer c generic
+    202 bitm effects\particles\energy\bitmaps\tracers c generic
+    203 effe weapons\plasma grenade\effects\bounce water
+    204 bitm rasterizer\distance attenuation
+    205 bitm rasterizer\vector normalization
+    206 bitm rasterizer\atmospheric fog density
+    207 bitm rasterizer\planar fog density
+    208 bitm rasterizer\linear corner fade
+    209 bitm rasterizer\active camouflage distortion
+    210 bitm rasterizer\glow
+    211 bitm rasterizer\default 2d
+    212 bitm rasterizer\default 3d
+    213 bitm rasterizer\default cube map
+    214 bitm rasterizer\water_ff
+    215 bitm levels\a10\bitmaps\cryo glass
+    216 bitm rasterizer\video mask
+    217 bitm rasterizer\video noise
+    218 font ui\small_ui
+    219 colo old tags\internal screen
+    220 colo old tags\internal hud
+    221 colo old tags\internal editor
+    222 colo old tags\internal dialog
+    223 hudg ui\hud\default
+    224 font ui\large_ui
+    225 ustr ui\hud\hud_item_messages
+    226 bitm ui\hud\bitmaps\combined\hud_msg_icons
+    227 ustr ui\hud\hud_icon_messages
+    228 hmt  ui\hud\hud messages
+    229 bitm ui\hud\bitmaps\combined\hud_waypoints
+    230 wphi ui\hud\empty
+    231 bitm ui\hud\bitmaps\combined\hud_reticles
+    232 bitm ui\hud\bitmaps\combined\hud_reticle_warnings
+    233 bitm ui\hud\bitmaps\combined\hud_damage_arrows
+    234 bitm ui\shell\bitmaps\postgame_carnage_report
+    235 bitm ui\hud\bitmaps\hud_sweeper
+    236 bitm ui\hud\bitmaps\hud_sweeper_mask
+    237 bitm ui\hud\bitmaps\hud_multiplayer
+    238 str# old tags\internal string localization
+    239 hud# ui\hud\counter
+    240 bitm ui\hud\bitmaps\combined\hud_counter_numbers
+    241 bitm ui\hud\bitmaps\hud_sensor_blip
+    242 bitm ui\hud\bitmaps\hud_sensor_blip_custom
+    243 bitm ui\hud\bitmaps\hud_msg_icons_sm
+    244 bitm characters\jackal\bitmaps\shield noise
+    245 effe effects\coop teleport
+    246 ligh effects\lights\coop teleport
+    247 lens effects\lights\coop teleport
+    248 ligh effects\lights\coop teleport circular
+    249 lens effects\lights\coop teleport circular
+    250 part effects\particles\flash\teleport rings
+    251 bitm effects\particles\flash\bitmaps\shield charge rings
+    252 part effects\particles\flash\teleport flares
+    253 bitm effects\particles\flash\bitmaps\shield charge flares
+    254 mod2 characters\cyborg\fp\fp
+    255 soso characters\cyborg\fp\shaders\rubber hands
+    256 bitm characters\cyborg\fp\bitmaps\cyborg hands
+    257 bitm characters\cyborg\fp\bitmaps\cyborg hands multipurpose
+    258 soso characters\cyborg\fp\shaders\armor hands
+    259 bitm characters\cyborg\bitmaps\cyborg reflection armor
+    260 bitm ui\hud\bitmaps\hud_health_base
+    261 metr ui\hud\cyborg shield
+    262 metr ui\hud\cyborg body
+    263 effe sound\sfx\weapons\sniper rifle\night_vision_on
+    264 snd! sound\sfx\weapons\sniper rifle\sniper_nightscope_on
+    265 effe sound\sfx\weapons\sniper rifle\night_vision_off
+    266 snd! sound\sfx\weapons\sniper rifle\sniper_nightscope_off
+    267 tagc ui\ui_tags_loaded_all_scenario_types
+    268 ustr ui\multiplayer_game_text
+    269 bitm ui\shell\bitmaps\white
+    270 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\controls_keyboard_button_names
+    271 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\controls_mouse_button_names
+    272 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\controls_axis_direction_names
+    273 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\controls_device_labels
+    274 tagc ui\ui_input_device_defaults
+    275 devc ui\device_defaults\gvsdestx
+    276 devc ui\device_defaults\ltffwheel
+    277 devc ui\device_defaults\ltfreejs
+    278 devc ui\device_defaults\msffwheel
+    279 devc ui\device_defaults\mssw3d
+    280 devc ui\device_defaults\mssw
+    281 devc ui\device_defaults\msswds
+    282 devc ui\device_defaults\msswff2
+    283 devc ui\device_defaults\msswffw2
+    284 devc ui\device_defaults\msswfs
+    285 devc ui\device_defaults\msswfspro
+    286 devc ui\device_defaults\msswgp
+    287 devc ui\device_defaults\msswjs
+    288 devc ui\device_defaults\msswpnpgp
+    289 devc ui\device_defaults\sfsfcjs
+    290 devc ui\device_defaults\stekcybor3d
+    291 devc ui\device_defaults\tmtopgunf2
+    292 devc ui\device_defaults\wmcordless
+    293 devc ui\device_defaults\xbox
+    294 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\controls_gamepad_names
+    295 bitm ui\shell\bitmaps\cursor
+    296 ustr ui\saved_game_file_strings
+    297 tagc ui\ui_default_profiles
+    298 devc ui\device_defaults\cysco
+    299 devc ui\device_defaults\eg
+    300 devc ui\device_defaults\vatoloco
+    301 devc ui\device_defaults\reichert
+    302 bitm ui\shell\bitmaps\background
+    303 ustr ui\shell\strings\loading
+    304 ustr ui\shell\main_menu\mp_map_list
+    305 bitm ui\shell\bitmaps\trouble_brewing
+    306 snd! sound\sfx\ui\cursor
+    307 snd! sound\sfx\ui\forward
+    308 snd! sound\sfx\ui\back
+    309 snd! sound\sfx\ui\flag_failure
+    310 tagc ui\ui_tags_loaded_mainmenu_scenario_type
+    311 vcky ui\english
+    312 bitm ui\bkd_virtual_keyboard
+    313 ustr ui\virtual_keyboard_special_key_labels
+    314 bitm ui\kbd_hilite1
+    315 bitm ui\kbd_select1
+    316 bitm ui\kbd_hilite3
+    317 bitm ui\kbd_select3
+    318 bitm ui\kbd_engaged3
+    319 bitm ui\kbd_hilite4
+    320 bitm ui\kbd_select4
+    321 bitm ui\kbd_hilite2
+    322 bitm ui\kbd_select2
+    323 bitm ui\kbd_hilite6
+    324 bitm ui\kbd_select6
+    325 ustr ui\random_player_names
+    326 mply ui\multiplayer_scenarios
+    327 bitm ui\mp_map_ui\beaver_creek
+    328 ustr ui\mp_map_ui\beaver_creek
+    329 bitm ui\mp_map_ui\bloodgulch
+    330 ustr ui\mp_map_ui\bloodgulch
+    331 bitm ui\mp_map_ui\boardingaction
+    332 ustr ui\mp_map_ui\boardingaction
+    333 bitm ui\mp_map_ui\carousel
+    334 ustr ui\mp_map_ui\carousel
+    335 bitm ui\mp_map_ui\chillout
+    336 ustr ui\mp_map_ui\chillout
+    337 bitm ui\mp_map_ui\hangemhigh
+    338 ustr ui\mp_map_ui\hangemhigh
+    339 bitm ui\mp_map_ui\prisoner
+    340 ustr ui\mp_map_ui\prisoner
+    341 bitm ui\mp_map_ui\ratrace
+    342 ustr ui\mp_map_ui\ratrace
+    343 bitm ui\mp_map_ui\ruinedpain
+    344 ustr ui\mp_map_ui\ruinedpain
+    345 bitm ui\mp_map_ui\sidewinder
+    346 ustr ui\mp_map_ui\sidewinder
+    347 bitm ui\mp_map_ui\wizard
+    348 ustr ui\mp_map_ui\wizard
+    349 bitm ui\mp_map_ui\bonus_level
+    350 ustr ui\mp_map_ui\bonus_level
+    351 ustr ui\default_multiplayer_game_setting_names
+    352 ustr ui\shell\strings\game_variant_descriptions
+    353 ustr ui\shell\main_menu\player_profiles_select\difficulty_names
+    354 ustr ui\shell\strings\default_player_profile_names
+    355 ustr ui\shell\main_menu\player_profiles_select\button_set_long_descriptions
+    356 ustr ui\shell\main_menu\player_profiles_select\joystick_set_defaults_descriptions
+    357 ustr ui\shell\main_menu\player_profiles_select\joystick_set_short_descriptions
+    358 ustr ui\shell\main_menu\player_profiles_select\profile_description_labels
+    359 lsnd sound\music\title1\title1
+    360 snd! sound\music\title1\in
+    361 snd! sound\music\title1\loops
+    362 ustr ui\shell\main_menu\multiplayer_type_select\join_game\join_game_rules_strings
+    363 Soul ui\shell\main_menu
+    364 DeLa ui\shell\main_menu\main_menu
+    365 DeLa ui\shell\main_menu\quit_select\quit_screen
+    366 bitm ui\shell\bitmaps\alert_bkd
+    367 ustr ui\shell\main_menu\quit_select\header_quit_game_prompt
+    368 DeLa ui\shell\main_menu\quit_select\quit_button_bar
+    369 DeLa ui\shell\common_button_back
+    370 bitm ui\shell\bitmaps\text_button_background
+    371 ustr ui\shell\strings\common_button_captions
+    372 DeLa ui\shell\main_menu\quit_select\quit_button_ok
+    373 DeLa ui\shell\error\header_are_you_sure
+    374 ustr ui\shell\error\error_headers
+    375 DeLa ui\shell\main_menu\halo_logo
+    376 bitm ui\shell\main_menu\halo_logo
+    377 DeLa ui\shell\main_menu\main_menu_select_list
+    378 DeLa ui\shell\main_menu\main_menu_list_ext_desc
+    379 DeLa ui\shell\main_menu\main_menu_item_load_camp
+    380 bitm ui\shell\main_menu\menu_load_campaign
+    381 DeLa ui\shell\main_menu\campaign_select\campaign_menu
+    382 DeLa ui\shell\main_menu\campaign_select\campaign_menu_select_list
+    383 DeLa ui\shell\main_menu\difficulty_select\difficulty_select_list_screen
+    384 bitm ui\shell\bitmaps\gradient
+    385 DeLa ui\shell\main_menu\difficulty_select\difficulty_select_list
+    386 DeLa ui\shell\main_menu\difficulty_select\difficulty_ext_desc
+    387 bitm ui\shell\bitmaps\list_field
+    388 DeLa ui\shell\main_menu\difficulty_select\difficulty_options
+    389 bitm ui\shell\main_menu\difficulty_select\difficulty_options
+    390 DeLa ui\shell\main_menu\difficulty_select\difficulty_extended_description
+    391 ustr ui\shell\main_menu\difficulty_select\difficulty_descriptions
+    392 DeLa ui\shell\main_menu\current_profile_name
+    393 DeLa ui\shell\main_menu\difficulty_select\kindergarten_difficulty_item
+    394 bitm ui\shell\bitmaps\list_item_bkd_top
+    395 ustr ui\shell\main_menu\difficulty_select\difficulty_options
+    396 DeLa ui\shell\main_menu\difficulty_select\normal_difficulty_item
+    397 bitm ui\shell\bitmaps\list_item_bkd
+    398 DeLa ui\shell\main_menu\difficulty_select\hard_difficulty_item
+    399 DeLa ui\shell\main_menu\difficulty_select\impossible_difficulty_item
+    400 DeLa ui\shell\main_menu\difficulty_select\difficulty_select_button_bar
+    401 DeLa ui\shell\main_menu\difficulty_select\difficulty_select_button_ok
+    402 DeLa ui\shell\main_menu\multiplayer_type_select\server_settings\server_settings_screen
+    403 DeLa ui\shell\main_menu\multiplayer_type_select\server_settings\header_server_settings
+    404 bitm ui\shell\main_menu\multiplayer_type_select\server_settings\header_server_settings
+    405 DeLa ui\shell\main_menu\multiplayer_type_select\server_settings\server_settings_menu
+    406 DeLa ui\shell\main_menu\multiplayer_type_select\server_settings\server_settings_help
+    407 DeLa ui\shell\main_menu\multiplayer_type_select\server_settings\server_settings_help_text
+    408 ustr ui\shell\main_menu\multiplayer_type_select\server_settings\cap_server_settings_options
+    409 DeLa ui\shell\main_menu\multiplayer_type_select\server_settings\op_server_name
+    410 bitm ui\shell\bitmaps\option_bkds
+    411 DeLa ui\shell\main_menu\multiplayer_type_select\server_settings\server_name_label
+    412 ustr ui\shell\main_menu\multiplayer_type_select\server_settings\server_settings_options
+    413 DeLa ui\shell\main_menu\multiplayer_type_select\server_settings\server_name_value_label
+    414 DeLa ui\shell\main_menu\multiplayer_type_select\server_settings\op_server_password
+    415 DeLa ui\shell\main_menu\multiplayer_type_select\server_settings\server_password_label
+    416 DeLa ui\shell\main_menu\multiplayer_type_select\server_settings\server_password_value_label
+    417 DeLa ui\shell\main_menu\multiplayer_type_select\server_settings\op_connection_type
+    418 DeLa ui\shell\main_menu\multiplayer_type_select\server_settings\connection_type_label
+    419 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\network_setup\network_option_labels
+    420 DeLa ui\shell\main_menu\multiplayer_type_select\server_settings\connection_type_spinner
+    421 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\network_setup\var_connection_type
+    422 bitm ui\shell\bitmaps\arrow_sm_left
+    423 bitm ui\shell\bitmaps\arrow_sm_right
+    424 DeLa ui\shell\main_menu\multiplayer_type_select\server_settings\op_max_players
+    425 DeLa ui\shell\main_menu\multiplayer_type_select\server_settings\max_players_label
+    426 DeLa ui\shell\main_menu\multiplayer_type_select\server_settings\max_players_spinner
+    427 ustr ui\shell\main_menu\multiplayer_type_select\server_settings\var_max_players
+    428 DeLa ui\shell\main_menu\multiplayer_type_select\server_settings\op_server_ip
+    429 DeLa ui\shell\main_menu\multiplayer_type_select\server_settings\server_ip_label
+    430 DeLa ui\shell\main_menu\multiplayer_type_select\server_settings\server_ip_value_label
+    431 DeLa ui\shell\main_menu\multiplayer_type_select\server_settings\server_settings_button_bar
+    432 DeLa ui\shell\main_menu\multiplayer_type_select\server_settings\server_settings_button_start
+    433 DeLa ui\shell\common_button_cancel
+    434 DeLa ui\shell\main_menu\difficulty_select\warning_message
+    435 ustr ui\shell\main_menu\difficulty_select\warning_message
+    436 DeLa ui\shell\main_menu\difficulty_select\header_choose_difficulty
+    437 bitm ui\shell\main_menu\difficulty_select\header_choose_difficulty
+    438 DeLa ui\shell\main_menu\campaign_select\menu_item_continue
+    439 bitm ui\shell\main_menu\campaign_select\item_continue
+    440 ustr ui\shell\main_menu\main_menu_options
+    441 DeLa ui\shell\main_menu\campaign_select\menu_item_new_campaign
+    442 bitm ui\shell\main_menu\campaign_select\item_new_campaign
+    443 DeLa ui\shell\main_menu\solo_level_select\solo_level_select_screen
+    444 DeLa ui\shell\main_menu\new_select\sel_list_desc_bkd
+    445 bitm ui\shell\bitmaps\sel_list_desc_bkd
+    446 DeLa ui\shell\main_menu\solo_level_select\solo_level_select_list
+    447 DeLa ui\shell\main_menu\solo_level_select\solo_level_extended_desc
+    448 DeLa ui\shell\main_menu\solo_level_select\replay_level_right_item
+    449 bitm ui\shell\bitmaps\spinner_list_3_wide_item_background
+    450 DeLa ui\shell\main_menu\solo_level_select\replay_level_right_name
+    451 ustr ui\shell\main_menu\map_list
+    452 DeLa ui\shell\main_menu\solo_level_select\replay_level_right_pic
+    453 bitm ui\shell\bitmaps\sp_levels
+    454 DeLa ui\shell\main_menu\solo_level_select\replay_level_right_data
+    455 ustr ui\shell\main_menu\solo_level_select\map_data
+    456 DeLa ui\shell\main_menu\solo_level_select\difficulty_indicator
+    457 bitm ui\shell\main_menu\difficulty_select\difficulty_options_small
+    458 DeLa ui\shell\main_menu\new_select\list_item_0
+    459 bitm ui\shell\bitmaps\sel_list_item_bkd_top
+    460 DeLa ui\shell\main_menu\new_select\list_item_text
+    461 DeLa ui\shell\main_menu\new_select\list_item_arrows
+    462 DeLa ui\shell\main_menu\new_select\sel_arrow_right
+    463 DeLa ui\shell\main_menu\new_select\sel_arrow_left
+    464 DeLa ui\shell\main_menu\new_select\scroll_up_button
+    465 bitm ui\shell\bitmaps\option_bkds_sm
+    466 DeLa ui\shell\main_menu\new_select\scroll_up_arrow
+    467 bitm ui\shell\bitmaps\arrow_sm_up
+    468 DeLa ui\shell\main_menu\new_select\scroll_down_button
+    469 DeLa ui\shell\main_menu\new_select\scroll_down_arrow
+    470 bitm ui\shell\bitmaps\arrow_sm_down
+    471 DeLa ui\shell\main_menu\new_select\list_item_1
+    472 bitm ui\shell\bitmaps\sel_list_item_bkd
+    473 DeLa ui\shell\main_menu\new_select\list_item_2
+    474 DeLa ui\shell\main_menu\new_select\list_item_3
+    475 DeLa ui\shell\main_menu\new_select\list_item_4
+    476 DeLa ui\shell\main_menu\new_select\list_item_5
+    477 DeLa ui\shell\main_menu\new_select\list_item_6
+    478 DeLa ui\shell\main_menu\new_select\list_item_7
+    479 DeLa ui\shell\main_menu\new_select\list_item_8
+    480 DeLa ui\shell\main_menu\new_select\list_item_9
+    481 DeLa ui\shell\main_menu\new_select\list_item_10
+    482 DeLa ui\shell\main_menu\solo_level_select\solo_level_select_button_bar
+    483 DeLa ui\shell\main_menu\solo_level_select\solo_level_select_button_ok
+    484 DeLa ui\shell\main_menu\solo_level_select\header_replay_level
+    485 bitm ui\shell\main_menu\solo_level_select\header_load_level
+    486 DeLa ui\shell\main_menu\campaign_select\menu_item_load_game
+    487 bitm ui\shell\main_menu\campaign_select\item_load_game
+    488 DeLa ui\shell\main_menu\campaign_select\load_level_select_screen
+    489 DeLa ui\shell\main_menu\campaign_select\load_level_select_list
+    490 DeLa ui\shell\error\confirm_delete_savegame_modal_fullscreen
+    491 DeLa ui\shell\error\confirm_delete_savegame
+    492 bitm ui\shell\bitmaps\semi_transparent_grey
+    493 DeLa ui\shell\error\confirm_delete_savegame_text_box
+    494 ustr ui\shell\strings\displayed_error_messages
+    495 DeLa ui\shell\error\header_warning
+    496 DeLa ui\shell\error\confirm_delete_savegame_button_bar
+    497 DeLa ui\shell\error\confirm_delete_profile_button_cancel
+    498 DeLa ui\shell\error\confirm_delete_savegame_button_ok
+    499 DeLa ui\shell\main_menu\campaign_select\load_level_extended_desc
+    500 DeLa ui\shell\main_menu\campaign_select\load_level_right_item
+    501 DeLa ui\shell\main_menu\campaign_select\load_level_right_name
+    502 DeLa ui\shell\main_menu\campaign_select\load_level_right_pic
+    503 DeLa ui\shell\main_menu\campaign_select\load_level_right_data
+    504 DeLa ui\shell\main_menu\campaign_select\load_level_select_button_bar
+    505 DeLa ui\shell\main_menu\campaign_select\load_level_select_button_delete
+    506 DeLa ui\shell\main_menu\campaign_select\header_load_game
+    507 bitm ui\shell\main_menu\campaign_select\header_load_game
+    508 DeLa ui\shell\main_menu\campaign_select\menu_item_back
+    509 bitm ui\shell\main_menu\campaign_select\item_back
+    510 DeLa ui\shell\main_menu\new_campaign_creating_profile
+    511 DeLa ui\shell\main_menu\new_campaign_saving_profile
+    512 DeLa ui\shell\error\warning_creating_player_profile_screen
+    513 DeLa ui\shell\error\warning_creating_player_profile_text
+    514 DeLa ui\shell\error\header_saving
+    515 DeLa ui\shell\main_menu\main_menu_item_multiplayer
+    516 bitm ui\shell\main_menu\menu_multiplayer
+    517 DeLa ui\shell\main_menu\multiplayer_type_select\multiplayer_type_select_screen
+    518 DeLa ui\shell\main_menu\multiplayer_type_select\header_multiplayer
+    519 bitm ui\shell\main_menu\multiplayer_type_select\header_multiplayer
+    520 DeLa ui\shell\main_menu\multiplayer_type_select\multiplayer_type_select_list
+    521 DeLa ui\shell\main_menu\multiplayer_type_select\multiplayer_type_list_ext_desc
+    522 DeLa ui\shell\main_menu\multiplayer_type_select\multiplayer_options_pic
+    523 bitm ui\shell\main_menu\multiplayer_type_select\mp_options
+    524 DeLa ui\shell\main_menu\multiplayer_type_select\multiplayer_options_txt
+    525 ustr ui\shell\main_menu\multiplayer_type_select\multiplayer_option_descriptions
+    526 DeLa ui\shell\main_menu\multiplayer_type_select\multiplayer_type_join_item
+    527 ustr ui\shell\main_menu\multiplayer_type_select\multiplayer_options
+    528 DeLa ui\shell\main_menu\multiplayer_type_select\multiplayer_type_join_internet_item
+    529 DeLa ui\shell\main_menu\multiplayer_type_select\checking_updates_screen_join
+    530 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\join_game_screen
+    531 bitm ui\shell\bitmaps\gradient_big
+    532 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\header_join_game
+    533 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\header_internet
+    534 bitm ui\shell\main_menu\multiplayer_type_select\join_game\header_internet
+    535 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\header_lan
+    536 bitm ui\shell\main_menu\multiplayer_type_select\join_game\header_lan
+    537 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\header_gamespy_logo
+    538 bitm ui\shell\main_menu\multiplayer_type_select\join_game\gamespy_logo
+    539 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\join_game_items_list
+    540 bitm ui\shell\bitmaps\join_game_border
+    541 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\screen_stats_container
+    542 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_count_label
+    543 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\player_count_label
+    544 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\page_count_label
+    545 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\op_browser_mode
+    546 bitm ui\shell\bitmaps\option_bkds_sm2
+    547 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\browser_mode_spinner
+    548 ustr ui\shell\main_menu\multiplayer_type_select\join_game\join_game_mode
+    549 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\join_game_header
+    550 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\op_sort_header_locked
+    551 bitm ui\shell\bitmaps\server_header_background_0
+    552 ustr ui\shell\main_menu\multiplayer_type_select\join_game\join_game_column_headers
+    553 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\sort_header_locked
+    554 bitm ui\shell\main_menu\multiplayer_type_select\join_game\locked_icon
+    555 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\op_sort_header_dedicated
+    556 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\sort_header_dedicated
+    557 bitm ui\shell\main_menu\multiplayer_type_select\join_game\dedicated_icon
+    558 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\op_sort_header_server_name
+    559 bitm ui\shell\bitmaps\server_header_background_3
+    560 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\header_sort_arrows
+    561 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\header_sort_up_arrow
+    562 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\header_sort_down_arrow
+    563 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\sort_header_server_name
+    564 font ui\gamespy
+    565 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\op_sort_header_map
+    566 bitm ui\shell\bitmaps\server_header_background_2
+    567 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\sort_header_map
+    568 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\op_sort_header_classic
+    569 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\sort_header_classic
+    570 bitm ui\shell\main_menu\multiplayer_type_select\join_game\classic_icon
+    571 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\op_sort_header_type
+    572 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\sort_header_type
+    573 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\op_sort_header_players
+    574 bitm ui\shell\bitmaps\server_header_background_1
+    575 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\sort_header_players
+    576 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\op_sort_header_ping
+    577 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\sort_header_ping
+    578 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\scroll_up_button
+    579 bitm ui\shell\bitmaps\server_item_bkds
+    580 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\scroll_up_arrow
+    581 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_1
+    582 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_locked
+    583 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_dedicated
+    584 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_server_name
+    585 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_map
+    586 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_classic
+    587 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_type
+    588 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_players
+    589 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_ping
+    590 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_2
+    591 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_3
+    592 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_4
+    593 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_5
+    594 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_6
+    595 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_7
+    596 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_8
+    597 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_9
+    598 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_10
+    599 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_11
+    600 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_12
+    601 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_13
+    602 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_14
+    603 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\server_item_15
+    604 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\scroll_down_button
+    605 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\scroll_down_arrow
+    606 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\item_ticker_player_info
+    607 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\ticker_player_info_label
+    608 ustr ui\shell\main_menu\multiplayer_type_select\join_game\join_game_ticker_labels
+    609 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\ticker_player_info
+    610 font ui\ticker
+    611 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\item_ticker_rules_info
+    612 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\ticker_rules_info_label
+    613 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\ticker_rules_info
+    614 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\join_game_button_bar
+    615 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\join_game_button_update
+    616 ustr ui\shell\main_menu\multiplayer_type_select\join_game\join_game_buttons
+    617 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\join_game_button_refresh
+    618 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\join_game_button_filters
+    619 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\join_game_button_join
+    620 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\gamespy_error_fullscreen
+    621 bitm ui\shell\bitmaps\black
+    622 DeLa ui\shell\error\error_modal
+    623 DeLa ui\shell\error\error_text_box
+    624 DeLa ui\shell\error\header_error
+    625 DeLa ui\shell\error\error_modal_button_bar
+    626 DeLa ui\shell\error\error_modal_button_ok
+    627 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\filters_screen
+    628 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\header_filters
+    629 bitm ui\shell\main_menu\multiplayer_type_select\join_game\filters\header_filters
+    630 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\filters_options_menu
+    631 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\filters_help
+    632 ustr ui\shell\main_menu\multiplayer_type_select\join_game\filters\cap_filter_options
+    633 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\op_empty_servers
+    634 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\empty_servers_label
+    635 ustr ui\shell\main_menu\multiplayer_type_select\join_game\filters\filter_options
+    636 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\empty_servers_spinner
+    637 ustr ui\shell\strings\var_boolean
+    638 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\op_full_servers
+    639 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\full_servers_label
+    640 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\full_servers_spinner
+    641 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\op_ping
+    642 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\ping_label
+    643 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\ping_spinner
+    644 ustr ui\shell\main_menu\multiplayer_type_select\join_game\filters\var_filter_ping
+    645 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\op_game_type
+    646 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\game_type_label
+    647 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\game_type_spinner
+    648 ustr ui\shell\main_menu\multiplayer_type_select\join_game\filters\var_filter_gametype
+    649 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\op_game_options
+    650 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\game_options_label
+    651 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\game_options_spinner
+    652 ustr ui\shell\main_menu\multiplayer_type_select\join_game\filters\var_filter_game_options
+    653 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\op_installed_maps
+    654 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\installed_maps_label
+    655 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\installed_maps_spinner
+    656 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\filters_button_bar
+    657 DeLa ui\shell\main_menu\multiplayer_type_select\join_game\filters\filters_button_ok
+    658 DeLa ui\shell\main_menu\multiplayer_type_select\checking_updates_text_box
+    659 ustr ui\shell\main_menu\multiplayer_type_select\checking_for_updates
+    660 DeLa ui\shell\error\header_attention
+    661 DeLa ui\shell\main_menu\multiplayer_type_select\checking_updates_button_bar
+    662 DeLa ui\shell\main_menu\multiplayer_type_select\checking_updates_button_ok
+    663 DeLa ui\shell\main_menu\multiplayer_type_select\multiplayer_type_join_lan_item
+    664 DeLa ui\shell\main_menu\multiplayer_type_select\multiplayer_type_join_direct_item
+    665 DeLa ui\shell\main_menu\multiplayer_type_select\direct_ip\direct_ip_screen
+    666 DeLa ui\shell\main_menu\multiplayer_type_select\direct_ip\header_direct_ip
+    667 bitm ui\shell\main_menu\multiplayer_type_select\direct_ip\header_direct_ip
+    668 DeLa ui\shell\main_menu\multiplayer_type_select\direct_ip\direct_ip_menu
+    669 DeLa ui\shell\main_menu\multiplayer_type_select\direct_ip\direct_ip_help
+    670 DeLa ui\shell\main_menu\multiplayer_type_select\direct_ip\direct_ip_help_text
+    671 ustr ui\shell\main_menu\multiplayer_type_select\direct_ip\cap_direct_ip_options
+    672 DeLa ui\shell\main_menu\multiplayer_type_select\direct_ip\op_server_address
+    673 DeLa ui\shell\main_menu\multiplayer_type_select\direct_ip\server_address_label
+    674 ustr ui\shell\main_menu\multiplayer_type_select\direct_ip\direct_ip_options
+    675 DeLa ui\shell\main_menu\multiplayer_type_select\direct_ip\server_address_value_label
+    676 DeLa ui\shell\main_menu\multiplayer_type_select\direct_ip\op_server_password
+    677 DeLa ui\shell\main_menu\multiplayer_type_select\direct_ip\server_password_label
+    678 DeLa ui\shell\main_menu\multiplayer_type_select\direct_ip\server_password_value_label
+    679 DeLa ui\shell\main_menu\multiplayer_type_select\direct_ip\direct_ip_button_bar
+    680 DeLa ui\shell\main_menu\multiplayer_type_select\direct_ip\direct_ip_button_join
+    681 DeLa ui\shell\main_menu\multiplayer_type_select\multiplayer_type_create_item
+    682 DeLa ui\shell\main_menu\multiplayer_type_select\multiplayer_type_create_internet_item
+    683 DeLa ui\shell\main_menu\multiplayer_type_select\checking_updates_screen_create
+    684 DeLa ui\shell\main_menu\multiplayer_type_select\connected\connected_map_select_wrapper
+    685 DeLa ui\shell\main_menu\multiplayer_type_select\mp_map_select\mp_map_select_screen
+    686 DeLa ui\shell\main_menu\multiplayer_type_select\mp_map_select\mp_map_select_list_2
+    687 DeLa ui\shell\main_menu\multiplayer_type_select\connected\gametype_select_screen_wrapper
+    688 DeLa ui\shell\main_menu\gametype_select\gametype_select_screen
+    689 DeLa ui\shell\main_menu\gametype_select\gametype_select_list_2
+    690 DeLa ui\shell\main_menu\gametype_select\gametype_extended_desc
+    691 DeLa ui\shell\main_menu\gametype_select\gametype_right_item
+    692 DeLa ui\shell\main_menu\gametype_select\gametype_right_name
+    693 DeLa ui\shell\main_menu\gametype_select\gametype_right_pic
+    694 bitm ui\shell\bitmaps\game_type_grafix
+    695 DeLa ui\shell\main_menu\gametype_select\gametype_right_data
+    696 DeLa ui\shell\main_menu\gametype_select\locked_gametype_icon
+    697 bitm ui\shell\bitmaps\locked_gametype
+    698 DeLa ui\shell\main_menu\gametype_select\list_item_0_chooser
+    699 DeLa ui\shell\main_menu\gametype_select\list_item_0_chooser_spinner
+    700 ustr ui\shell\main_menu\gametype_select\var_gametype_banks
+    701 DeLa ui\shell\main_menu\gametype_select\gametype_select_button_bar
+    702 DeLa ui\shell\main_menu\gametype_select\gametype_select_button_ok
+    703 DeLa ui\shell\main_menu\gametype_select\header_select_gametype
+    704 bitm ui\shell\main_menu\gametype_select\header_select_gametype
+    705 DeLa ui\shell\main_menu\multiplayer_type_select\mp_map_select\mp_map_extended_desc
+    706 DeLa ui\shell\main_menu\multiplayer_type_select\mp_map_select\mp_map_right_item
+    707 DeLa ui\shell\main_menu\multiplayer_type_select\mp_map_select\mp_map_right_name
+    708 DeLa ui\shell\main_menu\multiplayer_type_select\mp_map_select\mp_map_right_pic
+    709 bitm ui\shell\bitmaps\mp_map_grafix
+    710 DeLa ui\shell\main_menu\multiplayer_type_select\mp_map_select\mp_map_right_data
+    711 ustr ui\shell\main_menu\multiplayer_type_select\mp_map_select\map_data
+    712 DeLa ui\shell\main_menu\multiplayer_type_select\mp_map_select\mp_map_select_button_bar
+    713 DeLa ui\shell\main_menu\multiplayer_type_select\mp_map_select\mp_map_select_button_ok
+    714 DeLa ui\shell\main_menu\multiplayer_type_select\mp_map_select\header_select_map
+    715 bitm ui\shell\main_menu\multiplayer_type_select\mp_map_select\header_select_map
+    716 DeLa ui\shell\main_menu\multiplayer_type_select\multiplayer_type_create_lan_item
+    717 DeLa ui\shell\main_menu\multiplayer_type_select\multiplayer_type_gametypes_item
+    718 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_select\gametype_select_screen
+    719 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_select\playlist_select_list
+    720 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\gametype_edit_screen
+    721 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\header_edit_multiplayer_gametype
+    722 bitm ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\header_edit_multiplayer_gametype
+    723 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\edit_playlist_select_list
+    724 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\playlist_edit_list_extended_desc
+    725 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\playlist_edit_ext_desc_text
+    726 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\playlist_edit_list_extended_dsc_text
+    727 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\playlist_edit_ext_desc_pic
+    728 bitm ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\gametype_options
+    729 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\playlist_edit_name_list_item
+    730 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\name_edit\gametype_name_screen
+    731 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\name_edit\header_gametype_name
+    732 bitm ui\shell\main_menu\settings_select\multiplayer_setup\name_edit\header_gametype_name
+    733 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\playlist_edit_options
+    734 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\playlist_edit_game_type_item
+    735 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\game_type_select\gametype_select_screen
+    736 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\header_set_options
+    737 bitm ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\game_type_select\header_rules
+    738 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\game_type_select\gametype_select_list
+    739 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\game_type_select\gametype_select_list_ext_desc
+    740 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\game_type_select\rules_list_ext_desc_text
+    741 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\game_type_select\gametype_select_list_extended_dsc_text
+    742 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\game_type_select\rules_list_ext_desc_pic
+    743 bitm ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\game_type_select\rules_options
+    744 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\game_type_select\gametype_select_ctf_item
+    745 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\ctf_options_screen
+    746 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\game_type_select\header_rules
+    747 bitm ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\header_set_options
+    748 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\ctf_options_menu
+    749 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\ctf_options_help
+    750 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\cap_ctf
+    751 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\op_assault
+    752 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\assault_label
+    753 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\ctf_labels
+    754 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\assault_spinner
+    755 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\var_assault
+    756 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\op_single_flag
+    757 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\single_flag_label
+    758 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\single_flag_spinner
+    759 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\var_single_flag
+    760 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\op_flag_must_reset
+    761 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\flag_must_reset_label
+    762 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\flag_must_reset_spinner
+    763 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\var_flag_must_reset
+    764 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\op_flag_at_home
+    765 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\flag_at_home_label
+    766 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\flag_at_home_spinner
+    767 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\var_flag_at_home
+    768 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\op_captures_to_win
+    769 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\captures_to_win_label
+    770 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\captures_to_win_spinner
+    771 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\var_captures_to_win
+    772 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\op_time_limit
+    773 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\time_limit_label
+    774 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\time_limit_spinner
+    775 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\var_time_limit
+    776 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\ctf_button_bar
+    777 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\ctf_edit\ctf_button_ok
+    778 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\game_type_select\gametype_select_list_options
+    779 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\game_type_select\gametype_select_koth_item
+    780 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\koth_edit\koth_options_screen
+    781 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\koth_edit\koth_options_menu
+    782 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\koth_edit\koth_help
+    783 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\koth_edit\cap_koth
+    784 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\koth_edit\op_moving_hill
+    785 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\koth_edit\koth_moving_hill_label
+    786 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\koth_edit\koth_labels
+    787 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\koth_edit\koth_moving_hill_spinner
+    788 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\koth_edit\var_moving_hill
+    789 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\koth_edit\op_score_to_win
+    790 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\koth_edit\koth_score_to_win_label
+    791 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\koth_edit\koth_score_to_win_spinner
+    792 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\koth_edit\var_score_to_win
+    793 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\koth_edit\op_team_play
+    794 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\koth_edit\koth_teams_label
+    795 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\koth_edit\koth_team_play_spinner
+    796 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\koth_edit\var_team_play
+    797 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\koth_edit\koth_button_bar
+    798 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\koth_edit\koth_button_ok
+    799 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\game_type_select\gametype_select_slayer_item
+    800 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\slayer_options_screen
+    801 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\slayer_options_menu
+    802 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\slayer_options_help
+    803 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\cap_slayer
+    804 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\op_death_bonus
+    805 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\death_bonus_label
+    806 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\slayer_labels
+    807 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\death_bonus_spinner
+    808 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\var_death_bonus
+    809 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\op_kill_penalty
+    810 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\kill_penalty_label
+    811 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\kill_penalty_spinner
+    812 ustr ui\shell\main_menu\settings_select\multiplayer_setup\indicator_options_edit\var_objectives_on_screen
+    813 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\op_kill_in_order
+    814 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\kill_in_order_label
+    815 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\kill_in_order_spinner
+    816 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\var_kill_in_order
+    817 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\op_kills_to_win
+    818 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\kills_to_win_label
+    819 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\kills_to_win_spinner
+    820 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\var_kills_to_win
+    821 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\op_team_play
+    822 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\team_play_label
+    823 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\team_play_spinner
+    824 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\var_team_play
+    825 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\slayer_button_bar
+    826 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\slayer_edit\slayer_button_ok
+    827 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\game_type_select\gametype_select_oddball_item
+    828 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\oddball_options_screen
+    829 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\oddball_options_menu
+    830 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\oddball_options_help
+    831 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\cap_oddball
+    832 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\op_trait_with_ball
+    833 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\trait_with_ball_label
+    834 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\oddball_labels
+    835 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\trait_with_ball_spinner
+    836 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\var_trait_with_ball
+    837 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\op_trait_without_ball
+    838 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\trait_without_ball_label
+    839 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\trait_without_ball_spinner
+    840 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\var_trait_without_ball
+    841 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\op_speed_with_ball
+    842 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\speed_with_ball_label
+    843 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\speed_with_ball_spinner
+    844 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\var_speed_with_ball
+    845 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\op_ball_type
+    846 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\ball_type_label
+    847 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\ball_type_spinner
+    848 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\var_ball_type
+    849 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\op_random_start
+    850 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\random_start_label
+    851 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\random_start_spinner
+    852 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\var_random_start
+    853 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\op_ball_spawn_count
+    854 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\ball_spawn_count_label
+    855 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\ball_spawn_count_spinner
+    856 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\var_ball_spawn_count
+    857 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\op_score_to_win
+    858 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\score_to_win_label
+    859 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\score_to_win_spinner
+    860 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\var_score_to_win
+    861 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\op_team_play
+    862 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\team_play_label
+    863 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\team_play_spinner
+    864 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\var_team_play
+    865 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\op_time_limit
+    866 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\time_limit_label
+    867 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\time_limit_spinner
+    868 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\oddball_button_bar
+    869 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\oddball_edit\oddball_button_ok
+    870 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\game_type_select\gametype_select_race_item
+    871 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\race_options_screen
+    872 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\race_options_menu
+    873 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\race_options_help
+    874 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\cap_race
+    875 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\op_team_scoring
+    876 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\team_scoring_label
+    877 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\race_labels
+    878 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\team_scoring_spinner
+    879 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\var_team_scoring
+    880 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\op_race_type
+    881 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\race_type_label
+    882 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\race_type_spinner
+    883 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\var_race_type
+    884 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\op_laps_to_win
+    885 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\laps_to_win_label
+    886 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\laps_to_win_spinner
+    887 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\var_laps_to_win
+    888 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\op_team_play
+    889 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\team_play_label
+    890 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\team_play_spinner
+    891 ustr ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\var_team_play
+    892 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\race_button_bar
+    893 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\race_edit\race_button_ok
+    894 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\game_type_select\gametype_select_button_bar
+    895 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\game_type_select\rules_label
+    896 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\playlist_edit_player_opts_item
+    897 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\player_options_screen
+    898 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\header_player_options
+    899 bitm ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\header_player_options
+    900 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\player_options_menu
+    901 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\player_options_help
+    902 ustr ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\cap_player_options
+    903 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\op_number_of_lives
+    904 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\number_of_lives_label
+    905 ustr ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\player_options_labels
+    906 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\number_of_lives_spinner
+    907 ustr ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\var_number_of_lives
+    908 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\op_maximum_health
+    909 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\maximum_health_label
+    910 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\maximum_health_spinner
+    911 ustr ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\var_maximum_health
+    912 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\op_shields
+    913 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\shields_label
+    914 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\shields_spinner
+    915 ustr ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\var_shields
+    916 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\op_respawn_time
+    917 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\respawn_time_label
+    918 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\respawn_time_spinner
+    919 ustr ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\var_respawn_time
+    920 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\op_respawn_time_growth
+    921 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\respawn_time_growth_label
+    922 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\respawn_time_growth_spinner
+    923 ustr ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\var_respawn_time_growh
+    924 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\op_odd_man_out
+    925 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\odd_man_out_label
+    926 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\odd_man_out_spinner
+    927 ustr ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\var_odd_man_out
+    928 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\op_invisible_players
+    929 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\invisible_players_label
+    930 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\invisible_players_spinner
+    931 ustr ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\var_invisible_players
+    932 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\op_suicide_penalty
+    933 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\suicide_penalty_label
+    934 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\suicide_penalty_spinner
+    935 ustr ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\var_suicide_penalty
+    936 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\player_button_bar
+    937 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\player_options_edit\player_button_ok
+    938 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\playlist_edit_items_list_item
+    939 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\item_options_edit\item_options_screen
+    940 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\item_options_edit\header_item_options
+    941 bitm ui\shell\main_menu\settings_select\multiplayer_setup\item_options_edit\header_item_options
+    942 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\item_options_edit\item_options_menu
+    943 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\item_options_edit\item_options_help
+    944 ustr ui\shell\main_menu\settings_select\multiplayer_setup\item_options_edit\cap_item_options
+    945 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\item_options_edit\op_infinite_grenades
+    946 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\item_options_edit\item_options_infinite_grenades_label
+    947 ustr ui\shell\main_menu\settings_select\multiplayer_setup\item_options_edit\item_options_labels
+    948 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\item_options_edit\item_options_infinite_grenades_spinner
+    949 ustr ui\shell\main_menu\settings_select\multiplayer_setup\item_options_edit\var_infinite_grenades
+    950 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\item_options_edit\op_weapon_set
+    951 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\item_options_edit\item_options_weapon_set_label
+    952 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\item_options_edit\item_options_weapon_set_spinner
+    953 ustr ui\shell\main_menu\settings_select\multiplayer_setup\item_options_edit\var_weapon_set
+    954 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\item_options_edit\op_starting_equipment
+    955 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\item_options_edit\item_options_starting_equipment_label
+    956 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\item_options_edit\item_options_starting_equipment_spinner
+    957 ustr ui\shell\main_menu\settings_select\multiplayer_setup\item_options_edit\var_starting_equipment
+    958 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\item_options_edit\item_button_bar
+    959 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\item_options_edit\item_button_ok
+    960 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\playlist_edit_vehicles_list_item
+    961 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\vehicle_options_screen
+    962 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\header_vehicle_options
+    963 bitm ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\header_vehicle_options
+    964 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\vehicle_options_menu
+    965 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\vehicle_options_help
+    966 ustr ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\cap_vehicle_options
+    967 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\op_vehicles_respawn
+    968 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\vehicles_respawn_label
+    969 ustr ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\vehicle_options_labels
+    970 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\vehicles_respawn_spinner
+    971 ustr ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\var_vehicles_respawn
+    972 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\op_team
+    973 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\team_label
+    974 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\team_spinner
+    975 ustr ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\var_team
+    976 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\op_vehicle_presets
+    977 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\vehicle_presets_label
+    978 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\vehicle_presets_spinner
+    979 ustr ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\var_vehicle_set
+    980 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\op_warthog
+    981 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\warthog_label
+    982 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\warthog_spinner
+    983 ustr ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\var_vehicle_options
+    984 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\op_ghost
+    985 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\ghost_label
+    986 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\ghost_spinner
+    987 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\op_scorpion
+    988 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\scorpion_label
+    989 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\scorpion_spinner
+    990 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\op_rwarthog
+    991 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\rwarthog_label
+    992 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\rwarthog_spinner
+    993 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\op_banshee
+    994 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\banshee_label
+    995 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\banshee_spinner
+    996 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\op_cgturret
+    997 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\cgturret_label
+    998 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\cgturret_spinner
+    999 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\vehicle_button_bar
+   1000 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\vehicle_options_edit\vehicle_button_ok
+   1001 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\playlist_edit_indicators_item
+   1002 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\indicator_options_edit\indicator_options_screen
+   1003 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\indicator_options_edit\header_indicator_options
+   1004 bitm ui\shell\main_menu\settings_select\multiplayer_setup\indicator_options_edit\header_indicator_options
+   1005 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\indicator_options_edit\indicator_options_menu
+   1006 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\indicator_options_edit\indicator_options_help
+   1007 ustr ui\shell\main_menu\settings_select\multiplayer_setup\indicator_options_edit\cap_indicator_options
+   1008 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\indicator_options_edit\op_radar display
+   1009 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\indicator_options_edit\indicator_options_radar display_label
+   1010 ustr ui\shell\main_menu\settings_select\multiplayer_setup\indicator_options_edit\indicator_options_labels
+   1011 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\indicator_options_edit\indicator_options_radar display_spinner
+   1012 ustr ui\shell\main_menu\settings_select\multiplayer_setup\indicator_options_edit\var_radar display
+   1013 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\indicator_options_edit\op_players_on_radar
+   1014 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\indicator_options_edit\indicator_options_players_on_radar_label
+   1015 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\indicator_options_edit\indicator_options_players_on_radar_spinner
+   1016 ustr ui\shell\main_menu\settings_select\multiplayer_setup\indicator_options_edit\var_others_on_radar
+   1017 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\indicator_options_edit\op_friends_on_screen
+   1018 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\indicator_options_edit\indicator_options_friends_on_screen_label
+   1019 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\indicator_options_edit\indicator_options_friends_on_screen_spinner
+   1020 ustr ui\shell\main_menu\settings_select\multiplayer_setup\indicator_options_edit\var_friends_on_screen
+   1021 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\indicator_options_edit\indicator_button_bar
+   1022 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\indicator_options_edit\indicator_button_ok
+   1023 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\playlist_edit_team_item
+   1024 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\teamplay_options_edit\teamplay_options_screen
+   1025 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\teamplay_options_edit\header_teamplay_options
+   1026 bitm ui\shell\main_menu\settings_select\multiplayer_setup\teamplay_options_edit\header_teamplay_options
+   1027 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\teamplay_options_edit\teamplay_options_menu
+   1028 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\teamplay_options_edit\teamplay_options_help
+   1029 ustr ui\shell\main_menu\settings_select\multiplayer_setup\teamplay_options_edit\cap_teamplay_options
+   1030 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\teamplay_options_edit\op_friendly_fire
+   1031 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\teamplay_options_edit\friendly_fire_label
+   1032 ustr ui\shell\main_menu\settings_select\multiplayer_setup\teamplay_options_edit\teamplay_options_labels
+   1033 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\teamplay_options_edit\friendly_fire_spinner
+   1034 ustr ui\shell\main_menu\settings_select\multiplayer_setup\teamplay_options_edit\var_friendly_fire
+   1035 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\teamplay_options_edit\op_friendly_fire_penalty
+   1036 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\teamplay_options_edit\friendly_fire_penalty_label
+   1037 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\teamplay_options_edit\friendly_fire_penalty_spinner
+   1038 ustr ui\shell\main_menu\settings_select\multiplayer_setup\teamplay_options_edit\var_friendly_fire_penalty
+   1039 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\teamplay_options_edit\op_autobalance
+   1040 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\teamplay_options_edit\autobalance_label
+   1041 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\teamplay_options_edit\autobalance_spinner
+   1042 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\teamplay_options_edit\teamplay_button_bar
+   1043 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\teamplay_options_edit\teamplay_button_ok
+   1044 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\playlist_edit_button_bar
+   1045 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\playlist_edit_button_ok
+   1046 DeLa ui\shell\error\warning_saving_file_screen
+   1047 DeLa ui\shell\error\warning_saving_file_text
+   1048 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_edit\gametype_label
+   1049 DeLa ui\shell\error\confirm_delete_gametype_modal_fullscreen
+   1050 DeLa ui\shell\error\confirm_delete_gametype
+   1051 DeLa ui\shell\error\confirm_delete_gametype_text_box
+   1052 DeLa ui\shell\error\confirm_delete_gametype_button_bar
+   1053 DeLa ui\shell\error\confirm_delete_gametype_button_cancel
+   1054 DeLa ui\shell\error\confirm_delete_gametype_button_ok
+   1055 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_select\gametype_extended_desc
+   1056 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_select\playlist_button_bar
+   1057 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_select\playlist_button_new
+   1058 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\create_and_edit_new_gametype_screen
+   1059 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_select\playlist_button_delete
+   1060 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_select\playlist_button_ok
+   1061 DeLa ui\shell\main_menu\settings_select\multiplayer_setup\playlist_select\header_select_gametype_to_edit
+   1062 bitm ui\shell\main_menu\settings_select\multiplayer_setup\playlist_select\header_select_gametype_to_edit
+   1063 DeLa ui\shell\main_menu\multiplayer_type_select\multiplayer_type_button_bar
+   1064 DeLa ui\shell\main_menu\blueline
+   1065 bitm ui\shell\bitmaps\blue
+   1066 DeLa ui\shell\main_menu\profile_manager\multiplayer_creating_profile
+   1067 DeLa ui\shell\main_menu\profile_manager\multiplayer_saving_profile
+   1068 DeLa ui\shell\main_menu\main_menu_item_profile
+   1069 bitm ui\shell\main_menu\menu_profile
+   1070 DeLa ui\shell\main_menu\profile_manager\player_profile_manager
+   1071 DeLa ui\shell\main_menu\profile_manager\player_profile_manager_screen
+   1072 DeLa ui\shell\error\confirm_delete_profile_modal_fullscreen
+   1073 DeLa ui\shell\error\confirm_delete_profile
+   1074 DeLa ui\shell\error\confirm_delete_profile_text_box
+   1075 DeLa ui\shell\error\confirm_delete_profile_button_bar
+   1076 DeLa ui\shell\error\confirm_delete_profile_button_ok
+   1077 DeLa ui\shell\main_menu\profile_manager\pm_empty_creating_profile
+   1078 DeLa ui\shell\main_menu\profile_manager\pm_empty_saving_profile
+   1079 DeLa ui\shell\main_menu\profile_manager\profile_manager_select_list_2
+   1080 DeLa ui\shell\main_menu\profile_manager\player_profile_extended_desc
+   1081 DeLa ui\shell\main_menu\player_profiles_select\player_profile_right_item
+   1082 DeLa ui\shell\main_menu\player_profiles_select\player_profile_right_name
+   1083 DeLa ui\shell\main_menu\multiplayer_type_select\connected\4way_profile_select\qtr_screen_profile_color_pic
+   1084 bitm ui\shell\bitmaps\colors_sm
+   1085 DeLa ui\shell\main_menu\player_profiles_select\player_profile_right_data
+   1086 DeLa ui\shell\main_menu\player_profiles_select\empty_profile_slot_text
+   1087 DeLa ui\shell\main_menu\player_profiles_select\current_level_label
+   1088 DeLa ui\shell\main_menu\player_profiles_select\current_level
+   1089 DeLa ui\shell\main_menu\player_profiles_select\skill_level_label
+   1090 DeLa ui\shell\main_menu\player_profiles_select\skill_level
+   1091 DeLa ui\shell\main_menu\player_profiles_select\joystick_controls_label
+   1092 DeLa ui\shell\main_menu\player_profiles_select\joystick_controls
+   1093 DeLa ui\shell\main_menu\profile_manager\pm_empty_selected
+   1094 DeLa ui\shell\error\confirm_empty_profile
+   1095 DeLa ui\shell\error\confirm_empty_player_text_box
+   1096 ustr ui\shell\main_menu\player_profiles_select\empty_profile_selected
+   1097 DeLa ui\shell\main_menu\profile_manager\pm_empty_selected_button_bar
+   1098 DeLa ui\shell\main_menu\profile_manager\pm_empty_selected_button_ok
+   1099 DeLa ui\shell\main_menu\profile_manager\profile_manager_button_bar
+   1100 DeLa ui\shell\main_menu\profile_manager\profile_manager_button_new
+   1101 DeLa ui\shell\main_menu\profile_manager\profile_manager_button_delete
+   1102 DeLa ui\shell\main_menu\profile_manager\profile_manager_button_ok
+   1103 DeLa ui\shell\main_menu\player_profiles_select\header_select_profile
+   1104 bitm ui\shell\main_menu\player_profiles_select\header_select_profile
+   1105 DeLa ui\shell\main_menu\profile_manager\pm_entry_creating_profile
+   1106 DeLa ui\shell\main_menu\profile_manager\pm_entry_saving_profile
+   1107 DeLa ui\shell\main_menu\main_menu_item_settings
+   1108 bitm ui\shell\main_menu\menu_settings
+   1109 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\player_profile_edit_screen
+   1110 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\header_profile_settings
+   1111 bitm ui\shell\main_menu\settings_select\player_setup\player_profile_edit\header_edit_profile_settings
+   1112 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\profile_edit_select_list
+   1113 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\profile_edit_extended_description
+   1114 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\profile_edit_extended_desc_text
+   1115 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\profile_edit_descriptions
+   1116 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\profile_edit_extended_desc_pic
+   1117 bitm ui\shell\main_menu\settings_select\player_setup\player_profile_edit\profile_options
+   1118 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\name_profile_item
+   1119 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\name_edit\profile_name_screen
+   1120 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\name_edit\header_profile_name
+   1121 bitm ui\shell\main_menu\settings_select\player_setup\player_profile_edit\name_edit\header_profile_name
+   1122 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\profile_edit_options
+   1123 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controller_setup_profile_item
+   1124 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\controls_settings_screen
+   1125 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\header_profile_controls_settings
+   1126 bitm ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\header_profile_controls_settings
+   1127 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\controls_options_menu
+   1128 bitm ui\shell\bitmaps\controller_border
+   1129 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\controls_setup_help
+   1130 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\cap_controls_setup_strings
+   1131 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\op_device
+   1132 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\device_label
+   1133 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\controls_option_labels
+   1134 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\device_spinner
+   1135 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\op_command_group
+   1136 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\command_group_label
+   1137 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\command_group_spinner
+   1138 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\var_command_groups
+   1139 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\op_command_1
+   1140 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\command_1_label
+   1141 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\controls_binding_labels
+   1142 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\command_1_button
+   1143 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\command_mk_button_container
+   1144 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\command_mk_button_text
+   1145 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\op_command_2
+   1146 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\op_command_3
+   1147 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\op_command_4
+   1148 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\op_command_5
+   1149 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\op_command_6
+   1150 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\op_command_7
+   1151 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\op_command_8
+   1152 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\controls_button_bar
+   1153 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\controls_button_defaults
+   1154 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\controls_button_advanced
+   1155 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\controls_button_ok
+   1156 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\advanced\advanced_settings_screen
+   1157 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\advanced\advanced_options_menu
+   1158 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\mouse_settings\mouse_settings_help
+   1159 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\mouse_settings\cap_mouse_settings_strings
+   1160 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\advanced\op_horizontal_sensitivity
+   1161 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\advanced\horizontal_sensitivity_label
+   1162 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\mouse_settings\mouse_option_labels
+   1163 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\advanced\horizontal_sensitivity_spinner
+   1164 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\mouse_settings\var_mouse_sensitivity
+   1165 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\advanced\op_vertical_sensitivity
+   1166 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\advanced\vertical_sensitivity_label
+   1167 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\advanced\vertical_sensitivity_spinner
+   1168 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\advanced\advanced_button_bar
+   1169 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\advanced\advanced_button_defaults
+   1170 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controls_setup\advanced\advanced_button_ok
+   1171 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepads_profile_item
+   1172 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\gamepad_setup_screen
+   1173 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\header_profile_controller_setting
+   1174 bitm ui\shell\main_menu\settings_select\player_setup\player_profile_edit\controller_edit\header_profile_controller_setting
+   1175 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\gamepad_setup_options
+   1176 bitm ui\shell\bitmaps\device_border
+   1177 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\gamepad_used_list
+   1178 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\gamepad_used_item_1
+   1179 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\gamepad_item_label
+   1180 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\gamepad_used_item_2
+   1181 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\gamepad_used_item_3
+   1182 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\gamepad_used_item_4
+   1183 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\gamepad_avail_list
+   1184 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\gamepad_avail_item_1
+   1185 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\gamepad_avail_item_2
+   1186 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\gamepad_avail_item_3
+   1187 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\gamepad_avail_item_4
+   1188 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\gamepad_avail_item_5
+   1189 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\gamepad_avail_item_6
+   1190 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\gamepad_avail_item_7
+   1191 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\gamepad_avail_item_8
+   1192 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\gamepad_button_ok
+   1193 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\gamepad_setup_help
+   1194 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\cap_gamepad_setup_strings
+   1195 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\gamepad_avail_label
+   1196 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\gamepad_setup_labels
+   1197 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\gamepad_setup\gamepad_used_label
+   1198 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\mouse_settings_profile_item
+   1199 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\mouse_settings\mouse_settings_screen
+   1200 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\mouse_settings\header_profile_mouse_settings
+   1201 bitm ui\shell\main_menu\settings_select\player_setup\player_profile_edit\mouse_settings\header_profile_mouse_settings
+   1202 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\mouse_settings\mouse_options_menu
+   1203 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\mouse_settings\op_horizontal_sensitivity
+   1204 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\mouse_settings\horizontal_sensitivity_label
+   1205 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\mouse_settings\horizontal_sensitivity_spinner
+   1206 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\mouse_settings\op_vertical_sensitivity
+   1207 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\mouse_settings\vertical_sensitivity_label
+   1208 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\mouse_settings\vertical_sensitivity_spinner
+   1209 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\mouse_settings\op_invert_vertical
+   1210 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\mouse_settings\invert_vertical_label
+   1211 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\mouse_settings\invert_vertical_spinner
+   1212 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\mouse_settings\mouse_button_bar
+   1213 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\mouse_settings\mouse_button_defaults
+   1214 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\mouse_settings\mouse_button_ok
+   1215 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings_profile_item
+   1216 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\audio_settings_screen
+   1217 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\header_profile_audio_settings
+   1218 bitm ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\header_profile_audio_settings
+   1219 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\audio_options_menu
+   1220 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\audio_settings_help
+   1221 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\cap_audio_settings_strings
+   1222 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\op_master_volume
+   1223 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\master_volume_label
+   1224 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\audio_option_labels
+   1225 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\master_volume_spinner
+   1226 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\var_volumes
+   1227 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\op_effects_volume
+   1228 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\effects_volume_label
+   1229 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\effects_volume_spinner
+   1230 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\op_music_volume
+   1231 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\music_volume_label
+   1232 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\music_volume_spinner
+   1233 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\op_software_buffers
+   1234 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\software_buffers_label
+   1235 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\software_buffers_spinner
+   1236 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\op_supplementary_buffers
+   1237 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\supplementary_buffers_label
+   1238 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\supplementary_buffers_spinner
+   1239 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\var_supplementary_buffers
+   1240 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\op_environmental_sound
+   1241 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\environmental_sound_label
+   1242 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\environmental_sound_spinner
+   1243 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\var_environmental_sound
+   1244 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\op_sound_variety
+   1245 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\sound_variety_label
+   1246 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\sound_variety_spinner
+   1247 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\var_environmental_effects
+   1248 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\audio_button_bar
+   1249 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\audio_button_defaults
+   1250 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\audio_settings\audio_button_ok
+   1251 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings_profile_item
+   1252 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\video_settings_screen
+   1253 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\header_profile_video_settings
+   1254 bitm ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\header_profile_video_settings
+   1255 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\video_options_menu
+   1256 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\video_settings_help
+   1257 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\cap_video_settings_strings
+   1258 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\op_resolution
+   1259 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\resolution_label
+   1260 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\video_option_labels
+   1261 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\resolution_spinner
+   1262 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\op_refresh
+   1263 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\refresh_label
+   1264 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\refresh_spinner
+   1265 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\op_framerate
+   1266 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\framerate_label
+   1267 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\framerate_spinner
+   1268 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\var_framerate
+   1269 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\op_specular
+   1270 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\specular_label
+   1271 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\specular_spinner
+   1272 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\op_shadows
+   1273 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\shadows_label
+   1274 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\shadows_spinner
+   1275 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\op_decals
+   1276 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\decals_label
+   1277 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\decals_spinner
+   1278 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\op_particles
+   1279 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\particles_label
+   1280 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\particles_spinner
+   1281 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\var_particles
+   1282 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\op_texture_quality
+   1283 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\texture_quality_label
+   1284 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\texture_quality_spinner
+   1285 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\op_gamma
+   1286 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\gamma_label
+   1287 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\gamma_spinner
+   1288 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\var_gamma
+   1289 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\video_button_bar
+   1290 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\video_button_defaults
+   1291 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\video_button_ok
+   1292 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\video_settings_pre_test
+   1293 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\video_settings_test
+   1294 DeLa ui\shell\error\warning_testing_video_screen
+   1295 DeLa ui\shell\error\warning_testing_video_text
+   1296 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\video_settings_test_button_bar
+   1297 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\video_settings\video_settings_test_button_ok
+   1298 DeLa ui\shell\error\warning_pre_testing_video_screen
+   1299 DeLa ui\shell\error\warning_pre_testing_video_text
+   1300 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\network_settings_profile_item
+   1301 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\network_setup\network_settings_screen
+   1302 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\network_setup\header_profile_network_settings
+   1303 bitm ui\shell\main_menu\settings_select\player_setup\player_profile_edit\network_setup\header_profile_network_settings
+   1304 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\network_setup\network_options_menu
+   1305 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\network_setup\network_settings_help
+   1306 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\network_setup\cap_network_settings_strings
+   1307 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\network_setup\op_connection_type
+   1308 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\network_setup\connection_type_label
+   1309 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\network_setup\connection_type_spinner
+   1310 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\network_setup\op_server_port
+   1311 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\network_setup\server_port_label
+   1312 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\network_setup\server_port_value
+   1313 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\network_setup\op_client_port
+   1314 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\network_setup\client_port_label
+   1315 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\network_setup\client_port_value
+   1316 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\network_setup\network_button_bar
+   1317 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\network_setup\network_button_defaults
+   1318 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\network_setup\network_button_ok
+   1319 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\color_profile_item
+   1320 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\color_edit\color_select_screen
+   1321 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\color_edit\color_select_list_2
+   1322 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\color_edit\color_select_extended_desc
+   1323 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\color_edit\color_right_item
+   1324 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\color_edit\color_right_name
+   1325 ustr ui\shell\main_menu\settings_select\player_setup\player_profile_edit\color_edit\colors_list
+   1326 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\color_edit\color_right_pic
+   1327 bitm ui\shell\main_menu\settings_select\player_setup\player_profile_edit\color_edit\player_color_marine_large
+   1328 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\color_edit\color_select_button_bar
+   1329 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\color_edit\color_select_button_ok
+   1330 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\color_edit\header_profile_color
+   1331 bitm ui\shell\main_menu\settings_select\player_setup\player_profile_edit\color_edit\header_profile_color
+   1332 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\about_item
+   1333 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\profile_edit_button_bar
+   1334 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\profile_edit_button_ok
+   1335 DeLa ui\shell\main_menu\settings_select\player_setup\player_profile_edit\profile_label
+   1336 DeLa ui\shell\main_menu\profile_manager\settings_creating_profile
+   1337 DeLa ui\shell\main_menu\profile_manager\settings_saving_profile
+   1338 DeLa ui\shell\main_menu\main_menu_item_credits
+   1339 bitm ui\shell\main_menu\menu_credits
+   1340 DeLa ui\shell\main_menu\credits_screen
+   1341 ustr ui\shell\main_menu\credits
+   1342 DeLa ui\shell\main_menu\main_menu_item_quit_game
+   1343 bitm ui\shell\main_menu\menu_quit
+   1344 DeLa ui\shell\main_menu\build_number
+   1345 DeLa ui\shell\error\error_modal_fullscreen
+   1346 DeLa ui\shell\error\error_nonmodal_fullscreen
+   1347 DeLa ui\shell\error\error_non_modal
+   1348 DeLa ui\shell\main_menu\bink_backdrop
+   1349 DeLa ui\shell\main_menu\multiplayer_type_select\split_screen\splitscreen_map_select_postgame_wrapper
+   1350 DeLa ui\shell\main_menu\multiplayer_type_select\split_screen\splitscreen_map_select_wrapper
+   1351 DeLa ui\shell\main_menu\multiplayer_type_select\split_screen\gametype_select_screen_wrapper
+   1352 DeLa ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\splitscreen_pregame_wrapper_normal
+   1353 DeLa ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\splitscreen_pregame_screen
+   1354 DeLa ui\shell\main_menu\multiplayer_type_select\connected\pregame\header_select_teams
+   1355 bitm ui\shell\main_menu\multiplayer_type_select\connected\pregame\header_enlisted_players
+   1356 DeLa ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\split_message_field
+   1357 bitm ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\pregame_message_field_split
+   1358 DeLa ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\splitscreen_local_machine_info
+   1359 DeLa ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\local_machine_status
+   1360 bitm ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\pregame_field
+   1361 DeLa ui\shell\main_menu\multiplayer_type_select\connected\pregame\local_machine_name
+   1362 DeLa ui\shell\main_menu\multiplayer_type_select\connected\pregame\xbox_graphic
+   1363 bitm ui\shell\bitmaps\console_grafix
+   1364 DeLa ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\local_player_data
+   1365 DeLa ui\shell\main_menu\multiplayer_type_select\connected\pregame\controller_graphic
+   1366 bitm ui\shell\bitmaps\controller_graphix
+   1367 DeLa ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\local_player_name
+   1368 DeLa ui\shell\main_menu\multiplayer_type_select\connected\pregame\team_spinner
+   1369 ustr ui\shell\main_menu\multiplayer_type_select\connected\pregame\teams
+   1370 DeLa ui\shell\main_menu\multiplayer_type_select\connected\pregame\local_player_data
+   1371 DeLa ui\shell\main_menu\multiplayer_type_select\connected\pregame\local_player_name
+   1372 DeLa ui\shell\main_menu\multiplayer_type_select\connected\pregame\autostart_label
+   1373 ustr ui\shell\main_menu\multiplayer_type_select\connected\pregame\autostart_label_string
+   1374 DeLa ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\autostart_text
+   1375 DeLa ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\splitscreen_game_description
+   1376 bitm ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\pregame_list_field
+   1377 DeLa ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\game_type_graphic
+   1378 DeLa ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\mp_map_graphic
+   1379 DeLa ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\split_game_info
+   1380 DeLa ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\map_name_text_box
+   1381 DeLa ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\ruleset_text_box
+   1382 DeLa ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\teams_text_box
+   1383 DeLa ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\number_of_players_text_box
+   1384 DeLa ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\score_limit_value_text_box
+   1385 DeLa ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\score_limit_type_text_box
+   1386 DeLa ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\split_game_description_labels
+   1387 ustr ui\shell\main_menu\multiplayer_type_select\split_screen\pregame\split_description_label_text
+   1388 DeLa ui\shell\main_menu\multiplayer_type_select\connected\pregame\choose_teams_text
+   1389 DeLa ui\shell\main_menu\multiplayer_type_select\connected\pregame\mp_button_key
+   1390 DeLa ui\shell\main_menu\a_butn
+   1391 bitm ui\shell\bitmaps\a_butn
+   1392 DeLa ui\shell\main_menu\=start_game
+   1393 ustr ui\shell\main_menu\button_key
+   1394 DeLa ui\shell\main_menu\x_butn
+   1395 bitm ui\shell\bitmaps\x_butn
+   1396 DeLa ui\shell\main_menu\=delay_game
+   1397 DeLa ui\shell\main_menu\b_butn
+   1398 bitm ui\shell\bitmaps\b_butn
+   1399 DeLa ui\shell\main_menu\=back
+   1400 DeLa ui\shell\main_menu\multiplayer_type_select\connected\connected_map_select_postgame_wrapper
+   1401 DeLa ui\shell\main_menu\xdemo\xbox_demo_wait_screen
+   1402 bitm ui\shell\bitmaps\xdemos_wait
+   1403 DeLa ui\shell\error\error_abort_to_dashboard
+   1404 DeLa ui\shell\error\aborting_to_dashboard_please_wait
+   1405 DeLa ui\shell\error\error_abort_to_dashboard_you_have_no_choice
+   1406 ustr ui\shell\main_menu\map_list_oneline
+   1407 ustr ui\shell\main_menu\map_list_short
+   1408 sbsp levels\ui\ui

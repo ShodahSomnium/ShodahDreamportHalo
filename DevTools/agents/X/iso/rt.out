@@ -1,0 +1,6 @@
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Access\HaloGear.cs(18,24): error CS0103: The name 'HaloNetGame' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\World\HaloModelBuilder.cs(223,68): error CS0117: 'HaloWorld' does not contain a definition for 'ObjectShadows'
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Access\HaloIsolation.cs(451,30): error CS0103: The name 'HaloPlayer' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Access\HaloIsolation.cs(452,30): error CS0103: The name 'HaloPlayer' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Access\HaloTags.cs(615,30): error CS0103: The name 'HaloPlayer' does not exist in the current context
+D:\Dreamport\Halo\Halo Dreamport\Assets\#User\SomniumHalo\Game\Access\HaloTags.cs(616,30): error CS0103: The name 'HaloPlayer' does not exist in the current context

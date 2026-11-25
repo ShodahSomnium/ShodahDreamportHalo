@@ -1,0 +1,125 @@
+lab copy ready
+lab 'fx' in slot B (D:\Dreamport\Halo\Halo Dreamport\DevTools\labproject)
+unity exit 0 (slot B)
+484:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+924:ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+[SomniumHalo] Access: editor: the whitelist (5 name(s)) is not applied
+[SomniumHalo] Halo Dreamport Halo Dreamport - iteration 1 (2026-10-18): First build: the ring hub, whitelist, tablet app, multiplayer maps, weapons, vehicles and HUD read from the player's own Halo install
+[SomniumHalo] Shaders carried: SomniumHalo/Env, SomniumHalo/Model, SomniumHalo/Transparent, SomniumHalo/Glass, SomniumHalo/Fx
+[SomniumHalo] Isolation: up (whitelisted: other whitelisted players): players not on the whitelist (a visitor) are hidden (after 0.5 s, shown after 0 s is on the whitelist (a Dreamport player); first decision at once; renderers forceRenderingOff, tag alpha, colliders, voices volume 0, other sounds muted); warm-up scan of 0 scene(s) 3.04 ms, 0 avatar/item root(s)
+[SomniumHalo] Editor: no EventSystem in the scene - added one with a StandaloneInputModule.
+[SomniumHalo] Lobby: ready (Slayer on bloodgulch, score 25, time none, respawn +0 s, weapons 0, vehicles 0).
+[SomniumHalo] Shader 'Universal Render Pipeline/Unlit': Shader.Find
+[SomniumHalo] Shader 'Universal Render Pipeline/Lit': Shader.Find
+[SomniumHalo] Tablet: searching for the Somnium tablet (the "HALO" app goes on its home screen; the hub panel stays the menu too).
+[SomniumHalo] Front: the ring hub and its menu are up (whitelisted player).
+[SomniumHalo] Lobby: net link set (LobbyLink)
+[SomniumHalo] Net: started (Fusion session); alone or offline everything stays local
+[SomniumHalo] Boot: install C:\Program Files (x86)\Microsoft Games\Halo, 19 multiplayer maps (26 ms)
+[SomniumHalo] Hub: hub menu placed on the floor 2.92 m in front of the camera (60 degrees), 2.09 m tall (shown).
+[SomniumHalo] Tags: on - the Somnium name tags of the other Somnium players in this world are hidden while the Dreamport runs, given back when you leave (the Bridge's ISomniumPlayerInfo.SetPlayerTagDisableState - unproven, first used here; fallback ready: the tag's CanvasGroup alpha; re-applied every 1 s; visitors are left to the isolation)
+LAB: booted: Halo found: C:\Program Files (x86)\Microsoft Games\Halo  -  19 multiplayer maps
+LAB: ok   map bloodgulch in the install
+[SomniumHalo] Fx: bloodgulch effects ready: 557 tags (effe/part/pctl/cont/ligh/deca) in 13 ms
+[SomniumHalo] Fonts: Halo's large_ui small_ui fonts built; 71 texts switched to them.
+[SomniumHalo] Front art: ui.map read in 516 ms: 57 pictures, fonts large_ui 224 glyphs (2048x1024), small_ui 224, sounds cursor forward back , music title1
+[SomniumHalo] Front: the hub's lobby was built in 32 ms (19 maps, ui.map read).
+[SomniumHalo] Audio: started - output 48000 Hz, Stereo, dsp buffer 256 x 4
+[SomniumHalo] Audio: music sound\music\title1\title1 (fade in 2 s)
+[SomniumHalo] Front: menu music started (sound\music\title1\title1).
+[SomniumHalo] Hub: the menu sky (sky\sky_ui\sky_ui) built: 4 parts, a 7.0 km dome round the head.
+[SomniumHalo] Hub: the ring scene faces 0 degrees (behind the menu).
+[SomniumHalo] Shader 'SomniumHalo/Fx': carried
+LAB: ok   frag explosion started: fx: effects 1, particles 45, systems 1, contrails 0, decals 1, lights 2, quads 0 in 0 batches; played 1, spawned 45
+[SomniumHalo] Hub: the ring (scenery\halo\halo) built x40: radius about 2.33 km, centre (219, 1890, 1500) m from the eye, turning 0.25 degrees/s.
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\frag_00_03.png average 0.51,0.53,0.57
+LAB:   frag_00_03 t=0.033 fx: effects 0, particles 45, systems 1, contrails 0, decals 1, lights 2, quads 46 in 5 batches; played 1, spawned 45
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\frag_01_10.png average 0.51,0.53,0.56
+LAB:   frag_01_10 t=0.100 fx: effects 0, particles 45, systems 1, contrails 0, decals 1, lights 2, quads 46 in 5 batches; played 1, spawned 45
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\frag_02_25.png average 0.50,0.53,0.56
+LAB:   frag_02_25 t=0.250 fx: effects 0, particles 45, systems 1, contrails 0, decals 1, lights 1, quads 46 in 7 batches; played 1, spawned 45
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\frag_03_50.png average 0.50,0.52,0.55
+LAB:   frag_03_50 t=0.500 fx: effects 0, particles 45, systems 1, contrails 0, decals 1, lights 1, quads 46 in 7 batches; played 1, spawned 45
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\frag_04_100.png average 0.50,0.52,0.55
+LAB:   frag_04_100 t=1.000 fx: effects 0, particles 45, systems 1, contrails 0, decals 1, lights 1, quads 46 in 5 batches; played 1, spawned 45
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\frag_05_200.png average 0.51,0.53,0.56
+LAB:   frag_05_200 t=2.000 fx: effects 0, particles 13, systems 1, contrails 0, decals 1, lights 0, quads 14 in 5 batches; played 1, spawned 45
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\frag_06_400.png average 0.51,0.53,0.57
+LAB:   frag_06_400 t=4.000 fx: effects 0, particles 0, systems 1, contrails 0, decals 1, lights 0, quads 1 in 1 batches; played 1, spawned 45
+LAB: ok   frag left a scorch decal (1)
+[SomniumHalo] Shader 'SomniumHalo/Model': carried
+[SomniumHalo] Shader 'SomniumHalo/Transparent': carried
+LAB: AR model True, marker 'primary trigger' (30.670, 1.660, 0.000) right (1.00, 0.00, 0.00)
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\ar_tp_00.png average 0.52,0.55,0.59
+LAB:   ar_tp_00 t=0.000 fx: effects 1, particles 16, systems 1, contrails 0, decals 1, lights 0, quads 17 in 6 batches; played 2, spawned 61
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\ar_tp_01.png average 0.52,0.55,0.59
+LAB:   ar_tp_01 t=0.017 fx: effects 0, particles 16, systems 1, contrails 0, decals 1, lights 0, quads 17 in 6 batches; played 2, spawned 61
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\ar_tp_03.png average 0.52,0.55,0.59
+LAB:   ar_tp_03 t=0.050 fx: effects 0, particles 16, systems 1, contrails 0, decals 1, lights 0, quads 17 in 6 batches; played 2, spawned 61
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\ar_tp_10.png average 0.52,0.55,0.59
+LAB:   ar_tp_10 t=0.167 fx: effects 0, particles 8, systems 1, contrails 0, decals 1, lights 0, quads 9 in 5 batches; played 2, spawned 61
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\ar_tp_40.png average 0.52,0.55,0.58
+LAB:   ar_tp_40 t=0.667 fx: effects 0, particles 7, systems 1, contrails 0, decals 1, lights 0, quads 8 in 4 batches; played 2, spawned 61
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\ar_fp_00.png average 0.52,0.55,0.58
+LAB:   ar_fp_00 t=0.000 fx: effects 1, particles 19, systems 1, contrails 0, decals 1, lights 0, quads 20 in 6 batches; played 3, spawned 73
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\ar_fp_02.png average 0.52,0.55,0.58
+LAB:   ar_fp_02 t=0.033 fx: effects 0, particles 19, systems 1, contrails 0, decals 1, lights 0, quads 20 in 6 batches; played 3, spawned 73
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\ar_fp_20.png average 0.52,0.55,0.58
+LAB:   ar_fp_20 t=0.333 fx: effects 0, particles 9, systems 1, contrails 0, decals 1, lights 0, quads 10 in 4 batches; played 3, spawned 73
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\ar_burst_0.png average 0.47,0.51,0.56
+LAB:   ar_burst_0 t=0.067 fx: effects 0, particles 20, systems 1, contrails 0, decals 1, lights 0, quads 21 in 6 batches; played 4, spawned 85
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\ar_burst_1.png average 0.47,0.51,0.56
+LAB:   ar_burst_1 t=0.133 fx: effects 0, particles 26, systems 1, contrails 0, decals 1, lights 0, quads 27 in 6 batches; played 5, spawned 98
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\ar_burst_2.png average 0.47,0.51,0.56
+LAB:   ar_burst_2 t=0.200 fx: effects 0, particles 33, systems 1, contrails 0, decals 1, lights 0, quads 34 in 6 batches; played 6, spawned 112
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\ar_burst_3.png average 0.47,0.51,0.56
+LAB:   ar_burst_3 t=0.267 fx: effects 0, particles 39, systems 1, contrails 0, decals 1, lights 0, quads 40 in 6 batches; played 7, spawned 124
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\ar_burst_4.png average 0.47,0.51,0.55
+LAB:   ar_burst_4 t=0.333 fx: effects 0, particles 45, systems 1, contrails 0, decals 1, lights 0, quads 46 in 6 batches; played 8, spawned 137
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\ar_burst_5.png average 0.47,0.51,0.55
+LAB:   ar_burst_5 t=0.400 fx: effects 0, particles 50, systems 1, contrails 0, decals 1, lights 0, quads 51 in 6 batches; played 9, spawned 149
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\plasma_hit_00_02.png average 0.58,0.60,0.62
+LAB:   plasma_hit_00_02 t=0.033 fx: effects 1, particles 73, systems 1, contrails 0, decals 4, lights 0, quads 77 in 14 batches; played 10, spawned 179
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\plasma_hit_01_10.png average 0.58,0.60,0.62
+LAB:   plasma_hit_01_10 t=0.100 fx: effects 1, particles 85, systems 1, contrails 0, decals 4, lights 0, quads 89 in 15 batches; played 10, spawned 193
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\plasma_hit_02_30.png average 0.58,0.60,0.62
+LAB:   plasma_hit_02_30 t=0.300 fx: effects 1, particles 86, systems 1, contrails 0, decals 4, lights 0, quads 90 in 13 batches; played 10, spawned 198
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\plasma_hit_03_80.png average 0.58,0.61,0.63
+LAB:   plasma_hit_03_80 t=0.800 fx: effects 0, particles 38, systems 0, contrails 0, decals 4, lights 0, quads 42 in 13 batches; played 10, spawned 202
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\plasma_hit_04_250.png average 0.58,0.59,0.61
+LAB:   plasma_hit_04_250 t=2.500 fx: effects 0, particles 17, systems 0, contrails 0, decals 3, lights 0, quads 20 in 8 batches; played 10, spawned 202
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\ar_dirt_00_05.png average 0.63,0.63,0.62
+LAB:   ar_dirt_00_05 t=0.050 fx: effects 5, particles 34, systems 0, contrails 0, decals 8, lights 0, quads 42 in 10 batches; played 15, spawned 222
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\ar_dirt_01_30.png average 0.63,0.63,0.62
+LAB:   ar_dirt_01_30 t=0.300 fx: effects 5, particles 31, systems 0, contrails 0, decals 8, lights 0, quads 39 in 9 batches; played 15, spawned 222
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\ar_dirt_02_150.png average 0.64,0.63,0.63
+LAB:   ar_dirt_02_150 t=1.500 fx: effects 5, particles 8, systems 0, contrails 0, decals 8, lights 0, quads 15 in 3 batches; played 15, spawned 222
+LAB: rocket initial velocity 0.4 wu/tick = 36.6 m/s
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\rocket_fly_0.png average 0.51,0.54,0.57
+LAB:   rocket fx: effects 5, particles 10, systems 1, contrails 1, decals 7, lights 0, quads 17 in 5 batches; played 16, spawned 224
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\rocket_fly_1.png average 0.51,0.54,0.57
+LAB:   rocket fx: effects 5, particles 12, systems 1, contrails 1, decals 7, lights 0, quads 21 in 6 batches; played 16, spawned 227
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\rocket_fly_2.png average 0.51,0.54,0.57
+LAB:   rocket fx: effects 5, particles 15, systems 1, contrails 1, decals 7, lights 0, quads 25 in 6 batches; played 16, spawned 230
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\rocket_fly_3.png average 0.51,0.54,0.57
+LAB:   rocket fx: effects 5, particles 18, systems 1, contrails 1, decals 7, lights 0, quads 30 in 7 batches; played 16, spawned 233
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\rocket_fly_4.png average 0.51,0.54,0.57
+LAB:   rocket fx: effects 5, particles 21, systems 1, contrails 1, decals 7, lights 0, quads 34 in 7 batches; played 16, spawned 236
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\rocket_boom_00_05.png average 0.52,0.54,0.57
+LAB:   rocket_boom_00_05 t=0.050 fx: effects 5, particles 101, systems 2, contrails 1, decals 7, lights 1, quads 114 in 11 batches; played 17, spawned 316
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\rocket_boom_01_30.png average 0.49,0.51,0.54
+LAB:   rocket_boom_01_30 t=0.300 fx: effects 5, particles 94, systems 2, contrails 1, decals 7, lights 1, quads 107 in 10 batches; played 17, spawned 316
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\rocket_boom_02_100.png average 0.48,0.50,0.54
+LAB:   rocket_boom_02_100 t=1.000 fx: effects 5, particles 85, systems 1, contrails 1, decals 7, lights 1, quads 98 in 8 batches; played 17, spawned 316
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\plasma_nade_00_05.png average 0.51,0.54,0.57
+LAB:   plasma_nade_00_05 t=0.050 fx: effects 5, particles 94, systems 2, contrails 1, decals 10, lights 2, quads 110 in 13 batches; played 18, spawned 326
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\plasma_nade_01_25.png average 0.51,0.54,0.57
+LAB:   plasma_nade_01_25 t=0.250 fx: effects 5, particles 94, systems 2, contrails 1, decals 10, lights 2, quads 110 in 13 batches; played 18, spawned 329
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\plasma_nade_02_80.png average 0.51,0.54,0.57
+LAB:   plasma_nade_02_80 t=0.800 fx: effects 5, particles 76, systems 2, contrails 1, decals 10, lights 1, quads 92 in 13 batches; played 18, spawned 335
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\contrails_0.png average 0.47,0.50,0.54
+LAB:   contrails fx: effects 5, particles 70, systems 2, contrails 6, decals 10, lights 0, quads 174 in 16 batches; played 18, spawned 336
+LAB: picture D:/Dreamport/Halo/Halo Dreamport/DevTools/lab/fx\contrails_1.png average 0.47,0.50,0.54
+LAB: ok   weapons\assault rifle\bullet contrail alive
+LAB: ok   weapons\plasma rifle\plasma contrail alive
+LAB: ok   weapons\needler\needler contrail alive
